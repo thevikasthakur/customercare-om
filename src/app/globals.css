@@ -1,0 +1,385 @@
+@import "tailwindcss";
+
+/* ─────────────────────────────────────────────────────────────
+   VoxCare design tokens — palette lifted from the LIVE
+   voxreception.com stylesheet (ink + electric lime system):
+   --ink #0A0B0F · --ink-2 #111318 · --ink-3 #1A1D24
+   --fg #F4F4F0 (dim .62 / dimmer .38) · --accent #D4FF4F
+   --line rgba(255,255,255,.08 / .18) · radius 2px · maxw 1440px
+   Fonts: Fraunces (display) · Inter (body) · JetBrains Mono (labels)
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --ink: #0a0b0f;
+  --ink-2: #111318;
+  --ink-3: #1a1d24;
+  --fg: #f4f4f0;
+  --fg-dim: rgba(244, 244, 240, 0.62);
+  --fg-dimmer: rgba(244, 244, 240, 0.38);
+  --accent-raw: #d4ff4f;
+  --accent-ink: #0a0b0f;
+  --accent-glow: rgba(212, 255, 79, 0.25);
+  --accent-glow-soft: rgba(212, 255, 79, 0.12);
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.18);
+
+  /* semantic mapping used by components */
+  --background: var(--ink);
+  --foreground: var(--fg);
+  --card: var(--ink-2);
+  --card-foreground: var(--fg);
+  --primary: var(--accent-raw);
+  --primary-foreground: var(--accent-ink);
+  --secondary: var(--ink-3);
+  --secondary-foreground: var(--fg);
+  --muted: var(--ink-3);
+  --muted-foreground: var(--fg-dim);
+  --accent: var(--ink-3);
+  --accent-foreground: var(--fg);
+  --destructive: #f1644b;
+  --border: var(--line);
+  --input: var(--line-strong);
+  --ring: var(--accent-raw);
+  --radius: 2px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-lime: var(--accent-raw);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system,
+    "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, "SF Mono", Menlo, monospace;
+
+  --radius-lg: 4px;
+  --radius-md: 2px;
+  --radius-sm: 2px;
+
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-marquee: marquee 36s linear infinite;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 var(--accent-glow);
+  }
+  70% {
+    box-shadow: 0 0 0 28px rgba(212, 255, 79, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(212, 255, 79, 0);
+  }
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    color-scheme: dark;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+  }
+  ::selection {
+    background: var(--accent-raw);
+    color: var(--accent-ink);
+  }
+}
+
+/* Display-serif italic accent word, phonely-style emphasis */
+.accent-italic {
+  font-style: italic;
+  color: var(--accent-raw);
+}
+
+/* Mono eyebrow labels, voxreception-style */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+}
+
+/* Hairline-framed content column, phonely-style page frame:
+   two full-height vertical rules at the content column edges; every
+   section's border-b supplies the full-bleed horizontal rules that
+   cross them. Hidden on small screens. */
+.page-frame {
+  position: relative;
+}
+@media (min-width: 48rem) {
+  .page-frame::before,
+  .page-frame::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(212, 255, 79, 0.32);
+    z-index: 40;
+    pointer-events: none;
+  }
+  .page-frame::before {
+    left: max(1rem, calc((100vw - 80rem) / 2));
+  }
+  .page-frame::after {
+    right: max(1rem, calc((100vw - 80rem) / 2));
+  }
+}
+
+/* Diagonal-hatched outer gutters for accent bands (marquee strip etc.),
+   matching phonely's crosshatch between the frame and the viewport edge.
+   Only kicks in once the gutters are wide enough to read. */
+.hatch-gutters {
+  position: relative;
+}
+@media (min-width: 84rem) {
+  .hatch-gutters::before,
+  .hatch-gutters::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: calc((100vw - 80rem) / 2);
+    background: repeating-linear-gradient(
+      45deg,
+      transparent 0,
+      transparent 5px,
+      rgba(212, 255, 79, 0.18) 5px,
+      rgba(212, 255, 79, 0.18) 6px
+    );
+    pointer-events: none;
+  }
+  .hatch-gutters::before {
+    left: 0;
+  }
+  .hatch-gutters::after {
+    right: 0;
+  }
+}
+
+/* Page-level horizontal rules in electric lemon — section boundaries,
+   header and footer dividers. Deliberately un-layered so it outranks
+   Tailwind's border-color utilities (border-border / border-transparent)
+   on these elements; component borders inside sections stay neutral. */
+main section,
+header,
+footer {
+  border-color: rgba(212, 255, 79, 0.32);
+}
+
+/* ── Talk-to-VoxCare hero widget ─────────────────────────────── */
+
+/* slowly rotating, ring-masked conic glow behind the mic button */
+.talk-ring {
+  /* sized relative to the button wrapper so it hugs the disc
+     (phonely ratio: ring 43.75% of stage / button 33.33% ≈ 1.31) */
+  width: 131%;
+  height: 131%;
+  background: conic-gradient(
+    from 200deg,
+    rgba(212, 255, 79, 0) 0deg,
+    rgba(212, 255, 79, 0.32) 60deg,
+    rgba(121, 224, 200, 0.26) 130deg,
+    rgba(168, 168, 248, 0.3) 200deg,
+    rgba(212, 255, 79, 0.22) 280deg,
+    rgba(212, 255, 79, 0) 360deg
+  );
+  -webkit-mask-image: radial-gradient(
+    circle,
+    transparent 40%,
+    black 52%,
+    black 64%,
+    transparent 80%
+  );
+  mask-image: radial-gradient(
+    circle,
+    transparent 40%,
+    black 52%,
+    black 64%,
+    transparent 80%
+  );
+  filter: blur(7px);
+  opacity: 0.55;
+  animation: talk-ring-rotate 7s linear infinite;
+  transition: opacity 0.4s ease, filter 0.4s ease;
+}
+.talk-ring-hot {
+  opacity: 1;
+  filter: blur(5px);
+}
+@keyframes talk-ring-rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* neumorphic circular button: instant springy hover, pressed active */
+.talk-btn {
+  background: linear-gradient(145deg, #ffffff 0%, #e2e2e0 100%);
+  box-shadow:
+    6px 6px 16px rgba(0, 0, 0, 0.35),
+    -4px -4px 12px rgba(255, 255, 255, 0.08),
+    0 8px 24px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+  transition:
+    transform 0.18s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.3s ease;
+}
+.talk-btn-inner {
+  inset: 6.5%;
+  background: linear-gradient(145deg, #f8f8f6 0%, #e0e0de 100%);
+  box-shadow:
+    4px 4px 8px rgba(0, 0, 0, 0.12),
+    -3px -3px 7px rgba(255, 255, 255, 0.9);
+}
+.talk-btn:hover {
+  transform: scale(1.06);
+  box-shadow:
+    8px 8px 20px rgba(0, 0, 0, 0.4),
+    -5px -5px 14px rgba(255, 255, 255, 0.1),
+    0 12px 32px rgba(0, 0, 0, 0.45),
+    0 0 0 6px rgba(212, 255, 79, 0.12),
+    0 0 42px rgba(212, 255, 79, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.04);
+}
+.talk-btn:active {
+  transform: scale(0.95);
+  box-shadow:
+    2px 2px 5px rgba(0, 0, 0, 0.3),
+    inset 3px 3px 8px rgba(0, 0, 0, 0.15),
+    inset -2px -2px 6px rgba(255, 255, 255, 0.7);
+}
+.talk-btn:focus-visible {
+  outline: 2px solid var(--accent-raw);
+  outline-offset: 4px;
+}
+
+/* label pill brightens when the button is hovered */
+.talk-stage:has(.talk-btn:hover) .talk-label {
+  border-color: rgba(212, 255, 79, 0.45);
+  box-shadow: 0 0 24px rgba(212, 255, 79, 0.15);
+}
+.talk-label {
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.talk-status-dot {
+  animation: talk-dot-pulse 1.2s ease-in-out infinite;
+}
+@keyframes talk-dot-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.82);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .talk-ring,
+  .talk-status-dot {
+    animation: none;
+  }
+}
+
+/* Prose defaults for long-form legal / article pages */
+.prose-vox {
+  max-width: 48rem;
+}
+.prose-vox h2 {
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.prose-vox h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+.prose-vox p {
+  margin-bottom: 1rem;
+  line-height: 1.75;
+  color: var(--muted-foreground);
+}
+.prose-vox ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--muted-foreground);
+}
+.prose-vox li {
+  margin-bottom: 0.4rem;
+  line-height: 1.65;
+}
+.prose-vox strong {
+  color: var(--foreground);
+}
+.prose-vox a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: var(--accent-raw);
+}

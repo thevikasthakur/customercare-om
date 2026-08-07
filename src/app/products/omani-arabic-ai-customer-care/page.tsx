@@ -9,13 +9,18 @@ import ContextContinuity from "@/components/ContextContinuity";
 export const metadata: Metadata = {
   title: "Product",
   description:
-    "VoxCare is the only thing you need to answer any call with AI, choose a voice, train your agent, connect your software, deploy, and analyse. Built for Oman, hosted in Oman.",
+    "AI Customer Care is the only thing you need to answer any call with AI, choose a voice, train your agent, connect your software, deploy, and analyse. Built for Oman, hosted in Oman.",
 };
 
 const productFaqs = [
   {
+    q: "How quickly can I go live?",
+    a: "Plan for about a week. Most of that is procuring a SIP trunk from Omantel or Ooredoo, which is the connection your AI agents answer calls on. We start your build in parallel: pick a template, connect your calendar or CRM, and train the agent on your content. Once the trunk is provisioned, going live takes under a day. Web chat, WhatsApp, and email channels need no trunk and can start the same day.",
+    link: { label: "Omantel SIP trunk for business", href: "https://www.omantel.om/en/business/small-medium-enterprise/fixed-voice-sip-trunk" },
+  },
+  {
     q: "Do I need to change my phone number?",
-    a: "No. You keep your existing Omantel or Vodafone Oman number and simply forward calls to VoxCare, always, after hours, or only when your line is busy.",
+    a: "It depends on your current setup. If you already run a SIP trunk, we use your existing SIP numbers and nothing changes for your customers. If you do not, the new trunk from Omantel or Ooredoo is issued with new numbers, but your published customer care numbers can simply forward to them, so the number your customers already know keeps working. You choose whether that forwarding applies always, after hours only, or only when your lines are busy.",
   },
   {
     q: "Can the agent switch languages mid-call?",
@@ -23,7 +28,7 @@ const productFaqs = [
   },
   {
     q: "How does training work?",
-    a: "Upload your price list, FAQs, and policies, or point VoxCare at your website. The knowledge base keeps answers grounded in your business, the agent won't invent things it doesn't know.",
+    a: "Upload your price list, FAQs, and policies, or point AI Customer Care at your website. The knowledge base keeps answers grounded in your business, the agent won't invent things it doesn't know.",
   },
   {
     q: "Which channels does the agent cover?",
@@ -66,7 +71,7 @@ const steps = [
   {
     n: 4,
     title: "Deploy and analyse",
-    desc: "After every call VoxCare produces AI summaries, sentiment, topics, and tasks, so you get insight into your customer calls, not just recordings of them.",
+    desc: "After every call AI Customer Care produces AI summaries, sentiment, topics, and tasks, so you get insight into your customer calls, not just recordings of them.",
     img: "/media/bento-analytics.avif",
     alt: "Analytics dashboard with call volume and outcomes (placeholder visual)",
     w: 824,
@@ -102,7 +107,7 @@ export default function ProductPage() {
       <section className="border-b border-border pt-32 pb-12 md:pt-40 md:pb-16 text-center">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 className="mx-auto max-w-4xl text-4xl md:text-6xl leading-[1.06]">
-            VoxCare is the only thing you need to answer{" "}
+            AI Customer Care is the only thing you need to answer{" "}
             <span className="accent-italic">any call</span> with AI
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground leading-relaxed">
@@ -141,7 +146,7 @@ export default function ProductPage() {
               <div className="relative border border-line-strong shadow-2xl shadow-black/60">
                 <Image
                   src="/media/product-video-thumb.webp"
-                  alt="VoxCare product tour video (placeholder visual)"
+                  alt="AI Customer Care product tour video (placeholder visual)"
                   width={1920}
                   height={1080}
                   className="w-full"

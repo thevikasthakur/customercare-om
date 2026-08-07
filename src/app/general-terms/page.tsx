@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "General Terms",
-  description: "VoxCare's general commercial terms for orders and service schedules.",
+  description: "AI Customer Care's general commercial terms for orders and service schedules.",
 };
 
 export default function GeneralTermsPage() {
@@ -15,7 +15,7 @@ export default function GeneralTermsPage() {
         {
           h: "1. Structure",
           p: [
-            "These General Terms apply to every order form, service schedule, or statement of work executed with VoxCare Technologies LLC. If a signed order conflicts with these terms, the order prevails for that engagement. The current version is v2.0; the prior version remains available at /general-terms-v1-0/.",
+            "These General Terms apply to every order form, service schedule, or statement of work executed with AI Customer Care Technologies LLC. If a signed order conflicts with these terms, the order prevails for that engagement. The current version is v2.0; the prior version remains available at /general-terms-v1-0/.",
           ],
         },
         {

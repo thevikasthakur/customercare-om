@@ -9,7 +9,7 @@ import ContextContinuity from "@/components/ContextContinuity";
 export const metadata: Metadata = {
   title: "AI Email Agent",
   description:
-    "Your inbox organised and your replies drafted. VoxCare's AI Email Agent labels, summarises, and drafts customer email in Arabic and English, with data resident in Oman.",
+    "Your inbox organised and your replies drafted. Our AI Email Agent labels, summarises, and drafts customer email in Arabic and English, with data resident in Oman.",
 };
 
 const stats = [
@@ -74,7 +74,7 @@ const capabilities = [
   { title: "CRM sync", desc: "Every interaction logged to the contact record: who emailed, when, and about what." },
   { title: "Smart routing", desc: "Sales emails to sales, support emails to support, by topic, sender, or keyword." },
   { title: "Unsubscribe handling", desc: "Opt-out requests detected and preferences updated automatically, as the Personal Data Protection Law expects." },
-  { title: "Multi-account support", desc: "Sales, support, and finance mailboxes managed from a single VoxCare view." },
+  { title: "Multi-account support", desc: "Sales, support, and finance mailboxes managed from a single AI Customer Care view." },
   { title: "Custom instructions", desc: "Plain-language rules for how the agent should treat specific senders, topics, or tones." },
   { title: "Data resident in Oman", desc: "Every message processed inside the Sultanate. Nothing routed through overseas servers." },
 ];
@@ -213,7 +213,7 @@ export default function EmailAgentPage() {
                 <p>Shukran,</p>
                 <p className="text-xs">
                   <strong className="block text-neutral-800">Al Mounah Customer Care</strong>
-                  <span className="text-neutral-500">Drafted by VoxCare · care@almounah-trading.om</span>
+                  <span className="text-neutral-500">Drafted by AI Customer Care · care@almounah-trading.om</span>
                 </p>
               </div>
               <div className="flex justify-end border-t border-black/5 px-4 py-3">
@@ -306,7 +306,7 @@ export default function EmailAgentPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="eyebrow">Compare</p>
           <h2 className="mt-4 max-w-3xl text-3xl md:text-5xl">
-            Manual inbox vs others vs <span className="text-lime">VoxCare.</span>
+            Manual inbox vs others vs <span className="text-lime">AI Customer Care.</span>
           </h2>
           <div className="mt-12 overflow-x-auto rounded-xl border border-line-strong">
             <table className="w-full min-w-[40rem] text-sm">
@@ -315,7 +315,7 @@ export default function EmailAgentPage() {
                   <th className="px-5 py-4 font-medium">Capability</th>
                   <th className="px-5 py-4 text-center font-medium">Manual inbox</th>
                   <th className="px-5 py-4 text-center font-medium">Other AI email</th>
-                  <th className="bg-ink-3 px-5 py-4 text-center font-medium text-lime">VoxCare</th>
+                  <th className="bg-ink-3 px-5 py-4 text-center font-medium text-lime">AI Customer Care</th>
                 </tr>
               </thead>
               <tbody>
@@ -343,7 +343,7 @@ export default function EmailAgentPage() {
       <section className="border-b border-border py-16 md:py-24 overflow-hidden">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="max-w-xl text-3xl md:text-5xl">
-            Businesses across Oman grow with VoxCare
+            Businesses across Oman grow with AI Customer Care
           </h2>
         </div>
         <div className="mt-12 flex gap-6 px-4 sm:px-6 lg:px-[max(2rem,calc((100vw-80rem)/2))]">
@@ -424,7 +424,7 @@ export default function EmailAgentPage() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
             Don&rsquo;t take our word for it. See why operators across the Gulf
-            keep sharing their VoxCare agents.
+            rely on AI Customer Care.
           </p>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {["story-1.jpg", "story-2.jpg", "story-3.jpg", "story-4.jpg"].map((img) => (

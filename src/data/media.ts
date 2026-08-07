@@ -18,8 +18,8 @@ export const integrationLogos: Record<string, string> = {
   "hubspot": "int-hubspot.png",
   "mailchimp": "int-mailchimp.webp",
   "microsoft-outlook": "int-microsoft-outlook.svg",
-  "pipedrive-voxcare-integration": "int-pipedrive-voxcare-integration.png",
-  "salesforce-voxcare-integration": "int-salesforce-voxcare-integration.png",
+  "pipedrive-ai-customer-care-integration": "int-pipedrive-ai-customer-care-integration.png",
+  "salesforce-ai-customer-care-integration": "int-salesforce-ai-customer-care-integration.png",
   "slack": "int-slack.png",
   "zapier": "int-zapier.webp",
 };
@@ -37,5 +37,5 @@ export const templateShots: Record<string, string> = {
   "swimming-pool-service-requests": "tpl-swimming-pool-service-requests.png",
   "voice-ai-product-info-template-for-ecommerce": "tpl-voice-ai-product-info-template-for-ecommerce.png",
   "voice-ai-ticketing-system-for-ecommerce-businesses": "tpl-voice-ai-ticketing-system-for-ecommerce-businesses.png",
-  "voxcare-building-management-template": "tpl-voxcare-building-management-template.png",
+  "ai-customer-care-building-management-template": "tpl-ai-customer-care-building-management-template.png",
 };

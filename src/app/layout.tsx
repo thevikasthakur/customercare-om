@@ -20,7 +20,7 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name}, AI Customer Service for Oman`,
+    default: `${site.name}, Customer Service Voice AI for Oman`,
     template: `%s | ${site.name}`,
   },
   description: site.description,

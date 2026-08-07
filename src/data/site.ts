@@ -1,10 +1,10 @@
 export const site = {
-  name: "VoxCare",
-  domain: "voxcare.om",
-  url: "https://voxcare.om",
+  name: "AI Customer Care",
+  domain: "customercare.om",
+  url: "https://customercare.om",
   tagline: "AI customer service, built for Oman",
   description:
-    "VoxCare's Customer Service Voice AI Agents handle customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil. Ready out of the box, hosted entirely inside the Sultanate, and compliant with Oman's Personal Data Protection Law 2023.",
+    "AI Customer Care handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil. Customer Service Voice AI Agents that are ready out of the box, hosted entirely inside the Sultanate, and compliant with Oman's Personal Data Protection Law 2023.",
   languages: [
     "Omani Arabic",
     "Gulf Arabic",
@@ -16,9 +16,9 @@ export const site = {
     "Malayalam",
     "Tamil",
   ],
-  appUrl: "https://app.voxcare.om",
-  docsUrl: "https://docs.voxcare.om",
-  email: "salaam@voxcare.om",
+  appUrl: "https://app.customercare.om",
+  docsUrl: "https://docs.customercare.om",
+  email: "salaam@customercare.om",
   phone: "+968 24 000 000",
   address: "Knowledge Oasis Muscat, Al Rusayl, Muscat, Sultanate of Oman",
 };
@@ -65,21 +65,21 @@ export const mainNav: NavItem[] = [
   {
     label: "Resources",
     children: [
-      { label: "Comparison", desc: "Exploring alternatives to VoxCare?", href: "/comparison/" },
+      { label: "Comparison", desc: "Exploring alternatives to AI Customer Care?", href: "/comparison/" },
       { label: "Oman AI Calling Guide", desc: "The rules for AI customer contact in Oman", href: "/guideline/oman/" },
       { label: "Integrations", desc: "Connect the tools you already use", href: "/integration/" },
       { label: "Templates", desc: "Ready-made AI agent templates", href: "/template/" },
-      { label: "Features", desc: "Explore VoxCare's features", href: "/features/" },
+      { label: "Features", desc: "Explore AI Customer Care's features", href: "/features/" },
       { label: "Developers", desc: "APIs and webhooks for your stack", href: "/developer/" },
-      { label: "Help Center", desc: "Get help for any platform issue", href: "https://docs.voxcare.om" },
+      { label: "Help Center", desc: "Get help for any platform issue", href: "https://docs.customercare.om" },
     ],
   },
   {
     label: "Company",
     children: [
-      { label: "About", desc: "Learn about VoxCare", href: "/about/" },
+      { label: "About", desc: "Learn about AI Customer Care", href: "/about/" },
       { label: "Contact us", desc: "Use our form to connect with us", href: "/contact/" },
-      { label: "Careers", desc: "Join the VoxCare team in Muscat", href: "/careers/" },
+      { label: "Careers", desc: "Join the AI Customer Care team in Muscat", href: "/careers/" },
       { label: "Brand Kit", desc: "Logos and brand assets", href: "/brand-kit/" },
     ],
   },
@@ -115,8 +115,8 @@ export const footerNav: { title: string; links: NavChild[] }[] = [
   {
     title: "Resources",
     links: [
-      { label: "Documentation", href: "https://docs.voxcare.om" },
-      { label: "Help Center", href: "https://docs.voxcare.om" },
+      { label: "Documentation", href: "https://docs.customercare.om" },
+      { label: "Help Center", href: "https://docs.customercare.om" },
       { label: "Oman AI Calling Guide", href: "/guideline/oman/" },
       { label: "Comparison", href: "/comparison/" },
       { label: "Industries", href: "/industries/" },

@@ -26,9 +26,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare's AI phone agents generate the wrap-up automatically. Every call ends with a structured summary, disposition tags, and CRM updates written the moment the conversation closes, whether it happened in Omani Arabic, English, Hindi, or any other language VoxCare supports.",
+          "our phone agents generate the wrap-up automatically. Every call ends with a structured summary, disposition tags, and CRM updates written the moment the conversation closes, whether it happened in Omani Arabic, English, Hindi, or any other language AI Customer Care supports.",
           "For Omani businesses, that means human agents in Muscat or Salalah spend their time on the calls that genuinely need a person, not on typing up the ones that did not. All call data stays on infrastructure hosted inside Oman, in line with the Personal Data Protection Law (Royal Decree 6/2022).",
         ],
       },
@@ -60,10 +60,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare's AI receptionist speaks the way Oman speaks. It converses naturally in Omani Arabic and Gulf Arabic, switches to English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, or Tamil when the caller does, and pronounces local names and places correctly.",
-          "Because VoxCare is hosted entirely within Oman, call recordings and caller data never leave the country, keeping deployments straightforward under the Personal Data Protection Law.",
+          "our receptionist speaks the way Oman speaks. It converses naturally in Omani Arabic and Gulf Arabic, switches to English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, or Tamil when the caller does, and pronounces local names and places correctly.",
+          "Because AI Customer Care is hosted entirely within Oman, call recordings and caller data never leave the country, keeping deployments straightforward under the Personal Data Protection Law.",
         ],
       },
     ],
@@ -94,9 +94,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare acts as an intelligent layer in front of or alongside your ACD. The AI agent understands the caller's intent and language in the first few seconds, resolves routine requests entirely on its own, and hands the rest to your ACD with the intent, language, and context already attached.",
+          "AI Customer Care acts as an intelligent layer in front of or alongside your ACD. The AI agent understands the caller's intent and language in the first few seconds, resolves routine requests entirely on its own, and hands the rest to your ACD with the intent, language, and context already attached.",
           "For multilingual markets like Oman, where a single queue may receive calls in Omani Arabic, Hindi, Swahili, and English within the same hour, intent-and-language detection before routing removes the guesswork.",
         ],
       },
@@ -128,9 +128,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare reduces AHT from both ends. The AI agent fully handles routine calls, removing them from human queues altogether, and when it does transfer a call, the human agent receives the caller's identity, intent, and history up front, eliminating the slowest part of most calls: the opening interrogation.",
+          "AI Customer Care reduces AHT from both ends. The AI agent fully handles routine calls, removing them from human queues altogether, and when it does transfer a call, the human agent receives the caller's identity, intent, and history up front, eliminating the slowest part of most calls: the opening interrogation.",
           "Automated wrap-up then removes most after-call work, so Omani teams see handle time fall without anyone hurrying a customer.",
         ],
       },
@@ -162,10 +162,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "An AI agent has no queue. VoxCare answers every call on the first ring, at 2 pm or 2 am, during Eid holidays and weekday rushes alike, effectively driving ASA to zero for the calls it handles.",
-          "For calls that need a human, VoxCare keeps the caller productively engaged, verifying identity and capturing the issue, so queue time becomes preparation time rather than dead air. Omani businesses get big-enterprise responsiveness without big-enterprise headcount.",
+          "An AI agent has no queue. AI Customer Care answers every call on the first ring, at 2 pm or 2 am, during Eid holidays and weekday rushes alike, effectively driving ASA to zero for the calls it handles.",
+          "For calls that need a human, AI Customer Care keeps the caller productively engaged, verifying identity and capturing the issue, so queue time becomes preparation time rather than dead air. Omani businesses get big-enterprise responsiveness without big-enterprise headcount.",
         ],
       },
     ],
@@ -196,10 +196,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare agents introduce themselves honestly, in the caller's own language, with disclosure phrasing you control. Every deployment includes a clear, configurable route to a human agent, and disclosure behaviour is logged so you can evidence it.",
-          "Because disclosure wording matters culturally as much as legally, VoxCare provides natural-sounding disclosures in Omani Arabic and each supported language rather than a stiff translated boilerplate.",
+          "AI Customer Care agents introduce themselves honestly, in the caller's own language, with disclosure phrasing you control. Every deployment includes a clear, configurable route to a human agent, and disclosure behaviour is logged so you can evidence it.",
+          "Because disclosure wording matters culturally as much as legally, AI Customer Care provides natural-sounding disclosures in Omani Arabic and each supported language rather than a stiff translated boilerplate.",
         ],
       },
     ],
@@ -230,9 +230,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "Every VoxCare conversation is transcribed, categorised, and scored automatically, including calls in Omani Arabic and Gulf dialects that generic analytics tools transcribe poorly. Dashboards show intents, outcomes, sentiment, and language mix across your entire call traffic.",
+          "Every AI Customer Care conversation is transcribed, categorised, and scored automatically, including calls in Omani Arabic and Gulf dialects that generic analytics tools transcribe poorly. Dashboards show intents, outcomes, sentiment, and language mix across your entire call traffic.",
           "All of this processing happens on infrastructure inside Oman, so gaining analytical insight never means exporting customer conversations abroad.",
         ],
       },
@@ -264,9 +264,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare absorbs exactly the calls that cause burnout: opening hours, order status, appointment changes, password resets, repeated in every language your customers speak. Human agents keep the varied, judgement-heavy conversations that make the job engaging.",
+          "AI Customer Care absorbs exactly the calls that cause burnout: opening hours, order status, appointment changes, password resets, repeated in every language your customers speak. Human agents keep the varied, judgement-heavy conversations that make the job engaging.",
           "For Omani employers, this also supports retention of trained national talent: fewer people doing more meaningful work is a stronger proposition than a large floor of exhausted script-readers.",
         ],
       },
@@ -298,9 +298,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare replaces menu trees with goal-driven conversation. You define what the agent should achieve, verify a booking, capture a complaint, answer from your knowledge base, and the AI navigates there naturally regardless of how the caller phrases things or which languages they use.",
+          "AI Customer Care replaces menu trees with goal-driven conversation. You define what the agent should achieve, verify a booking, capture a complaint, answer from your knowledge base, and the AI navigates there naturally regardless of how the caller phrases things or which languages they use.",
           "Flows are versioned and testable, so an Omani business can pilot a new booking flow on a subset of traffic before rolling it out to every caller.",
         ],
       },
@@ -332,10 +332,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare connects to your CRM, booking systems, and ticketing tools through APIs, so its AI agents do what CTI does for humans, but autonomously: they recognise the caller, read the relevant records, act on them, and write back the outcome, all during the call.",
-          "Integrations run from VoxCare's Oman-hosted environment, so customer records synchronised during calls remain within the Sultanate, simplifying compliance with the Personal Data Protection Law.",
+          "AI Customer Care connects to your CRM, booking systems, and ticketing tools through APIs, so its AI agents do what CTI does for humans, but autonomously: they recognise the caller, read the relevant records, act on them, and write back the outcome, all during the call.",
+          "Integrations run from AI Customer Care's Oman-hosted environment, so customer records synchronised during calls remain within the Sultanate, simplifying compliance with the Personal Data Protection Law.",
         ],
       },
     ],
@@ -366,9 +366,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare is conversational AI built for Oman first. Its agents converse naturally in Omani Arabic and Gulf Arabic, alongside English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, reflecting the languages actually spoken across the Sultanate's homes and workplaces.",
+          "AI Customer Care is conversational AI built for Oman first. Its agents converse naturally in Omani Arabic and Gulf Arabic, alongside English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, reflecting the languages actually spoken across the Sultanate's homes and workplaces.",
           "The full stack runs on infrastructure inside Oman, so the intelligence and the data both stay local.",
         ],
       },
@@ -400,10 +400,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare attacks effort at its sources: no hold queue, no menu tree, no language barrier, and no repeating yourself, because context follows the caller into any human handoff. A caller in Sohar can state their issue once, in their own dialect, and either get it resolved immediately or reach a human who already knows the story.",
-          "VoxCare can also run the CES survey itself at the end of calls, in the caller's language, feeding scores straight into your analytics.",
+          "AI Customer Care attacks effort at its sources: no hold queue, no menu tree, no language barrier, and no repeating yourself, because context follows the caller into any human handoff. A caller in Sohar can state their issue once, in their own dialect, and either get it resolved immediately or reach a human who already knows the story.",
+          "AI Customer Care can also run the CES survey itself at the end of calls, in the caller's language, feeding scores straight into your analytics.",
         ],
       },
     ],
@@ -434,9 +434,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare collects CSAT conversationally at the end of every call, in whichever of its nine supported languages the conversation happened, which lifts response rates well above emailed surveys. It also estimates sentiment from the conversation itself, giving you a satisfaction signal even from callers who skip the survey.",
+          "AI Customer Care collects CSAT conversationally at the end of every call, in whichever of its nine supported languages the conversation happened, which lifts response rates well above emailed surveys. It also estimates sentiment from the conversation itself, giving you a satisfaction signal even from callers who skip the survey.",
           "For Omani businesses, that means satisfaction data covering the whole customer base, not just the segment comfortable answering an English web form.",
         ],
       },
@@ -468,9 +468,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "On voice, VoxCare makes FRT effectively instant: calls are answered immediately and the first response is a substantive one, because the AI can actually resolve requests rather than merely acknowledging them.",
+          "On voice, AI Customer Care makes FRT effectively instant: calls are answered immediately and the first response is a substantive one, because the AI can actually resolve requests rather than merely acknowledging them.",
           "Businesses across Oman, from Muscat clinics to logistics firms in Sohar, can promise callers a real answer within seconds at any hour, without a night shift on the payroll.",
         ],
       },
@@ -511,9 +511,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare is hosted entirely within Oman, so recordings, transcripts, and customer records stay in-country by architecture, not by policy promise. Consent capture, retention schedules, access controls, and deletion workflows are built into the platform to align with the Personal Data Protection Law's consent-first model.",
+          "AI Customer Care is hosted entirely within Oman, so recordings, transcripts, and customer records stay in-country by architecture, not by policy promise. Consent capture, retention schedules, access controls, and deletion workflows are built into the platform to align with the Personal Data Protection Law's consent-first model.",
           "That same discipline, explicit consent, minimal data, documented processing, also covers the ground GDPR cares about most, giving internationally exposed Omani businesses a defensible position under both frameworks.",
         ],
       },
@@ -545,9 +545,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare's language stack is tuned for the way Oman actually talks: Omani and Gulf Arabic as first-class dialects, seamless switching to English or Standard Arabic mid-sentence, and full conversations in Swahili, Hindi, Bengali, Malayalam, and Tamil for the Sultanate's diverse communities.",
+          "AI Customer Care's language stack is tuned for the way Oman actually talks: Omani and Gulf Arabic as first-class dialects, seamless switching to English or Standard Arabic mid-sentence, and full conversations in Swahili, Hindi, Bengali, Malayalam, and Tamil for the Sultanate's diverse communities.",
           "All language processing runs in-country, so the linguistic intelligence never requires shipping voice data abroad.",
         ],
       },
@@ -579,10 +579,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "Every effortless call nudges NPS upward, and every unanswered ring nudges it down; VoxCare shifts thousands of small moments in the right direction by making the phone channel instant, multilingual, and reliable.",
-          "VoxCare can also conduct NPS outreach by voice, asking the question and the follow-up in the customer's own language and clustering the spoken reasons into themes, reaching customers a web survey never would.",
+          "Every effortless call nudges NPS upward, and every unanswered ring nudges it down; AI Customer Care shifts thousands of small moments in the right direction by making the phone channel instant, multilingual, and reliable.",
+          "AI Customer Care can also conduct NPS outreach by voice, asking the question and the follow-up in the customer's own language and clustering the spoken reasons into themes, reaching customers a web survey never would.",
         ],
       },
     ],
@@ -613,10 +613,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare treats voice as a first-class citizen of the omnichannel record. Calls handled by its AI agents are transcribed, summarised, and written into the same customer timeline as chats and emails, so a follow-up on any channel picks up exactly where the phone call left off.",
-          "In Oman, where a customer might WhatsApp in English and phone in Omani Arabic within the same day, VoxCare keeps that one relationship stitched together across languages as well as channels.",
+          "AI Customer Care treats voice as a first-class citizen of the omnichannel record. Calls handled by its AI agents are transcribed, summarised, and written into the same customer timeline as chats and emails, so a follow-up on any channel picks up exactly where the phone call left off.",
+          "In Oman, where a customer might WhatsApp in English and phone in Omani Arabic within the same day, AI Customer Care keeps that one relationship stitched together across languages as well as channels.",
         ],
       },
     ],
@@ -647,9 +647,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare rethinks the problem: instead of pacing humans faster, its AI agents place the outbound calls themselves. Appointment reminders, delivery confirmations, payment follow-ups, and satisfaction check-ins are conducted start to finish by the AI, in the customer's preferred language, with no silent-call risk because there is no agent shortage to predict around.",
+          "AI Customer Care rethinks the problem: instead of pacing humans faster, its AI agents place the outbound calls themselves. Appointment reminders, delivery confirmations, payment follow-ups, and satisfaction check-ins are conducted start to finish by the AI, in the customer's preferred language, with no silent-call risk because there is no agent shortage to predict around.",
           "Campaign consent status and outcomes are logged automatically, keeping outbound activity in Oman auditable and Personal Data Protection Law-aware.",
         ],
       },
@@ -681,10 +681,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare's AI agents answer from your knowledge base using RAG, retrieving in real time during the call and responding in the caller's language even when the source documents are written in another, an English product sheet can back an answer delivered in Omani Arabic.",
-          "Your documents and the retrieval index are stored on VoxCare's Oman-hosted infrastructure, so proprietary business knowledge stays inside the Sultanate.",
+          "our AI agents answer from your knowledge base using RAG, retrieving in real time during the call and responding in the caller's language even when the source documents are written in another, an English product sheet can back an answer delivered in Omani Arabic.",
+          "Your documents and the retrieval index are stored on AI Customer Care's Oman-hosted infrastructure, so proprietary business knowledge stays inside the Sultanate.",
         ],
       },
     ],
@@ -715,9 +715,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "AI agents make aggressive SLAs affordable. VoxCare answers every call within seconds regardless of volume spikes, so speed-of-answer commitments that would require heavy overstaffing become the platform's default behaviour.",
+          "AI agents make aggressive SLAs affordable. AI Customer Care answers every call within seconds regardless of volume spikes, so speed-of-answer commitments that would require heavy overstaffing become the platform's default behaviour.",
           "Dashboards track attainment continuously, letting an Omani service provider evidence its SLA performance to clients, including government and enterprise clients who increasingly require in-country data handling under the Personal Data Protection Law alongside their service guarantees.",
         ],
       },
@@ -749,10 +749,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare applies speech analytics across every conversation its agents handle, with transcription tuned for Omani and Gulf Arabic as well as the other seven languages it speaks. Dashboards surface topic trends, sentiment shifts, and outcome rates without anyone re-listening to audio.",
-          "Because voice recordings are sensitive personal data under Oman's Personal Data Protection Law, all transcription and analysis happens on VoxCare's in-country infrastructure with access controls and retention policies you configure.",
+          "AI Customer Care applies speech analytics across every conversation its agents handle, with transcription tuned for Omani and Gulf Arabic as well as the other seven languages it speaks. Dashboards surface topic trends, sentiment shifts, and outcome rates without anyone re-listening to audio.",
+          "Because voice recordings are sensitive personal data under Oman's Personal Data Protection Law, all transcription and analysis happens on AI Customer Care's in-country infrastructure with access controls and retention policies you configure.",
         ],
       },
     ],
@@ -783,9 +783,9 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare improves the substance of agents' work by absorbing the repetitive call types, leaving humans the varied, judgement-rich conversations that make service work satisfying. Its conversation analytics also give team leads concrete, example-based coaching material from every call rather than a sampled few.",
+          "AI Customer Care improves the substance of agents' work by absorbing the repetitive call types, leaving humans the varied, judgement-rich conversations that make service work satisfying. Its conversation analytics also give team leads concrete, example-based coaching material from every call rather than a sampled few.",
           "For Omani teams, that means development paths built on meaningful work, a stronger story for attracting and keeping national talent in service careers.",
         ],
       },
@@ -817,10 +817,10 @@ export const glossary: GlossaryTerm[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare changes the WFM equation by making a large share of demand elastic: the AI layer absorbs volume spikes instantly, so forecast misses no longer translate directly into abandoned calls. Human staffing can be planned around the smaller, steadier stream of complex calls.",
-          "VoxCare's analytics also sharpen the forecast itself, showing exactly which intents drive volume at which hours across Oman's working week, so schedulers plan on evidence rather than averages.",
+          "AI Customer Care changes the WFM equation by making a large share of demand elastic: the AI layer absorbs volume spikes instantly, so forecast misses no longer translate directly into abandoned calls. Human staffing can be planned around the smaller, steadier stream of complex calls.",
+          "AI Customer Care's analytics also sharpen the forecast itself, showing exactly which intents drive volume at which hours across Oman's working week, so schedulers plan on evidence rather than averages.",
         ],
       },
     ],

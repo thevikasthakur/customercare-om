@@ -6,7 +6,7 @@ import { PageHero, CardGrid, CheckList, CtaBanner } from "@/components/sections"
 export const metadata: Metadata = {
   title: "Developers",
   description:
-    "Build voice into your applications with VoxCare's REST APIs, webhooks, and SDKs, with data residency in Oman by default.",
+    "Build voice into your applications with AI Customer Care's REST APIs, webhooks, and SDKs, with data residency in Oman by default.",
 };
 
 export default function DeveloperPage() {

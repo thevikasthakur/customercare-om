@@ -64,15 +64,17 @@ const templateFaqs = [
   },
   {
     q: "Which languages does it support?",
-    a: "All nine VoxCare languages, Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, with automatic mid-call switching.",
+    a: "All nine AI Customer Care languages, Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, with automatic mid-call switching.",
   },
   {
     q: "How quickly can I go live with it?",
-    a: "Most businesses launch a template the same day: import it, connect your calendar or CRM, forward your number, and start answering.",
+    a: "Importing and customising a template takes minutes. Answering live calls needs a SIP trunk from Omantel or Ooredoo, which takes about a week to procure, so plan for roughly a week end to end. Templates that run on web chat, WhatsApp, or email can go live the same day.",
+    link: { label: "Omantel SIP trunk for business", href: "https://www.omantel.om/en/business/small-medium-enterprise/fixed-voice-sip-trunk" },
+
   },
   {
     q: "Does it work with my existing tools?",
-    a: "Yes, templates plug into the same 50+ integrations as any VoxCare agent, from Google Calendar and Outlook to Salesforce and HubSpot.",
+    a: "Yes, templates plug into the same 50+ integrations as any agent, from Google Calendar and Outlook to Salesforce and HubSpot.",
   },
   {
     q: "What does it cost?",
@@ -194,7 +196,7 @@ export default async function TemplatePage({
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <h2 className="max-w-lg text-3xl md:text-5xl">
-              How to customise VoxCare{" "}
+              How to customise AI Customer Care{" "}
               <span className="accent-italic">for your business</span>
             </h2>
             <Link
@@ -245,7 +247,7 @@ export default async function TemplatePage({
               </h2>
               <p className="mt-4 max-w-md text-sm text-muted-foreground leading-relaxed">
                 If your business handles over 2,000 calls a month, ask about
-                VoxCare&rsquo;s Enterprise Plan, dedicated in-Oman
+                AI Customer Care&rsquo;s Enterprise Plan, dedicated in-Oman
                 infrastructure, custom voices, and a delivery team in Muscat.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">

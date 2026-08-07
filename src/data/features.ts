@@ -11,7 +11,7 @@ export const features: Feature[] = [
       {
         h: "How it works",
         p: [
-          "Every VoxCare agent speaks through a neural voice engine that renders speech in real time, with sub-second latency from the moment your caller finishes talking. You pick a voice from our curated library, adjust pace, warmth, and formality, and preview it against your own scripts before going live.",
+          "Every agent speaks through a neural voice engine that renders speech in real time, with sub-second latency from the moment your caller finishes talking. You pick a voice from our curated library, adjust pace, warmth, and formality, and preview it against your own scripts before going live.",
           "Voices are not generic text-to-speech presets. Each one is tuned on regional pronunciation patterns, so place names like Salalah, Sohar, and Al Amerat, along with common Omani honourifics, are spoken the way your customers actually say them.",
         ],
         bullets: [
@@ -24,13 +24,13 @@ export const features: Feature[] = [
         h: "Why voice quality decides the call",
         p: [
           "Callers form a judgement about an automated line within the first few seconds. A robotic or mispronouncing voice signals that the conversation will be frustrating, and hang-up rates climb. A voice that sounds local and unhurried keeps people on the line long enough for the agent to actually help.",
-          "Because VoxCare voices stream with sub-second response times, conversations keep a human rhythm, no awkward gaps, no talking over each other, no dead air while the system thinks.",
+          "Because AI Customer Care voices stream with sub-second response times, conversations keep a human rhythm, no awkward gaps, no talking over each other, no dead air while the system thinks.",
         ],
       },
       {
         h: "Built for how Oman speaks",
         p: [
-          "Oman is multilingual by default. A single business day can bring calls in Omani Arabic, English, Hindi, Urdu, Malayalam, and more. VoxCare agents detect the caller's language and answer in it, using a voice appropriate to that language rather than an accented compromise.",
+          "Oman is multilingual by default. A single business day can bring calls in Omani Arabic, English, Hindi, Urdu, Malayalam, and more. Our agents detect the caller's language and answer in it, using a voice appropriate to that language rather than an accented compromise.",
           "For businesses serving both Omani nationals and the expatriate community, this means one phone number that greets everyone properly, without hiring separate teams for each language.",
         ],
       },
@@ -216,7 +216,7 @@ export const features: Feature[] = [
     name: "Knowledge Base",
     short: "Upload documents, FAQs, and policies once, your AI agents answer from them accurately on every call.",
     heroTitle: "Teach Your Agent Once. It Answers Every Caller.",
-    heroSub: "Upload your policies, price lists, and FAQs, and every VoxCare agent answers from your approved content, in the caller's language, on every call.",
+    heroSub: "Upload your policies, price lists, and FAQs, and every agent answers from your approved content, in the caller's language, on every call.",
     sections: [
       {
         h: "How it works",
@@ -240,7 +240,7 @@ export const features: Feature[] = [
       {
         h: "Bilingual knowledge for a bilingual market",
         p: [
-          "Most Omani businesses maintain documentation in a mix of Arabic and English, a tariff sheet in one, a warranty policy in the other. VoxCare retrieves across both, so a caller asking in Omani Arabic gets an accurate answer even if the source document is English.",
+          "Most Omani businesses maintain documentation in a mix of Arabic and English, a tariff sheet in one, a warranty policy in the other. AI Customer Care retrieves across both, so a caller asking in Omani Arabic gets an accurate answer even if the source document is English.",
           "All uploaded content is stored and processed within Oman, keeping proprietary documents and customer-facing policies under the same in-country protection as your call data.",
         ],
       },
@@ -258,7 +258,7 @@ export const features: Feature[] = [
     name: "Outbound AI Email",
     short: "Send personalised follow-up emails automatically from call outcomes, confirmations, summaries, and next steps.",
     heroTitle: "Every Call Ends. The Follow-Up Sends Itself.",
-    heroSub: "VoxCare drafts and sends personalised emails the moment a call ends, booking confirmations, quotes, summaries, in Arabic, English, or both.",
+    heroSub: "AI Customer Care drafts and sends personalised emails the moment a call ends, booking confirmations, quotes, summaries, in Arabic, English, or both.",
     sections: [
       {
         h: "How it works",
@@ -282,7 +282,7 @@ export const features: Feature[] = [
       {
         h: "Bilingual by default",
         p: [
-          "VoxCare sends the email in the language the call happened in, Omani Arabic callers get Arabic emails with correct right-to-left formatting, English callers get English, or both side by side, the format many Omani businesses already use for official correspondence.",
+          "AI Customer Care sends the email in the language the call happened in, Omani Arabic callers get Arabic emails with correct right-to-left formatting, English callers get English, or both side by side, the format many Omani businesses already use for official correspondence.",
           "Dates can render in both Gregorian and Hijri calendars, and templates support the formal register expected in Gulf business communication rather than a translated Western casual tone.",
         ],
       },
@@ -340,9 +340,9 @@ export const features: Feature[] = [
   {
     slug: "rest-apis-and-webhooks",
     name: "REST APIs and Webhooks",
-    short: "Connect VoxCare to your CRM, ERP, and internal tools with clean REST APIs and real-time webhooks.",
+    short: "Connect AI Customer Care to your CRM, ERP, and internal tools with clean REST APIs and real-time webhooks.",
     heroTitle: "Your Systems and Your Phone Line, Finally Talking",
-    heroSub: "Full REST APIs and real-time webhooks connect VoxCare agents to your CRM, booking system, and internal tools, during the call, not after it.",
+    heroSub: "Full REST APIs and real-time webhooks connect our agents to your CRM, booking system, and internal tools, during the call, not after it.",
     sections: [
       {
         h: "How it works",
@@ -366,7 +366,7 @@ export const features: Feature[] = [
       {
         h: "Integrating with the systems Omani businesses run",
         p: [
-          "Omani mid-market companies typically run a mix of global CRMs, regional ERPs, and home-grown booking tools. Because VoxCare integrates over plain REST and standard webhooks, all of them connect the same way, no proprietary middleware, no vendor lock-in.",
+          "Omani mid-market companies typically run a mix of global CRMs, regional ERPs, and home-grown booking tools. Because AI Customer Care integrates over plain REST and standard webhooks, all of them connect the same way, no proprietary middleware, no vendor lock-in.",
           "API traffic terminates at infrastructure hosted in Oman, so integrations that carry customer data keep that data in-country end to end, simplifying your Personal Data Protection Law data-flow mapping.",
         ],
       },
@@ -384,7 +384,7 @@ export const features: Feature[] = [
     name: "Smart Call Escalation with Triggers",
     short: "Define exactly when a call should reach a human, by sentiment, keywords, caller value, or repeated failure, and it will.",
     heroTitle: "The Right Calls Reach Humans. Automatically.",
-    heroSub: "Set precise triggers, frustration detected, VIP caller, sensitive topic, repeated misunderstanding, and VoxCare escalates before the moment is lost.",
+    heroSub: "Set precise triggers, frustration detected, VIP caller, sensitive topic, repeated misunderstanding, and AI Customer Care escalates before the moment is lost.",
     sections: [
       {
         h: "How it works",
@@ -426,12 +426,12 @@ export const features: Feature[] = [
     name: "Warm Transfers with Context",
     short: "When calls move to humans, the full conversation moves with them, no repeating, no starting over.",
     heroTitle: "Handovers Where Nobody Repeats Themselves",
-    heroSub: "When a VoxCare agent transfers a call, your staff receive the caller's identity, issue, and full conversation summary before they say hello.",
+    heroSub: "When an agent transfers a call, your staff receive the caller's identity, issue, and full conversation summary before they say hello.",
     sections: [
       {
         h: "How it works",
         p: [
-          "When a transfer is triggered, by an escalation rule, a workflow step, or the caller's request, VoxCare first briefs the receiving human. The staff member sees or hears a concise summary: who is calling, what they need, what has already been verified, and what the AI already tried.",
+          "When a transfer is triggered, by an escalation rule, a workflow step, or the caller's request, AI Customer Care first briefs the receiving human. The staff member sees or hears a concise summary: who is calling, what they need, what has already been verified, and what the AI already tried.",
           "The caller stays on the line with the AI, which sets expectations naturally, until the human accepts. Only then is the call bridged. If no one is available, the system offers a scheduled callback and books it into the queue instead of dumping the caller into hold music indefinitely.",
         ],
         bullets: [
@@ -450,7 +450,7 @@ export const features: Feature[] = [
       {
         h: "Continuity across languages",
         p: [
-          "In Oman's multilingual service environment, the AI may handle a call in Malayalam or Urdu while the available specialist works in Arabic or English. VoxCare bridges that gap by delivering the handover summary in the staff member's preferred language, whatever language the call itself was in.",
+          "In Oman's multilingual service environment, the AI may handle a call in Malayalam or Urdu while the available specialist works in Arabic or English. AI Customer Care bridges that gap by delivering the handover summary in the staff member's preferred language, whatever language the call itself was in.",
           "Transfer targets can follow Omani schedules too, routing to the Muscat office during its hours, to an on-call number after them, and adjusting automatically for Ramadan working hours and public holidays.",
         ],
       },

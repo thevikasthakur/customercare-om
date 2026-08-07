@@ -6,7 +6,7 @@ import { PageHero, CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Comparison",
   description:
-    "Exploring alternatives to VoxCare? See how Oman's AI customer-service platform stacks up against global voice AI vendors.",
+    "Exploring alternatives to AI Customer Care? See how Oman's AI customer-service platform stacks up against global voice AI vendors.",
 };
 
 const tableRows = [
@@ -24,8 +24,8 @@ export default function ComparisonPage() {
     <>
       <PageHero
         badge="Comparison"
-        title="Exploring alternatives to VoxCare? Here's how it stacks up."
-        sub="Global voice AI platforms are built for English-first, US-hosted deployments. VoxCare is built for Oman. Compare for yourself."
+        title="Exploring alternatives to AI Customer Care? Here's how it stacks up."
+        sub="Global voice AI platforms are built for English-first, US-hosted deployments. AI Customer Care is built for Oman. Compare for yourself."
       />
       <section className="pb-14">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
@@ -35,7 +35,7 @@ export default function ComparisonPage() {
               <thead>
                 <tr className="border-b bg-muted/50 text-left">
                   <th className="px-4 py-3 font-semibold">Capability</th>
-                  <th className="px-4 py-3 font-semibold">VoxCare</th>
+                  <th className="px-4 py-3 font-semibold">AI Customer Care</th>
                   <th className="px-4 py-3 font-semibold">Typical global vendor</th>
                 </tr>
               </thead>

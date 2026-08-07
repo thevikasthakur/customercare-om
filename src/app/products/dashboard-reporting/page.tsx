@@ -16,7 +16,7 @@ import { CtaBanner, Faq } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Dashboard & Reporting",
   description:
-    "Real-time reporting on customer queries, calls, and revenue. VoxCare's dashboards turn every conversation into numbers your leadership can act on.",
+    "Real-time reporting on customer queries, calls, and revenue. AI Customer Care's dashboards turn every conversation into numbers your leadership can act on.",
 };
 
 const analyticsCards = [
@@ -115,7 +115,7 @@ export default function DashboardReportingPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
             Real-time reporting on customer queries, calls, and revenue. Every
-            conversation VoxCare handles becomes a number your leadership can
+            conversation AI Customer Care handles becomes a number your leadership can
             act on.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -149,7 +149,7 @@ export default function DashboardReportingPage() {
               <div className="overflow-clip rounded-[1.25rem] border border-line-strong shadow-2xl shadow-black/60">
                 <Image
                   src="/media/bento-analytics.avif"
-                  alt="VoxCare reporting dashboard with query volumes and outcomes (placeholder visual)"
+                  alt="AI Customer Care reporting dashboard with query volumes and outcomes (placeholder visual)"
                   width={2216}
                   height={1385}
                   className="w-full"
@@ -278,7 +278,7 @@ export default function DashboardReportingPage() {
             Prove it works. <span className="accent-italic">In Rials Omani.</span>
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
-            When the quarter closes, your VoxCare dashboard is the report:
+            When the quarter closes, your AI Customer Care dashboard is the report:
             queries handled, hours saved, revenue attributed, in Rials Omani.
           </p>
         </div>

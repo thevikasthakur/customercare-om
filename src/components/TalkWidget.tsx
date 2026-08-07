@@ -7,7 +7,7 @@ import { Mic } from "lucide-react";
 /**
  * Interactive hero widget: a square stage filled with a dot field that
  * reacts to the pointer, a slowly rotating blurred ring, and a circular
- * "Talk to VoxCare" mic button with springy hover/press states.
+ * "Talk to AI Customer Care" mic button with springy hover/press states.
  * Canvas rendering is DPR-aware and respects prefers-reduced-motion.
  */
 export default function TalkWidget() {
@@ -148,7 +148,7 @@ export default function TalkWidget() {
           />
           <button
             type="button"
-            aria-label="Talk to VoxCare, try a live call demo"
+            aria-label="Talk to AI Customer Care, try a live call demo"
             onClick={() => router.push("/book-a-demo/")}
             onPointerEnter={() => setHovering(true)}
             onPointerLeave={() => setHovering(false)}
@@ -165,7 +165,7 @@ export default function TalkWidget() {
         <span className="talk-label z-10 inline-flex items-center gap-2.5 rounded-full border border-line-strong bg-ink-2/80 px-4.5 py-2 backdrop-blur-md">
           <span className="talk-status-dot h-[7px] w-[7px] rounded-full bg-lime" aria-hidden />
           <span className="font-mono text-[13px] tracking-[0.01em] text-foreground">
-            Talk to VoxCare
+            Talk to AI Customer Care
           </span>
         </span>
       </div>

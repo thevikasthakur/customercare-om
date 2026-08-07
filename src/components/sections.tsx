@@ -107,6 +107,17 @@ export function Faq({
                 <p className="mt-4 max-w-2xl text-sm text-muted-foreground leading-relaxed">
                   {f.a}
                 </p>
+                {f.link && (
+                  <a
+                    href={f.link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-lime hover:underline underline-offset-4"
+                  >
+                    {f.link.label}
+                    <span aria-hidden>&#8599;</span>
+                  </a>
+                )}
               </details>
             ))}
           </div>

@@ -50,7 +50,7 @@ export const blogs1: BlogPost[] = [
       {
         h: "Human Plus AI: The Modern Front Desk",
         p: [
-          "The goal is not to replace your receptionist. It is to let them focus on the clients standing in front of them while an AI agent handles the repetitive phone volume. VoxCare agents speak Omani Arabic, English, Hindi, Malayalam, and more, so every caller is served in their own language, at any hour.",
+          "The goal is not to replace your receptionist. It is to let them focus on the clients standing in front of them while an AI agent handles the repetitive phone volume. AI Customer Care agents speak Omani Arabic, English, Hindi, Malayalam, and more, so every caller is served in their own language, at any hour.",
           "Hire for empathy and judgement. Automate the repetition. That combination is what a modern veterinary front desk looks like in 2025."
         ]
       }
@@ -112,7 +112,7 @@ export const blogs1: BlogPost[] = [
         h: "What the Numbers Mean for Your Business",
         p: [
           "Add the patterns together and the conclusion is straightforward: every unanswered ring is revenue walking to a competitor, and the businesses that answer instantly, around the clock, in the caller's language, win a structural advantage.",
-          "This is precisely the problem AI voice agents were built to solve. A VoxCare agent answers on the first ring, twenty-four hours a day, in Omani Arabic and other languagues spoken in Oman, with sub-second response times. The statistics stop being a threat and start being an opportunity."
+          "This is precisely the problem AI voice agents were built to solve. A AI Customer Care agent answers on the first ring, twenty-four hours a day, in Omani Arabic and other languagues spoken in Oman, with sub-second response times. The statistics stop being a threat and start being an opportunity."
         ]
       }
     ]
@@ -214,14 +214,14 @@ export const blogs1: BlogPost[] = [
         h: "Why Language Coverage Decides Success in Oman",
         p: [
           "Oman's phone traffic is inherently multilingual. A single business may receive calls in Omani Arabic, English, Hindi, Bengali, Malayalam, Tamil, and Swahili in one afternoon. A call bot that supports only English, or only formal Standard Arabic, fails most of those callers.",
-          "VoxCare's agents detect the caller's language automatically and respond in kind, including natural Omani and Gulf Arabic rather than a stiff textbook register. That single capability is often the difference between callers happily self-serving and callers hanging up."
+          "AI Customer Care's agents detect the caller's language automatically and respond in kind, including natural Omani and Gulf Arabic rather than a stiff textbook register. That single capability is often the difference between callers happily self-serving and callers hanging up."
         ]
       },
       {
         h: "Getting Started Without Ripping Anything Out",
         p: [
           "Deploying an AI call bot does not require replacing your phone system. Most businesses start by routing after-hours and overflow calls to the bot, measure containment and customer feedback for a few weeks, then expand to front-line answering once trust is established.",
-          "Because VoxCare is hosted in Oman and built for Oman Personal Data Protection Law compliance under Royal Decree 6/2022, call data stays in-country, which simplifies the governance conversation for banks, clinics, and government-adjacent businesses."
+          "Because AI Customer Care is hosted in Oman and built for Oman Personal Data Protection Law compliance under Royal Decree 6/2022, call data stays in-country, which simplifies the governance conversation for banks, clinics, and government-adjacent businesses."
         ]
       }
     ]
@@ -264,7 +264,7 @@ export const blogs1: BlogPost[] = [
         h: "Routing as Resolution",
         p: [
           "The most important shift is that AI routing does not just route better; it removes the need for routing on most calls. When the AI can answer the question about opening hours, book the appointment, or take the payment reference itself, the fastest route is no route at all.",
-          "Businesses using VoxCare typically see the majority of routine calls resolved by the AI agent directly, with only genuinely complex or sensitive calls reaching human staff, arriving with full context attached."
+          "Businesses using AI Customer Care typically see the majority of routine calls resolved by the AI agent directly, with only genuinely complex or sensitive calls reaching human staff, arriving with full context attached."
         ]
       },
       {
@@ -366,7 +366,7 @@ export const blogs1: BlogPost[] = [
         h: "Compliance First, Especially in Oman",
         p: [
           "Outbound calling touches personal data and consent, which puts it squarely inside data protection law. In Oman, the Personal Data Protection Law under Royal Decree 6/2022 requires a lawful basis for processing personal data, and marketing calls should rest on clear consent with an easy way to withdraw it.",
-          "VoxCare bakes this in: consent tracking, automatic disclosure that the caller is speaking with an AI, do-not-call list enforcement, calling-hour windows, and full call logging, with all data hosted inside Oman."
+          "AI Customer Care bakes this in: consent tracking, automatic disclosure that the caller is speaking with an AI, do-not-call list enforcement, calling-hour windows, and full call logging, with all data hosted inside Oman."
         ]
       },
       {
@@ -455,14 +455,14 @@ export const blogs1: BlogPost[] = [
           "Honour the rights of individuals to access, correct, and request erasure of their data",
           "Protect data with appropriate security measures and restrict access to it",
           "Treat sensitive categories of data, such as health information, with heightened care and required permissions",
-          "Be deliberate about cross-border transfers; keeping call data hosted inside Oman, as VoxCare does, dramatically simplifies compliance"
+          "Be deliberate about cross-border transfers; keeping call data hosted inside Oman, as AI Customer Care does, dramatically simplifies compliance"
         ]
       },
       {
         h: "Bot Disclosure: Tell People They Are Talking to an AI",
         p: [
           "Beyond data protection, the clearest emerging global norm is disclosure: callers and call recipients should know when they are speaking with an AI rather than a human. Several jurisdictions have made hiding a bot's identity in commercial contexts explicitly unlawful, and regulators everywhere treat deceptive impersonation of humans harshly.",
-          "Disclosure is also simply good business. Callers who are told upfront that they are speaking with an AI assistant engage more comfortably than callers who feel tricked. Every VoxCare agent identifies itself as an AI assistant at the start of the conversation by default, in the caller's own language."
+          "Disclosure is also simply good business. Callers who are told upfront that they are speaking with an AI assistant engage more comfortably than callers who feel tricked. Every AI Customer Care agent identifies itself as an AI assistant at the start of the conversation by default, in the caller's own language."
         ]
       },
       {
@@ -491,7 +491,7 @@ export const blogs1: BlogPost[] = [
         h: "Compliance as a Competitive Advantage",
         p: [
           "Businesses sometimes treat compliance as friction. In practice, the disciplines Personal Data Protection Law demands, transparency, consent, data minimisation, and security, are exactly the behaviours that make customers trust an AI on the phone.",
-          "VoxCare was built for this environment from day one: Oman-hosted infrastructure, Personal Data Protection Law-aligned data handling, automatic AI disclosure, and consent management built into every campaign. Legal AI calling is not hard; it just has to be designed in, not bolted on."
+          "AI Customer Care was built for this environment from day one: Oman-hosted infrastructure, Personal Data Protection Law-aligned data handling, automatic AI disclosure, and consent management built into every campaign. Legal AI calling is not hard; it just has to be designed in, not bolted on."
         ]
       }
     ]
@@ -549,7 +549,7 @@ export const blogs1: BlogPost[] = [
         h: "The Bottom Line",
         p: [
           "In 2026 the question is no longer whether conversational AI belongs in your contact center; it is which platform category matches your scale, engineering capacity, and market. Global suites for suite-committed enterprises, developer platforms for builders, and regional specialists for businesses whose callers live in a specific linguistic and regulatory world.",
-          "If your callers are in Oman, we built VoxCare precisely for that third answer, and we are happy to be tested against any category on real calls."
+          "If your callers are in Oman, we built AI Customer Care precisely for that third answer, and we are happy to be tested against any category on real calls."
         ]
       }
     ]
@@ -584,7 +584,7 @@ export const blogs1: BlogPost[] = [
           "Other developer infrastructure platforms, chosen for different model flexibility, telephony coverage, or pricing structures",
           "Managed horizontal voice AI services that configure and operate agents for any industry",
           "Vertical specialists focused on one sector, such as healthcare, automotive, or home services",
-          "Regional specialists built for a specific market's languages, dialects, and regulations, which is where VoxCare sits for Oman",
+          "Regional specialists built for a specific market's languages, dialects, and regulations, which is where AI Customer Care sits for Oman",
           "Full contact center suites, for enterprises that want voice AI bundled with routing, workforce tools, and analytics"
         ]
       },
@@ -603,9 +603,9 @@ export const blogs1: BlogPost[] = [
         ]
       },
       {
-        h: "Where VoxCare Fits",
+        h: "Where AI Customer Care Fits",
         p: [
-          "VoxCare is a managed, regional alternative: a voice AI platform purpose-built for the Omani market. Agents speak Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam, and Tamil, respond with sub-second latency, and run on infrastructure hosted in Oman with Personal Data Protection Law-aligned data handling under Royal Decree 6/2022.",
+          "AI Customer Care is a managed, regional alternative: a voice AI platform purpose-built for the Omani market. Agents speak Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam, and Tamil, respond with sub-second latency, and run on infrastructure hosted in Oman with Personal Data Protection Law-aligned data handling under Royal Decree 6/2022.",
           "If your callers are in Oman and you want a working agent rather than a construction kit, that combination is the shortest path from evaluation to answered phones. The honest advice stands either way: shortlist two or three platforms from the category that matches your needs, and test them on your real calls before you sign anything."
         ]
       }
@@ -656,7 +656,7 @@ export const blogs1: BlogPost[] = [
       {
         h: "What the Hybrid Looks Like in Practice",
         p: [
-          "A typical VoxCare deployment in Oman routes all inbound calls to the AI first. Routine intents, bookings, status checks, FAQs, and lead capture are resolved on the spot, in the caller's language. Complex, sensitive, or high-value calls escalate to staff with the transcript and caller details attached, so nobody repeats themselves.",
+          "A typical AI Customer Care deployment in Oman routes all inbound calls to the AI first. Routine intents, bookings, status checks, FAQs, and lead capture are resolved on the spot, in the caller's language. Complex, sensitive, or high-value calls escalate to staff with the transcript and caller details attached, so nobody repeats themselves.",
           "The result is a contact operation where humans do the work only humans can do, the queue effectively disappears for routine calls, and the business answers every call it used to miss. That is the practical case for contact center AI: not replacing your team, but finally letting it operate at the level your callers expect."
         ]
       }
@@ -698,7 +698,7 @@ export const blogs1: BlogPost[] = [
       {
         h: "How AI Voice Agents Use Both",
         p: [
-          "Traditional systems used DNIS and ANI for routing tables. AI voice agents use them as context for the conversation itself. A VoxCare agent receiving a call combines DNIS, which campaign or line was dialled, with ANI, which customer is calling, and the CRM record behind it, before the greeting is even spoken.",
+          "Traditional systems used DNIS and ANI for routing tables. AI voice agents use them as context for the conversation itself. A AI Customer Care agent receiving a call combines DNIS, which campaign or line was dialled, with ANI, which customer is calling, and the CRM record behind it, before the greeting is even spoken.",
           "The practical effect: a caller who dialled the number from a Ramadan promotion is greeted with awareness of that offer; a regular customer calling the clinic line is asked whether they are calling about tomorrow's appointment. The conversation starts in the middle, where the caller already is."
         ]
       },
@@ -804,10 +804,10 @@ export const blogs1: BlogPost[] = [
         ]
       },
       {
-        h: "Consent, Law, and How VoxCare Approaches It",
+        h: "Consent, Law, and How AI Customer Care Approaches It",
         p: [
           "A person's voice is biometric, identifying data, and under regimes like Oman's Personal Data Protection Law it deserves the highest tier of care: explicit consent to record and clone, documented scope for how the clone may be used, secure storage, and the right to withdraw.",
-          "VoxCare's position is straightforward: we use professionally designed voices by default, support cloning only with documented consent from the voice owner, and require AI disclosure on every call regardless of how natural the voice sounds. The technology is remarkable; the trust around it is what makes it usable."
+          "AI Customer Care's position is straightforward: we use professionally designed voices by default, support cloning only with documented consent from the voice owner, and require AI disclosure on every call regardless of how natural the voice sounds. The technology is remarkable; the trust around it is what makes it usable."
         ]
       }
     ]
@@ -867,7 +867,7 @@ export const blogs1: BlogPost[] = [
         h: "Red Flags and Final Advice",
         p: [
           "Walk away from vendors who will not let you test on real calls, cannot say plainly where data is stored, quote pricing that only makes sense at volumes you do not have, or wave away dialect questions with a supported languages list nobody has tested.",
-          "The good news is that a rigorous evaluation is cheap compared to a wrong choice. Pick your eight-dimension scorecard, run the pilot, and let your own callers cast the deciding vote. We built VoxCare to win exactly that kind of test in Oman, and any vendor worth signing will welcome it too."
+          "The good news is that a rigorous evaluation is cheap compared to a wrong choice. Pick your eight-dimension scorecard, run the pilot, and let your own callers cast the deciding vote. We built AI Customer Care to win exactly that kind of test in Oman, and any vendor worth signing will welcome it too."
         ]
       }
     ]

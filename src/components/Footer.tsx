@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 flex flex-col gap-4 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} VoxCare Technologies LLC, Muscat, Sultanate
+            &copy; {new Date().getFullYear()} AI Customer Care Technologies LLC, Muscat, Sultanate
             of Oman. All rights reserved.
           </p>
           <p className="font-mono text-xs text-muted-foreground">

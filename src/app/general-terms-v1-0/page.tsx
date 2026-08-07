@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "General Terms v1.0 (Archived)",
-  description: "Archived version 1.0 of VoxCare's general commercial terms.",
+  description: "Archived version 1.0 of AI Customer Care's general commercial terms.",
   robots: { index: false },
 };
 
@@ -15,7 +15,7 @@ export default function GeneralTermsV1Page() {
       sections={[
         {
           p: [
-            "This is the archived first version of VoxCare's General Terms, retained for customers whose orders reference v1.0. New orders are governed by the current General Terms at /general-terms/.",
+            "This is the archived first version of AI Customer Care's General Terms, retained for customers whose orders reference v1.0. New orders are governed by the current General Terms at /general-terms/.",
           ],
         },
         {

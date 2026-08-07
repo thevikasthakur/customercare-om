@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How VoxCare collects, uses, and protects personal data under Oman's Personal Data Protection Law.",
+  description: "How AI Customer Care collects, uses, and protects personal data under Oman's Personal Data Protection Law.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
         {
           h: "1. Who we are",
           p: [
-            "VoxCare Technologies LLC (\"VoxCare\", \"we\") is a company registered in the Sultanate of Oman with its office at Knowledge Oasis Muscat, Al Rusayl. We operate the voxcare.om website and the VoxCare AI customer-service platform. For the purposes of Oman's Personal Data Protection Law (Royal Decree 6/2022, the \"Personal Data Protection Law\"), VoxCare acts as a controller for data about our own customers and website visitors, and as a processor for personal data contained in calls our customers ask us to handle.",
+            "AI Customer Care Technologies LLC (\"AI Customer Care\", \"we\") is a company registered in the Sultanate of Oman with its office at Knowledge Oasis Muscat, Al Rusayl. We operate the customercare.om website and the AI Customer Care service. For the purposes of Oman's Personal Data Protection Law (Royal Decree 6/2022, the \"Personal Data Protection Law\"), AI Customer Care acts as a controller for data about our own customers and website visitors, and as a processor for personal data contained in calls our customers ask us to handle.",
           ],
         },
         {
@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
         {
           h: "3. Where your data lives",
           p: [
-            "All personal data processed by the VoxCare platform is stored on infrastructure located inside the Sultanate of Oman. We do not transfer customer call data outside Oman for any purpose, including model training, analytics, or support. Where the Personal Data Protection Law requires permits or safeguards for any cross-border transfer, we simply avoid the transfer altogether.",
+            "All personal data processed by AI Customer Care is stored on infrastructure located inside the Sultanate of Oman. We do not transfer customer call data outside Oman for any purpose, including model training, analytics, or support. Where the Personal Data Protection Law requires permits or safeguards for any cross-border transfer, we simply avoid the transfer altogether.",
           ],
         },
         {
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
         {
           h: "5. Your rights",
           p: [
-            "Under the Personal Data Protection Law you may request access to, correction of, transfer of, or erasure of your personal data, and you may withdraw consent at any time. Write to salaam@voxcare.om and we will respond within the timelines set by the law. You may also lodge a complaint with the Ministry of Transport, Communications and Information Technology, the Personal Data Protection Law's supervisory authority.",
+            "Under the Personal Data Protection Law you may request access to, correction of, transfer of, or erasure of your personal data, and you may withdraw consent at any time. Write to salaam@customercare.om and we will respond within the timelines set by the law. You may also lodge a complaint with the Ministry of Transport, Communications and Information Technology, the Personal Data Protection Law's supervisory authority.",
           ],
         },
         {
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
         {
           h: "7. Changes and contact",
           p: [
-            "We will post any changes to this policy on this page and, for material changes, notify account holders by email. Questions? Contact our data protection officer at salaam@voxcare.om.",
+            "We will post any changes to this policy on this page and, for material changes, notify account holders by email. Questions? Contact our data protection officer at salaam@customercare.om.",
           ],
         },
       ]}

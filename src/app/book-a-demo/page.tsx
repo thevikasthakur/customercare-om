@@ -6,7 +6,7 @@ import { PageHero } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Book a Demo",
   description:
-    "See VoxCare's humanlike AI phone agents live, a 30-minute demo tailored to your industry, in Arabic or English.",
+    "See our humanlike AI phone agents live, a 30-minute demo tailored to your industry, in Arabic or English.",
 };
 
 export default function BookADemoPage() {

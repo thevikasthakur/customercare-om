@@ -9,7 +9,7 @@ import { CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "AI Agent Templates",
   description:
-    "Ready-made VoxCare templates to launch an AI phone agent in minutes, scheduling, lead qualification, ticketing, and more, tuned for Omani businesses.",
+    "Ready-made AI Customer Care templates for scheduling, lead qualification, ticketing, and more, tuned for Omani businesses and ready to customise in minutes.",
 };
 
 // deterministic "N+ businesses using this" per slug, phonely-style social proof
@@ -72,7 +72,7 @@ export default function TemplatesPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
             Boost productivity instantly with customisable templates designed to
-            fit any project, team, or workflow, in all nine VoxCare languages.
+            fit any project, team, or workflow, in all nine AI Customer Care languages.
           </p>
         </div>
       </section>

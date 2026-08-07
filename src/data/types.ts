@@ -1,4 +1,8 @@
-export type FaqItem = { q: string; a: string };
+export type FaqItem = {
+  q: string;
+  a: string;
+  link?: { label: string; href: string };
+};
 
 export type Section = { h?: string; p: string[]; bullets?: string[] };
 
@@ -63,7 +67,7 @@ export type Comparison = {
   competitor: string;
   title: string;
   summary: string;
-  rows: { capability: string; voxcare: string; competitor: string }[]; // 6-8
+  rows: { capability: string; aiCustomerCare: string; competitor: string }[]; // 6-8
   verdict: Section[];
 };
 

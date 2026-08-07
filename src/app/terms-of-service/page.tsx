@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The agreement governing use of the VoxCare platform.",
+  description: "The agreement governing use of AI Customer Care.",
 };
 
 export default function TermsOfServicePage() {
@@ -15,13 +15,13 @@ export default function TermsOfServicePage() {
         {
           h: "1. Agreement",
           p: [
-            "These Terms of Service form a binding agreement between VoxCare Technologies LLC and the customer identified at sign-up. By creating an account or using the platform you accept these terms. If you are acting for a company, you confirm you have authority to bind it.",
+            "These Terms of Service form a binding agreement between AI Customer Care Technologies LLC and the customer identified at sign-up. By creating an account or using the platform you accept these terms. If you are acting for a company, you confirm you have authority to bind it.",
           ],
         },
         {
           h: "2. The service",
           p: [
-            "VoxCare provides AI-powered voice agents that answer, place, and process telephone calls, together with dashboards, integrations, and APIs. We may improve or modify features, provided we do not materially reduce the core functionality you have paid for during a subscription term.",
+            "AI Customer Care provides AI-powered voice agents that answer, place, and process telephone calls, together with dashboards, integrations, and APIs. We may improve or modify features, provided we do not materially reduce the core functionality you have paid for during a subscription term.",
           ],
         },
         {

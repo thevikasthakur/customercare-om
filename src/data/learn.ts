@@ -121,7 +121,7 @@ export const learnArticles: LearnArticle[] = [
       {
         h: "Phase four: go live gradually",
         p: [
-          "Do not cut over your main number on day one. Route a controlled slice of traffic first, after-hours calls, a specific campaign number, or overflow when all humans are busy. After-hours is a particularly forgiving start: every call the agent handles at 11pm is a call that previously went to voicemail, so the baseline is zero and improvement is guaranteed.",
+          "Before this phase, make sure your SIP trunk from Omantel or Ooredoo is provisioned, since procurement is usually the longest single step and is worth starting on day one of the project. Do not cut over your main number on day one. Route a controlled slice of traffic first, after-hours calls, a specific campaign number, or overflow when all humans are busy. After-hours is a particularly forgiving start: every call the agent handles at 11pm is a call that previously went to voicemail, so the baseline is zero and improvement is guaranteed.",
           "Watch the live monitoring view during the first days and read transcripts daily during the first weeks. Early transcripts are gold: they show you the questions you never anticipated and the phrasings your callers actually use, which rarely match what your team wrote in the FAQ.",
         ],
       },

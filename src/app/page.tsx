@@ -19,34 +19,36 @@ import { site } from "@/data/site";
 import { CtaBanner, Faq } from "@/components/sections";
 
 export const metadata: Metadata = {
-  title: "VoxCare, Answer every call perfectly with AI, in Omani Arabic",
+  title: "Answer every call perfectly with AI, in Omani Arabic",
   description: site.description,
 };
 
 const homeFaqs = [
   {
-    q: "Which languages does VoxCare speak?",
-    a: "VoxCare handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, and it detects the caller's language automatically within the first seconds of the call.",
+    q: "Which languages does AI Customer Care speak?",
+    a: "AI Customer Care handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, and it detects the caller's language automatically within the first seconds of the call.",
   },
   {
-    q: "Which channels does VoxCare cover?",
+    q: "Which channels does AI Customer Care cover?",
     a: "Phone, web chat, web voice, WhatsApp, and email. One agent with one memory across every channel, plus outbound campaigns when you need to reach customers first.",
   },
   {
     q: "Where is my customer data stored?",
-    a: "Entirely inside the Sultanate of Oman. VoxCare runs on infrastructure hosted in-country, and zero customer data, recordings, transcripts, or contact details, ever leaves Oman.",
+    a: "Entirely inside the Sultanate of Oman. AI Customer Care runs on infrastructure hosted in-country, and zero customer data, recordings, transcripts, or contact details, ever leaves Oman.",
   },
   {
-    q: "Is VoxCare compliant with Oman's Personal Data Protection Law?",
-    a: "Yes. VoxCare was designed around the Personal Data Protection Law (Royal Decree 6/2022, in force since February 2023): consent capture, purpose limitation, data-subject rights workflows, and in-country residency are built into the platform, not bolted on.",
+    q: "Is AI Customer Care compliant with Oman's Personal Data Protection Law?",
+    a: "Yes. AI Customer Care was designed around the Personal Data Protection Law (Royal Decree 6/2022, in force since February 2023): consent capture, purpose limitation, data-subject rights workflows, and in-country residency are built into the platform, not bolted on.",
   },
   {
     q: "How quickly can I go live?",
-    a: "Most businesses launch in under a day. Pick a template, connect your calendar or CRM, forward your number, and your AI agent starts answering. Your first 100 minutes are free.",
+    a: "Plan for about a week. Most of that is procuring a SIP trunk from Omantel or Ooredoo, which is the connection your AI agents answer calls on. We start your build in parallel: pick a template, connect your calendar or CRM, and train the agent on your content. Once the trunk is provisioned, going live takes under a day. Web chat, WhatsApp, and email channels need no trunk and can start the same day.",
+    link: { label: "Omantel SIP trunk for business", href: "https://www.omantel.om/en/business/small-medium-enterprise/fixed-voice-sip-trunk" },
+
   },
   {
     q: "What happens when a caller needs a human?",
-    a: "VoxCare detects escalation moments and performs a warm transfer to your team with full context, the caller never repeats themselves. Outside working hours it takes a message and follows up by SMS or email.",
+    a: "AI Customer Care detects escalation moments and performs a warm transfer to your team with full context, the caller never repeats themselves. Outside working hours it takes a message and follows up by SMS or email.",
   },
 ];
 
@@ -78,7 +80,7 @@ export default function HomePage() {
                 <span className="accent-italic">perfectly</span> with AI
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
-                VoxCare&rsquo;s Customer Service Voice AI Agents handle customer
+                Our Customer Service Voice AI Agents handle customer
                 queries across phone, web chat, WhatsApp, and email, in Omani
                 Arabic and eight more languages. Ready out of the box, no
                 experts to hire.
@@ -158,7 +160,7 @@ export default function HomePage() {
               <div className="relative border border-line-strong shadow-2xl shadow-black/60">
                 <Image
                   src="/media/showcase-agent-builder.avif"
-                  alt="VoxCare agent builder dashboard (placeholder visual)"
+                  alt="Agent builder dashboard (placeholder visual)"
                   width={2216}
                   height={1385}
                   className="w-full"
@@ -197,13 +199,13 @@ export default function HomePage() {
           <div className="flex flex-wrap items-end justify-between gap-4">
             <h2 className="max-w-xl text-3xl md:text-5xl">
               From one call to <strong className="font-semibold">1M+</strong>{" "}
-              with VoxCare
+              with AI Customer Care
             </h2>
             <span className="eyebrow">Customer stories</span>
           </div>
           <p className="mt-4 max-w-lg text-muted-foreground">
             From family businesses in Muttrah to national enterprises, teams
-            rely on VoxCare for quality conversations at scale.
+            rely on AI Customer Care for quality conversations at scale.
           </p>
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.2fr_1fr]">
             <div className="group relative overflow-hidden border border-line-strong">
@@ -263,7 +265,7 @@ export default function HomePage() {
               <span className="font-semibold">one platform.</span>
             </h2>
             <p className="max-w-[18rem] text-sm leading-[1.4] text-white/80">
-              VoxCare handles the busywork of customer conversations so your
+              AI Customer Care handles the busywork of customer conversations so your
               team can focus on delivering great service across Oman, in nine
               languages, on every channel.
             </p>
@@ -275,7 +277,7 @@ export default function HomePage() {
                 <div className="h-48 md:h-[22.4rem] overflow-clip">
                   <Image
                     src="/media/bento-integrations.avif"
-                    alt="Grid of CRM, calendar, and messaging tools VoxCare connects to"
+                    alt="Grid of CRM, calendar, and messaging tools AI Customer Care connects to"
                     width={1232}
                     height={717}
                     className="h-full w-full object-cover"
@@ -286,7 +288,7 @@ export default function HomePage() {
                     Prebuilt integrations to your tools
                   </h3>
                   <p className="text-sm leading-[1.4] text-neutral-500">
-                    VoxCare integrates with your stack for real-time
+                    AI Customer Care integrates with your stack for real-time
                     appointment booking, CRM updates, and ticketing, 50+
                     tools with auto human transactions, and call data that
                     never leaves Oman.
@@ -357,7 +359,7 @@ export default function HomePage() {
                   </h3>
                   <p className="text-sm leading-[1.4] text-neutral-500">
                     One omnichannel agent with one memory, voice, web chat,
-                    WhatsApp, SMS, and email, plus an API to embed VoxCare
+                    WhatsApp, SMS, and email, plus an API to embed AI Customer Care
                     into your own products.
                   </p>
                 </div>
@@ -426,7 +428,7 @@ export default function HomePage() {
               tint: "linear-gradient(135deg, #F7FBE8 0%, #E9F5C2 55%, #D6EC8F 100%)",
             },
             {
-              pre: "Our agents used to lose evenings to routine bookings and directions. VoxCare now clears ",
+              pre: "Our agents used to lose evenings to routine bookings and directions. AI Customer Care now clears ",
               bold: "hundreds of calls a day",
               post: " and hands our team only the conversations that need a human.",
               initials: "GE",
@@ -489,14 +491,14 @@ export default function HomePage() {
         <div className="relative flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]">
           <div className="flex shrink-0 items-stretch gap-4 pr-4 [animation:marquee_44s_linear_infinite]">
             {[
-              { q: "Running VoxCare is like service on easy mode, every call answered, every lead logged.", a: "Clinic manager, Ruwi" },
+              { q: "Running AI Customer Care is like service on easy mode, every call answered, every lead logged.", a: "Clinic manager, Ruwi" },
               { q: "Callers switch between Arabic and Hindi mid-sentence. It keeps up. Our old IVR never could.", a: "Dispatch lead, Sohar" },
               { q: "Set up on Sunday, live before Monday's first delivery run.", a: "E-commerce founder, Muscat" },
               { q: "The dashboard finally tells us why customers call, not just how many hung up.", a: "CX analyst, Salalah" },
               { q: "Our after-hours line went from voicemail graveyard to our best booking channel.", a: "Spa owner, Al Mouj" },
             ]
               .concat([
-                { q: "Running VoxCare is like service on easy mode, every call answered, every lead logged.", a: "Clinic manager, Ruwi" },
+                { q: "Running AI Customer Care is like service on easy mode, every call answered, every lead logged.", a: "Clinic manager, Ruwi" },
                 { q: "Callers switch between Arabic and Hindi mid-sentence. It keeps up. Our old IVR never could.", a: "Dispatch lead, Sohar" },
                 { q: "Set up on Sunday, live before Monday's first delivery run.", a: "E-commerce founder, Muscat" },
                 { q: "The dashboard finally tells us why customers call, not just how many hung up.", a: "CX analyst, Salalah" },
@@ -555,11 +557,11 @@ export default function HomePage() {
           <div className="flex items-end justify-between gap-4">
             <div>
               <h2 className="text-3xl md:text-5xl">
-                Latest from VoxCare&rsquo;s{" "}
+                Latest from AI Customer Care&rsquo;s{" "}
                 <span className="accent-italic">research team</span>.
               </h2>
               <p className="mt-3 text-sm text-muted-foreground max-w-md">
-                VoxCare&rsquo;s research blog shares what we&rsquo;re learning about
+                AI Customer Care&rsquo;s research blog shares what we&rsquo;re learning about
                 building better AI agents for Oman.
               </p>
             </div>
@@ -612,7 +614,7 @@ export default function HomePage() {
                         VC
                       </span>
                       <span className="text-[10px] font-medium text-neutral-800/80">
-                        VoxCare Research
+                        AI Customer Care Research
                       </span>
                     </span>
                   </div>

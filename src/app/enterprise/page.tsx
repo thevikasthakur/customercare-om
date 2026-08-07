@@ -42,7 +42,7 @@ const workingCards = [
   {
     img: "/media/ent-work-1.avif",
     title: "We connect to your systems",
-    desc: "CRM, ticketing, billing, and calendars, wired for real-time read and write during the call, with residency controls that keep data in Oman.",
+    desc: "CRM, ticketing, billing, and calendars, wired for real-time read and write during the call. We also coordinate the SIP trunk from Omantel or Ooredoo that your voice channels run on, with residency controls that keep data in Oman.",
   },
   {
     img: "/media/ent-work-2.avif",
@@ -134,7 +134,7 @@ export default function EnterprisePage() {
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
                 Banks, ministries, utilities, and national brands run on
-                VoxCare. Scale from one line to a million calls without your
+                AI Customer Care. Scale from one line to a million calls without your
                 data ever leaving Omani soil.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -182,7 +182,7 @@ export default function EnterprisePage() {
               Infrastructure you can <span className="accent-italic">scale with</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              VoxCare combines dedicated capacity, a Gulf-tuned model stack, and
+              AI Customer Care combines dedicated capacity, a Gulf-tuned model stack, and
               a delivery team in Muscat, built for deployments that cannot fail.
             </p>
           </div>
@@ -198,12 +198,12 @@ export default function EnterprisePage() {
         </div>
       </section>
 
-      {/* ── What working with VoxCare looks like ── */}
+      {/* ── What working with AI Customer Care looks like ── */}
       <section className="border-b border-border py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
             <h2 className="max-w-md text-3xl md:text-5xl">
-              What working with <span className="accent-italic">VoxCare</span> looks like
+              What working with <span className="accent-italic">AI Customer Care</span> looks like
             </h2>
             <p className="max-w-sm text-sm text-muted-foreground">
               Our team handles everything from your telephone stack to your
@@ -232,7 +232,7 @@ export default function EnterprisePage() {
               <span className="accent-italic">anywhere else</span>
             </h2>
             <p className="max-w-sm text-sm text-muted-foreground">
-              The parts of VoxCare that only exist because we build for Oman
+              The parts of AI Customer Care that only exist because we build for Oman
               first, not as an afterthought to a US product.
             </p>
           </div>
@@ -258,7 +258,7 @@ export default function EnterprisePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
             <h2 className="max-w-xl text-2xl md:text-4xl">
-              Scale with security. VoxCare is audited and assessed against{" "}
+              Scale with security. AI Customer Care is audited and assessed against{" "}
               <span className="accent-italic">the standards that matter in Oman</span>.
             </h2>
             <div className="grid grid-cols-2 gap-3">
@@ -289,7 +289,7 @@ export default function EnterprisePage() {
               How we <span className="accent-italic">protect your data</span>
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-              Learn how VoxCare safeguards your data with enterprise-grade
+              Learn how AI Customer Care safeguards your data with enterprise-grade
               security and Personal Data Protection Law compliance.
             </p>
           </div>

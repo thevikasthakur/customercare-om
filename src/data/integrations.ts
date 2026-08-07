@@ -5,19 +5,19 @@ export const integrations: Integration[] = [
     slug: "able-cdp",
     name: "Able CDP",
     category: "Marketing",
-    short: "Attribute every VoxCare call to the campaign that sparked it, so your Omani marketing spend is measured end to end.",
+    short: "Attribute every AI Customer Care call to the campaign that sparked it, so your Omani marketing spend is measured end to end.",
     sections: [
       {
-        h: "What Able CDP does with VoxCare",
+        h: "What Able CDP does with AI Customer Care",
         p: [
-          "Able CDP stitches the customer journey together across ads, forms, and phone calls. When a VoxCare AI agent answers or places a call, the outcome is attached to the visitor's existing journey in Able CDP, so a booking made in Omani Arabic over the phone is credited to the ad or page that produced it.",
+          "Able CDP stitches the customer journey together across ads, forms, and phone calls. When an AI Customer Care agent answers or places a call, the outcome is attached to the visitor's existing journey in Able CDP, so a booking made in Omani Arabic over the phone is credited to the ad or page that produced it.",
           "That gives marketing teams in Oman a true picture of which channels drive phone conversations, not just clicks.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect Able CDP from the VoxCare integrations panel with an API key. After each call, VoxCare pushes a call-outcome event with the caller's phone number and your chosen tags. Able CDP matches the number to a known profile and forwards conversions to your ad platforms.",
+          "Connect Able CDP from the AI Customer Care integrations panel with an API key. After each call, AI Customer Care pushes a call-outcome event with the caller's phone number and your chosen tags. Able CDP matches the number to a known profile and forwards conversions to your ad platforms.",
         ],
         bullets: [
           "One-time API key setup, no code required",
@@ -28,7 +28,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "VoxCare shares metadata only: phone number, timestamp, call outcome, and tags. Recordings and transcripts never leave VoxCare's infrastructure in Oman, keeping the integration aligned with the Oman Personal Data Protection Law.",
+          "AI Customer Care shares metadata only: phone number, timestamp, call outcome, and tags. Recordings and transcripts never leave AI Customer Care's infrastructure in Oman, keeping the integration aligned with the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -47,16 +47,16 @@ export const integrations: Integration[] = [
     short: "Trigger ActiveCampaign automations from AI call results and keep contact records current after every conversation.",
     sections: [
       {
-        h: "What ActiveCampaign does with VoxCare",
+        h: "What ActiveCampaign does with AI Customer Care",
         p: [
-          "ActiveCampaign automations can start the moment a VoxCare call ends. A caller who asked about pricing gets a follow-up sequence in their preferred language; a customer who confirmed an appointment gets a reminder flow; a missed call adds the contact to a callback list.",
+          "ActiveCampaign automations can start the moment an AI Customer Care call ends. A caller who asked about pricing gets a follow-up sequence in their preferred language; a customer who confirmed an appointment gets a reminder flow; a missed call adds the contact to a callback list.",
           "Contacts created or updated by your AI agents flow into ActiveCampaign with tags describing what happened on the call.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Authorize VoxCare with your ActiveCampaign API URL and key, then map call outcomes to tags, lists, and custom fields. VoxCare updates the contact after each call and can fire a site-tracking event that your automations listen for.",
+          "Authorize AI Customer Care with your ActiveCampaign API URL and key, then map call outcomes to tags, lists, and custom fields. AI Customer Care updates the contact after each call and can fire a site-tracking event that your automations listen for.",
         ],
         bullets: [
           "Outcome-to-tag mapping you control",
@@ -67,7 +67,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Only contact details, tags, and short outcome summaries are synced. Full call audio and transcripts stay on VoxCare servers hosted in Oman, with residency controls that satisfy Oman Personal Data Protection Law requirements.",
+          "Only contact details, tags, and short outcome summaries are synced. Full call audio and transcripts stay on AI Customer Care servers hosted in Oman, with residency controls that satisfy Oman Personal Data Protection Law requirements.",
         ],
       },
     ],
@@ -86,27 +86,27 @@ export const integrations: Integration[] = [
     short: "Log every AI call as a structured Airtable record your team can filter, sort, and build views on.",
     sections: [
       {
-        h: "What Airtable does with VoxCare",
+        h: "What Airtable does with AI Customer Care",
         p: [
-          "Airtable becomes a living call log for your business. Each VoxCare conversation lands as a new record with caller number, language used, intent, outcome, and duration, ready for the views, dashboards, and interfaces your team already builds in Airtable.",
-          "VoxCare agents can also read from Airtable mid-call, checking an inventory base or a bookings table before answering a customer in Muscat or Salalah.",
+          "Airtable becomes a living call log for your business. Each AI Customer Care conversation lands as a new record with caller number, language used, intent, outcome, and duration, ready for the views, dashboards, and interfaces your team already builds in Airtable.",
+          "Our agents can also read from Airtable mid-call, checking an inventory base or a bookings table before answering a customer in Muscat or Salalah.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect with an Airtable personal access token, pick a base and table, and map VoxCare fields to your columns. Writes happen within seconds of a call ending; lookups run in real time during the conversation.",
+          "Connect with an Airtable personal access token, pick a base and table, and map AI Customer Care fields to your columns. Writes happen within seconds of a call ending; lookups run in real time during the conversation.",
         ],
         bullets: [
           "Field mapping with your existing column names",
           "Real-time lookups during live calls",
-          "One base per VoxCare agent or a shared table",
+          "One base per agent or a shared table",
         ],
       },
       {
         h: "Data residency for Oman",
         p: [
-          "You choose exactly which fields sync. By default only structured metadata is written; recordings and full transcripts remain inside VoxCare's Oman-hosted environment in line with the Oman Personal Data Protection Law.",
+          "You choose exactly which fields sync. By default only structured metadata is written; recordings and full transcripts remain inside AI Customer Care's Oman-hosted environment in line with the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -125,15 +125,15 @@ export const integrations: Integration[] = [
     short: "Feed AI call activity into Aritic PinPoint so lead scores and nurture journeys reflect real phone conversations.",
     sections: [
       {
-        h: "What Aritic does with VoxCare",
+        h: "What Aritic does with AI Customer Care",
         p: [
-          "Aritic PinPoint scores and nurtures leads across channels, and VoxCare adds the missing one: the phone. Calls answered by your AI agents update lead scores, move contacts between segments, and advance nurture journeys based on what was actually said and decided on the call.",
+          "Aritic PinPoint scores and nurtures leads across channels, and AI Customer Care adds the missing one: the phone. Calls answered by your AI agents update lead scores, move contacts between segments, and advance nurture journeys based on what was actually said and decided on the call.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Link your Aritic account with API credentials, then define rules such as raising a score when a caller asks about a product or dropping a contact into a re-engagement segment after a declined offer. VoxCare applies the rules automatically after each call.",
+          "Link your Aritic account with API credentials, then define rules such as raising a score when a caller asks about a product or dropping a contact into a re-engagement segment after a declined offer. AI Customer Care applies the rules automatically after each call.",
         ],
         bullets: [
           "Score adjustments driven by call intent",
@@ -144,7 +144,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Aritic receives lead identifiers, scores, and outcome tags only. Voice data and transcripts are stored solely on VoxCare infrastructure in Oman, consistent with Oman Personal Data Protection Law data-residency expectations.",
+          "Aritic receives lead identifiers, scores, and outcome tags only. Voice data and transcripts are stored solely on AI Customer Care infrastructure in Oman, consistent with Oman Personal Data Protection Law data-residency expectations.",
         ],
       },
     ],
@@ -163,15 +163,15 @@ export const integrations: Integration[] = [
     short: "Turn call follow-ups into Asana tasks automatically, assigned to the right teammate with full context.",
     sections: [
       {
-        h: "What Asana does with VoxCare",
+        h: "What Asana does with AI Customer Care",
         p: [
-          "When a caller needs something a human must handle, such as a refund review, a site visit, or a complex quote, VoxCare creates an Asana task in the right project with a summary of the request, the caller's details, and a due date. Nothing discussed on the phone falls through the cracks.",
+          "When a caller needs something a human must handle, such as a refund review, a site visit, or a complex quote, AI Customer Care creates an Asana task in the right project with a summary of the request, the caller's details, and a due date. Nothing discussed on the phone falls through the cracks.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect Asana with OAuth, choose target projects, and set routing rules, for example billing questions to the finance project and service requests to operations. Tasks include a short call summary written by the AI agent and a link back to the call record in VoxCare.",
+          "Connect Asana with OAuth, choose target projects, and set routing rules, for example billing questions to the finance project and service requests to operations. Tasks include a short call summary written by the AI agent and a link back to the call record in AI Customer Care.",
         ],
         bullets: [
           "Rule-based routing to projects and assignees",
@@ -182,7 +182,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Tasks carry summaries and contact details, not audio. Recordings stay within VoxCare's Oman data centers, and you can restrict which fields appear in task descriptions to meet your Oman Personal Data Protection Law obligations.",
+          "Tasks carry summaries and contact details, not audio. Recordings stay within AI Customer Care's Oman data centers, and you can restrict which fields appear in task descriptions to meet your Oman Personal Data Protection Law obligations.",
         ],
       },
     ],
@@ -201,15 +201,15 @@ export const integrations: Integration[] = [
     short: "Sync AI-qualified callers into Autoklose campaigns and pause sequences the moment a prospect picks up the phone.",
     sections: [
       {
-        h: "What Autoklose does with VoxCare",
+        h: "What Autoklose does with AI Customer Care",
         p: [
-          "Autoklose runs your email outreach; VoxCare covers the phone. Prospects your AI agents qualify on calls are added to the right Autoklose campaign, and contacts who speak with an agent are paused or removed from sequences so they never receive an awkward automated email after a live conversation.",
+          "Autoklose runs your email outreach; AI Customer Care covers the phone. Prospects your AI agents qualify on calls are added to the right Autoklose campaign, and contacts who speak with an agent are paused or removed from sequences so they never receive an awkward automated email after a live conversation.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect with your Autoklose API key and map call outcomes to campaign actions: add, pause, remove, or switch. VoxCare applies the action within moments of the call ending, keeping outreach and phone activity in step.",
+          "Connect with your Autoklose API key and map call outcomes to campaign actions: add, pause, remove, or switch. AI Customer Care applies the action within moments of the call ending, keeping outreach and phone activity in step.",
         ],
         bullets: [
           "Add qualified callers to campaigns",
@@ -220,7 +220,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Only contact records and outcome flags cross to Autoklose. Conversation content remains on VoxCare's Oman-hosted platform, supporting compliance with the Oman Personal Data Protection Law.",
+          "Only contact records and outcome flags cross to Autoklose. Conversation content remains on AI Customer Care's Oman-hosted infrastructure, supporting compliance with the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -239,7 +239,7 @@ export const integrations: Integration[] = [
     short: "Grow AWeber lists from phone conversations and tag subscribers by what they asked your AI agents.",
     sections: [
       {
-        h: "What AWeber does with VoxCare",
+        h: "What AWeber does with AI Customer Care",
         p: [
           "Callers who agree to hear from you by email are added to your AWeber lists directly from the conversation, with tags that capture their interest, such as a product line, a branch location, or a service plan. Your newsletters and follow-ups start from real spoken intent, not guesswork.",
         ],
@@ -247,7 +247,7 @@ export const integrations: Integration[] = [
       {
         h: "How it works",
         p: [
-          "Authorize AWeber via OAuth and choose which lists VoxCare can write to. During a call, the AI agent confirms consent verbally, collects the email address, and subscribes the caller with the tags your rules assign.",
+          "Authorize AWeber via OAuth and choose which lists AI Customer Care can write to. During a call, the AI agent confirms consent verbally, collects the email address, and subscribes the caller with the tags your rules assign.",
         ],
         bullets: [
           "Verbal consent captured before any subscription",
@@ -258,7 +258,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "AWeber receives the email address, name, and tags, nothing more. The call itself, including the recorded consent, is retained only on VoxCare servers in Oman in keeping with Oman Personal Data Protection Law requirements.",
+          "AWeber receives the email address, name, and tags, nothing more. The call itself, including the recorded consent, is retained only on AI Customer Care servers in Oman in keeping with Oman Personal Data Protection Law requirements.",
         ],
       },
     ],
@@ -274,19 +274,19 @@ export const integrations: Integration[] = [
     slug: "chrome-extension",
     name: "Chrome Extension",
     category: "Productivity",
-    short: "See live VoxCare call context and click-to-call from any web page your team already works in.",
+    short: "See live AI Customer Care call context and click-to-call from any web page your team already works in.",
     sections: [
       {
-        h: "What the Chrome Extension does with VoxCare",
+        h: "What the Chrome Extension does with AI Customer Care",
         p: [
-          "The VoxCare Chrome Extension puts your AI call platform inside the browser. Phone numbers on any page become click-to-call links handled by VoxCare, and a side panel shows recent calls, live agent activity, and AI summaries without switching tabs.",
+          "The Chrome extension puts AI Customer Care inside your browser. Phone numbers on any page become click-to-call links handled by AI Customer Care, and a side panel shows recent calls, live agent activity, and AI summaries without switching tabs.",
           "When a call is escalated from an AI agent to a person, the extension pops the caller's history so your teammate joins the conversation informed.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Install the extension from the Chrome Web Store and sign in with your VoxCare workspace. It detects phone numbers on pages you visit, offers one-click dialing through your VoxCare numbers, and surfaces call notifications in real time.",
+          "Install the extension from the Chrome Web Store and sign in with your AI Customer Care workspace. It detects phone numbers on pages you visit, offers one-click dialing through your AI Customer Care numbers, and surfaces call notifications in real time.",
         ],
         bullets: [
           "Click-to-call on any web page",
@@ -297,7 +297,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "The extension is a window into your VoxCare workspace, not a copy of it. All call data it displays is fetched from and stays on VoxCare's Oman-hosted infrastructure, so nothing is stored in the browser beyond your session.",
+          "The extension is a window into your AI Customer Care workspace, not a copy of it. All call data it displays is fetched from and stays on AI Customer Care's Oman-hosted infrastructure, so nothing is stored in the browser beyond your session.",
         ],
       },
     ],
@@ -316,26 +316,26 @@ export const integrations: Integration[] = [
     short: "Send confirmations, reminders, and follow-up texts through ClickSend the moment an AI call wraps up.",
     sections: [
       {
-        h: "What ClickSend SMS does with VoxCare",
+        h: "What ClickSend SMS does with AI Customer Care",
         p: [
-          "A phone call often needs a written follow-up. Through ClickSend, VoxCare sends the caller an SMS right after the conversation: an appointment confirmation, a payment link, directions to your branch, or a summary of what was agreed, in Arabic or English to match the call.",
+          "A phone call often needs a written follow-up. Through ClickSend, AI Customer Care sends the caller an SMS right after the conversation: an appointment confirmation, a payment link, directions to your branch, or a summary of what was agreed, in Arabic or English to match the call.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Add your ClickSend credentials, write message templates with variables such as name, time, and location, and attach them to call outcomes. When an outcome fires, VoxCare fills the template and ClickSend delivers the text to Omani and international numbers.",
+          "Add your ClickSend credentials, write message templates with variables such as name, time, and location, and attach them to call outcomes. When an outcome fires, AI Customer Care fills the template and ClickSend delivers the text to Omani and international numbers.",
         ],
         bullets: [
           "Template messages with call variables",
           "Language matched to the conversation",
-          "Delivery status visible in VoxCare",
+          "Delivery status visible in AI Customer Care",
         ],
       },
       {
         h: "Data residency for Oman",
         p: [
-          "ClickSend receives only the destination number and the rendered message text. Call recordings and transcripts never pass through the SMS pipeline and remain hosted in Oman under VoxCare's Oman Personal Data Protection Law controls.",
+          "ClickSend receives only the destination number and the rendered message text. Call recordings and transcripts never pass through the SMS pipeline and remain hosted in Oman under our Personal Data Protection Law controls.",
         ],
       },
     ],
@@ -344,7 +344,7 @@ export const integrations: Integration[] = [
       "Confirm bookings by text",
       "Deliver payment and info links",
       "Match SMS language to the call",
-      "Track delivery status in VoxCare",
+      "Track delivery status in AI Customer Care",
     ],
   },
   {
@@ -354,7 +354,7 @@ export const integrations: Integration[] = [
     short: "Convert customer requests from AI calls into ClickUp tasks with statuses, assignees, and priorities set by rule.",
     sections: [
       {
-        h: "What ClickUp does with VoxCare",
+        h: "What ClickUp does with AI Customer Care",
         p: [
           "Every actionable request that reaches your AI phone agents can become a ClickUp task: a support ticket in your service space, a lead in your sales list, or an internal follow-up. Priorities and statuses are set from the call, so an urgent complaint arrives flagged as urgent.",
         ],
@@ -362,7 +362,7 @@ export const integrations: Integration[] = [
       {
         h: "How it works",
         p: [
-          "Connect ClickUp with OAuth, pick spaces and lists, and define how call intents map to task templates. VoxCare fills in the caller's details, an AI summary, and custom fields, then assigns the task according to your routing rules.",
+          "Connect ClickUp with OAuth, pick spaces and lists, and define how call intents map to task templates. AI Customer Care fills in the caller's details, an AI summary, and custom fields, then assigns the task according to your routing rules.",
         ],
         bullets: [
           "Intent-to-list routing rules",
@@ -373,7 +373,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Tasks contain summaries and structured fields only. The underlying audio and full transcript stay on VoxCare's servers in Oman, and field-level controls let you exclude any personal data your Oman Personal Data Protection Law policy requires.",
+          "Tasks contain summaries and structured fields only. The underlying audio and full transcript stay on AI Customer Care's servers in Oman, and field-level controls let you exclude any personal data your Oman Personal Data Protection Law policy requires.",
         ],
       },
     ],
@@ -382,7 +382,7 @@ export const integrations: Integration[] = [
       "Set priority from call urgency",
       "Auto-assign by routing rules",
       "Fill custom fields from call data",
-      "Link tasks to VoxCare call records",
+      "Link tasks to AI Customer Care call records",
     ],
   },
   {
@@ -392,15 +392,15 @@ export const integrations: Integration[] = [
     short: "Log AI calls as native Close activities and keep lead statuses moving without manual data entry.",
     sections: [
       {
-        h: "What Close does with VoxCare",
+        h: "What Close does with AI Customer Care",
         p: [
-          "Close is built around calling, and VoxCare slots straight into that rhythm. Conversations handled by your AI agents are logged as call activities on the matching lead, complete with direction, duration, outcome, and an AI-written note, and lead statuses advance based on what happened.",
+          "Close is built around calling, and AI Customer Care slots straight into that rhythm. Conversations handled by your AI agents are logged as call activities on the matching lead, complete with direction, duration, outcome, and an AI-written note, and lead statuses advance based on what happened.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect with a Close API key. VoxCare matches callers to leads by phone number, creates new leads for unknown numbers if you allow it, and writes the activity within seconds of hang-up. Status changes follow the outcome map you configure.",
+          "Connect with a Close API key. AI Customer Care matches callers to leads by phone number, creates new leads for unknown numbers if you allow it, and writes the activity within seconds of hang-up. Status changes follow the outcome map you configure.",
         ],
         bullets: [
           "Phone-number lead matching",
@@ -411,7 +411,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Close stores the activity metadata and notes you approve; recordings do not leave VoxCare. All voice data is retained in Oman, aligned with the Oman Personal Data Protection Law and your internal residency rules.",
+          "Close stores the activity metadata and notes you approve; recordings do not leave AI Customer Care. All voice data is retained in Oman, aligned with the Oman Personal Data Protection Law and your internal residency rules.",
         ],
       },
     ],
@@ -430,9 +430,9 @@ export const integrations: Integration[] = [
     short: "Add callers to ConvertKit with tags from the conversation and kick off the right email sequence automatically.",
     sections: [
       {
-        h: "What ConvertKit does with VoxCare",
+        h: "What ConvertKit does with AI Customer Care",
         p: [
-          "ConvertKit sequences work best when they start from real intent, and a phone call is intent at its clearest. VoxCare subscribes consenting callers to your ConvertKit account, tags them by what they discussed, and starts the sequence that fits, whether that is onboarding, a product waitlist, or a local event in Muscat.",
+          "ConvertKit sequences work best when they start from real intent, and a phone call is intent at its clearest. AI Customer Care subscribes consenting callers to your ConvertKit account, tags them by what they discussed, and starts the sequence that fits, whether that is onboarding, a product waitlist, or a local event in Muscat.",
         ],
       },
       {
@@ -449,7 +449,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "ConvertKit receives the subscriber's email, name, and tags only. The spoken conversation, including recorded consent, stays within VoxCare's Oman-hosted environment per Oman Personal Data Protection Law requirements.",
+          "ConvertKit receives the subscriber's email, name, and tags only. The spoken conversation, including recorded consent, stays within AI Customer Care's Oman-hosted environment per Oman Personal Data Protection Law requirements.",
         ],
       },
     ],
@@ -468,15 +468,15 @@ export const integrations: Integration[] = [
     short: "Keep Copper records fresh with AI call logs, new leads, and pipeline updates synced after every conversation.",
     sections: [
       {
-        h: "What Copper does with VoxCare",
+        h: "What Copper does with AI Customer Care",
         p: [
-          "Copper users live in Google Workspace, and VoxCare keeps their CRM current without leaving it. Calls handled by AI agents appear as activities on people and companies, unknown callers become leads, and opportunities move stages when a call changes the deal.",
+          "Copper users live in Google Workspace, and AI Customer Care keeps their CRM current without leaving it. Calls handled by AI agents appear as activities on people and companies, unknown callers become leads, and opportunities move stages when a call changes the deal.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect with your Copper API key and email. VoxCare matches callers to people by phone number, logs the activity with an AI summary, and applies your pipeline rules, for example moving an opportunity to Negotiation after a pricing call.",
+          "Connect with your Copper API key and email. AI Customer Care matches callers to people by phone number, logs the activity with an AI summary, and applies your pipeline rules, for example moving an opportunity to Negotiation after a pricing call.",
         ],
         bullets: [
           "Activity logging on people and companies",
@@ -487,7 +487,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Only structured records and summaries reach Copper. Recordings and transcripts are kept exclusively on VoxCare infrastructure in Oman, supporting your obligations under the Oman Personal Data Protection Law.",
+          "Only structured records and summaries reach Copper. Recordings and transcripts are kept exclusively on AI Customer Care infrastructure in Oman, supporting your obligations under the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -506,15 +506,15 @@ export const integrations: Integration[] = [
     short: "Send call events into Drip so e-commerce workflows react to what customers say on the phone.",
     sections: [
       {
-        h: "What Drip does with VoxCare",
+        h: "What Drip does with AI Customer Care",
         p: [
-          "Drip automates e-commerce marketing on events, and VoxCare supplies a rich new event source: the phone call. An order inquiry, a delivery question, or a product complaint handled by your AI agent becomes a custom event in Drip that your workflows can branch on.",
+          "Drip automates e-commerce marketing on events, and AI Customer Care supplies a rich new event source: the phone call. An order inquiry, a delivery question, or a product complaint handled by your AI agent becomes a custom event in Drip that your workflows can branch on.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect with your Drip API token and account ID, then choose which call outcomes fire events and which fields ride along. VoxCare identifies the customer by phone or email and records the event on their Drip profile in near real time.",
+          "Connect with your Drip API token and account ID, then choose which call outcomes fire events and which fields ride along. AI Customer Care identifies the customer by phone or email and records the event on their Drip profile in near real time.",
         ],
         bullets: [
           "Custom events per call outcome",
@@ -525,7 +525,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Events carry outcome names and the properties you whitelist, never audio or transcripts. Conversation content stays on VoxCare's Oman-hosted platform in line with the Oman Personal Data Protection Law.",
+          "Events carry outcome names and the properties you whitelist, never audio or transcripts. Conversation content stays on AI Customer Care's Oman-hosted infrastructure in line with the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -544,7 +544,7 @@ export const integrations: Integration[] = [
     short: "Let AI agents book, reschedule, and cancel appointments directly on your Google Calendar during the call.",
     sections: [
       {
-        h: "What Google Calendar does with VoxCare",
+        h: "What Google Calendar does with AI Customer Care",
         p: [
           "Your AI phone agents become full-time schedulers. During a call, in Omani Arabic or any of eight other languages, the agent checks real availability on your Google Calendar, offers open slots, books the appointment, and handles reschedules and cancellations, all before the caller hangs up.",
         ],
@@ -563,7 +563,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Calendar events contain the booking details you configure, nothing else. The voice conversation that produced the booking is stored only in Oman on VoxCare infrastructure, consistent with Oman Personal Data Protection Law residency rules.",
+          "Calendar events contain the booking details you configure, nothing else. The voice conversation that produced the booking is stored only in Oman on AI Customer Care infrastructure, consistent with Oman Personal Data Protection Law residency rules.",
         ],
       },
     ],
@@ -582,7 +582,7 @@ export const integrations: Integration[] = [
     short: "Sync contacts, log calls, and update deals in HubSpot automatically after every AI conversation.",
     sections: [
       {
-        h: "What HubSpot does with VoxCare",
+        h: "What HubSpot does with AI Customer Care",
         p: [
           "HubSpot becomes the system of record for everything your AI agents handle. Calls are logged on contact timelines with AI summaries, new callers become contacts, deals progress through your pipeline based on outcomes, and tickets open when a customer reports a problem.",
           "Your Omani sales and service teams see the full phone history next to emails and meetings, in the CRM they already use.",
@@ -591,7 +591,7 @@ export const integrations: Integration[] = [
       {
         h: "How it works",
         p: [
-          "Install the VoxCare app from the integrations panel using HubSpot OAuth. Map call outcomes to deal stages, ticket pipelines, and contact properties. Sync is bidirectional for contact data, so agents greet repeat callers by name and know their history.",
+          "Install the AI Customer Care app from the integrations panel using HubSpot OAuth. Map call outcomes to deal stages, ticket pipelines, and contact properties. Sync is bidirectional for contact data, so agents greet repeat callers by name and know their history.",
         ],
         bullets: [
           "Timeline logging with AI summaries",
@@ -602,7 +602,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "HubSpot receives structured records and summaries you approve, while recordings and transcripts remain on VoxCare's Oman-hosted platform. Property-level controls help you meet Oman Personal Data Protection Law minimization requirements.",
+          "HubSpot receives structured records and summaries you approve, while recordings and transcripts remain on AI Customer Care's Oman-hosted infrastructure. Property-level controls help you meet Oman Personal Data Protection Law minimization requirements.",
         ],
       },
     ],
@@ -621,15 +621,15 @@ export const integrations: Integration[] = [
     short: "Grow Mailchimp audiences from phone calls and segment them by what customers actually asked about.",
     sections: [
       {
-        h: "What Mailchimp does with VoxCare",
+        h: "What Mailchimp does with AI Customer Care",
         p: [
-          "Phone callers are some of your warmest contacts, and Mailchimp helps you keep the conversation going. VoxCare adds consenting callers to your audiences, applies tags and merge fields from the call, and can trigger a customer journey the moment the subscription lands.",
+          "Phone callers are some of your warmest contacts, and Mailchimp helps you keep the conversation going. AI Customer Care adds consenting callers to your audiences, applies tags and merge fields from the call, and can trigger a customer journey the moment the subscription lands.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect Mailchimp with OAuth and select target audiences. Your AI agent confirms consent on the call, collects the email address, and VoxCare subscribes the contact with tags such as product interest, branch, or preferred language for future campaigns.",
+          "Connect Mailchimp with OAuth and select target audiences. Your AI agent confirms consent on the call, collects the email address, and AI Customer Care subscribes the contact with tags such as product interest, branch, or preferred language for future campaigns.",
         ],
         bullets: [
           "Audience selection per agent or call type",
@@ -640,7 +640,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Mailchimp holds the subscriber profile only. The call recording, including verbal consent, stays on VoxCare servers in Oman, keeping your marketing stack aligned with the Oman Personal Data Protection Law.",
+          "Mailchimp holds the subscriber profile only. The call recording, including verbal consent, stays on AI Customer Care servers in Oman, keeping your marketing stack aligned with the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -659,15 +659,15 @@ export const integrations: Integration[] = [
     short: "Book meetings on Outlook calendars and send follow-up emails from your own domain after AI calls.",
     sections: [
       {
-        h: "What Microsoft Outlook does with VoxCare",
+        h: "What Microsoft Outlook does with AI Customer Care",
         p: [
-          "For teams on Microsoft 365, VoxCare works directly with Outlook. AI agents check calendar availability and book appointments during the call, and follow-up emails, confirmations, summaries, or requested documents go out from your organization's own mailbox rather than a third-party sender.",
+          "For teams on Microsoft 365, AI Customer Care works directly with Outlook. AI agents check calendar availability and book appointments during the call, and follow-up emails, confirmations, summaries, or requested documents go out from your organization's own mailbox rather than a third-party sender.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect through Microsoft 365 with admin-consented OAuth. Choose which mailboxes and calendars VoxCare may use, set scheduling rules, and pick email templates for each call outcome. Bookings and messages are created through Microsoft Graph within seconds of the call.",
+          "Connect through Microsoft 365 with admin-consented OAuth. Choose which mailboxes and calendars AI Customer Care may use, set scheduling rules, and pick email templates for each call outcome. Bookings and messages are created through Microsoft Graph within seconds of the call.",
         ],
         bullets: [
           "Outlook calendar booking mid-call",
@@ -678,7 +678,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Outlook receives event details and the email content you template, never call audio. Conversations remain stored in Oman on VoxCare infrastructure, supporting Oman Personal Data Protection Law compliance across your Microsoft estate.",
+          "Outlook receives event details and the email content you template, never call audio. Conversations remain stored in Oman on AI Customer Care infrastructure, supporting Oman Personal Data Protection Law compliance across your Microsoft estate.",
         ],
       },
     ],
@@ -691,15 +691,15 @@ export const integrations: Integration[] = [
     ],
   },
   {
-    slug: "pipedrive-voxcare-integration",
+    slug: "pipedrive-ai-customer-care-integration",
     name: "Pipedrive",
     category: "CRM",
     short: "Create deals, log activities, and move your Pipedrive pipeline forward from every AI-handled call.",
     sections: [
       {
-        h: "What Pipedrive does with VoxCare",
+        h: "What Pipedrive does with AI Customer Care",
         p: [
-          "Pipedrive's pipeline stays honest when every phone conversation is captured. VoxCare logs AI calls as activities on persons and deals, creates new deals when a caller shows buying intent, and nudges deals between stages according to the outcome of the conversation.",
+          "Pipedrive's pipeline stays honest when every phone conversation is captured. AI Customer Care logs AI calls as activities on persons and deals, creates new deals when a caller shows buying intent, and nudges deals between stages according to the outcome of the conversation.",
           "Salespeople in Oman start their day with a pipeline that already reflects last night's after-hours calls answered by AI.",
         ],
       },
@@ -717,7 +717,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Pipedrive stores deals, activities, and notes; VoxCare keeps the voice data. Recordings and transcripts stay on Oman-hosted servers, satisfying the residency controls expected under the Oman Personal Data Protection Law.",
+          "Pipedrive stores deals, activities, and notes; AI Customer Care keeps the voice data. Recordings and transcripts stay on Oman-hosted servers, satisfying the residency controls expected under the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -730,21 +730,21 @@ export const integrations: Integration[] = [
     ],
   },
   {
-    slug: "salesforce-voxcare-integration",
+    slug: "salesforce-ai-customer-care-integration",
     name: "Salesforce",
     category: "CRM",
     short: "Log AI calls as Salesforce tasks, update leads and cases, and give agents CRM context on every call.",
     sections: [
       {
-        h: "What Salesforce does with VoxCare",
+        h: "What Salesforce does with AI Customer Care",
         p: [
-          "VoxCare treats Salesforce as the enterprise source of truth. Calls are logged as completed tasks against leads, contacts, and accounts; cases open or update when customers report issues; and opportunity fields change when a call moves a deal. Before answering, AI agents can read the caller's Salesforce history to personalize the conversation.",
+          "AI Customer Care treats Salesforce as the enterprise source of truth. Calls are logged as completed tasks against leads, contacts, and accounts; cases open or update when customers report issues; and opportunity fields change when a call moves a deal. Before answering, AI agents can read the caller's Salesforce history to personalize the conversation.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect via Salesforce OAuth with a dedicated integration user and granular object permissions. Field mappings and flow triggers are configured in VoxCare, so your admins keep full control of what writes where, and existing Salesforce automations fire as usual.",
+          "Connect via Salesforce OAuth with a dedicated integration user and granular object permissions. Field mappings and flow triggers are configured in AI Customer Care, so your admins keep full control of what writes where, and existing Salesforce automations fire as usual.",
         ],
         bullets: [
           "Task logging on leads, contacts, and accounts",
@@ -756,7 +756,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Salesforce receives structured fields, task subjects, and approved summaries only. All audio and transcripts remain on VoxCare's platform hosted in Oman, and field-level sync controls support Oman Personal Data Protection Law data-minimization policies.",
+          "Salesforce receives structured fields, task subjects, and approved summaries only. All audio and transcripts remain on AI Customer Care's infrastructure hosted in Oman, and field-level sync controls support Oman Personal Data Protection Law data-minimization policies.",
         ],
       },
     ],
@@ -775,15 +775,15 @@ export const integrations: Integration[] = [
     short: "Get real-time Slack alerts for escalations, missed calls, and daily AI call digests in your team channels.",
     sections: [
       {
-        h: "What Slack does with VoxCare",
+        h: "What Slack does with AI Customer Care",
         p: [
-          "Slack keeps your team in the loop without opening another dashboard. VoxCare posts to the channels you choose when a call needs a human, when a VIP customer rings, or when a caller reports an urgent issue, and sends a daily digest of call volume, outcomes, and languages handled.",
+          "Slack keeps your team in the loop without opening another dashboard. AI Customer Care posts to the channels you choose when a call needs a human, when a VIP customer rings, or when a caller reports an urgent issue, and sends a daily digest of call volume, outcomes, and languages handled.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Add the VoxCare app to your Slack workspace, pick channels per alert type, and set the rules, for example escalations to a support channel and new qualified leads to sales. Messages include the AI summary and a button to open the full call in VoxCare.",
+          "Add the AI Customer Care app to your Slack workspace, pick channels per alert type, and set the rules, for example escalations to a support channel and new qualified leads to sales. Messages include the AI summary and a button to open the full call in AI Customer Care.",
         ],
         bullets: [
           "Channel routing per alert type",
@@ -794,7 +794,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Slack messages contain summaries and metadata, never audio files. Recordings and transcripts stay behind VoxCare's Oman-hosted workspace, which team members open with their own permissions, in line with the Oman Personal Data Protection Law.",
+          "Slack messages contain summaries and metadata, never audio files. Recordings and transcripts stay behind AI Customer Care's Oman-hosted workspace, which team members open with their own permissions, in line with the Oman Personal Data Protection Law.",
         ],
       },
     ],
@@ -810,18 +810,18 @@ export const integrations: Integration[] = [
     slug: "zapier",
     name: "Zapier",
     category: "Automation",
-    short: "Connect VoxCare call events to thousands of apps with Zaps, no code and no waiting on custom builds.",
+    short: "Connect AI Customer Care call events to thousands of apps with Zaps, no code and no waiting on custom builds.",
     sections: [
       {
-        h: "What Zapier does with VoxCare",
+        h: "What Zapier does with AI Customer Care",
         p: [
-          "Zapier extends VoxCare to the long tail of tools your business runs on. Call events, such as call completed, appointment booked, lead qualified, or escalation raised, become Zap triggers, and Zapier actions can also start outbound VoxCare calls, for instance dialing a new form lead within a minute of submission.",
+          "Zapier extends AI Customer Care to the long tail of tools your business runs on. Call events, such as call completed, appointment booked, lead qualified, or escalation raised, become Zap triggers, and Zapier actions can also start outbound AI Customer Care calls, for instance dialing a new form lead within a minute of submission.",
         ],
       },
       {
         h: "How it works",
         p: [
-          "Connect VoxCare in Zapier with an API key, pick a trigger event, and map the call fields into any downstream app: a spreadsheet, an accounting tool, a WhatsApp platform, or your own webhook. Actions let other apps enqueue calls for your AI agents.",
+          "Connect AI Customer Care in Zapier with an API key, pick a trigger event, and map the call fields into any downstream app: a spreadsheet, an accounting tool, a WhatsApp platform, or your own webhook. Actions let other apps enqueue calls for your AI agents.",
         ],
         bullets: [
           "Triggers for every major call event",
@@ -832,7 +832,7 @@ export const integrations: Integration[] = [
       {
         h: "Data residency for Oman",
         p: [
-          "Zaps carry only the metadata fields you map; recordings and transcripts are never exposed through the Zapier connection. Voice data stays on VoxCare's Oman infrastructure, keeping automations Oman Personal Data Protection Law friendly.",
+          "Zaps carry only the metadata fields you map; recordings and transcripts are never exposed through the Zapier connection. Voice data stays on AI Customer Care's Oman infrastructure, keeping automations Oman Personal Data Protection Law friendly.",
         ],
       },
     ],

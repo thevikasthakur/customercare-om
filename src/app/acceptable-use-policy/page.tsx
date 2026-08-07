@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Acceptable Use Policy",
-  description: "What you may and may not do with VoxCare's AI calling platform.",
+  description: "What you may and may not do with AI Customer Care.",
 };
 
 export default function AcceptableUsePolicyPage() {
@@ -15,12 +15,12 @@ export default function AcceptableUsePolicyPage() {
         {
           h: "1. Purpose",
           p: [
-            "This policy protects callers, customers, and the telephone network from misuse of AI calling technology. It applies to everyone who uses the VoxCare platform and is part of our Terms of Service.",
+            "This policy protects callers, customers, and the telephone network from misuse of AI calling technology. It applies to everyone who uses AI Customer Care and is part of our Terms of Service.",
           ],
         },
         {
           h: "2. Prohibited uses",
-          p: ["You must not use VoxCare to:"],
+          p: ["You must not use AI Customer Care to:"],
           bullets: [
             "Make calls that conceal or misrepresent that the caller is an automated assistant when disclosure is required.",
             "Spoof caller ID, impersonate people or institutions, or clone a voice without the documented consent of its owner.",
@@ -39,7 +39,7 @@ export default function AcceptableUsePolicyPage() {
         {
           h: "4. Enforcement",
           p: [
-            "We may suspend or terminate accounts that violate this policy, immediately in serious cases. Where the law requires, we cooperate with the Telecommunications Regulatory Authority and other Omani authorities. Report suspected abuse to salaam@voxcare.om.",
+            "We may suspend or terminate accounts that violate this policy, immediately in serious cases. Where the law requires, we cooperate with the Telecommunications Regulatory Authority and other Omani authorities. Report suspected abuse to salaam@customercare.om.",
           ],
         },
       ]}

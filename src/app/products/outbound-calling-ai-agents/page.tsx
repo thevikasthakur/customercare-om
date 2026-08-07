@@ -62,7 +62,7 @@ const contextCards = [
   },
   {
     title: "Conversation memory",
-    desc: "If the customer spoke to VoxCare last week, the agent remembers, and continues rather than restarts.",
+    desc: "If the customer spoke to AI Customer Care last week, the agent remembers, and continues rather than restarts.",
   },
   {
     title: "Instant booking",
@@ -93,8 +93,13 @@ const scaleFeatures = [
 
 const outboundFaqs = [
   {
+    q: "How quickly can we launch our first campaign?",
+    a: "Allow about a week. Outbound dialling runs over a SIP trunk from Omantel or Ooredoo, and procuring it takes most of that time. We build your campaign, scripts, and calling windows while you wait, so once the trunk is provisioned the first campaign can start within a day.",
+    link: { label: "Omantel SIP trunk for business", href: "https://www.omantel.om/en/business/small-medium-enterprise/fixed-voice-sip-trunk" },
+  },
+  {
     q: "Is outbound AI calling allowed in Oman?",
-    a: "Yes, within the rules: calls must respect consent, identify themselves honestly, and follow telecom regulations and the Personal Data Protection Law. VoxCare bakes disclosure, consent records, and calling-hour limits into every campaign. See our Oman guideline page for the details.",
+    a: "Yes, within the rules: calls must respect consent, identify themselves honestly, and follow telecom regulations and the Personal Data Protection Law. AI Customer Care bakes disclosure, consent records, and calling-hour limits into every campaign. See our Oman guideline page for the details.",
   },
   {
     q: "How many calls can it place at once?",

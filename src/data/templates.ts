@@ -11,7 +11,7 @@ export const templates: Template[] = [
       {
         h: "What this template does",
         p: [
-          "Contractors lose work every time a call rings out while the crew is on a roof or under a slab. This template answers every inbound call instantly, greets the caller in Omani Arabic, Gulf Arabic, English, Hindi, or any of VoxCare's supported languages, and books site visits directly into your calendar.",
+          "Contractors lose work every time a call rings out while the crew is on a roof or under a slab. This template answers every inbound call instantly, greets the caller in Omani Arabic, Gulf Arabic, English, Hindi, or any of AI Customer Care's supported languages, and books site visits directly into your calendar.",
           "The agent collects the job type, location, and preferred timing, checks your real availability, and confirms the slot before the call ends. No voicemail, no missed leads, no double bookings.",
         ],
         bullets: [
@@ -30,7 +30,7 @@ export const templates: Template[] = [
       {
         h: "Setup",
         p: [
-          "Connect your Omani business number or get a new local one, link your calendar, and paste in your service list and coverage areas. Most contractors go live in under an hour, and pricing is billed in OMR with no per-seat fees.",
+          "Connect your Omani business number or get a new local one, link your calendar, and paste in your service list and coverage areas. Setup takes under an hour, and once your SIP trunk from Omantel or Ooredoo is provisioned, roughly a week, the agent starts answering. Pricing is billed in OMR with no per-seat fees.",
         ],
       },
     ],
@@ -71,7 +71,7 @@ export const templates: Template[] = [
       {
         h: "Setup",
         p: [
-          "Upload your service menu and coverage zones, connect your scheduling tool, and set your emergency escalation number. The agent starts taking service requests the same day.",
+          "Upload your service menu and coverage zones, connect your scheduling tool, and set your emergency escalation number. Once your SIP trunk is provisioned, the agent starts taking service requests.",
         ],
       },
     ],
@@ -84,7 +84,7 @@ export const templates: Template[] = [
     ],
   },
   {
-    slug: "voxcare-building-management-template",
+    slug: "ai-customer-care-building-management-template",
     name: "Building Management & Tenant Calls",
     industry: "Property & Facilities Management",
     short: "Handle tenant maintenance requests, complaints, and building enquiries with a multilingual AI agent that never sleeps.",
@@ -305,7 +305,7 @@ export const templates: Template[] = [
       {
         h: "Who it's for in Oman",
         p: [
-          "Designed for skincare clinics, dermatology practices, and medispas in Muscat, Seeb, and Salalah. Clients often prefer to discuss appointments in Omani Arabic or English, and the agent maintains a warm, discreet tone in both, along with the other languages VoxCare supports.",
+          "Designed for skincare clinics, dermatology practices, and medispas in Muscat, Seeb, and Salalah. Clients often prefer to discuss appointments in Omani Arabic or English, and the agent maintains a warm, discreet tone in both, along with the other languages AI Customer Care supports.",
           "Client contact details and appointment histories are stored in Oman and handled under Personal Data Protection Law-aligned safeguards, which is essential for a clinic environment.",
         ],
       },
@@ -466,7 +466,7 @@ export const templates: Template[] = [
       {
         h: "Who it's for in Oman",
         p: [
-          "For counseling practices, therapy centers, and wellness clinics across Oman. Many clients prefer to discuss something this personal in their own language, and the agent offers Omani Arabic, English, Hindi, Malayalam, and the rest of VoxCare's languages, letting callers choose comfort over convenience.",
+          "For counseling practices, therapy centers, and wellness clinics across Oman. Many clients prefer to discuss something this personal in their own language, and the agent offers Omani Arabic, English, Hindi, Malayalam, and the rest of AI Customer Care's languages, letting callers choose comfort over convenience.",
           "Sensitive personal data is exactly what the Oman Personal Data Protection Law exists to protect: all call data is hosted in Oman and handled with strict access controls.",
         ],
       },

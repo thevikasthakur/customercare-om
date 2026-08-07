@@ -156,7 +156,7 @@ export default function ChatbotPage() {
               muted
               playsInline
               poster="/media/chat-om-poster.webp"
-              aria-label="VoxCare chatbot answering a customer conversation (product demo video)"
+              aria-label="AI Customer Care chatbot answering a customer conversation (product demo video)"
             >
               <source src="/media/chat-om-hero.mp4" type="video/mp4; codecs=av01.0.05M.08" />
               <source src="/media/chat-om-hero-h264.mp4" type="video/mp4" />

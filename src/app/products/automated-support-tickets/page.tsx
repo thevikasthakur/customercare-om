@@ -74,7 +74,7 @@ const ticketFaqs = [
   },
   {
     q: "Does it work with my existing helpdesk?",
-    a: "VoxCare can run ticketing end-to-end or push tickets into the helpdesk you already use through our integrations and API.",
+    a: "AI Customer Care can run ticketing end-to-end or push tickets into the helpdesk you already use through our integrations and API.",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function TicketsPage() {
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
                 Customers do not want to fill out a support form. They just want
-                help. VoxCare hears the problem in the conversation, writes the
+                help. AI Customer Care hears the problem in the conversation, writes the
                 ticket, scores the urgency, and routes it to the right person.{" "}
                 <strong className="text-foreground">Before the call even ends.</strong>
               </p>
@@ -117,7 +117,7 @@ export default function TicketsPage() {
                 {[
                   { v: "92%+", l: "Detection accuracy" },
                   { v: "40%", l: "Auto-resolved" },
-                  { v: "5 min", l: "To go live" },
+                  { v: "Same day", l: "On chat and email" },
                 ].map((m) => (
                   <div key={m.l}>
                     <p className="font-display text-2xl md:text-3xl font-medium tracking-tight">{m.v}</p>
@@ -131,7 +131,7 @@ export default function TicketsPage() {
             <div className="overflow-clip rounded-xl border border-black/10 bg-white p-2 shadow-[0_1px_4px_rgba(12,12,13,0.05)]">
               <Image
                 src="/media/tickets-screenshot.png"
-                alt="VoxCare tickets board with open, in-progress, and resolved columns (placeholder visual)"
+                alt="AI Customer Care tickets board with open, in-progress, and resolved columns (placeholder visual)"
                 width={1920}
                 height={1200}
                 className="w-full rounded-lg"
@@ -160,7 +160,7 @@ export default function TicketsPage() {
             written by the time they hang up.
           </p>
           <p className="mt-5 font-semibold">
-            With VoxCare it is. Because the AI is already on the conversation.
+            With AI Customer Care it is. Because the AI is already on the conversation.
           </p>
         </div>
       </section>

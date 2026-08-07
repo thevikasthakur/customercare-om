@@ -48,7 +48,7 @@ const studies: CaseStudy[] = [
     quote:
       "Small shops here cannot afford a missed call, that is the whole sale gone. ",
     emphasis:
-      "Since VoxCare, our merchant partners capture every lead, even at 2am during Ramadan.",
+      "Since AI Customer Care, our merchant partners capture every lead, even at 2am during Ramadan.",
     role: "VP of Partnerships",
     org: "Omani commerce platform",
     metrics: [

@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Call & Lead Terms (Seller)",
-  description: "Terms applying to partners who supply calls and leads through VoxCare.",
+  description: "Terms applying to partners who supply calls and leads through AI Customer Care.",
 };
 
 export default function CallsLeadsSellerPage() {
@@ -15,7 +15,7 @@ export default function CallsLeadsSellerPage() {
         {
           h: "1. Scope",
           p: [
-            "These terms apply when you supply calls or leads into VoxCare's platform for routing to buyers. They supplement the Terms of Service.",
+            "These terms apply when you supply calls or leads into AI Customer Care for routing to buyers. They supplement the Terms of Service.",
           ],
         },
         {
@@ -37,7 +37,7 @@ export default function CallsLeadsSellerPage() {
         {
           h: "4. Compliance",
           p: [
-            "You warrant compliance with Oman's Personal Data Protection Law, telecommunications regulations, and the laws of each jurisdiction where leads are collected. You indemnify VoxCare against claims arising from your origination practices.",
+            "You warrant compliance with Oman's Personal Data Protection Law, telecommunications regulations, and the laws of each jurisdiction where leads are collected. You indemnify AI Customer Care against claims arising from your origination practices.",
           ],
         },
       ]}

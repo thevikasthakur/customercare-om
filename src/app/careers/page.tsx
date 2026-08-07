@@ -5,7 +5,7 @@ import { PageHero, CardGrid, CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Join the VoxCare team in Muscat, engineering, linguistics, and customer success roles building Oman's voice AI platform.",
+    "Join the AI Customer Care team in Muscat, engineering, linguistics, and customer success roles building Oman's voice AI platform.",
 };
 
 const roles = [

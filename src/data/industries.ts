@@ -5,7 +5,7 @@ export const industries: Industry[] = [
     slug: "car-dealers-repair-ai-answering-service",
     name: "Car Dealers & Repair Shops",
     heroTitle: "AI answering service for car dealers and repair shops in Oman",
-    heroSub: "From showroom enquiries in Muscat to breakdown calls on the Sohar highway, VoxCare picks up instantly, books service slots, and quotes opening hours in the caller's own language.",
+    heroSub: "From showroom enquiries in Muscat to breakdown calls on the Sohar highway, AI Customer Care picks up instantly, books service slots, and quotes opening hours in the caller's own language.",
     painPoints: [
       { title: "Service desk drowned at 8am", desc: "Every workshop in Oman gets a wave of booking calls right after opening. Your advisors are checking in cars, so callers hit voicemail and phone the dealer down the road instead." },
       { title: "Parts enquiries interrupt technicians", desc: "Calls asking whether a filter or bumper is in stock pull skilled staff off the workshop floor for questions a well-briefed agent could answer in seconds." },
@@ -17,10 +17,10 @@ export const industries: Industry[] = [
       { title: "Recovery and breakdown triage", desc: "Urgent breakdown calls are identified, the location captured, and your duty driver alerted immediately while routine calls wait their turn." },
       { title: "Status updates without hold music", desc: "Customers asking whether their car is ready get a live status from your system instead of holding for a service advisor." },
     ],
-    omanNote: "Oman's car market runs on the phone: dealers along Muscat's Al Wattayah motor strip and independent garages in Sohar and Salalah all compete for the same booking call. VoxCare handles customer queries in Omani Arabic for local customers and switches to Hindi, Malayalam, or English for expatriate drivers, while every call recording stays on servers inside the Sultanate in line with the Personal Data Protection Law (Royal Decree 6/2022).",
+    omanNote: "Oman's car market runs on the phone: dealers along Muscat's Al Wattayah motor strip and independent garages in Sohar and Salalah all compete for the same booking call. AI Customer Care handles customer queries in Omani Arabic for local customers and switches to Hindi, Malayalam, or English for expatriate drivers, while every call recording stays on servers inside the Sultanate in line with the Personal Data Protection Law (Royal Decree 6/2022).",
     faqs: [
       { q: "Can the AI quote prices for services and parts?", a: "Yes. You control the price list. The agent quotes only the OMR figures you approve and hands anything outside that list to your team as a callback." },
-      { q: "Does it integrate with our workshop booking system?", a: "VoxCare connects to common scheduling tools and calendars, and can also log bookings to a shared sheet or send structured emails if you prefer to start simple." },
+      { q: "Does it integrate with our workshop booking system?", a: "AI Customer Care connects to common scheduling tools and calendars, and can also log bookings to a shared sheet or send structured emails if you prefer to start simple." },
       { q: "What happens when a caller insists on a human?", a: "The agent transfers live to any number you set, or takes a detailed message and notifies your service manager instantly." },
     ],
   },
@@ -28,7 +28,7 @@ export const industries: Industry[] = [
     slug: "carpenter-ai-answering-service",
     name: "Carpenters",
     heroTitle: "AI answering service for carpenters in Oman",
-    heroSub: "You can't hold a phone and a router at the same time. VoxCare answers every call, captures the job details, and books site visits while you keep cutting.",
+    heroSub: "You can't hold a phone and a router at the same time. AI Customer Care answers every call, captures the job details, and books site visits while you keep cutting.",
     painPoints: [
       { title: "Sawdust and missed calls", desc: "When you're mid-cut in the workshop, the phone rings out. In a trade where the first carpenter to answer wins the majlis furniture job, silence is expensive." },
       { title: "Vague enquiries waste site visits", desc: "Driving across Muscat to quote a job that turns out to be a tiny repair burns fuel and an afternoon. Nobody qualified the caller first." },
@@ -40,9 +40,9 @@ export const industries: Industry[] = [
       { title: "Quote follow-up handling", desc: "When customers ring to chase a quotation, the agent gives the status you've logged and promises a firm answer by a time you choose." },
       { title: "After-hours lead capture", desc: "Evening enquiries from villa owners planning renovations are captured in full detail and waiting in your inbox at dawn." },
     ],
-    omanNote: "Omani homes are built around joinery, carved doors in Nizwa, majlis seating, outdoor pergolas that need rebuilding after the humid summer. Renovation enquiries spike before Ramadan and Eid as families refresh their homes, which is exactly when your phone is busiest. VoxCare handles customer queries in Omani Arabic, English, Hindi, or Bengali to match both the villa owner and the site supervisor, and all recordings stay hosted inside Oman.",
+    omanNote: "Omani homes are built around joinery, carved doors in Nizwa, majlis seating, outdoor pergolas that need rebuilding after the humid summer. Renovation enquiries spike before Ramadan and Eid as families refresh their homes, which is exactly when your phone is busiest. AI Customer Care handles customer queries in Omani Arabic, English, Hindi, or Bengali to match both the villa owner and the site supervisor, and all recordings stay hosted inside Oman.",
     faqs: [
-      { q: "I work alone. Is this overkill for a one-man workshop?", a: "It's built for exactly that. Solo tradesmen lose the most calls, and VoxCare costs far less in OMR each month than one missed furniture commission." },
+      { q: "I work alone. Is this overkill for a one-man workshop?", a: "It's built for exactly that. Solo tradesmen lose the most calls, and AI Customer Care costs far less in OMR each month than one missed furniture commission." },
       { q: "Can it tell urgent repairs from big projects?", a: "Yes. You define what counts as urgent, and the agent flags those calls to your mobile immediately while logging project enquiries for the evening." },
       { q: "Will customers know it's an AI?", a: "The voice is natural and conversational. We recommend transparency, and the agent will confirm it's a digital assistant if asked, most callers simply care that someone helpful picked up." },
     ],
@@ -63,11 +63,11 @@ export const industries: Industry[] = [
       { title: "Contract upsell conversations", desc: "After booking a one-off clean, the agent mentions your weekly and monthly packages and flags interested customers for a sales callback." },
       { title: "Crew arrival queries", desc: "Clients calling to ask where the team is get the scheduled window read back, cutting the anxious calls that flood your line every morning." },
     ],
-    omanNote: "Cleaning demand in Oman follows a rhythm: pre-Ramadan deep cleans, post-khareef mould treatment in Salalah, and the dust that a single shamal day deposits on every Muscat balcony. Clients may prefer Arabic while housekeeping supervisors call in Hindi, Malayalam, or Swahili, VoxCare handles all of them on one number, with every record kept on Omani soil under Royal Decree 6/2022.",
+    omanNote: "Cleaning demand in Oman follows a rhythm: pre-Ramadan deep cleans, post-khareef mould treatment in Salalah, and the dust that a single shamal day deposits on every Muscat balcony. Clients may prefer Arabic while housekeeping supervisors call in Hindi, Malayalam, or Swahili, AI Customer Care handles all of them on one number, with every record kept on Omani soil under Royal Decree 6/2022.",
     faqs: [
       { q: "Can the AI quote different prices for villas and flats?", a: "Yes. Load your rate card by property type, size, and service, and the agent quotes accurately every time, no more staff improvising discounts." },
       { q: "How fast does my dispatcher hear about changes?", a: "Instantly. Reschedules and cancellations trigger an immediate notification by SMS, email, or a webhook into your scheduling tool." },
-      { q: "We get calls in five languages. Really covered?", a: "VoxCare speaks Omani Arabic, Gulf Arabic, Standard Arabic, English, Hindi, Bengali, Malayalam, Tamil, and Swahili, and detects the caller's language automatically." },
+      { q: "We get calls in five languages. Really covered?", a: "AI Customer Care speaks Omani Arabic, Gulf Arabic, Standard Arabic, English, Hindi, Bengali, Malayalam, Tamil, and Swahili, and detects the caller's language automatically." },
     ],
   },
   {
@@ -86,7 +86,7 @@ export const industries: Industry[] = [
       { title: "Subcontractor coordination", desc: "The agent takes availability updates from your electrical and MEP subs and posts them to your project channel." },
       { title: "Snag and complaint logging", desc: "Handover-stage clients reporting defects get their issue recorded in structured detail with photos requested by SMS, ready for your snag list." },
     ],
-    omanNote: "Construction in Oman moves with the calendar, foundations poured before the summer heat peaks, external works paused during Dhofar's khareef drizzle, and a scramble of enquiries whenever a new residential scheme opens in Muscat Hills or Al Mouj. Your callers range from Omani landowners to site foremen calling in Hindi or Bengali. VoxCare answers each in their language, and because it's hosted entirely in the Sultanate, project and client data never crosses the border.",
+    omanNote: "Construction in Oman moves with the calendar, foundations poured before the summer heat peaks, external works paused during Dhofar's khareef drizzle, and a scramble of enquiries whenever a new residential scheme opens in Muscat Hills or Al Mouj. Your callers range from Omani landowners to site foremen calling in Hindi or Bengali. AI Customer Care answers each in their language, and because it's hosted entirely in the Sultanate, project and client data never crosses the border.",
     faqs: [
       { q: "Can it separate serious projects from small repairs?", a: "Yes. Set your minimum project criteria and the agent qualifies every caller against them, politely referring undersized jobs elsewhere if you wish." },
       { q: "Does it work outside office hours?", a: "It never closes. Friday calls, late-night enquiries from overseas investors, and 6am supplier confirmations are all answered identically." },
@@ -109,9 +109,9 @@ export const industries: Industry[] = [
       { title: "Treatment and pricing questions", desc: "Callers asking about whitening, braces, or implant costs get the answers and OMR ranges you've approved, plus a consultation offer." },
       { title: "Recall and confirmation calls", desc: "The agent handles inbound confirmations and reminds patients of pre-appointment instructions, cutting no-shows week after week." },
     ],
-    omanNote: "Dental clinics in Oman operate under Ministry of Health licensing and serve one of the region's most multilingual patient bases, an Omani family in Al Khoudh, a Malayali nurse in Ruwi, a Tamil engineer in Sohar. VoxCare greets each in their own language and keeps every patient interaction on servers physically inside Oman, aligned with the Personal Data Protection Law that has governed health data since February 2023.",
+    omanNote: "Dental clinics in Oman operate under Ministry of Health licensing and serve one of the region's most multilingual patient bases, an Omani family in Al Khoudh, a Malayali nurse in Ruwi, a Tamil engineer in Sohar. AI Customer Care greets each in their own language and keeps every patient interaction on servers physically inside Oman, aligned with the Personal Data Protection Law that has governed health data since February 2023.",
     faqs: [
-      { q: "Is patient data safe with an AI answering service?", a: "VoxCare is hosted entirely within Oman and no customer data ever leaves the Sultanate. Access is restricted, encrypted, and logged in line with Royal Decree 6/2022." },
+      { q: "Is patient data safe with an AI answering service?", a: "AI Customer Care is hosted entirely within Oman and no customer data ever leaves the Sultanate. Access is restricted, encrypted, and logged in line with Royal Decree 6/2022." },
       { q: "Can it follow our emergency protocol?", a: "Yes. You define what counts as a dental emergency and who gets alerted. The agent applies those rules identically at 2pm and 2am." },
       { q: "Will it give medical advice?", a: "No. The agent shares only the practice information you approve and books consultations. Clinical questions are always routed to your dentists." },
     ],
@@ -132,9 +132,9 @@ export const industries: Industry[] = [
       { title: "Product and stock enquiries", desc: "Size availability, delivery coverage from Muscat to Salalah, and cash-on-delivery questions answered from your live catalogue." },
       { title: "Peak-season overflow", desc: "During sales and Eid rushes the AI absorbs unlimited concurrent calls, so no promotion ever crashes your customer service." },
     ],
-    omanNote: "Omani e-commerce runs on trust signals, cash on delivery, a local phone number that actually answers, and delivery promises kept from Muscat to Sur. Shoppers call in Omani Arabic, English, Hindi, or Malayalam, often to confirm a store is real before ordering. VoxCare answers every one instantly, and keeping all customer records inside the Sultanate isn't just Personal Data Protection Law compliance under Royal Decree 6/2022, it's a selling point you can print on your website.",
+    omanNote: "Omani e-commerce runs on trust signals, cash on delivery, a local phone number that actually answers, and delivery promises kept from Muscat to Sur. Shoppers call in Omani Arabic, English, Hindi, or Malayalam, often to confirm a store is real before ordering. AI Customer Care answers every one instantly, and keeping all customer records inside the Sultanate isn't just Personal Data Protection Law compliance under Royal Decree 6/2022, it's a selling point you can print on your website.",
     faqs: [
-      { q: "Can it connect to our online store?", a: "Yes. VoxCare integrates with major e-commerce platforms and order systems so the agent quotes real tracking data, not generic promises." },
+      { q: "Can it connect to our online store?", a: "Yes. AI Customer Care integrates with major e-commerce platforms and order systems so the agent quotes real tracking data, not generic promises." },
       { q: "How many simultaneous calls can it take?", a: "Effectively unlimited. A flash sale that generates 200 calls an hour gets 200 instant answers, no queue, no busy tone." },
       { q: "Does it handle cash-on-delivery questions?", a: "Yes. COD availability, delivery fees by wilayat, and payment options are all part of the knowledge base you control." },
     ],
@@ -143,7 +143,7 @@ export const industries: Industry[] = [
     slug: "electrician-ai-answering-service",
     name: "Electricians",
     heroTitle: "AI answering service for electricians in Oman",
-    heroSub: "You shouldn't answer a phone with live wires in your hands. VoxCare takes every call, flags real emergencies, and fills your job sheet.",
+    heroSub: "You shouldn't answer a phone with live wires in your hands. AI Customer Care takes every call, flags real emergencies, and fills your job sheet.",
     painPoints: [
       { title: "Answering the phone is a safety risk", desc: "Mid-installation is the worst possible moment for a ringtone. But ignoring it means the AC-tripping-breaker job goes to another electrician." },
       { title: "Every caller says it's an emergency", desc: "A dead socket and a burning smell are not the same call, but both arrive shouting. Sorting them yourself costs time you bill by the hour." },
@@ -155,7 +155,7 @@ export const industries: Industry[] = [
       { title: "Quote requests for installations", desc: "Wiring for new villas, EV charger installs, and shop fit-outs are logged with enough detail for you to price without a second call." },
       { title: "Follow-up scheduling", desc: "Customers needing a return visit after parts arrive get booked automatically, keeping your week organised without paperwork." },
     ],
-    omanNote: "Omani summers are an electrician's high season, overloaded circuits in Muscat, AC trip-outs in Sohar's industrial housing, and generator issues when storms cut power in the interior around Nizwa. Callers might be an Omani homeowner speaking dialect or a building watchman speaking Bengali; VoxCare handles both on the same number, and every call log stays hosted inside Oman.",
+    omanNote: "Omani summers are an electrician's high season, overloaded circuits in Muscat, AC trip-outs in Sohar's industrial housing, and generator issues when storms cut power in the interior around Nizwa. Callers might be an Omani homeowner speaking dialect or a building watchman speaking Bengali; AI Customer Care handles both on the same number, and every call log stays hosted inside Oman.",
     faqs: [
       { q: "How does the AI know what's a real emergency?", a: "You set the rules, burning smells, exposed live wires, and total outages typically go straight to your mobile. Everything else books politely into your calendar." },
       { q: "Can it handle callers who speak no Arabic or English?", a: "Yes. The agent converses naturally in Hindi, Bengali, Malayalam, Tamil, and Swahili as well as Arabic dialects and English." },
@@ -178,10 +178,10 @@ export const industries: Industry[] = [
       { title: "Renewal capture", desc: "Callers with expiring motor or health policies are logged with their renewal date and routed to a producer before the lapse." },
       { title: "Quote request intake", desc: "New business enquiries are qualified, vehicle details, property value, family size, so your sales team calls back ready to close." },
     ],
-    omanNote: "Motor insurance is mandatory in Oman and claims begin with an ROP accident report, so your callers often phone directly from the roadside needing calm, clear instructions in Omani Arabic, English, or Hindi. VoxCare delivers that consistency at any hour, and because policyholder data is regulated personal data under Royal Decree 6/2022, every record stays on infrastructure physically inside the Sultanate.",
+    omanNote: "Motor insurance is mandatory in Oman and claims begin with an ROP accident report, so your callers often phone directly from the roadside needing calm, clear instructions in Omani Arabic, English, or Hindi. AI Customer Care delivers that consistency at any hour, and because policyholder data is regulated personal data under Royal Decree 6/2022, every record stays on infrastructure physically inside the Sultanate.",
     faqs: [
       { q: "Can the AI actually start a claim?", a: "It completes your full FNOL intake, incident details, ROP report number, photos requested by SMS, and delivers a structured file to your adjusters. Coverage decisions always remain human." },
-      { q: "Is it compliant for regulated insurance data?", a: "Yes. VoxCare is hosted entirely in Oman, no data leaves the country, and access controls align with the Personal Data Protection Law in force since February 2023." },
+      { q: "Is it compliant for regulated insurance data?", a: "Yes. AI Customer Care is hosted entirely in Oman, no data leaves the country, and access controls align with the Personal Data Protection Law in force since February 2023." },
       { q: "Will it give insurance advice?", a: "No. The agent explains only the factual policy information you approve and refers advice questions to your licensed staff." },
     ],
   },
@@ -201,7 +201,7 @@ export const industries: Industry[] = [
       { title: "Existing client routing", desc: "Current clients are recognised and routed to their responsible associate or given a status message the team has approved." },
       { title: "Court-day coverage", desc: "When the whole team is at the Primary Court, the office line still answers perfectly, takes urgent messages, and escalates by SMS." },
     ],
-    omanNote: "Oman's legal market spans Omani Arabic-speaking family and inheritance matters, English-language commercial work with Muscat's international firms, and labour cases where the client may be more comfortable in Hindi or Bengali. VoxCare handles that full range on one line. Hosting inside the Sultanate matters doubly here: client confidentiality expectations and the Personal Data Protection Law both argue against call data ever crossing a border.",
+    omanNote: "Oman's legal market spans Omani Arabic-speaking family and inheritance matters, English-language commercial work with Muscat's international firms, and labour cases where the client may be more comfortable in Hindi or Bengali. AI Customer Care handles that full range on one line. Hosting inside the Sultanate matters doubly here: client confidentiality expectations and the Personal Data Protection Law both argue against call data ever crossing a border.",
     faqs: [
       { q: "Can it perform a conflict check?", a: "It gathers the party names and matter details your conflict process needs and flags them for your team, the check itself stays with your lawyers." },
       { q: "Is attorney-client information secure?", a: "All recordings and transcripts are encrypted and stored exclusively inside Oman. Nothing is used to train shared models, and access is limited to your firm." },
@@ -212,7 +212,7 @@ export const industries: Industry[] = [
     slug: "marketing-firms-ai-answering-service",
     name: "Marketing Firms",
     heroTitle: "AI answering service for marketing firms in Oman",
-    heroSub: "You sell responsiveness, your own phone should prove it. VoxCare answers every prospect and client call while your team stays in the creative flow.",
+    heroSub: "You sell responsiveness, your own phone should prove it. AI Customer Care answers every prospect and client call while your team stays in the creative flow.",
     painPoints: [
       { title: "The cobbler's children have no shoes", desc: "You tell clients that speed-to-lead wins, then let your own new-business calls ring into voicemail during a brainstorm." },
       { title: "Client check-ins fragment the day", desc: "Quick calls about campaign status shatter the focused hours your strategists and designers need to do work worth billing for." },
@@ -224,10 +224,10 @@ export const industries: Industry[] = [
       { title: "Event and campaign hotlines", desc: "Running a client activation or contest? Spin up a dedicated answered line for entries and enquiries without staffing it." },
       { title: "Vendor and media coordination", desc: "Printers, media reps, and influencer managers get their questions logged and routed without touching your creative team's phones." },
     ],
-    omanNote: "Oman's marketing scene is compact and reputation-driven, agencies in Muscat's Qurum and Al Khuwair districts compete for government tenders, National Day campaigns, and khareef tourism briefs out of Salalah. A prospect who can't reach you assumes you're too small or too busy. VoxCare answers in polished Arabic or English as the brand moment demands, and keeps every client conversation stored inside the Sultanate.",
+    omanNote: "Oman's marketing scene is compact and reputation-driven, agencies in Muscat's Qurum and Al Khuwair districts compete for government tenders, National Day campaigns, and khareef tourism briefs out of Salalah. A prospect who can't reach you assumes you're too small or too busy. AI Customer Care answers in polished Arabic or English as the brand moment demands, and keeps every client conversation stored inside the Sultanate.",
     faqs: [
-      { q: "Can the AI match our agency's tone of voice?", a: "Yes. You script the greeting, vocabulary, and personality. Many agencies treat their VoxCare agent as a live demo of their own brand craft." },
-      { q: "Does it work for short campaign hotlines?", a: "Perfectly. Dedicated numbers can go live in days for a contest or activation and retire when the campaign ends." },
+      { q: "Can the AI match our agency's tone of voice?", a: "Yes. You script the greeting, vocabulary, and personality. Many agencies treat their agent as a live demo of their own brand craft." },
+      { q: "Does it work for short campaign hotlines?", a: "Perfectly. Once your SIP trunk is in place, dedicated numbers can go live in days for a contest or activation and retire when the campaign ends." },
       { q: "How do leads reach our CRM?", a: "Calls sync to popular CRMs automatically, or arrive as structured email summaries with recordings and transcripts attached." },
     ],
   },
@@ -235,7 +235,7 @@ export const industries: Industry[] = [
     slug: "medical-wellness-ai-answering-service",
     name: "Medical & Wellness",
     heroTitle: "AI answering service for medical and wellness practices in Oman",
-    heroSub: "Physiotherapy, dermatology, nutrition, or general practice, VoxCare books patients, answers questions, and never puts a caller on hold.",
+    heroSub: "Physiotherapy, dermatology, nutrition, or general practice, AI Customer Care books patients, answers questions, and never puts a caller on hold.",
     painPoints: [
       { title: "Front desk overload harms patient experience", desc: "A ringing phone at reception means either the caller waits or the patient at the desk does. Neither should, and both remember it." },
       { title: "Empty slots from unmanaged cancellations", desc: "Cancellations that arrive by voicemail stay empty. A managed waitlist could fill most of them the same day." },
@@ -247,7 +247,7 @@ export const industries: Industry[] = [
       { title: "Service and pricing enquiries", desc: "Session prices for physio, packages for laser or nutrition programmes, and insurance acceptance answered from your approved list." },
       { title: "Urgent symptom escalation", desc: "Red-flag symptoms you define trigger an immediate transfer or escalation to clinical staff, the agent never plays doctor." },
     ],
-    omanNote: "Private clinics and wellness centres in Oman operate under Ministry of Health regulation and serve patients who may prefer Omani Arabic, English, Malayalam, or Tamil, often within the same family. VoxCare speaks all of them, and because health information is among the most sensitive data classes under Royal Decree 6/2022, the entire platform runs on servers inside Oman with zero cross-border transfer.",
+    omanNote: "Private clinics and wellness centres in Oman operate under Ministry of Health regulation and serve patients who may prefer Omani Arabic, English, Malayalam, or Tamil, often within the same family. AI Customer Care speaks all of them, and because health information is among the most sensitive data classes under Royal Decree 6/2022, the entire platform runs on servers inside Oman with zero cross-border transfer.",
     faqs: [
       { q: "Can it check our insurance network list?", a: "Yes. Load the insurers and plans you accept, and the agent answers coverage questions accurately before the patient travels to you." },
       { q: "What about medical questions on calls?", a: "The agent handles logistics only. Anything clinical is escalated per your protocol, to a nurse line, the duty clinician, or an urgent-callback queue." },
@@ -270,7 +270,7 @@ export const industries: Industry[] = [
       { title: "Application status updates", desc: "Clients checking on bank approval progress get the latest status you've logged, without interrupting your negotiations." },
       { title: "Appointment booking", desc: "Serious buyers book consultations directly into your calendar, tagged with their pre-qualification summary." },
     ],
-    omanNote: "Home financing in Oman is a document-heavy, relationship-driven business, buyers weighing conventional loans against Islamic financing, Omani nationals using housing programmes, and expatriates asking what they can buy in ITC developments like Al Mouj. Those questions arrive in Arabic, English, Hindi, and Malayalam, often after 6pm. VoxCare answers all of them, and keeps salary and identity data locked inside the Sultanate under the Personal Data Protection Law.",
+    omanNote: "Home financing in Oman is a document-heavy, relationship-driven business, buyers weighing conventional loans against Islamic financing, Omani nationals using housing programmes, and expatriates asking what they can buy in ITC developments like Al Mouj. Those questions arrive in Arabic, English, Hindi, and Malayalam, often after 6pm. AI Customer Care answers all of them, and keeps salary and identity data locked inside the Sultanate under the Personal Data Protection Law.",
     faqs: [
       { q: "Can it explain Islamic financing options?", a: "It presents the factual product descriptions you approve, Murabaha, Ijara, and conventional, and books a consultation for anything advisory." },
       { q: "Is financial information handled securely?", a: "Yes. Salary and identity details are encrypted, stored only inside Oman, and accessible only to your brokerage, per Royal Decree 6/2022." },
@@ -293,18 +293,18 @@ export const industries: Industry[] = [
       { title: "Move-day coordination", desc: "Customers get their crew's scheduled window and updates you post, cutting the anxious repeat calls to your operations phone." },
       { title: "Inter-city and GCC move enquiries", desc: "Muscat-to-Salalah or Oman-to-UAE questions about transit times, customs paperwork, and insurance are answered from your playbook." },
     ],
-    omanNote: "Oman's moving market surges when school years end and employment contracts turn over, with long-haul jobs down the 1,000km Muscat-Salalah road a specialty of the trade. The person booking speaks Omani Arabic or English; the building watchman coordinating lift access on move day may prefer Hindi or Bengali. VoxCare bridges every one of those conversations, with all customer data hosted inside the Sultanate.",
+    omanNote: "Oman's moving market surges when school years end and employment contracts turn over, with long-haul jobs down the 1,000km Muscat-Salalah road a specialty of the trade. The person booking speaks Omani Arabic or English; the building watchman coordinating lift access on move day may prefer Hindi or Bengali. AI Customer Care bridges every one of those conversations, with all customer data hosted inside the Sultanate.",
     faqs: [
       { q: "Can it produce an actual price quote?", a: "It can quote from your standard rate matrix for typical moves, or capture full details for your estimator on complex jobs, you choose the threshold." },
       { q: "How does it help on the day of the move?", a: "It absorbs the where-is-the-truck calls with live updates your coordinator posts, and escalates genuine problems, access refused, damage claims, immediately." },
-      { q: "Do we need new phone numbers?", a: "No. Your existing advertised numbers forward to VoxCare, so years of painted-on-the-truck marketing keep working." },
+      { q: "Do we need new phone numbers?", a: "No. Your existing advertised numbers forward to AI Customer Care, so years of painted-on-the-truck marketing keep working." },
     ],
   },
   {
     slug: "pest-control-ai-answering-service",
     name: "Pest Control",
     heroTitle: "AI answering service for pest control companies in Oman",
-    heroSub: "Nobody plans a cockroach emergency. VoxCare answers the panicked call, books the treatment, and dispatches your nearest technician.",
+    heroSub: "Nobody plans a cockroach emergency. AI Customer Care answers the panicked call, books the treatment, and dispatches your nearest technician.",
     painPoints: [
       { title: "Pest calls are impulse calls", desc: "Someone who just saw a rat is calling everyone in the search results right now. If your line is busy, the next listing gets the job." },
       { title: "Wrong information wastes visits", desc: "Technicians arrive without knowing the pest, the property type, or whether there are children and pets, so the first visit becomes a survey, not a treatment." },
@@ -316,7 +316,7 @@ export const industries: Industry[] = [
       { title: "Contract client scheduling", desc: "Restaurants and building managers reschedule their routine visits without waiting for your office to open." },
       { title: "Quote requests for fumigation", desc: "Warehouse, ship, and villa fumigation enquiries are captured with dimensions and timelines for accurate pricing." },
     ],
-    omanNote: "Oman's climate keeps pest control busy year-round, cockroach and ant surges through the humid Muscat summer, termite calls in older Nizwa and Sur properties, and rodent pressure around ports and restaurants in Sohar and Muttrah. Food businesses need documented, municipality-compliant treatments. VoxCare answers homeowners in Omani Arabic and facility supervisors in Hindi or Malayalam alike, with every job record stored inside Oman.",
+    omanNote: "Oman's climate keeps pest control busy year-round, cockroach and ant surges through the humid Muscat summer, termite calls in older Nizwa and Sur properties, and rodent pressure around ports and restaurants in Sohar and Muttrah. Food businesses need documented, municipality-compliant treatments. AI Customer Care answers homeowners in Omani Arabic and facility supervisors in Hindi or Malayalam alike, with every job record stored inside Oman.",
     faqs: [
       { q: "Can the AI tell how urgent an infestation is?", a: "Yes. Your triage rules classify the call, a wasp nest by a school door gets same-day escalation; general ant treatment books the next open slot." },
       { q: "Does it handle commercial contract clients differently?", a: "Yes. Contract clients can be recognised by number, greeted by name, and given scheduling priority per your service agreements." },
@@ -327,7 +327,7 @@ export const industries: Industry[] = [
     slug: "plumbers-ai-answering-service",
     name: "Plumbers",
     heroTitle: "AI answering service for plumbers in Oman",
-    heroSub: "A burst pipe won't wait for you to dry your hands. VoxCare answers instantly, sorts floods from drips, and keeps your day booked solid.",
+    heroSub: "A burst pipe won't wait for you to dry your hands. AI Customer Care answers instantly, sorts floods from drips, and keeps your day booked solid.",
     painPoints: [
       { title: "Elbow-deep means phone-deaf", desc: "You're under a sink when the biggest job of the week calls. Voicemail answers, and voicemail doesn't win water-heater installations." },
       { title: "Floods and drips sound identical on a missed call", desc: "Without triage, a genuine flooding villa waits behind three dripping-tap messages, or you drop everything for a job that could have waited." },
@@ -339,7 +339,7 @@ export const industries: Industry[] = [
       { title: "Price and availability questions", desc: "Call-out charges and typical OMR ranges you approve are quoted upfront, filtering price-shoppers before they cost you a visit." },
       { title: "Parts follow-up bookings", desc: "When a job needs a part ordered, the return visit books itself as soon as the customer calls back, no memory required." },
     ],
-    omanNote: "Plumbing in Oman has its own calendar: water heater failures when winter mornings turn cool in the interior, pump and tank problems through the scorching summer, and drainage emergencies when rare but violent rains hit Muscat's wadis. Villa owners call in Omani Arabic; building caretakers often call in Bengali or Hindi. VoxCare speaks to both fluently, and every call record remains on servers inside the Sultanate.",
+    omanNote: "Plumbing in Oman has its own calendar: water heater failures when winter mornings turn cool in the interior, pump and tank problems through the scorching summer, and drainage emergencies when rare but violent rains hit Muscat's wadis. Villa owners call in Omani Arabic; building caretakers often call in Bengali or Hindi. AI Customer Care speaks to both fluently, and every call record remains on servers inside the Sultanate.",
     faqs: [
       { q: "How fast do I hear about a flood call?", a: "Within seconds. Critical calls trigger an SMS and can ring through to your mobile directly, with the address and problem already captured." },
       { q: "Can it quote my call-out fee?", a: "Yes. The agent states your call-out charge and approved price ranges clearly, so customers who book already accept your pricing." },
@@ -362,7 +362,7 @@ export const industries: Industry[] = [
       { title: "Tenant account queries", desc: "Rent due dates, payment methods, and renewal timelines answered from your records without a human touching the call." },
       { title: "Emergency escalation overnight", desc: "Genuine emergencies, flooding, power failure, lift entrapment, wake the right on-call person immediately; everything else waits politely for morning." },
     ],
-    omanNote: "Property managers in Oman juggle mixed portfolios, Omani landlords, tenant bases spanning Arabic, English, Hindi, Malayalam, and Swahili speakers, and municipal and lease-registration paperwork that varies by wilayat. Summer AC failures in Muscat and salt-air corrosion in coastal Sur and Sohar drive relentless maintenance volume. VoxCare answers every tenant in their own language and keeps lease and tenant data hosted entirely within Oman, in line with Royal Decree 6/2022.",
+    omanNote: "Property managers in Oman juggle mixed portfolios, Omani landlords, tenant bases spanning Arabic, English, Hindi, Malayalam, and Swahili speakers, and municipal and lease-registration paperwork that varies by wilayat. Summer AC failures in Muscat and salt-air corrosion in coastal Sur and Sohar drive relentless maintenance volume. AI Customer Care answers every tenant in their own language and keeps lease and tenant data hosted entirely within Oman, in line with Royal Decree 6/2022.",
     faqs: [
       { q: "Can it dispatch our own contractors?", a: "Yes. Map issue types to your contractor list and the agent notifies the right vendor with unit details and access notes automatically." },
       { q: "How does it decide what's a real emergency at 2am?", a: "By your written rules. Flooding, no power, and lift entrapments escalate immediately; a broken cabinet hinge logs a morning ticket." },
@@ -385,7 +385,7 @@ export const industries: Industry[] = [
       { title: "New business capture", desc: "Prospective clients describing their communications needs are qualified and booked for a discovery call with the right partner." },
       { title: "Event RSVP management", desc: "Press conference and launch-event RSVP lines answered and logged without pulling an executive off the guest list." },
     ],
-    omanNote: "PR in Oman moves between Arabic-language national media, English-language business press, and ministry communications offices, often on the same account. Firms handling government and MTCIT-adjacent briefs know discretion is the product. VoxCare answers in polished Standard Arabic, Omani dialect, or English as the caller requires, and every sensitive conversation stays on infrastructure inside the Sultanate, never routed abroad.",
+    omanNote: "PR in Oman moves between Arabic-language national media, English-language business press, and ministry communications offices, often on the same account. Firms handling government and MTCIT-adjacent briefs know discretion is the product. AI Customer Care answers in polished Standard Arabic, Omani dialect, or English as the caller requires, and every sensitive conversation stays on infrastructure inside the Sultanate, never routed abroad.",
     faqs: [
       { q: "Can it handle a real media crisis?", a: "It executes the intake and escalation you design: capture the enquiry, buy time with an approved holding line, and alert your crisis team within seconds." },
       { q: "Will journalists accept talking to an AI?", a: "The agent is professional and fast, which is what a deadline journalist wants. It commits to precise callback times and makes sure your team keeps them." },
@@ -408,7 +408,7 @@ export const industries: Industry[] = [
       { title: "Buyer and tenant qualification", desc: "Budget, financing status, move-in timeline, and must-haves collected on the first call, so you prioritise the hottest prospects." },
       { title: "Landlord and seller intake", desc: "Owners wanting to list are welcomed, their property details captured, and a valuation visit booked, new inventory while you sleep." },
     ],
-    omanNote: "Oman's property market splits between local buyers in wilayats from Seeb to Salalah and expatriates concentrated in ITC freehold developments like Al Mouj and Muscat Bay, two audiences, several languages, one phone line. VoxCare handles Omani Arabic, English, Hindi, and Malayalam callers seamlessly, quotes in OMR, and stores every lead inside the Sultanate in compliance with the Personal Data Protection Law.",
+    omanNote: "Oman's property market splits between local buyers in wilayats from Seeb to Salalah and expatriates concentrated in ITC freehold developments like Al Mouj and Muscat Bay, two audiences, several languages, one phone line. AI Customer Care handles Omani Arabic, English, Hindi, and Malayalam callers seamlessly, quotes in OMR, and stores every lead inside the Sultanate in compliance with the Personal Data Protection Law.",
     faqs: [
       { q: "Can it answer questions about specific listings?", a: "Yes. Sync your listing sheet or portal feed and the agent answers accurately per property, updating the moment you mark a unit reserved." },
       { q: "Does it know the rules about expat ownership?", a: "It explains the general facts you approve, such as freehold availability in ITC developments, and books a consultation for case-specific advice." },
@@ -431,7 +431,7 @@ export const industries: Industry[] = [
       { title: "Billing and account questions", desc: "Invoice copies, renewal dates, and plan-change requests handled from your policies, escalating only true disputes." },
       { title: "Outage communication line", desc: "During an incident, callers hear an honest, current status message you update in one place, instead of flooding your team." },
     ],
-    omanNote: "Oman's tech ecosystem is scaling fast, startups out of Muscat's incubators, government digitisation programmes under MTCIT, and enterprises that still buy software the traditional way: by phone. Local SaaS firms have an edge imported tools can't match, and VoxCare extends it. Your support line handles customer queries in Omani Arabic and English alike, and your customers' data stays in-country under Royal Decree 6/2022, a compliance line B2G buyers specifically ask about.",
+    omanNote: "Oman's tech ecosystem is scaling fast, startups out of Muscat's incubators, government digitisation programmes under MTCIT, and enterprises that still buy software the traditional way: by phone. Local SaaS firms have an edge imported tools can't match, and AI Customer Care extends it. Your support line handles customer queries in Omani Arabic and English alike, and your customers' data stays in-country under Royal Decree 6/2022, a compliance line B2G buyers specifically ask about.",
     faqs: [
       { q: "Can it integrate with our helpdesk and CRM?", a: "Yes. Calls create tickets and leads in the major helpdesk and CRM platforms via native integrations or webhooks." },
       { q: "Can it answer technical product questions?", a: "It handles everything in the knowledge base you maintain, setup steps, plan limits, FAQs, and escalates genuinely novel technical issues with full context." },
@@ -442,7 +442,7 @@ export const industries: Industry[] = [
     slug: "social-media-marketing-agencies-ai-answering-service",
     name: "Social Media Marketing Agencies",
     heroTitle: "AI answering service for social media marketing agencies in Oman",
-    heroSub: "You make brands responsive online, VoxCare makes yours responsive on the phone, capturing every lead your own content generates.",
+    heroSub: "You make brands responsive online, AI Customer Care makes yours responsive on the phone, capturing every lead your own content generates.",
     painPoints: [
       { title: "Your ads work, your phone doesn't", desc: "The reels you post win enquiries, but they arrive while your team is shooting content or buried in scheduling tools, and unanswered calls undo the ad spend." },
       { title: "Clients expect the responsiveness you preach", desc: "An agency that promises brands 24/7 community engagement but takes a day to return calls is marketing against itself." },
@@ -454,9 +454,9 @@ export const industries: Industry[] = [
       { title: "Campaign hotline for client promos", desc: "Client giveaways and influencer campaigns get a dedicated answered line, sold as an add-on service with your margin on top." },
       { title: "Content approval nudges", desc: "Clients calling to approve or amend scheduled posts get their feedback recorded verbatim and routed to the right account manager." },
     ],
-    omanNote: "Social commerce is enormous in Oman, Instagram shops, WhatsApp ordering, and influencer campaigns drive real revenue for Muscat and Salalah businesses, and the agencies behind them field constant calls from brands wanting in. Those brand owners may pitch in Omani Arabic and their operations managers in Hindi or English; VoxCare converses with both, and every client conversation stays hosted inside Oman.",
+    omanNote: "Social commerce is enormous in Oman, Instagram shops, WhatsApp ordering, and influencer campaigns drive real revenue for Muscat and Salalah businesses, and the agencies behind them field constant calls from brands wanting in. Those brand owners may pitch in Omani Arabic and their operations managers in Hindi or English; AI Customer Care converses with both, and every client conversation stays hosted inside Oman.",
     faqs: [
-      { q: "Can we resell answered hotlines to our clients?", a: "Yes. Many agencies white-label VoxCare lines for client campaigns, adding a recurring revenue stream with zero staffing." },
+      { q: "Can we resell answered hotlines to our clients?", a: "Yes. Many agencies white-label AI Customer Care lines for client campaigns, adding a recurring revenue stream with zero staffing." },
       { q: "Will the AI understand social media jargon?", a: "It's briefed on your service catalogue, reels packages, ad management tiers, influencer coordination, and speaks your industry's language fluently." },
       { q: "How do captured leads get to us?", a: "Real-time notifications plus CRM sync, each with a transcript, so your team calls back knowing exactly what the prospect wants." },
     ],
@@ -477,7 +477,7 @@ export const industries: Industry[] = [
       { title: "Site assessment scheduling", desc: "Qualified prospects book survey slots on the spot, with confirmations and reminders that keep the appointment alive." },
       { title: "Existing system support calls", desc: "Inverter alerts and underperformance reports from installed customers are logged with system details and routed to your O&M team." },
     ],
-    omanNote: "Solar is having its moment in Oman: punishing summer electricity bills, national net-billing schemes for rooftop systems, and Vision 2040 renewable targets are pushing homeowners in Muscat and factories in Sohar's industrial zone to finally call an installer. Those calls come in Omani Arabic from villa owners and English or Hindi from facility managers, VoxCare answers each one and stores every lead inside the Sultanate.",
+    omanNote: "Solar is having its moment in Oman: punishing summer electricity bills, national net-billing schemes for rooftop systems, and Vision 2040 renewable targets are pushing homeowners in Muscat and factories in Sohar's industrial zone to finally call an installer. Those calls come in Omani Arabic from villa owners and English or Hindi from facility managers, AI Customer Care answers each one and stores every lead inside the Sultanate.",
     faqs: [
       { q: "Can the AI estimate system sizes or prices?", a: "It quotes the indicative ranges you approve based on the caller's electricity spend, and always books an engineering survey for the firm number." },
       { q: "Does it understand net billing questions?", a: "Yes. Brief it with your explanation of Oman's net-billing rules and it delivers that explanation consistently on every call." },
@@ -488,7 +488,7 @@ export const industries: Industry[] = [
     slug: "spa-ai-answering-service",
     name: "Spas",
     heroTitle: "AI answering service for spas in Oman",
-    heroSub: "Serenity inside, a ringing phone outside, VoxCare books treatments, sells packages, and protects the calm your guests are paying for.",
+    heroSub: "Serenity inside, a ringing phone outside, AI Customer Care books treatments, sells packages, and protects the calm your guests are paying for.",
     painPoints: [
       { title: "Ringing phones break the atmosphere", desc: "Your receptionist whispering over a ringing line while a guest checks in is the opposite of the experience your brand promises." },
       { title: "Booking calls come during treatments", desc: "Therapists can't answer mid-massage, and front desk is thin in the evenings, exactly when tomorrow's clients call to book." },
@@ -500,7 +500,7 @@ export const industries: Industry[] = [
       { title: "Cancellation backfill", desc: "Freed slots trigger the waitlist, and inbound callers are offered same-day openings before they're offered anything else." },
       { title: "Pre-arrival guidance", desc: "Arrival times, what to bring, steam-room contraindications, and ladies-only hours communicated consistently to every guest." },
     ],
-    omanNote: "Oman's spa scene spans hotel wellness destinations on Muscat's coast, ladies-only day spas in Al Khuwair, and resort spas that fill up when khareef season draws visitors to Salalah's green hills. Guests book in Omani Arabic, Gulf Arabic from GCC tourists, English, and Hindi, VoxCare glides between all of them with the warmth your brand requires, and guest records never leave Omani servers.",
+    omanNote: "Oman's spa scene spans hotel wellness destinations on Muscat's coast, ladies-only day spas in Al Khuwair, and resort spas that fill up when khareef season draws visitors to Salalah's green hills. Guests book in Omani Arabic, Gulf Arabic from GCC tourists, English, and Hindi, AI Customer Care glides between all of them with the warmth your brand requires, and guest records never leave Omani servers.",
     faqs: [
       { q: "Can it manage ladies-only scheduling rules?", a: "Yes. Therapist gender preferences, ladies-only hours, and facility rules are built into its booking logic and always respected." },
       { q: "Will the voice match our spa's tone?", a: "You choose the voice and script the style, calm, warm, unhurried. Many spas say the AI sounds more on-brand than a rushed front desk." },
@@ -523,7 +523,7 @@ export const industries: Industry[] = [
       { title: "Placement status updates", desc: "Candidates asking about their application hear their real status from your system instead of redialling all week." },
       { title: "Early-morning incident line", desc: "No-show and site-issue calls at dawn are logged, acknowledged professionally, and escalated to your on-call recruiter by SMS." },
     ],
-    omanNote: "Staffing in Oman lives inside the Omanisation framework, clients need Omani nationals for quota roles and skilled expatriate workers for others, and agencies field calls in Arabic, English, Hindi, Bengali, Tamil, and Malayalam within a single morning. VoxCare screens every caller in their own language and keeps candidate personal data, among the most sensitive an agency holds, entirely on servers inside the Sultanate, per Royal Decree 6/2022.",
+    omanNote: "Staffing in Oman lives inside the Omanisation framework, clients need Omani nationals for quota roles and skilled expatriate workers for others, and agencies field calls in Arabic, English, Hindi, Bengali, Tamil, and Malayalam within a single morning. AI Customer Care screens every caller in their own language and keeps candidate personal data, among the most sensitive an agency holds, entirely on servers inside the Sultanate, per Royal Decree 6/2022.",
     faqs: [
       { q: "Can it screen candidates against Omanisation requirements?", a: "Yes. Nationality, trade, and experience criteria per vacancy are part of the screening script, so shortlists arrive pre-sorted for quota roles." },
       { q: "How does it keep client calls from drowning in candidate volume?", a: "Client numbers and call intents are recognised and jump the queue straight to the right recruiter, no matter how many candidates are calling." },
@@ -546,7 +546,7 @@ export const industries: Industry[] = [
       { title: "Driver ETA queries", desc: "Callers asking where their car is get the assigned driver and ETA read back, freeing your line for new fares." },
       { title: "Corporate and school contract lines", desc: "Regular contract clients get recognised, priority-handled, and billed to account per the arrangements you set." },
     ],
-    omanNote: "Oman's transport trade runs on the phone: pre-dawn airport transfers from Seeb, intercity runs down to Sur or up to the Buraimi border, school-run contracts, and khareef-season surges when Salalah fills with GCC visitors. Passengers book in Omani Arabic, Gulf Arabic, English, Hindi, or Swahili, VoxCare answers every accent instantly, and booking records stay on Omani soil.",
+    omanNote: "Oman's transport trade runs on the phone: pre-dawn airport transfers from Seeb, intercity runs down to Sur or up to the Buraimi border, school-run contracts, and khareef-season surges when Salalah fills with GCC visitors. Passengers book in Omani Arabic, Gulf Arabic, English, Hindi, or Swahili, AI Customer Care answers every accent instantly, and booking records stay on Omani soil.",
     faqs: [
       { q: "Can it quote fares?", a: "Yes. Zone-based and per-kilometre rates you configure are quoted consistently, ending fare disputes before pickup." },
       { q: "How do bookings reach my drivers?", a: "Through your dispatch app, a WhatsApp driver group, or SMS, structured with pickup, destination, time, and phone number." },
@@ -569,7 +569,7 @@ export const industries: Industry[] = [
       { title: "Emergency traveller line", desc: "Mid-trip calls are triaged, missed flights and medical issues escalate to your duty consultant immediately, with itinerary details attached." },
       { title: "Booking confirmations and changes", desc: "Callers checking reservations or requesting date changes get their status and a logged change request without holding." },
     ],
-    omanNote: "Omani travel agencies sell in every direction at once, outbound Umrah groups, Kerala and Zanzibar family visits, European summers, and inbound GCC tourism that peaks when khareef turns Dhofar green. That means callers in Arabic, English, Hindi, Malayalam, and Swahili, often about time-sensitive bookings. VoxCare covers the full linguistic map around the clock, with all traveller data, passports included, hosted strictly inside the Sultanate.",
+    omanNote: "Omani travel agencies sell in every direction at once, outbound Umrah groups, Kerala and Zanzibar family visits, European summers, and inbound GCC tourism that peaks when khareef turns Dhofar green. That means callers in Arabic, English, Hindi, Malayalam, and Swahili, often about time-sensitive bookings. AI Customer Care covers the full linguistic map around the clock, with all traveller data, passports included, hosted strictly inside the Sultanate.",
     faqs: [
       { q: "Can it handle passport and visa data securely?", a: "Yes. Traveller details are encrypted and stored only in Oman under Royal Decree 6/2022, a stronger guarantee than most global booking tools offer." },
       { q: "What happens when a client is stranded abroad?", a: "The agent gathers the situation, reassures the traveller with your protocol, and escalates to your on-duty consultant with the full booking context in minutes." },
@@ -580,7 +580,7 @@ export const industries: Industry[] = [
     slug: "tutors-ai-answering-service",
     name: "Tutors",
     heroTitle: "AI answering service for tutors and tuition centres in Oman",
-    heroSub: "Parents call when they're worried, not when you're free. VoxCare answers every enquiry, books assessments, and fills your teaching schedule.",
+    heroSub: "Parents call when they're worried, not when you're free. AI Customer Care answers every enquiry, books assessments, and fills your teaching schedule.",
     painPoints: [
       { title: "You can't answer calls mid-lesson", desc: "Your teaching hours and parents' calling hours are the same hours. Every lesson taught is a shift of missed enquiries." },
       { title: "Exam season melts the phone", desc: "When board exam dates are announced, enquiry volume triples in a week, precisely when your calendar has the least slack to handle it." },
@@ -592,7 +592,7 @@ export const industries: Industry[] = [
       { title: "Session rescheduling", desc: "Changes and cancellations update your calendar instantly and offer the freed slot to your waitlist." },
       { title: "Fee and programme questions", desc: "Monthly fees in OMR, group versus individual formats, and exam-prep packages explained consistently to every caller." },
     ],
-    omanNote: "Tuition in Oman spans the Omani national curriculum, CBSE and Indian-community schools, and British and IB international schools in Muscat, and parents call in the language they trust most, whether Omani Arabic, English, Hindi, Malayalam, or Tamil. Demand explodes before Grade 12 exams and again before university placement tests. VoxCare answers every anxious parent immediately, and student data stays on servers inside Oman.",
+    omanNote: "Tuition in Oman spans the Omani national curriculum, CBSE and Indian-community schools, and British and IB international schools in Muscat, and parents call in the language they trust most, whether Omani Arabic, English, Hindi, Malayalam, or Tamil. Demand explodes before Grade 12 exams and again before university placement tests. AI Customer Care answers every anxious parent immediately, and student data stays on servers inside Oman.",
     faqs: [
       { q: "Can it handle different curricula intelligently?", a: "Yes. It's briefed on your programmes per curriculum, national, CBSE, IGCSE, IB, and matches each student to the right track and tutor." },
       { q: "What about calls during my lessons?", a: "That's the core use case. The agent handles everything while you teach and sends you a tidy summary between sessions." },
@@ -615,7 +615,7 @@ export const industries: Industry[] = [
       { title: "Boarding and travel-prep enquiries", desc: "Boarding availability, export health certificates, and travel-crate requirements answered from your service list." },
       { title: "Prescription refill requests", desc: "Refill requests are logged with the pet's details for vet approval, and owners are told exactly when to collect." },
     ],
-    omanNote: "Veterinary practice in Oman is wonderfully varied, house cats and salukis in Muscat, falcons of enormous sentimental and financial value, goats and camels in the interior around Nizwa, and pet-relocation cases for expatriate families shipping animals home. Owners call in Omani Arabic, English, Hindi, or Swahili, often distressed. VoxCare meets each with calm fluency, and every client record remains hosted inside the Sultanate.",
+    omanNote: "Veterinary practice in Oman is wonderfully varied, house cats and salukis in Muscat, falcons of enormous sentimental and financial value, goats and camels in the interior around Nizwa, and pet-relocation cases for expatriate families shipping animals home. Owners call in Omani Arabic, English, Hindi, or Swahili, often distressed. AI Customer Care meets each with calm fluency, and every client record remains hosted inside the Sultanate.",
     faqs: [
       { q: "Can it triage a genuine animal emergency?", a: "Yes, by the clinical rules your vets define. Red-flag symptoms escalate to your on-call number immediately, with the case summary already captured." },
       { q: "Does it handle exotic animals and livestock?", a: "It's briefed on whatever your clinic treats, falcons, reptiles, livestock, and routes species-specific questions to the right clinician." },

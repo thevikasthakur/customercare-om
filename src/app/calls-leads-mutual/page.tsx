@@ -3,7 +3,7 @@ import LegalPage from "@/components/LegalPage";
 
 export const metadata: Metadata = {
   title: "Call & Lead Terms (Mutual)",
-  description: "Mutual terms for partners who both buy and sell calls and leads via VoxCare.",
+  description: "Mutual terms for partners who both buy and sell calls and leads via AI Customer Care.",
 };
 
 export default function CallsLeadsMutualPage() {
@@ -15,7 +15,7 @@ export default function CallsLeadsMutualPage() {
         {
           h: "1. Scope",
           p: [
-            "These mutual terms apply to partners who both supply calls or leads to, and purchase calls or leads from, the VoxCare platform. The Buyer terms govern traffic you receive and the Seller terms govern traffic you supply; this document resolves how they interact.",
+            "These mutual terms apply to partners who both supply calls or leads to, and purchase calls or leads from, AI Customer Care. The Buyer terms govern traffic you receive and the Seller terms govern traffic you supply; this document resolves how they interact.",
           ],
         },
         {
@@ -33,7 +33,7 @@ export default function CallsLeadsMutualPage() {
         {
           h: "4. Data and compliance",
           p: [
-            "Each party is an independent controller for personal data it receives and warrants Personal Data Protection Law compliant origination for traffic it supplies. Call data remains hosted inside Oman while on VoxCare systems.",
+            "Each party is an independent controller for personal data it receives and warrants Personal Data Protection Law compliant origination for traffic it supplies. Call data remains hosted inside Oman while on AI Customer Care systems.",
           ],
         },
       ]}

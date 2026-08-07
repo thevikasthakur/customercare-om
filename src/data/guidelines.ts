@@ -6,7 +6,7 @@ export const guidelines: Guideline[] = [
     country: "Oman",
     region: "Middle East",
     summary:
-      "Oman regulates automated and AI-assisted calling through its Personal Data Protection Law (Royal Decree 6/2022), telecom regulations administered by the sector regulator, and long-standing cultural norms around courtesy and prayer times. Because VoxCare is built and hosted inside the Sultanate, Omani businesses can deploy AI phone agents while keeping customer data under Omani jurisdiction. This page is general educational guidance, not legal advice; consult qualified Omani counsel before launching a calling campaign.",
+      "Oman regulates automated and AI-assisted calling through its Personal Data Protection Law (Royal Decree 6/2022), telecom regulations administered by the sector regulator, and long-standing cultural norms around courtesy and prayer times. Because AI Customer Care is built and hosted inside the Sultanate, Omani businesses can deploy AI phone agents while keeping customer data under Omani jurisdiction. This page is general educational guidance, not legal advice; consult qualified Omani counsel before launching a calling campaign.",
     sections: [
       {
         h: "The Personal Data Protection Law (Royal Decree 6/2022)",
@@ -51,10 +51,10 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "Why VoxCare's in-Oman hosting matters",
+        h: "Why AI Customer Care's in-Oman hosting matters",
         p: [
-          "The Personal Data Protection Law and its executive regulations impose conditions on transferring personal data outside the Sultanate, and many Omani organisations, particularly in government-adjacent, financial, and health sectors, prefer or are required to keep customer data on Omani soil. Because VoxCare's platform, call processing, and storage run in data centres inside Oman, customer voice data does not need to cross borders at all, which removes the hardest compliance question before it is asked.",
-          "VoxCare's tooling maps directly onto Personal Data Protection Law obligations: configurable consent capture and logging, automatic AI-agent disclosure at the start of every call, recording announcements, retention schedules you control, per-number suppression lists, and calling-hour guards tuned to Omani prayer times, Ramadan schedules, and public holidays. Compliance settings are defaults, not afterthoughts, so your team can focus on the conversation rather than the paperwork.",
+          "The Personal Data Protection Law and its executive regulations impose conditions on transferring personal data outside the Sultanate, and many Omani organisations, particularly in government-adjacent, financial, and health sectors, prefer or are required to keep customer data on Omani soil. Because AI Customer Care's platform, call processing, and storage run in data centres inside Oman, customer voice data does not need to cross borders at all, which removes the hardest compliance question before it is asked.",
+          "AI Customer Care's tooling maps directly onto Personal Data Protection Law obligations: configurable consent capture and logging, automatic AI-agent disclosure at the start of every call, recording announcements, retention schedules you control, per-number suppression lists, and calling-hour guards tuned to Omani prayer times, Ramadan schedules, and public holidays. Compliance settings are defaults, not afterthoughts, so your team can focus on the conversation rather than the paperwork.",
         ],
         bullets: [
           "All call audio, transcripts, and metadata hosted in Oman, avoiding cross-border transfer analysis.",
@@ -97,9 +97,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare enforces opt-in-only campaign lists, plays a configurable automated-agent disclosure in German or English, logs consent evidence for each number, and blocks dialling outside your configured Austrian calling window and holiday calendar.",
+          "AI Customer Care enforces opt-in-only campaign lists, plays a configurable automated-agent disclosure in German or English, logs consent evidence for each number, and blocks dialling outside your configured Austrian calling window and holiday calendar.",
         ],
       },
     ],
@@ -137,9 +137,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare supports prefix-aware outbound numbering, suppression-list synchronisation for do-not-call registries, LGPD-aligned consent and deletion workflows, and per-state calling-hour windows for Brazilian campaigns.",
+          "AI Customer Care supports prefix-aware outbound numbering, suppression-list synchronisation for do-not-call registries, LGPD-aligned consent and deletion workflows, and per-state calling-hour windows for Brazilian campaigns.",
         ],
       },
     ],
@@ -176,9 +176,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare lets you restrict Danish campaigns to documented opt-in contacts, attaches consent evidence to every dial attempt, applies Robinson-list suppression, and enforces conservative calling windows by default.",
+          "AI Customer Care lets you restrict Danish campaigns to documented opt-in contacts, attaches consent evidence to every dial attempt, applies Robinson-list suppression, and enforces conservative calling windows by default.",
         ],
       },
     ],
@@ -215,9 +215,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare provides Arabic-native voice agents, consent capture and logs, automatic disclosure lines, Ramadan-aware scheduling, and suppression lists, with data residency options that simplify transfer analysis for Gulf and Egyptian deployments.",
+          "AI Customer Care provides Arabic-native voice agents, consent capture and logs, automatic disclosure lines, Ramadan-aware scheduling, and suppression lists, with data residency options that simplify transfer analysis for Gulf and Egyptian deployments.",
         ],
       },
     ],
@@ -254,9 +254,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare stores per-number consent evidence including scope for automated calls, forces caller-ID presentation, plays recording notices before capture, and locks German campaigns to compliant hours and opt-in lists.",
+          "AI Customer Care stores per-number consent evidence including scope for automated calls, forces caller-ID presentation, plays recording notices before capture, and locks German campaigns to compliant hours and opt-in lists.",
         ],
       },
     ],
@@ -293,9 +293,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare manages register screening, opt-out ledgers that satisfy PDPO record-keeping, automated-agent disclosure lines in Cantonese and English, and calling-hour policies tuned per campaign.",
+          "AI Customer Care manages register screening, opt-out ledgers that satisfy PDPO record-keeping, automated-agent disclosure lines in Cantonese and English, and calling-hour policies tuned per campaign.",
         ],
       },
     ],
@@ -332,9 +332,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare screens against opt-out data, maintains consent records for automated-call campaigns, plays configurable disclosures, and confines dialling to your Irish calling windows.",
+          "AI Customer Care screens against opt-out data, maintains consent records for automated-call campaigns, plays configurable disclosures, and confines dialling to your Irish calling windows.",
         ],
       },
     ],
@@ -371,9 +371,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare supports Japanese-language agents with keigo-appropriate scripting, mandatory opening disclosures, permanent refusal suppression, and holiday-aware scheduling for Japanese campaigns.",
+          "AI Customer Care supports Japanese-language agents with keigo-appropriate scripting, mandatory opening disclosures, permanent refusal suppression, and holiday-aware scheduling for Japanese campaigns.",
         ],
       },
     ],
@@ -410,9 +410,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare provides multilingual agents, consent and cessation-notice ledgers, prayer-time and festival calling calendars, and pacing controls that keep campaigns clear of nuisance-call thresholds.",
+          "AI Customer Care provides multilingual agents, consent and cessation-notice ledgers, prayer-time and festival calling calendars, and pacing controls that keep campaigns clear of nuisance-call thresholds.",
         ],
       },
     ],
@@ -449,9 +449,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare captures consent artifacts per contact, plays recording and automated-agent notices, supports Filipino and English voices, and applies holiday-aware calling calendars for Philippine campaigns.",
+          "AI Customer Care captures consent artifacts per contact, plays recording and automated-agent notices, supports Filipino and English voices, and applies holiday-aware calling calendars for Philippine campaigns.",
         ],
       },
     ],
@@ -488,9 +488,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare offers Gulf Arabic voices, consent logging, automatic identification and opt-out handling, prayer-time-aware scheduling, and regional data residency that eases Gulf transfer questions.",
+          "AI Customer Care offers Gulf Arabic voices, consent logging, automatic identification and opt-out handling, prayer-time-aware scheduling, and regional data residency that eases Gulf transfer questions.",
         ],
       },
     ],
@@ -528,9 +528,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare pairs Arabic-native agents with prayer-time-aware dialling, consent and opt-out ledgers mapped to Personal Data Protection Law duties, disclosure scripts, and Gulf data residency that simplifies Saudi transfer analysis.",
+          "AI Customer Care pairs Arabic-native agents with prayer-time-aware dialling, consent and opt-out ledgers mapped to Personal Data Protection Law duties, disclosure scripts, and Gulf data residency that simplifies Saudi transfer analysis.",
         ],
       },
     ],
@@ -567,9 +567,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare automates DNC screening with validity tracking, stores consent evidence, enforces caller-ID presentation and disclosure lines, and schedules within Singapore-appropriate hours.",
+          "AI Customer Care automates DNC screening with validity tracking, stores consent evidence, enforces caller-ID presentation and disclosure lines, and schedules within Singapore-appropriate hours.",
         ],
       },
     ],
@@ -606,9 +606,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare offers multilingual agents, objection and consent ledgers, Poya-aware holiday calendars, and disclosure defaults aligned with the PDPA's transparency expectations.",
+          "AI Customer Care offers multilingual agents, objection and consent ledgers, Poya-aware holiday calendars, and disclosure defaults aligned with the PDPA's transparency expectations.",
         ],
       },
     ],
@@ -645,9 +645,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare provides Thai-language agents tuned for polite register, consent ledgers, disclosure defaults, holiday-aware scheduling, and pacing that stays clear of anti-scam thresholds.",
+          "AI Customer Care provides Thai-language agents tuned for polite register, consent ledgers, disclosure defaults, holiday-aware scheduling, and pacing that stays clear of anti-scam thresholds.",
         ],
       },
     ],
@@ -684,9 +684,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare hard-enforces the UAE calling window, tracks refusal cooling-off periods, uses registered numbering, logs consent, and provides bilingual agents with automatic disclosure lines.",
+          "AI Customer Care hard-enforces the UAE calling window, tracks refusal cooling-off periods, uses registered numbering, logs consent, and provides bilingual agents with automatic disclosure lines.",
         ],
       },
     ],
@@ -723,9 +723,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare stores automated-call consent records, runs TPS and CTPS screening, forces caller-ID presentation, and applies UK-appropriate calling hours and opt-out propagation across campaigns.",
+          "AI Customer Care stores automated-call consent records, runs TPS and CTPS screening, forces caller-ID presentation, and applies UK-appropriate calling hours and opt-out propagation across campaigns.",
         ],
       },
     ],
@@ -762,9 +762,9 @@ export const guidelines: Guideline[] = [
         ],
       },
       {
-        h: "How VoxCare helps",
+        h: "How AI Customer Care helps",
         p: [
-          "VoxCare applies consent-first list management, Spanish-language agents, disclosure defaults, opt-out ledgers, and configurable calling windows suited to Venezuelan conditions.",
+          "AI Customer Care applies consent-first list management, Spanish-language agents, disclosure defaults, opt-out ledgers, and configurable calling windows suited to Venezuelan conditions.",
         ],
       },
     ],

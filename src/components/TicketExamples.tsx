@@ -33,7 +33,7 @@ const examples: Example[] = [
     tag: "Overcharge",
     icon: CreditCard,
     convo: [
-      { from: "agent", text: "Shukran for calling Al Mounah. How can I help today?" },
+      { from: "agent", text: "Thanks for calling Al Mounah. How can I help today?" },
       { from: "customer", text: "My card was charged twice for the same order this month." },
       { from: "customer", text: "Can you put the extra one back on my card?" },
       { from: "agent", text: "Done. The duplicate charge is reversed and you will see it within one business day." },
@@ -55,7 +55,7 @@ const examples: Example[] = [
     tag: "Emergency repair",
     icon: Wrench,
     convo: [
-      { from: "agent", text: "Marhaba, building services. What is happening?" },
+      { from: "agent", text: "Marhaba! What is happening?" },
       { from: "customer", text: "The AC in the master bedroom is leaking water onto the carpet." },
       { from: "customer", text: "It is villa 12 in Al Khoudh. Please hurry, it is spreading." },
       { from: "agent", text: "A technician is assigned for today between 4 and 6. I have marked it urgent." },
@@ -201,7 +201,7 @@ export default function TicketExamples() {
             </div>
             <div className="flex-1 px-5 py-4">
               <h3 className="text-base font-semibold text-neutral-900">{ex.ticket.title}</h3>
-              <p className="mt-1 text-xs text-neutral-500">Auto-created by VoxCare from the call</p>
+              <p className="mt-1 text-xs text-neutral-500">Auto-created by AI Customer Care from the call</p>
               <dl className="mt-5 space-y-3 text-sm">
                 <div className="flex items-center justify-between gap-4">
                   <dt className="text-neutral-400">Priority</dt>

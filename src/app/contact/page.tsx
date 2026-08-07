@@ -6,7 +6,7 @@ import { PageHero } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with the VoxCare team in Muscat, sales, support, partnerships, and press.",
+    "Get in touch with the AI Customer Care team in Muscat, sales, support, partnerships, and press.",
 };
 
 export default function ContactPage() {

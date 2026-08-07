@@ -11,7 +11,7 @@ const testimonials = [
     img: "/media/testimonial-1.webp",
   },
   {
-    pre: "Our agents used to lose evenings to routine bookings and directions. VoxCare now clears ",
+    pre: "Our agents used to lose evenings to routine bookings and directions. AI Customer Care now clears ",
     bold: "hundreds of calls a day",
     post: " and hands our team only the conversations that need a human.",
     initials: "GE",

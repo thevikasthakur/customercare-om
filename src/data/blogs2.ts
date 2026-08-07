@@ -49,9 +49,9 @@ export const blogs2: BlogPost[] = [
         ],
       },
       {
-        h: "How VoxCare Approaches Voice Ethically",
+        h: "How AI Customer Care Approaches Voice Ethically",
         p: [
-          "VoxCare builds AI phone agents on original, licensed synthetic voices designed for the Omani markets. We do not clone individuals' voices without documented consent, our agents disclose that they are AI assistants, and all voice data is processed inside Oman under Personal Data Protection Law-aligned controls.",
+          "AI Customer Care builds AI phone agents on original, licensed synthetic voices designed for the Omani markets. We do not clone individuals' voices without documented consent, our agents disclose that they are AI assistants, and all voice data is processed inside Oman under Personal Data Protection Law-aligned controls.",
           "If your business wants natural-sounding AI phone support without the legal grey areas, the answer is a purpose-built agent, not an unauthorized clone. That is exactly what we ship.",
         ],
       },
@@ -102,7 +102,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "The Verdict",
         p: [
-          "Paid lead marketplaces are worth it for contractors who respond instantly, follow up persistently, and track their numbers. They are a money pit for contractors who let leads age. Before you cancel a lead subscription, fix your response time; an AI phone agent from VoxCare can answer every lead in seconds and turn a channel you were about to abandon into your most predictable source of booked work.",
+          "Paid lead marketplaces are worth it for contractors who respond instantly, follow up persistently, and track their numbers. They are a money pit for contractors who let leads age. Before you cancel a lead subscription, fix your response time; an AI phone agent from AI Customer Care can answer every lead in seconds and turn a channel you were about to abandon into your most predictable source of booked work.",
         ],
       },
     ],
@@ -146,14 +146,14 @@ export const blogs2: BlogPost[] = [
         h: "Compliance Is Not Optional",
         p: [
           "Live transfer campaigns touch personal data and outbound calling rules, which means consent and record-keeping matter. Under Oman's Personal Data Protection Law, prospects' personal data must be processed lawfully, and call recordings should be handled with appropriate safeguards. An AI agent actually helps here: it never skips the consent script, never freelances the disclosure, and logs every interaction verbatim.",
-          "VoxCare hosts all call processing inside Oman, keeping data residency clean for insurers operating under local regulatory expectations.",
+          "AI Customer Care hosts all call processing inside Oman, keeping data residency clean for insurers operating under local regulatory expectations.",
         ],
       },
       {
         h: "Making the Human Handoff Work",
         p: [
           "The transfer moment is where deals are won or lost. Best practice is a warm handoff: the AI agent briefs the closer in seconds, introduces the human by name to the prospect, and drops off. The prospect never repeats themselves, and the closer opens with context instead of questions.",
-          "Insurers running this model with VoxCare treat the AI as the tireless front of the funnel and reserve human talent for the moment it matters most: the close. That division of labor is how conversations become conversions at scale.",
+          "Insurers running this model with AI Customer Care treat the AI as the tireless front of the funnel and reserve human talent for the moment it matters most: the close. That division of labor is how conversations become conversions at scale.",
         ],
       },
     ],
@@ -203,7 +203,7 @@ export const blogs2: BlogPost[] = [
         h: "Strategy Four: Scale the Phones with AI, Keep Humans for the Close",
         p: [
           "The modern outbound stack pairs AI voice agents with human closers. The AI handles volume: list calling, qualification, appointment setting, renewal reminders, and multilingual conversations, all with perfect script compliance and full consent handling. Humans handle judgment: needs analysis, complex products, and closing.",
-          "VoxCare's agents run this front-of-funnel motion in Omani Arabic, Gulf Arabic, English, and the languages Gulf customers actually speak at home, with every call processed on infrastructure hosted in Oman. The result is an outbound program that scales without a proportional headcount bill.",
+          "AI Customer Care's agents run this front-of-funnel motion in Omani Arabic, Gulf Arabic, English, and the languages Gulf customers actually speak at home, with every call processed on infrastructure hosted in Oman. The result is an outbound program that scales without a proportional headcount bill.",
         ],
       },
       {
@@ -245,14 +245,14 @@ export const blogs2: BlogPost[] = [
         h: "Where the Milliseconds Go",
         p: [
           "End-to-end voice latency has four main components: speech recognition, language model inference, speech synthesis, and network transit. Teams often optimize the first three and ignore the fourth, but network distance is frequently the largest and most fixable contributor.",
-          "A call answered in Muscat but processed on servers in another continent pays a round-trip tax on every single conversational turn. No amount of model optimization recovers time lost to geography. This is why VoxCare processes calls on infrastructure hosted inside Oman: callers in Oman get responses generated close to where they are speaking.",
+          "A call answered in Muscat but processed on servers in another continent pays a round-trip tax on every single conversational turn. No amount of model optimization recovers time lost to geography. This is why AI Customer Care processes calls on infrastructure hosted inside Oman: callers in Oman get responses generated close to where they are speaking.",
         ],
       },
       {
         h: "Reliability Is Latency's Twin",
         p: [
           "A fast agent that fails under load is no better than a slow one. Phone traffic is spiky: a billing issue, a storm, or a product launch can multiply call volume in an hour. Voice AI platforms need headroom, graceful degradation, and failover so that the thousandth concurrent call sounds identical to the first.",
-          "Reliability also means consistency across languages. An agent that responds instantly in English but stalls in Arabic delivers a two-tier experience that Gulf customers notice immediately. VoxCare engineers its Omani Arabic, Gulf Arabic, and multilingual pipelines to the same sub-second standard.",
+          "Reliability also means consistency across languages. An agent that responds instantly in English but stalls in Arabic delivers a two-tier experience that Gulf customers notice immediately. AI Customer Care engineers its Omani Arabic, Gulf Arabic, and multilingual pipelines to the same sub-second standard.",
         ],
       },
       {
@@ -271,24 +271,24 @@ export const blogs2: BlogPost[] = [
     ],
   },
   {
-    slug: "voxcare-crosses-million-calls-per-month",
-    title: "VoxCare Crosses One Million Calls per Month Across Oman",
+    slug: "ai-customer-care-crosses-million-calls-per-month",
+    title: "AI Customer Care Crosses One Million Calls per Month Across Oman",
     date: "Apr 8, 2026",
     category: "Company News",
     excerpt:
-      "VoxCare's AI phone agents are now handling more than one million calls every month for businesses across Oman, a milestone that reflects how quickly voice AI has moved from experiment to infrastructure.",
+      "our phone agents are now handling more than one million calls every month for businesses across Oman, a milestone that reflects how quickly voice AI has moved from experiment to infrastructure.",
     sections: [
       {
         h: "A Milestone Worth Pausing On",
         p: [
-          "This month, VoxCare's platform handled its one millionth call in a single month. One million conversations: customers checking orders in Omani Arabic, patients booking clinic appointments in Malayalam, drivers renewing insurance in Hindi, and hotel guests getting answers in English and Swahili, all handled by AI agents hosted on infrastructure inside Oman.",
+          "This month, AI Customer Care's platform handled its one millionth call in a single month. One million conversations: customers checking orders in Omani Arabic, patients booking clinic appointments in Malayalam, drivers renewing insurance in Hindi, and hotel guests getting answers in English and Swahili, all handled by AI agents hosted on infrastructure inside Oman.",
           "When we started, the question we heard most was whether AI could really hold a natural phone conversation in the dialects our region actually speaks. A million calls a month is our answer.",
         ],
       },
       {
         h: "What Is Driving the Growth",
         p: [
-          "Growth has come from three directions at once. Existing customers are routing more of their call volume to AI as trust builds; a business that started with after-hours overflow now runs its main line through VoxCare. New sectors have come online, with healthcare, insurance, logistics, hospitality, and government services all now represented. And multilingual demand has surged, because Oman's workforce and customer base speak many languages, and an agent that meets callers in their own language wins loyalty fast.",
+          "Growth has come from three directions at once. Existing customers are routing more of their call volume to AI as trust builds; a business that started with after-hours overflow now runs its main line through AI Customer Care. New sectors have come online, with healthcare, insurance, logistics, hospitality, and government services all now represented. And multilingual demand has surged, because Oman's workforce and customer base speak many languages, and an agent that meets callers in their own language wins loyalty fast.",
         ],
         bullets: [
           "Customer service and support calls remain the largest category of traffic",
@@ -319,25 +319,25 @@ export const blogs2: BlogPost[] = [
     ],
   },
   {
-    slug: "voxcare-series-a-16m-funding",
-    title: "VoxCare Raises $16M Series A to Expand Omani Arabic Voice AI",
+    slug: "ai-customer-care-series-a-16m-funding",
+    title: "AI Customer Care Raises $16M Series A to Expand Omani Arabic Voice AI",
     date: "Oct 14, 2025",
     category: "Company News",
     excerpt:
-      "VoxCare has closed a $16 million Series A to deepen its Omani Arabic voice technology, grow its Gulf presence, and scale the region's first Personal Data Protection Law-aligned, locally hosted AI phone platform.",
+      "AI Customer Care has closed a $16 million Series A to deepen its Omani Arabic voice technology, grow its Gulf presence, and scale the region's first Personal Data Protection Law-aligned, locally hosted AI phone platform.",
     sections: [
       {
         h: "The Announcement",
         p: [
-          "Today we are announcing that VoxCare has raised $16 million in Series A funding. The round brings together regional and international investors who share our conviction that Oman deserves voice AI built for its languages, its regulations, and its customers, not adapted as an afterthought.",
-          "This funding follows a year of strong growth in which businesses across Oman and the wider Gulf moved real call volume onto VoxCare's AI phone agents, from customer service lines to appointment booking to lead qualification.",
+          "Today we are announcing that AI Customer Care has raised $16 million in Series A funding. The round brings together regional and international investors who share our conviction that Oman deserves voice AI built for its languages, its regulations, and its customers, not adapted as an afterthought.",
+          "This funding follows a year of strong growth in which businesses across Oman and the wider Gulf moved real call volume onto our phone agents, from customer service lines to appointment booking to lead qualification.",
         ],
       },
       {
-        h: "Why We Built VoxCare",
+        h: "Why We Built AI Customer Care",
         p: [
           "Global voice AI platforms are impressive, but they were not built for a caller in Salalah who opens in Omani Arabic, switches to English for a product name, and expects to be understood throughout. They were not built for data protection officers who need every recording to stay inside Oman. And they were not built for workforces where a single business serves customers in Arabic, Hindi, Bengali, Malayalam, Tamil, and Swahili in the same afternoon.",
-          "VoxCare was built for exactly that reality: natural conversation in the dialects of Oman, sub-second response times from infrastructure hosted in Oman, and compliance with the Personal Data Protection Law issued by Royal Decree 6/2022 designed in from the first line of code.",
+          "AI Customer Care was built for exactly that reality: natural conversation in the dialects of Oman, sub-second response times from infrastructure hosted in Oman, and compliance with the Personal Data Protection Law issued by Royal Decree 6/2022 designed in from the first line of code.",
         ],
       },
       {
@@ -368,17 +368,17 @@ export const blogs2: BlogPost[] = [
     ],
   },
   {
-    slug: "voxcare-sets-new-benchmark-for-ai-phone-support",
-    title: "VoxCare Sets a New Latency Benchmark for AI Phone Support",
+    slug: "ai-customer-care-sets-new-benchmark-for-ai-phone-support",
+    title: "AI Customer Care Sets a New Latency Benchmark for AI Phone Support",
     date: "Jan 14, 2026",
     category: "Company News",
     excerpt:
-      "VoxCare's platform now delivers consistently sub-second voice responses across all supported languages, a benchmark achieved through end-to-end pipeline engineering and call processing hosted inside Oman.",
+      "AI Customer Care's platform now delivers consistently sub-second voice responses across all supported languages, a benchmark achieved through end-to-end pipeline engineering and call processing hosted inside Oman.",
     sections: [
       {
         h: "Announcing a New Performance Standard",
         p: [
-          "Today VoxCare is announcing a new performance benchmark for AI phone support: consistently sub-second response times from the moment a caller stops speaking to the moment our agent begins its reply, measured on real production calls across every language we support.",
+          "Today AI Customer Care is announcing a new performance benchmark for AI phone support: consistently sub-second response times from the moment a caller stops speaking to the moment our agent begins its reply, measured on real production calls across every language we support.",
           "This is not a lab number produced under ideal conditions. It is the measured performance of live customer traffic, in Omani Arabic and Gulf Arabic, in English and Standard Arabic, and in Swahili, Hindi, Bengali, Malayalam, and Tamil, at production call volumes.",
         ],
       },
@@ -411,7 +411,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "What It Means for Callers and Businesses",
         p: [
-          "For callers, the result is simple: talking to a VoxCare agent feels like talking to a person who is paying attention. For businesses, faster turns mean shorter calls, fewer abandoned conversations, and higher resolution rates. We publish this benchmark because we believe the industry should compete on it openly, and we invite any business evaluating voice AI to test us on live calls rather than take our word for it.",
+          "For callers, the result is simple: talking to an AI Customer Care agent feels like talking to a person who is paying attention. For businesses, faster turns mean shorter calls, fewer abandoned conversations, and higher resolution rates. We publish this benchmark because we believe the industry should compete on it openly, and we invite any business evaluating voice AI to test us on live calls rather than take our word for it.",
         ],
       },
     ],
@@ -453,7 +453,7 @@ export const blogs2: BlogPost[] = [
         h: "Regional Fit: The Overlooked Criterion",
         p: [
           "Global platforms optimize for the largest markets, which means Gulf dialects, regional telephony quirks, and local data protection laws often sit low on their roadmaps. A regionally built platform inverts those priorities.",
-          "VoxCare exists precisely for this gap: AI phone agents that speak Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam, and Tamil natively, run on infrastructure hosted in Oman, comply with the Personal Data Protection Law under Royal Decree 6/2022, and respond in under a second. For a Gulf business, that combination is not a nice-to-have; it is the shortlist filter.",
+          "AI Customer Care exists precisely for this gap: AI phone agents that speak Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam, and Tamil natively, run on infrastructure hosted in Oman, comply with the Personal Data Protection Law under Royal Decree 6/2022, and respond in under a second. For a Gulf business, that combination is not a nice-to-have; it is the shortlist filter.",
         ],
       },
       {
@@ -502,7 +502,7 @@ export const blogs2: BlogPost[] = [
         h: "Strategy Three: Instant, Patient Phone Follow-Up",
         p: [
           "Senior prospects who request information expect a call, and they judge you by how quickly and courteously it arrives. The agency that calls back within minutes, speaks clearly, never rushes, and books a proper appointment wins the relationship before competitors have opened the lead file.",
-          "AI voice agents have become a quiet advantage here. A well-designed agent answers or returns every inquiry immediately, speaks slowly and clearly, repeats information without impatience, and schedules a call with a licensed advisor. VoxCare's agents do this in the caller's preferred language and hand the advisor a full summary, so the human conversation starts warm.",
+          "AI voice agents have become a quiet advantage here. A well-designed agent answers or returns every inquiry immediately, speaks slowly and clearly, repeats information without impatience, and schedules a call with a licensed advisor. AI Customer Care's agents do this in the caller's preferred language and hand the advisor a full summary, so the human conversation starts warm.",
         ],
       },
       {
@@ -562,7 +562,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "Handle Health Data Like It Matters, Because It Does",
         p: [
-          "Health insurance leads inevitably involve health-adjacent personal data, which sits in the most protected category under laws like Oman's Personal Data Protection Law under Royal Decree 6/2022. Collect only what you need, secure what you collect, honor consent scrupulously, and know where your data physically lives. VoxCare processes all call data on infrastructure hosted in Oman, which keeps residency questions simple for insurers operating under local supervision.",
+          "Health insurance leads inevitably involve health-adjacent personal data, which sits in the most protected category under laws like Oman's Personal Data Protection Law under Royal Decree 6/2022. Collect only what you need, secure what you collect, honor consent scrupulously, and know where your data physically lives. AI Customer Care processes all call data on infrastructure hosted in Oman, which keeps residency questions simple for insurers operating under local supervision.",
           "Compliance discipline is not friction on the sales process; in a market where buyers are entrusting you with their family's health coverage, it is the trust signal that closes deals.",
         ],
       },
@@ -612,7 +612,7 @@ export const blogs2: BlogPost[] = [
         h: "The AI Shift: From Tracking Calls to Handling Them",
         p: [
           "The most interesting development in this space is that AI voice agents dissolve the boundary between tracking and doing. When an AI agent handles a call, perfect data is a by-product: every call is transcribed, summarized, categorized, and logged automatically, in every language spoken, with outcomes recorded the moment they happen.",
-          "VoxCare customers get this analytics layer built in: full transcripts and structured summaries of every AI-handled call, across Omani Arabic, English, Hindi, and every other supported language, stored on infrastructure in Oman. The future of call tracking is not a better tracker; it is a phone agent that measures everything because it handled everything.",
+          "AI Customer Care customers get this analytics layer built in: full transcripts and structured summaries of every AI-handled call, across Omani Arabic, English, Hindi, and every other supported language, stored on infrastructure in Oman. The future of call tracking is not a better tracker; it is a phone agent that measures everything because it handled everything.",
         ],
       },
     ],
@@ -654,7 +654,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "Where AI Voice Agents Fit a Sensitive Sale",
         p: [
-          "AI belongs at the front and the back of this funnel, not at the emotional center. VoxCare's voice agents excel at instant lead response, confirming interest, answering factual questions about coverage basics, and booking appointments with licensed agents, plus the unglamorous follow-up work: reminder calls, reschedules, and polite periodic check-ins that human teams never quite sustain.",
+          "AI belongs at the front and the back of this funnel, not at the emotional center. AI Customer Care's voice agents excel at instant lead response, confirming interest, answering factual questions about coverage basics, and booking appointments with licensed agents, plus the unglamorous follow-up work: reminder calls, reschedules, and polite periodic check-ins that human teams never quite sustain.",
           "The human advisor then handles what only a human should: the needs conversation, the family context, and the close. Agencies running this division of labor report more appointments per lead and, just as importantly, advisors who spend their day in meaningful conversations instead of voicemail purgatory.",
         ],
       },
@@ -707,10 +707,10 @@ export const blogs2: BlogPost[] = [
         ],
       },
       {
-        h: "Where VoxCare Lands",
+        h: "Where AI Customer Care Lands",
         p: [
-          "VoxCare's answer to the build-versus-buy question is opinionated: Gulf businesses should get outcomes, not toolkits. We deliver AI phone agents that already speak Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam, and Tamil; that respond in under a second; that run on infrastructure hosted in Oman under Personal Data Protection Law-aligned controls; and that we design, integrate, and operate with you.",
-          "If you have the engineering bench and appetite to build, developer platforms are legitimate tools. If you want your phones answered brilliantly next month, in the languages Muscat actually speaks, that is the problem we built VoxCare to solve.",
+          "AI Customer Care's answer to the build-versus-buy question is opinionated: Gulf businesses should get outcomes, not toolkits. We deliver AI phone agents that already speak Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam, and Tamil; that respond in under a second; that run on infrastructure hosted in Oman under Personal Data Protection Law-aligned controls; and that we design, integrate, and operate with you.",
+          "If you have the engineering bench and appetite to build, developer platforms are legitimate tools. If you want your phones answered brilliantly next month, in the languages Muscat actually speaks, that is the problem we built AI Customer Care to solve.",
         ],
       },
     ],
@@ -772,7 +772,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "Why Regional Infrastructure Matters",
         p: [
-          "For Gulf call centers, two criteria eliminate most global vendors: dialect quality and data residency. An agent that cannot follow Omani Arabic frustrates the very callers it was meant to serve, and call recordings crossing borders create compliance questions under Oman's Personal Data Protection Law. VoxCare was built against both requirements: native Gulf dialect coverage, sub-second responses, and every call processed on infrastructure hosted in Oman.",
+          "For Gulf call centers, two criteria eliminate most global vendors: dialect quality and data residency. An agent that cannot follow Omani Arabic frustrates the very callers it was meant to serve, and call recordings crossing borders create compliance questions under Oman's Personal Data Protection Law. AI Customer Care was built against both requirements: native Gulf dialect coverage, sub-second responses, and every call processed on infrastructure hosted in Oman.",
         ],
       },
     ],
@@ -809,7 +809,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "Use Cases Delivering Value Today",
         p: [
-          "Across VoxCare deployments, a set of use cases consistently delivers the fastest returns. Retailers and logistics firms automate order status and delivery queries, which often dominate their call volume. Clinics and hospitals run appointment booking, rescheduling, and reminder calls that measurably cut no-shows. Insurers handle policy inquiries, renewal reminders, and first-notice-of-loss intake. Banks and telecoms deflect balance and plan inquiries while routing sensitive matters to humans with full context. Hotels answer guest questions in whichever language the guest prefers.",
+          "Across AI Customer Care deployments, a set of use cases consistently delivers the fastest returns. Retailers and logistics firms automate order status and delivery queries, which often dominate their call volume. Clinics and hospitals run appointment booking, rescheduling, and reminder calls that measurably cut no-shows. Insurers handle policy inquiries, renewal reminders, and first-notice-of-loss intake. Banks and telecoms deflect balance and plan inquiries while routing sensitive matters to humans with full context. Hotels answer guest questions in whichever language the guest prefers.",
           "The pattern across all of them: high-volume, well-defined conversations move to AI, and human teams concentrate on the calls that genuinely need them.",
         ],
       },
@@ -823,7 +823,7 @@ export const blogs2: BlogPost[] = [
       {
         h: "Trust, Compliance, and the Local Advantage",
         p: [
-          "Customer service calls carry personal data, so where and how that data is processed is not a footnote. Oman's Personal Data Protection Law under Royal Decree 6/2022 sets clear expectations for lawful processing, and data residency inside Oman keeps the compliance picture simple. VoxCare processes every call on Omani infrastructure with sub-second response times, which means Gulf businesses do not have to choose between conversational quality, speed, and compliance.",
+          "Customer service calls carry personal data, so where and how that data is processed is not a footnote. Oman's Personal Data Protection Law under Royal Decree 6/2022 sets clear expectations for lawful processing, and data residency inside Oman keeps the compliance picture simple. AI Customer Care processes every call on Omani infrastructure with sub-second response times, which means Gulf businesses do not have to choose between conversational quality, speed, and compliance.",
           "Voice AI in customer service is no longer a bet on the future; it is a catch-up requirement for the present. The practical question for most businesses is simply which calls to move first, and the answer is usually the ones your customers are currently waiting on hold for.",
         ],
       },

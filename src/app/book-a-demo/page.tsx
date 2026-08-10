@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { CalendarCheck, Languages, ShieldCheck } from "lucide-react";
+import { CalendarCheck, Languages, Mail, MapPin, Phone, ShieldCheck } from "lucide-react";
 import { site } from "@/data/site";
-import { PageHero } from "@/components/sections";
+import { PageHero, CtaBanner } from "@/components/sections";
 
 export const metadata: Metadata = {
   title: "Book a Demo",
   description:
-    "See our humanlike AI phone agents live, a 30-minute demo tailored to your industry, in Arabic or English.",
+    "A 30-minute working session on your own call scenarios, in Arabic or English. Call or email the founder directly to arrange one.",
 };
 
 export default function BookADemoPage() {
@@ -14,76 +14,85 @@ export default function BookADemoPage() {
     <>
       <PageHero
         badge="Book a Demo"
-        title="Humanlike AI phone agents, live in 30 minutes"
-        sub="Hear the agent answer in Arabic, watch a booking land in a calendar, and get straight answers tailored to your industry."
+        title="Thirty minutes, your call flows, our agent answering"
+        sub="Hear the agent handle a call in Arabic, watch a booking land in a calendar, and get straight answers about what it would take on your lines."
         cta={false}
       />
-      <section className="pb-16 md:pb-24">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-2 max-w-5xl">
-          <div className="space-y-6">
+
+      <section className="border-b border-border pb-16 md:pb-24">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <p className="eyebrow">To book, just reach out</p>
+          <div className="mt-6 grid gap-px border border-border bg-border sm:grid-cols-2">
+            <div className="bg-ink-2 p-8">
+              <Phone className="h-5 w-5 text-lime" aria-hidden />
+              <h2 className="mt-4 text-base font-semibold">Call or WhatsApp</h2>
+              <a
+                href={`tel:${site.phone.replace(/\s/g, "")}`}
+                className="mt-2 block text-sm text-muted-foreground hover:text-lime transition-colors"
+              >
+                {site.phone}
+              </a>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                Answered by the founder, not an AI agent. Yes, we hear the irony.
+              </p>
+            </div>
+            <div className="bg-ink-2 p-8">
+              <Mail className="h-5 w-5 text-lime" aria-hidden />
+              <h2 className="mt-4 text-base font-semibold">Email</h2>
+              <a
+                href={`mailto:${site.email}?subject=Demo%20request`}
+                className="mt-2 block text-sm text-muted-foreground hover:text-lime transition-colors"
+              >
+                {site.email}
+              </a>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                Tell us your industry and roughly how many calls a month you
+                handle, and we will tailor the demo to it.
+              </p>
+            </div>
+            <div className="bg-ink-2 p-8 sm:col-span-2">
+              <MapPin className="h-5 w-5 text-lime" aria-hidden />
+              <h2 className="mt-4 text-base font-semibold">Or visit us</h2>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                {site.address}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-b border-border py-16 md:py-20">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-4xl">What the demo covers</h2>
+          <div className="mt-10 grid gap-x-10 gap-y-8 sm:grid-cols-3">
             {[
               {
                 icon: Languages,
-                title: "Hear it speak your customers' languages",
-                desc: "We'll run live calls in Omani Arabic, English, and any of our nine languages you choose.",
+                title: "Your customers' languages",
+                desc: "Live calls in Omani Arabic, English, and any of our nine languages you want to hear.",
               },
               {
                 icon: CalendarCheck,
-                title: "See real workflows",
-                desc: "Scheduling, lead qualification, escalation, demonstrated on flows from your industry, not canned scripts.",
+                title: "Real workflows",
+                desc: "Scheduling, lead qualification, and escalation shown on flows from your industry, not canned scripts.",
               },
               {
                 icon: ShieldCheck,
                 title: "Compliance answered",
-                desc: "Bring your DPO. We'll walk through Oman's Personal Data Protection Law data flows, residency, and our data-processing agreement.",
+                desc: "Bring your data protection officer. We walk through Personal Data Protection Law data flows and residency.",
               },
             ].map((f) => (
-              <div key={f.title} className="flex items-start gap-4">
-                <f.icon className="h-6 w-6 text-primary mt-0.5" aria-hidden />
-                <div>
-                  <h2 className="font-semibold">{f.title}</h2>
-                  <p className="mt-1 text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
-                </div>
+              <div key={f.title} className="border-t border-line-strong pt-5">
+                <f.icon className="h-5 w-5 text-lime" aria-hidden />
+                <h3 className="mt-3 text-base font-semibold">{f.title}</h3>
+                <p className="mt-2.5 text-sm text-muted-foreground leading-relaxed">{f.desc}</p>
               </div>
             ))}
           </div>
-          <form className="rounded-2xl border bg-card p-8 space-y-4" action={`mailto:${site.email}`} method="post" encType="text/plain">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label htmlFor="first" className="text-sm font-medium">First name</label>
-                <input id="first" name="first" required className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm" />
-              </div>
-              <div>
-                <label htmlFor="last" className="text-sm font-medium">Last name</label>
-                <input id="last" name="last" required className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm" />
-              </div>
-            </div>
-            <div>
-              <label htmlFor="email" className="text-sm font-medium">Work email</label>
-              <input id="email" name="email" type="email" required className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm" />
-            </div>
-            <div>
-              <label htmlFor="company" className="text-sm font-medium">Company</label>
-              <input id="company" name="company" required className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm" />
-            </div>
-            <div>
-              <label htmlFor="volume" className="text-sm font-medium">Monthly call volume</label>
-              <select id="volume" name="volume" className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm">
-                <option>Under 500 calls</option>
-                <option>500 – 5,000 calls</option>
-                <option>5,000 – 50,000 calls</option>
-                <option>50,000+ calls</option>
-              </select>
-            </div>
-            <button type="submit" className="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors">
-              Request demo
-            </button>
-            <p className="text-xs text-muted-foreground">
-              We reply within one business day, Sunday–Thursday. Details processed under Oman&rsquo;s Personal Data Protection Law.
-            </p>
-          </form>
         </div>
       </section>
+
+      <CtaBanner />
     </>
   );
 }

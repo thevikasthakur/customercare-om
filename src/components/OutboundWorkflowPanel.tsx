@@ -13,14 +13,14 @@ import {
 } from "lucide-react";
 
 const steps = [
-  { icon: Zap, label: "Trigger" },
-  { icon: Sparkles, label: "AI Step" },
-  { icon: GitBranch, label: "Condition" },
-  { icon: PhoneCall, label: "AI Call" },
-  { icon: Mail, label: "Email" },
-  { icon: Braces, label: "Code" },
-  { icon: Ticket, label: "Ticket" },
-  { icon: Clock, label: "Delay" },
+  { icon: Zap, label: "Start event" },
+  { icon: Sparkles, label: "Agent step" },
+  { icon: GitBranch, label: "Branch" },
+  { icon: PhoneCall, label: "Place call" },
+  { icon: Mail, label: "Send email" },
+  { icon: Braces, label: "Webhook" },
+  { icon: Ticket, label: "Raise ticket" },
+  { icon: Clock, label: "Wait" },
 ];
 
 function Node({
@@ -207,8 +207,8 @@ export default function OutboundWorkflowPanel() {
                       <Node
                         icon={Ticket}
                         title="Create ticket"
-                        sub="Assign to nurture queue"
-                        chip="Ticket #4821 · open"
+                        sub="Send to the follow-up list"
+                        chip="Ticket #10237 · open"
                         chipTone="amber"
                       />
                     </div>

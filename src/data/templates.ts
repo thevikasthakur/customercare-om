@@ -9,7 +9,7 @@ export const templates: Template[] = [
     featured: true,
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Contractors lose work every time a call rings out while the crew is on a roof or under a slab. This template answers every inbound call instantly, greets the caller in Omani Arabic, Gulf Arabic, English, Hindi, or any of AI Customer Care's supported languages, and books site visits directly into your calendar.",
           "The agent collects the job type, location, and preferred timing, checks your real availability, and confirms the slot before the call ends. No voicemail, no missed leads, no double bookings.",
@@ -21,7 +21,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Built for general contractors, maintenance companies, electricians, plumbers, and AC technicians operating in Muscat, Sohar, Salalah, and across the Sultanate. Because callers may be Omani homeowners, expat residents, or facility managers, the agent switches naturally between Arabic dialects, English, Hindi, Malayalam, and Bengali.",
           "All call data stays hosted in Oman and is handled in line with the Oman Personal Data Protection Law, which matters when you serve government and corporate clients.",
@@ -44,13 +44,13 @@ export const templates: Template[] = [
   },
   {
     slug: "swimming-pool-service-requests",
-    name: "Swimming Pool Service Requests",
+    name: "Pool Servicing and Repair Calls",
     industry: "Pool Maintenance & Services",
     short: "An AI agent that takes pool cleaning, repair, and chemical-balancing requests and schedules your technicians automatically.",
     featured: true,
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Pool companies in Oman handle a steady stream of calls about green water, broken pumps, and missed cleaning visits, and most of them arrive while technicians are elbow-deep in a filter room. This template turns every one of those calls into a structured service request.",
           "The AI agent identifies whether the caller needs routine maintenance, an urgent repair, or a new service contract, gathers pool details, and books a technician visit on the spot.",
@@ -62,7 +62,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Ideal for pool service companies covering villas in Al Mouj, Madinat Al Ilam, and Qurum, as well as hotel and compound pools across the country. Villa owners often prefer English or Arabic while site supervisors may speak Hindi or Malayalam; the agent handles all of them without transfers.",
           "Data residency in Oman means client addresses and access notes never leave the country.",
@@ -91,7 +91,7 @@ export const templates: Template[] = [
     featured: true,
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Building managers field the same calls every day: a leaking AC in flat 304, a lift stuck on the fifth floor, a question about parking. This template gives every tenant a phone line that answers immediately, logs the issue correctly, and dispatches it to the right team.",
           "The agent creates categorised maintenance tickets, escalates genuine emergencies to your on-call staff, and answers routine questions about building rules, visitor access, and payment procedures without human involvement.",
@@ -103,7 +103,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Designed for property management firms and owners' associations running residential towers and mixed-use buildings in Muscat, Sohar, and Duqm. Tenants in Omani buildings speak Omani Arabic, English, Hindi, Bengali, Tamil, and Malayalam; the agent responds fluently in each, so no tenant struggles to report a problem.",
           "Hosting inside Oman and Personal Data Protection Law-aligned handling of tenant names, unit numbers, and contact details keeps you compliant with local regulation.",
@@ -127,12 +127,12 @@ export const templates: Template[] = [
   },
   {
     slug: "solar-appointment-confirmations-with-voice-ai",
-    name: "Solar Appointment Confirmations",
+    name: "Solar Visit Confirmation and Rebooking",
     industry: "Solar & Renewable Energy",
     short: "Automatically confirm site surveys and installation appointments so your solar crews never drive to an empty villa.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "A missed solar site survey costs fuel, crew time, and a day of pipeline. This template calls customers ahead of every scheduled survey or installation, confirms they will be present, and reschedules on the spot if they will not.",
           "The agent also reminds customers of anything they need to prepare, such as roof access or a copy of their electricity bill, and updates your calendar and CRM with the outcome of every call.",
@@ -144,7 +144,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Built for solar installers and EPC companies riding Oman's push toward renewables under Vision 2040, from residential rooftop specialists in Muscat to commercial installers working industrial estates in Rusayl and Sohar.",
           "Customers may be Omani villa owners, expat tenants, or facility engineers, so the agent confirms appointments in Omani Arabic, English, Hindi, or Malayalam as the conversation requires.",
@@ -172,7 +172,7 @@ export const templates: Template[] = [
     short: "Turn every customer support call into a clean, categorised ticket with order details attached, no hold music required.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "When an online order goes wrong, customers want to talk to someone immediately. This template answers support calls instantly, looks up the order, and creates a fully categorised ticket covering delivery issues, returns, refunds, damaged items, and payment questions.",
           "Simple issues like delivery status get resolved on the call itself. Everything else lands in your helpdesk with the order number, issue type, and a call summary already filled in.",
@@ -184,7 +184,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Made for Omani online stores, Instagram sellers scaling up, and regional brands shipping into the Sultanate. Shoppers in Oman call in Arabic and English in nearly equal measure, and delivery drivers or corporate buyers may prefer Hindi or Bengali; the agent handles all of them.",
           "Customer names, addresses, and order histories stay on servers inside Oman, aligned with Personal Data Protection Law requirements.",
@@ -212,7 +212,7 @@ export const templates: Template[] = [
     short: "An AI agent that answers product questions, checks stock, and guides callers to the right purchase in Omani Arabic and other languages spoken widely in Oman.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Many shoppers in Oman still prefer to call and ask before they buy, especially for electronics, furniture, and higher-value items. This template gives them instant, accurate answers about specifications, sizes, availability, prices, and delivery times, pulled straight from your product catalogue.",
           "When a caller is ready to buy, the agent can send them a direct product link by SMS or WhatsApp, or capture the enquiry as a sales lead for follow-up.",
@@ -224,7 +224,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Suited to electronics retailers, furniture stores, auto-parts sellers, and any Omani business with a catalogue too big for staff to memorise. The agent describes products fluently in Omani Arabic, Standard Arabic, English, Hindi, Tamil, and more, matching how customers across the Sultanate actually shop.",
         ],
@@ -246,12 +246,12 @@ export const templates: Template[] = [
   },
   {
     slug: "real-estate-property-inquiries-and-lead-qualification-with-voice-ai",
-    name: "Real Estate Inquiries & Lead Qualification",
+    name: "Real Estate Enquiries & Lead Qualification",
     industry: "Real Estate",
     short: "Answer every property call, qualify buyers and tenants, and book viewings while your agents are out showing homes.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Property listings generate call spikes that no small brokerage can staff for. This template answers every enquiry, shares key details about the listing, and qualifies the caller on budget, timeline, financing, and requirements before any human gets involved.",
           "Qualified leads get a viewing booked directly into the responsible agent's calendar. Casual browsers get their questions answered politely without consuming your team's afternoon.",
@@ -263,7 +263,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Built for brokerages and developers marketing apartments in Al Mouj and Muscat Hills, villas in Bousher and Al Khoudh, and ITC properties sold to international buyers. Callers range from Omani families to GCC investors to expat tenants, so the agent qualifies leads in Gulf Arabic, English, Hindi, and Swahili with equal ease.",
           "Lead data remains hosted in Oman under Personal Data Protection Law-aligned controls, which developers increasingly require from their marketing partners.",
@@ -288,12 +288,12 @@ export const templates: Template[] = [
     slug: "appointment-scheduling-for-skincare-clinics-with-voice-ai",
     name: "Skincare Clinic Appointments",
     industry: "Aesthetics & Wellness",
-    short: "A discreet, multilingual AI receptionist that books consultations and treatments for skincare and aesthetic clinics.",
+    short: "A discreet, multilingual customer care agent that books consultations and treatments for skincare and aesthetic clinics.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
-          "Aesthetic clinics lose bookings when the front desk is busy with in-person clients. This template answers every call, explains your treatments at a high level, and books consultations, follow-ups, and treatment sessions against practitioner availability.",
+          "Aesthetic clinics lose bookings when the team is busy with in-person clients. This template answers every call, explains your treatments at a high level, and books consultations, follow-ups, and treatment sessions against practitioner availability.",
           "The agent handles rescheduling and cancellations, applies your deposit and no-show policies, and sends reminder messages that measurably cut missed appointments.",
         ],
         bullets: [
@@ -303,7 +303,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Designed for skincare clinics, dermatology practices, and medispas in Muscat, Seeb, and Salalah. Clients often prefer to discuss appointments in Omani Arabic or English, and the agent maintains a warm, discreet tone in both, along with the other languages AI Customer Care supports.",
           "Client contact details and appointment histories are stored in Oman and handled under Personal Data Protection Law-aligned safeguards, which is essential for a clinic environment.",
@@ -326,12 +326,12 @@ export const templates: Template[] = [
   },
   {
     slug: "mortgage-broker-lead-qualification-ai",
-    name: "Mortgage Broker Lead Qualification",
+    name: "Home Financing Enquiry Screening",
     industry: "Financial Services",
     short: "Qualify home-financing leads on income, property status, and eligibility before they ever reach your advisors.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Mortgage advisors spend hours on calls that were never going to convert. This template screens every inbound financing enquiry, gathering employment status, income range, property status, and financing amount, and hands your advisors only the leads worth their time.",
           "The agent explains your process and typical requirements in plain language, sets expectations on documentation, and books qualified callers into advisor calendars automatically.",
@@ -343,7 +343,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Made for mortgage brokers and home-financing consultants serving buyers across the Sultanate, including Omani nationals purchasing family homes and expats and GCC nationals buying in ITC developments. The agent conducts qualification comfortably in Omani Arabic, English, and Hindi.",
           "Financial details shared on calls stay on infrastructure inside Oman with Personal Data Protection Law-aligned handling, and the agent never provides financial advice; it gathers facts and books meetings.",
@@ -367,12 +367,12 @@ export const templates: Template[] = [
   },
   {
     slug: "automate-rental-inquiries-with-voice-ai",
-    name: "Rental Inquiry Automation",
+    name: "Rental Enquiry Automation",
     industry: "Real Estate & Property Rentals",
     short: "Handle the flood of rental calls automatically: availability, rent, viewing bookings, and tenant screening in one agent.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "A well-priced rental listing in Oman can generate dozens of near-identical calls a day. This template answers each one, confirms availability, quotes the rent and terms, and books viewings, so landlords and property managers stop repeating themselves.",
           "The agent also performs light screening, asking about move-in dates, occupants, and employment, so viewings go to serious prospective tenants rather than casual callers.",
@@ -384,9 +384,9 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
-          "Perfect for property managers, landlords with multiple units, and agencies handling rentals in Ghubrah, Al Khuwair, Ruwi, and beyond. Renters in Oman come from everywhere, and the agent answers naturally in Omani Arabic, English, Hindi, Bengali, Tamil, and Malayalam, matching the actual tenant mix in Omani buildings.",
+          "Perfect for property managers, landlords with multiple units, and agencies handling rentals in Ghubrah, Al Khuwair, Ruwi, and beyond. Renters in Oman come from everywhere, and the agent handles queries naturally in Omani Arabic, English, Hindi, Bengali, Tamil, and Malayalam, matching the actual tenant mix in Omani buildings.",
         ],
       },
       {
@@ -405,15 +405,15 @@ export const templates: Template[] = [
     ],
   },
   {
-    slug: "ai-receptionist-template-for-law-firms",
-    name: "AI Receptionist for Law Firms",
+    slug: "law-firm-client-intake-with-voice-ai",
+    name: "Law Firm Client Intake and Routing",
     industry: "Legal Services",
-    short: "A professional, confidential AI receptionist that intakes new matters, routes existing clients, and books consultations.",
+    short: "A confidential customer care agent that records new matter details, routes existing clients, and books consultations.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
-          "Every unanswered call to a law firm is a potential client dialling the next firm on the list. This template answers professionally in the caller's language, distinguishes new enquiries from existing clients, and performs structured intake: matter type, opposing parties, urgency, and how the caller found the firm.",
+          "Every unanswered call to a law firm is a potential client dialling the next firm on the list. This template handles the call professionally in the caller's own language, distinguishes new enquiries from existing clients, and performs structured intake: matter type, opposing parties, urgency, and how the caller found the firm.",
           "New matters are checked against your practice areas, conflicts information is captured for your team to review, and consultations are booked into the right lawyer's calendar. Existing clients are routed or have detailed messages taken.",
         ],
         bullets: [
@@ -423,7 +423,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Built for law firms and legal consultancies in Muscat handling commercial, labour, family, and real estate matters. Clients may be Omani individuals, GCC companies, or expat employees with labour questions, so intake works fluently in Omani Arabic, Standard Arabic, English, and Hindi.",
           "Confidentiality is non-negotiable in legal work: calls are processed on servers in Oman, handled in line with the Oman Personal Data Protection Law, and the agent never offers legal advice.",
@@ -447,14 +447,14 @@ export const templates: Template[] = [
   },
   {
     slug: "schedule-counseling-appointments-with-voice-ai",
-    name: "Counseling Appointment Scheduling",
-    industry: "Mental Health & Counseling",
-    short: "A calm, private way for clients to book counseling sessions by phone, any hour, in the language they are most comfortable in.",
+    name: "Counselling Appointment Scheduling",
+    industry: "Mental Health & Counselling",
+    short: "A calm, private way for clients to book counselling sessions by phone, any hour, in the language they are most comfortable in.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
-          "Reaching out to a counselor takes courage, and an unanswered phone can end the attempt. This template ensures every call is met with a calm, patient voice that books first appointments and follow-up sessions without the caller ever being rushed or put on hold.",
+          "Reaching out to a counsellor takes courage, and an unanswered phone can end the attempt. This template ensures every call is met with a calm, patient voice that books first appointments and follow-up sessions without the caller ever being rushed or put on hold.",
           "The agent handles scheduling, rescheduling, and session-type selection, explains fees and confidentiality practices at a general level, and knows how to respond if a caller appears to be in crisis: it immediately provides your emergency contact procedure rather than continuing with booking.",
         ],
         bullets: [
@@ -464,16 +464,16 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
-          "For counseling practices, therapy centers, and wellness clinics across Oman. Many clients prefer to discuss something this personal in their own language, and the agent offers Omani Arabic, English, Hindi, Malayalam, and the rest of AI Customer Care's languages, letting callers choose comfort over convenience.",
+          "For counselling practices, therapy centres, and wellness clinics across Oman. Many clients prefer to discuss something this personal in their own language, and the agent offers Omani Arabic, English, Hindi, Malayalam, and the rest of AI Customer Care's languages, letting callers choose comfort over convenience.",
           "Sensitive personal data is exactly what the Oman Personal Data Protection Law exists to protect: all call data is hosted in Oman and handled with strict access controls.",
         ],
       },
       {
         h: "Setup",
         p: [
-          "Configure your counselors, session types, and availability, set your crisis escalation procedure with your clinical lead, and choose how much detail reminders should include. Review the escalation flow carefully before going live.",
+          "Configure your counsellors, session types, and availability, set your crisis escalation procedure with your clinical lead, and choose how much detail reminders should include. Review the escalation flow carefully before going live.",
         ],
       },
     ],
@@ -481,18 +481,18 @@ export const templates: Template[] = [
       "Answer gently and ask how the practice can help, without rushing",
       "Screen for crisis indicators and follow the escalation procedure if present",
       "Identify whether the caller wants a first session or a follow-up",
-      "Offer available times with the appropriate counselor and book the session",
+      "Offer available times with the appropriate counsellor and book the session",
       "Explain fees and confidentiality at a general level, then confirm discreetly",
     ],
   },
   {
     slug: "qualify-insurance-leads-with-voice-ai",
-    name: "Insurance Lead Qualification",
+    name: "Insurance Renewal and Quote Enquiries",
     industry: "Insurance",
     short: "Qualify motor, health, and property insurance leads on every call and route hot prospects straight to your producers.",
     sections: [
       {
-        h: "What this template does",
+        h: "Where this template does the work",
         p: [
           "Insurance agencies pay for leads and then lose them to slow follow-up. This template answers enquiry calls instantly, identifies the product the caller needs, and gathers the qualifying details: what is being insured, current coverage, renewal date, and rough budget.",
           "Callers approaching renewal or ready to buy are flagged as hot and connected or booked with a producer immediately. Everyone else is logged with a renewal date so your team calls back at exactly the right moment.",
@@ -504,7 +504,7 @@ export const templates: Template[] = [
         ],
       },
       {
-        h: "Who it's for in Oman",
+        h: "The Omani teams that run it",
         p: [
           "Built for insurance agencies and brokers in Oman quoting motor insurance for daily commuters, health cover for families and employers, and property cover for landlords. The caller mix spans Omani nationals and the expat workforce, so qualification runs in Omani Arabic, English, Hindi, Bengali, and Tamil.",
           "Personal and vehicle details collected on calls remain on Omani infrastructure under Personal Data Protection Law-aligned handling, and the agent gathers information without giving regulated advice.",

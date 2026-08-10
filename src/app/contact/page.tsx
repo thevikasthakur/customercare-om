@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { site } from "@/data/site";
-import { PageHero } from "@/components/sections";
+import { PageHero, CtaBanner } from "@/components/sections";
 
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with the AI Customer Care team in Muscat, sales, support, partnerships, and press.",
+    "Talk to AI Customer Care in Muscat. Email, phone, and office address, no forms and no queues.",
 };
 
 export default function ContactPage() {
@@ -15,83 +15,51 @@ export default function ContactPage() {
       <PageHero
         badge="Contact"
         title="Get in touch"
-        sub="Salaam! Whether you're a two-person workshop in Sur or a ministry in Muscat, we'd love to talk about your phone lines."
+        sub="Salaam. Whether you run one service line or a national contact centre, we would like to hear how your customers are being answered today."
         cta={false}
       />
-      <section className="pb-16 md:pb-24">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid gap-10 lg:grid-cols-2 max-w-5xl">
-          <div className="space-y-6">
-            <div className="flex items-start gap-4">
-              <Mail className="h-5 w-5 text-primary mt-1" aria-hidden />
-              <div>
-                <h2 className="font-semibold">Email</h2>
-                <p className="text-sm text-muted-foreground mt-1">{site.email}</p>
-              </div>
+      <section className="border-b border-border pb-16 md:pb-24">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <div className="grid gap-px border border-border bg-border sm:grid-cols-2">
+            <div className="bg-ink-2 p-8">
+              <Mail className="h-5 w-5 text-lime" aria-hidden />
+              <h2 className="mt-4 text-base font-semibold">Email</h2>
+              <a
+                href={`mailto:${site.email}`}
+                className="mt-2 block text-sm text-muted-foreground hover:text-lime transition-colors"
+              >
+                {site.email}
+              </a>
             </div>
-            <div className="flex items-start gap-4">
-              <Phone className="h-5 w-5 text-primary mt-1" aria-hidden />
-              <div>
-                <h2 className="font-semibold">Phone</h2>
-                <p className="text-sm text-muted-foreground mt-1">
-                  {site.phone}, answered by our own AI agent, naturally. Ask it anything.
-                </p>
-              </div>
+
+            <div className="bg-ink-2 p-8">
+              <Phone className="h-5 w-5 text-lime" aria-hidden />
+              <h2 className="mt-4 text-base font-semibold">Phone</h2>
+              <a
+                href={`tel:${site.phone.replace(/\s/g, "")}`}
+                className="mt-2 block text-sm text-muted-foreground hover:text-lime transition-colors"
+              >
+                {site.phone}
+              </a>
+              <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
+                Answered by the founder. In person. With a human mouth. We do
+                sell AI agents, and one day this line will surely have one, but
+                for now you get the guy who built them, and he quite likes
+                talking to customers.
+              </p>
             </div>
-            <div className="flex items-start gap-4">
-              <MapPin className="h-5 w-5 text-primary mt-1" aria-hidden />
-              <div>
-                <h2 className="font-semibold">Office</h2>
-                <p className="text-sm text-muted-foreground mt-1">{site.address}</p>
-              </div>
+
+            <div className="bg-ink-2 p-8 sm:col-span-2">
+              <MapPin className="h-5 w-5 text-lime" aria-hidden />
+              <h2 className="mt-4 text-base font-semibold">Office</h2>
+              <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                {site.address}
+              </p>
             </div>
-            <p className="text-sm text-muted-foreground leading-relaxed border-t pt-6">
-              Working hours: Sunday–Thursday, 8:00–17:00 Gulf Standard Time. Our AI
-              answers around the clock; humans reply within one business day.
-            </p>
           </div>
-          <form className="rounded-2xl border bg-card p-8 space-y-4" action={`mailto:${site.email}`} method="post" encType="text/plain">
-            <div>
-              <label htmlFor="name" className="text-sm font-medium">Name</label>
-              <input
-                id="name"
-                name="name"
-                type="text"
-                required
-                className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="text-sm font-medium">Work email</label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                required
-                className="mt-1.5 w-full h-10 rounded-md border border-input bg-background px-3 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-              />
-            </div>
-            <div>
-              <label htmlFor="message" className="text-sm font-medium">How can we help?</label>
-              <textarea
-                id="message"
-                name="message"
-                rows={5}
-                required
-                className="mt-1.5 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-              />
-            </div>
-            <button
-              type="submit"
-              className="inline-flex h-10 w-full items-center justify-center rounded-md bg-primary px-4 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-            >
-              Send message
-            </button>
-            <p className="text-xs text-muted-foreground">
-              Your details are processed under Oman&rsquo;s Personal Data Protection Law and never leave the country.
-            </p>
-          </form>
         </div>
       </section>
+      <CtaBanner />
     </>
   );
 }

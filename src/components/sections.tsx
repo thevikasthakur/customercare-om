@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Check, ShieldCheck } from "lucide-react";
 import type { FaqItem, Section } from "@/data/types";
-import { site } from "@/data/site";
 
 export function PageHero({
   badge,
@@ -26,12 +25,6 @@ export function PageHero({
         )}
         {cta && (
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <Link
-              href={`${site.appUrl}/sign-up`}
-              className="inline-flex h-11 items-center bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
-            >
-              Start Free
-            </Link>
             <Link
               href="/book-a-demo/"
               className="inline-flex h-11 items-center gap-2 border border-line-strong px-7 text-sm font-medium hover:bg-ink-3 transition-colors"
@@ -83,7 +76,7 @@ export function CheckList({ items }: { items: string[] }) {
 export function Faq({
   items,
   title = "FAQ",
-  sub = "Answers to the most frequently asked questions.",
+  sub = "The questions Omani teams ask us most often.",
 }: {
   items: FaqItem[];
   title?: string;
@@ -138,11 +131,11 @@ export function CtaBanner() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="mx-auto max-w-3xl text-4xl md:text-6xl">
-          Save thousands of hours <span className="accent-italic">on the phone</span>
+          Put an end to hold music <span className="accent-italic">and IVR menus</span>
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-          Get started today, your first 100 minutes are free, and your customer
-          data never leaves Oman.
+          Your first 100 minutes of customer conversations are free, and your
+          customer data stays inside Oman.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
           <Link
@@ -150,12 +143,6 @@ export function CtaBanner() {
             className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
           >
             Book a Demo <span aria-hidden>+</span>
-          </Link>
-          <Link
-            href={`${site.appUrl}/sign-up`}
-            className="inline-flex h-11 items-center border border-line-strong px-7 text-sm font-medium hover:bg-ink-3 transition-colors"
-          >
-            Start Free
           </Link>
         </div>
         <p className="mt-7 flex items-center justify-center gap-2 text-xs text-muted-foreground">

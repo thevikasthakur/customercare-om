@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { PhoneCall, ShieldCheck } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 import { footerNav, site } from "@/data/site";
 
 export default function Footer() {
@@ -9,7 +10,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 gap-10 md:grid-cols-4 lg:grid-cols-7">
           <div className="col-span-2">
             <Link href="/" className="flex items-center gap-2">
-              <PhoneCall className="h-6 w-6 text-lime" aria-hidden />
+              <Image
+                src="/media/logo.webp"
+                alt=""
+                width={51}
+                height={50}
+                className="h-7 w-auto"
+                aria-hidden
+              />
               <span className="text-lg font-bold tracking-tight">{site.name}</span>
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs leading-relaxed">
@@ -28,7 +36,7 @@ export default function Footer() {
             <p className="mt-5 text-xs text-muted-foreground">{site.address}</p>
           </div>
           {footerNav.map((col) => (
-            <div key={col.title}>
+            <div key={col.title} className={col.wide ? "col-span-2" : undefined}>
               <h3 className="font-mono text-xs uppercase tracking-[0.14em] text-muted-foreground">
                 {col.title}
               </h3>
@@ -49,8 +57,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 flex flex-col gap-4 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} AI Customer Care Technologies LLC, Muscat, Sultanate
-            of Oman. All rights reserved.
+            &copy; {new Date().getFullYear()} AI Customer Care. Muscat, Sultanate of Oman.
           </p>
           <p className="font-mono text-xs text-muted-foreground">
             Proudly hosted in Oman · {site.domain}

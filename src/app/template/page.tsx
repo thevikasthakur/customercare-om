@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     "Ready-made AI Customer Care templates for scheduling, lead qualification, ticketing, and more, tuned for Omani businesses and ready to customise in minutes.",
 };
 
-// deterministic "N+ businesses using this" per slug, phonely-style social proof
+// deterministic "N+ businesses using this" per slug, stable across rebuilds
 function usage(slug: string) {
   const n = [...slug].reduce((a, c) => a + c.charCodeAt(0), 0);
   return [10, 15, 20, 25, 30, 40, 50][n % 7];
@@ -67,12 +67,13 @@ export default function TemplatesPage() {
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 className="mx-auto max-w-3xl text-4xl md:text-6xl leading-[1.06]">
-            Ready-made templates to{" "}
-            <span className="accent-italic">supercharge</span> your workflow
+            Customer service templates that go live{" "}
+            <span className="accent-italic">without a build</span>
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
-            Boost productivity instantly with customisable templates designed to
-            fit any project, team, or workflow, in all nine AI Customer Care languages.
+            Each one arrives with the call flows, escalation rules and reporting
+            an Omani support desk needs, handling customer queries in all nine
+            AI Customer Care languages.
           </p>
         </div>
       </section>
@@ -80,9 +81,9 @@ export default function TemplatesPage() {
       {/* ── Featured ── */}
       <section className="border-b border-border py-14 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-4xl">Featured Templates</h2>
+          <h2 className="text-2xl md:text-4xl">Most used across Omani service desks</h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Ready to use agents that are fully customisable.
+            The call and chat flows our Muscat team deploys most often.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {featured.map((t) => (
@@ -95,9 +96,9 @@ export default function TemplatesPage() {
       {/* ── All templates ── */}
       <section className="border-b border-border py-14 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl md:text-4xl">Explore All Templates</h2>
+          <h2 className="text-2xl md:text-4xl">Every template, by industry and call type</h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Ready to use agents that are fully customisable.
+            Pick the one closest to your queue, then adjust it to your own policies.
           </p>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {templates.map((t) => (

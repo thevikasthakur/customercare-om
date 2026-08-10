@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PageHero, Stat, CardGrid, CtaBanner } from "@/components/sections";
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "AI Customer Care is building the future of how every Omani business answers the phone, AI agents that speak the Sultanate's languages, hosted on its soil.",
+    "AI Customer Care builds customer service voice AI for Omani enterprises: agents that handle customer queries in the Sultanate's own languages, hosted on its own soil.",
 };
 
 export default function AboutPage() {
@@ -13,13 +12,13 @@ export default function AboutPage() {
     <>
       <PageHero
         badge="About AI Customer Care"
-        title="Building the future of how every Omani business answers the phone"
+        title="Customer service AI built in Muscat, for the way Oman speaks"
         sub="AI Customer Care is the Oman-specialised sister of VoxReception. Where VoxReception serves the global market, AI Customer Care exists for one purpose: perfect customer service for the Sultanate of Oman."
         cta={false}
       />
       <section className="pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl prose-vox">
-          <h2>AI that speaks for itself, in Omani Arabic</h2>
+          <h2>The customer conversations global voice AI could not hold</h2>
           <p>
             Every global voice AI platform we tested had the same blind spot: it could
             not hold a natural conversation with a caller from Nizwa, switch to
@@ -28,12 +27,12 @@ export default function AboutPage() {
             phone is still where business happens. So we built the agent we could not
             buy.
           </p>
-          <h2>The optimisation engine for Omani phone calls</h2>
+          <h2>Customer care that runs on Oman&rsquo;s own calendar</h2>
           <p>
-            Our agents answer instantly, around the clock, through Ramadan
+            Our agents respond in under a second, around the clock, through Ramadan
             schedules, khareef season surges in Salalah, and national holidays. Every
             call is transcribed, analysed, and turned into structured data your team
-            can act on, bookings made, leads qualified, complaints escalated with
+            can act on: bookings made, leads qualified, complaints escalated with
             full context.
           </p>
           <h2>Compliance is our foundation, not a feature</h2>
@@ -48,7 +47,7 @@ export default function AboutPage() {
       </section>
       <section className="border-y bg-muted/40 py-14">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 gap-10 sm:grid-cols-3">
-          <Stat value="1M+" label="Calls answered across Oman" />
+          <Stat value="1M+" label="Customer calls handled across Oman" />
           <Stat value="9" label="Languages spoken natively" />
           <Stat value="0" label="Bytes of customer data stored outside Oman" />
         </div>
@@ -56,16 +55,16 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12">
-            Why customers choose AI Customer Care
+            What Omani enterprises get with AI Customer Care
           </h2>
           <CardGrid
             items={[
               {
-                title: "Built by people who know voice AI is hard",
+                title: "Voice AI engineered down to the millisecond",
                 desc: "Dialect-aware speech models, sub-second latency, and graceful escalation, engineered by a team that has shipped voice AI at global scale.",
               },
               {
-                title: "More than just a phone call",
+                title: "Your systems updated before the call ends",
                 desc: "Bookings in your calendar, leads in your CRM, tickets in your helpdesk. AI Customer Care turns conversations into completed work.",
               },
               {
@@ -74,21 +73,6 @@ export default function AboutPage() {
               },
             ]}
           />
-        </div>
-      </section>
-      <section className="py-16 bg-muted/40 border-y text-center">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold tracking-tight">Join the team</h2>
-          <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            We are hiring engineers, linguists, and customer-success specialists in
-            Muscat, and we are proud contributors to Omanisation.
-          </p>
-          <Link
-            href="/careers/"
-            className="mt-8 inline-flex h-11 items-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-          >
-            View Open Roles
-          </Link>
         </div>
       </section>
       <CtaBanner />

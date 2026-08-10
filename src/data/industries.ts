@@ -2,9 +2,9 @@ import type { Industry } from "./types";
 
 export const industries: Industry[] = [
   {
-    slug: "car-dealers-repair-ai-answering-service",
+    slug: "car-dealers-and-workshops-ai-customer-service",
     name: "Car Dealers & Repair Shops",
-    heroTitle: "AI answering service for car dealers and repair shops in Oman",
+    heroTitle: "Customer service AI for car dealers and repair workshops in Oman",
     heroSub: "From showroom enquiries in Muscat to breakdown calls on the Sohar highway, AI Customer Care picks up instantly, books service slots, and quotes opening hours in the caller's own language.",
     painPoints: [
       { title: "Service desk drowned at 8am", desc: "Every workshop in Oman gets a wave of booking calls right after opening. Your advisors are checking in cars, so callers hit voicemail and phone the dealer down the road instead." },
@@ -25,9 +25,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "carpenter-ai-answering-service",
+    slug: "carpentry-and-joinery-ai-customer-service",
     name: "Carpenters",
-    heroTitle: "AI answering service for carpenters in Oman",
+    heroTitle: "Call handling AI for carpentry and joinery firms in Oman",
     heroSub: "You can't hold a phone and a router at the same time. AI Customer Care answers every call, captures the job details, and books site visits while you keep cutting.",
     painPoints: [
       { title: "Sawdust and missed calls", desc: "When you're mid-cut in the workshop, the phone rings out. In a trade where the first carpenter to answer wins the majlis furniture job, silence is expensive." },
@@ -48,9 +48,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "cleaning-ai-answering-service",
+    slug: "cleaning-companies-ai-customer-service",
     name: "Cleaning Companies",
-    heroTitle: "AI answering service for cleaning companies in Oman",
+    heroTitle: "Customer care AI for cleaning companies across Oman",
     heroSub: "Bookings, reschedules, and quote requests handled 24/7, so your supervisors can run crews instead of running a call centre.",
     painPoints: [
       { title: "Booking calls collide with dispatch", desc: "The morning window when customers call to book is the same window your coordinators need for routing crews across Muscat. One of the two always suffers." },
@@ -71,9 +71,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "contractor-answering-service",
+    slug: "contractors-and-builders-ai-customer-service",
     name: "Contractors",
-    heroTitle: "AI answering service for contractors in Oman",
+    heroTitle: "Call handling AI for contractors and builders in Oman",
     heroSub: "Tender queries, supplier calls, and new project leads answered professionally while you're on site with your boots in the dirt.",
     painPoints: [
       { title: "Site noise makes calls impossible", desc: "You can't discuss a boundary wall quotation next to a jackhammer. Callers get half-heard answers or no answer at all." },
@@ -82,11 +82,11 @@ export const industries: Industry[] = [
     ],
     useCases: [
       { title: "Project lead intake", desc: "New enquiries are qualified on scope, plot location, budget in OMR, and whether municipality permits are in hand, then ranked in your inbox." },
-      { title: "Supplier call routing", desc: "Delivery confirmations and material queries are logged and routed to your site engineer, keeping your own line free for decisions." },
+      { title: "Material and delivery queries", desc: "Delivery confirmations and material queries are logged and routed to your site engineer, keeping your own line free for decisions." },
       { title: "Subcontractor coordination", desc: "The agent takes availability updates from your electrical and MEP subs and posts them to your project channel." },
       { title: "Snag and complaint logging", desc: "Handover-stage clients reporting defects get their issue recorded in structured detail with photos requested by SMS, ready for your snag list." },
     ],
-    omanNote: "Construction in Oman moves with the calendar, foundations poured before the summer heat peaks, external works paused during Dhofar's khareef drizzle, and a scramble of enquiries whenever a new residential scheme opens in Muscat Hills or Al Mouj. Your callers range from Omani landowners to site foremen calling in Hindi or Bengali. AI Customer Care answers each in their language, and because it's hosted entirely in the Sultanate, project and client data never crosses the border.",
+    omanNote: "Construction in Oman moves with the calendar, foundations poured before the summer heat peaks, external works paused during Dhofar's khareef drizzle, and a scramble of enquiries whenever a new residential scheme opens in Muscat Hills or Al Mouj. Your callers range from Omani landowners to site foremen calling in Hindi or Bengali. AI Customer Care handles each in their own language, and because it's hosted entirely in the Sultanate, project and client data never crosses the border.",
     faqs: [
       { q: "Can it separate serious projects from small repairs?", a: "Yes. Set your minimum project criteria and the agent qualifies every caller against them, politely referring undersized jobs elsewhere if you wish." },
       { q: "Does it work outside office hours?", a: "It never closes. Friday calls, late-night enquiries from overseas investors, and 6am supplier confirmations are all answered identically." },
@@ -94,32 +94,32 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "dentists-ai-answering-service",
+    slug: "dental-clinics-ai-customer-service",
     name: "Dentists",
-    heroTitle: "AI answering service for dental clinics in Oman",
-    heroSub: "Every appointment call answered in seconds, in the patient's own language, while your front desk focuses on the patients standing in front of them.",
+    heroTitle: "Patient call handling AI for dental clinics in Oman",
+    heroSub: "Every appointment call answered in seconds, in the patient's own language, while your clinic team focuses on the patients standing in front of them.",
     painPoints: [
       { title: "Reception can't do two things at once", desc: "Checking in a patient, taking payment, and answering a ringing phone is three jobs. The phone always loses, and so does the patient on the line." },
       { title: "No-shows eat your chair time", desc: "Unconfirmed appointments turn into empty chairs. Each missed slot is revenue your clinic never recovers." },
       { title: "Toothache doesn't keep clinic hours", desc: "A cracked molar at 11pm means a frantic patient calling around Muscat until someone answers. If it isn't you, it's a competitor." },
     ],
     useCases: [
-      { title: "Appointment booking and rescheduling", desc: "The agent reads your live calendar, books cleanings and consultations, and reshuffles slots when patients need to move." },
+      { title: "Chair slots booked and moved", desc: "The agent reads your live calendar, books cleanings and consultations, and reshuffles slots when patients need to move." },
       { title: "Emergency triage after hours", desc: "Severe pain, swelling, or trauma calls are flagged against your triage rules and escalated to the on-call dentist immediately." },
       { title: "Treatment and pricing questions", desc: "Callers asking about whitening, braces, or implant costs get the answers and OMR ranges you've approved, plus a consultation offer." },
       { title: "Recall and confirmation calls", desc: "The agent handles inbound confirmations and reminds patients of pre-appointment instructions, cutting no-shows week after week." },
     ],
     omanNote: "Dental clinics in Oman operate under Ministry of Health licensing and serve one of the region's most multilingual patient bases, an Omani family in Al Khoudh, a Malayali nurse in Ruwi, a Tamil engineer in Sohar. AI Customer Care greets each in their own language and keeps every patient interaction on servers physically inside Oman, aligned with the Personal Data Protection Law that has governed health data since February 2023.",
     faqs: [
-      { q: "Is patient data safe with an AI answering service?", a: "AI Customer Care is hosted entirely within Oman and no customer data ever leaves the Sultanate. Access is restricted, encrypted, and logged in line with Royal Decree 6/2022." },
+      { q: "Is patient data safe when an AI handles the call?", a: "AI Customer Care is hosted entirely within Oman and no customer data ever leaves the Sultanate. Access is restricted, encrypted, and logged in line with Royal Decree 6/2022." },
       { q: "Can it follow our emergency protocol?", a: "Yes. You define what counts as a dental emergency and who gets alerted. The agent applies those rules identically at 2pm and 2am." },
       { q: "Will it give medical advice?", a: "No. The agent shares only the practice information you approve and books consultations. Clinical questions are always routed to your dentists." },
     ],
   },
   {
-    slug: "e-commerce-retail-ai-answering-service",
+    slug: "ecommerce-and-retail-ai-customer-service",
     name: "E-commerce & Retail",
-    heroTitle: "AI answering service for e-commerce and retail businesses in Oman",
+    heroTitle: "Customer service AI for e-commerce and retail brands in Oman",
     heroSub: "Where's-my-order calls, stock checks, and returns handled instantly, so your team ships products instead of repeating tracking numbers.",
     painPoints: [
       { title: "WISMO calls bury your team", desc: "Half your inbound volume is one question, where is my order?, asked in four languages. Answering it manually scales with headcount, not with sales." },
@@ -140,9 +140,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "electrician-ai-answering-service",
+    slug: "electrical-contractors-ai-customer-service",
     name: "Electricians",
-    heroTitle: "AI answering service for electricians in Oman",
+    heroTitle: "Call handling AI for electrical contractors in Oman",
     heroSub: "You shouldn't answer a phone with live wires in your hands. AI Customer Care takes every call, flags real emergencies, and fills your job sheet.",
     painPoints: [
       { title: "Answering the phone is a safety risk", desc: "Mid-installation is the worst possible moment for a ringtone. But ignoring it means the AC-tripping-breaker job goes to another electrician." },
@@ -163,9 +163,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "insurance",
+    slug: "insurance-ai-customer-service",
     name: "Insurance",
-    heroTitle: "AI answering service for insurance agencies in Oman",
+    heroTitle: "Customer service AI for insurance agencies in Oman",
     heroSub: "Claims intake, policy questions, and renewal calls answered around the clock, with the calm consistency your policyholders expect at their worst moments.",
     painPoints: [
       { title: "Claims arrive at the roadside, not the office", desc: "Accidents on the Muscat Expressway don't happen during office hours. A policyholder who can't reach you after a crash remembers it at renewal time." },
@@ -186,13 +186,13 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "legal-law-ai-answering-service",
+    slug: "law-firms-ai-customer-service",
     name: "Law Firms",
-    heroTitle: "AI answering service for law firms in Oman",
+    heroTitle: "Client intake and call handling AI for Omani law firms",
     heroSub: "Every prospective client greeted professionally and screened discreetly, while your lawyers stay in court, in negotiation, or in deep work.",
     painPoints: [
       { title: "Billable hours lost to the switchboard", desc: "Every minute a lawyer spends fielding a general enquiry is a minute not billed. Yet unanswered calls cost even more, the client simply calls the next firm." },
-      { title: "Intake quality is inconsistent", desc: "One receptionist asks the right screening questions; another doesn't. Your partners waste consultations on matters the firm doesn't even handle." },
+      { title: "Intake quality is inconsistent", desc: "One colleague asks the right screening questions; another doesn't. Your partners waste consultations on matters the firm doesn't even handle." },
       { title: "Confidentiality anxieties on every call", desc: "Callers hesitate to leave details on voicemail, and rightly so. A dropped detail can mean a lost engagement or worse." },
     ],
     useCases: [
@@ -209,9 +209,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "marketing-firms-ai-answering-service",
+    slug: "marketing-agencies-ai-customer-service",
     name: "Marketing Firms",
-    heroTitle: "AI answering service for marketing firms in Oman",
+    heroTitle: "Customer care AI for marketing agencies in Oman",
     heroSub: "You sell responsiveness, your own phone should prove it. AI Customer Care answers every prospect and client call while your team stays in the creative flow.",
     painPoints: [
       { title: "The cobbler's children have no shoes", desc: "You tell clients that speed-to-lead wins, then let your own new-business calls ring into voicemail during a brainstorm." },
@@ -224,7 +224,7 @@ export const industries: Industry[] = [
       { title: "Event and campaign hotlines", desc: "Running a client activation or contest? Spin up a dedicated answered line for entries and enquiries without staffing it." },
       { title: "Vendor and media coordination", desc: "Printers, media reps, and influencer managers get their questions logged and routed without touching your creative team's phones." },
     ],
-    omanNote: "Oman's marketing scene is compact and reputation-driven, agencies in Muscat's Qurum and Al Khuwair districts compete for government tenders, National Day campaigns, and khareef tourism briefs out of Salalah. A prospect who can't reach you assumes you're too small or too busy. AI Customer Care answers in polished Arabic or English as the brand moment demands, and keeps every client conversation stored inside the Sultanate.",
+    omanNote: "Oman's marketing scene is compact and reputation-driven, agencies in Muscat's Qurum and Al Khuwair districts compete for government tenders, National Day campaigns, and khareef tourism briefs out of Salalah. A prospect who can't reach you assumes you're too small or too busy. AI Customer Care handles those calls in polished Arabic or English as the brand moment demands, and keeps every client conversation stored inside the Sultanate.",
     faqs: [
       { q: "Can the AI match our agency's tone of voice?", a: "Yes. You script the greeting, vocabulary, and personality. Many agencies treat their agent as a live demo of their own brand craft." },
       { q: "Does it work for short campaign hotlines?", a: "Perfectly. Once your SIP trunk is in place, dedicated numbers can go live in days for a contest or activation and retire when the campaign ends." },
@@ -232,12 +232,12 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "medical-wellness-ai-answering-service",
+    slug: "medical-and-wellness-ai-customer-service",
     name: "Medical & Wellness",
-    heroTitle: "AI answering service for medical and wellness practices in Oman",
+    heroTitle: "Patient care AI for medical and wellness practices in Oman",
     heroSub: "Physiotherapy, dermatology, nutrition, or general practice, AI Customer Care books patients, answers questions, and never puts a caller on hold.",
     painPoints: [
-      { title: "Front desk overload harms patient experience", desc: "A ringing phone at reception means either the caller waits or the patient at the desk does. Neither should, and both remember it." },
+      { title: "Phone queues harm the patient experience", desc: "A ringing line at the counter means either the caller waits or the patient standing there does. Neither should, and both remember it." },
       { title: "Empty slots from unmanaged cancellations", desc: "Cancellations that arrive by voicemail stay empty. A managed waitlist could fill most of them the same day." },
       { title: "Anxious callers need answers now", desc: "Patients calling about symptoms, preparation instructions, or results availability don't want a callback tomorrow, they want reassurance today." },
     ],
@@ -255,9 +255,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "mortgage-brokers-ai-answering-service",
+    slug: "mortgage-brokers-ai-customer-service",
     name: "Mortgage Brokers",
-    heroTitle: "AI answering service for mortgage brokers in Oman",
+    heroTitle: "Customer service AI for mortgage brokers in Oman",
     heroSub: "Every financing enquiry answered and pre-qualified instantly, because home-loan shoppers rarely call a second time.",
     painPoints: [
       { title: "Rate shoppers won't wait", desc: "A buyer comparing housing-loan options calls three brokers in ten minutes. The one who answers first usually writes the deal." },
@@ -278,9 +278,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "movers-ai-answering-service",
+    slug: "moving-companies-ai-customer-service",
     name: "Movers",
-    heroTitle: "AI answering service for moving companies in Oman",
+    heroTitle: "Customer care AI for moving companies in Oman",
     heroSub: "Quote requests captured in full detail, surveys booked, and moving-day panics calmed, while your crews are lifting sofas, not phones.",
     painPoints: [
       { title: "Quotes need details nobody collects", desc: "A useful moving quote needs rooms, floors, lift access, and dates. A missed call collects none of them, and the customer books the mover who did answer." },
@@ -301,9 +301,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "pest-control-ai-answering-service",
+    slug: "pest-control-ai-customer-service",
     name: "Pest Control",
-    heroTitle: "AI answering service for pest control companies in Oman",
+    heroTitle: "Customer service AI for pest control companies in Oman",
     heroSub: "Nobody plans a cockroach emergency. AI Customer Care answers the panicked call, books the treatment, and dispatches your nearest technician.",
     painPoints: [
       { title: "Pest calls are impulse calls", desc: "Someone who just saw a rat is calling everyone in the search results right now. If your line is busy, the next listing gets the job." },
@@ -316,7 +316,7 @@ export const industries: Industry[] = [
       { title: "Contract client scheduling", desc: "Restaurants and building managers reschedule their routine visits without waiting for your office to open." },
       { title: "Quote requests for fumigation", desc: "Warehouse, ship, and villa fumigation enquiries are captured with dimensions and timelines for accurate pricing." },
     ],
-    omanNote: "Oman's climate keeps pest control busy year-round, cockroach and ant surges through the humid Muscat summer, termite calls in older Nizwa and Sur properties, and rodent pressure around ports and restaurants in Sohar and Muttrah. Food businesses need documented, municipality-compliant treatments. AI Customer Care answers homeowners in Omani Arabic and facility supervisors in Hindi or Malayalam alike, with every job record stored inside Oman.",
+    omanNote: "Oman's climate keeps pest control busy year-round, cockroach and ant surges through the humid Muscat summer, termite calls in older Nizwa and Sur properties, and rodent pressure around ports and restaurants in Sohar and Muttrah. Food businesses need documented, municipality-compliant treatments. AI Customer Care handles homeowner calls in Omani Arabic and supervisor calls in Hindi or Malayalam alike, with every job record stored inside Oman.",
     faqs: [
       { q: "Can the AI tell how urgent an infestation is?", a: "Yes. Your triage rules classify the call, a wasp nest by a school door gets same-day escalation; general ant treatment books the next open slot." },
       { q: "Does it handle commercial contract clients differently?", a: "Yes. Contract clients can be recognised by number, greeted by name, and given scheduling priority per your service agreements." },
@@ -324,9 +324,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "plumbers-ai-answering-service",
+    slug: "plumbing-businesses-ai-customer-service",
     name: "Plumbers",
-    heroTitle: "AI answering service for plumbers in Oman",
+    heroTitle: "Call handling AI for plumbing businesses in Oman",
     heroSub: "A burst pipe won't wait for you to dry your hands. AI Customer Care answers instantly, sorts floods from drips, and keeps your day booked solid.",
     painPoints: [
       { title: "Elbow-deep means phone-deaf", desc: "You're under a sink when the biggest job of the week calls. Voicemail answers, and voicemail doesn't win water-heater installations." },
@@ -347,9 +347,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "property-management-ai-answering-service",
+    slug: "property-management-ai-customer-service",
     name: "Property Management",
-    heroTitle: "AI answering service for property management companies in Oman",
+    heroTitle: "Tenant call handling AI for property managers in Oman",
     heroSub: "Tenant maintenance calls, rent queries, and viewing requests handled 24/7 across your whole portfolio, without growing your office team.",
     painPoints: [
       { title: "Maintenance calls at midnight", desc: "A failed AC in August or a water leak at 1am can't wait for office hours, but staffing a night line for occasional emergencies never pays." },
@@ -362,7 +362,7 @@ export const industries: Industry[] = [
       { title: "Tenant account queries", desc: "Rent due dates, payment methods, and renewal timelines answered from your records without a human touching the call." },
       { title: "Emergency escalation overnight", desc: "Genuine emergencies, flooding, power failure, lift entrapment, wake the right on-call person immediately; everything else waits politely for morning." },
     ],
-    omanNote: "Property managers in Oman juggle mixed portfolios, Omani landlords, tenant bases spanning Arabic, English, Hindi, Malayalam, and Swahili speakers, and municipal and lease-registration paperwork that varies by wilayat. Summer AC failures in Muscat and salt-air corrosion in coastal Sur and Sohar drive relentless maintenance volume. AI Customer Care answers every tenant in their own language and keeps lease and tenant data hosted entirely within Oman, in line with Royal Decree 6/2022.",
+    omanNote: "Property managers in Oman juggle mixed portfolios, Omani landlords, tenant bases spanning Arabic, English, Hindi, Malayalam, and Swahili speakers, and municipal and lease-registration paperwork that varies by wilayat. Summer AC failures in Muscat and salt-air corrosion in coastal Sur and Sohar drive relentless maintenance volume. AI Customer Care handles every tenant call in their own language and keeps lease and tenant data hosted entirely within Oman, in line with Royal Decree 6/2022.",
     faqs: [
       { q: "Can it dispatch our own contractors?", a: "Yes. Map issue types to your contractor list and the agent notifies the right vendor with unit details and access notes automatically." },
       { q: "How does it decide what's a real emergency at 2am?", a: "By your written rules. Flooding, no power, and lift entrapments escalate immediately; a broken cabinet hinge logs a morning ticket." },
@@ -370,9 +370,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "public-relations-firms-ai-answering-service",
+    slug: "public-relations-firms-ai-customer-service",
     name: "Public Relations Firms",
-    heroTitle: "AI answering service for public relations firms in Oman",
+    heroTitle: "Media and client call handling AI for Omani PR firms",
     heroSub: "Media calls, client crises, and new-business enquiries answered flawlessly at any hour, because in PR, an unanswered phone is a story in itself.",
     painPoints: [
       { title: "Journalists work on deadline, not your schedule", desc: "A reporter chasing comment at 8pm won't leave a voicemail, they'll print without your client's side of the story." },
@@ -385,7 +385,7 @@ export const industries: Industry[] = [
       { title: "New business capture", desc: "Prospective clients describing their communications needs are qualified and booked for a discovery call with the right partner." },
       { title: "Event RSVP management", desc: "Press conference and launch-event RSVP lines answered and logged without pulling an executive off the guest list." },
     ],
-    omanNote: "PR in Oman moves between Arabic-language national media, English-language business press, and ministry communications offices, often on the same account. Firms handling government and MTCIT-adjacent briefs know discretion is the product. AI Customer Care answers in polished Standard Arabic, Omani dialect, or English as the caller requires, and every sensitive conversation stays on infrastructure inside the Sultanate, never routed abroad.",
+    omanNote: "PR in Oman moves between Arabic-language national media, English-language business press, and ministry communications offices, often on the same account. Firms handling government and MTCIT-adjacent briefs know discretion is the product. AI Customer Care handles enquiries in polished Standard Arabic, Omani dialect, or English as the caller requires, and every sensitive conversation stays on infrastructure inside the Sultanate, never routed abroad.",
     faqs: [
       { q: "Can it handle a real media crisis?", a: "It executes the intake and escalation you design: capture the enquiry, buy time with an approved holding line, and alert your crisis team within seconds." },
       { q: "Will journalists accept talking to an AI?", a: "The agent is professional and fast, which is what a deadline journalist wants. It commits to precise callback times and makes sure your team keeps them." },
@@ -393,9 +393,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "real-estate-agents-ai-answering-service",
+    slug: "real-estate-agencies-ai-customer-service",
     name: "Real Estate Agents",
-    heroTitle: "AI answering service for real estate agents in Oman",
+    heroTitle: "Customer service AI for estate agents in Oman",
     heroSub: "Every listing call answered on the first ring, every viewing booked, every lead captured, while you're closing deals face to face.",
     painPoints: [
       { title: "You're in a viewing when the next buyer calls", desc: "The nature of the job: your busiest showing hours are exactly when new enquiries ring. Each missed call is a buyer touring with another agent tomorrow." },
@@ -416,9 +416,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "saas-companies-ai-answering-service",
+    slug: "saas-companies-ai-customer-service",
     name: "SaaS Companies",
-    heroTitle: "AI answering service for SaaS companies in Oman",
+    heroTitle: "Customer support AI for SaaS companies in Oman",
     heroSub: "Give your product a phone number worth calling: instant human-quality support intake, demo booking, and billing help, without building a support team first.",
     painPoints: [
       { title: "Founders can't be tier-one support", desc: "Every support call an engineer answers is a feature not shipped. But early customers who can't reach anyone churn quietly and review loudly." },
@@ -439,9 +439,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "social-media-marketing-agencies-ai-answering-service",
+    slug: "social-media-agencies-ai-customer-service",
     name: "Social Media Marketing Agencies",
-    heroTitle: "AI answering service for social media marketing agencies in Oman",
+    heroTitle: "Voice AI that handles client calls for Omani social media agencies",
     heroSub: "You make brands responsive online, AI Customer Care makes yours responsive on the phone, capturing every lead your own content generates.",
     painPoints: [
       { title: "Your ads work, your phone doesn't", desc: "The reels you post win enquiries, but they arrive while your team is shooting content or buried in scheduling tools, and unanswered calls undo the ad spend." },
@@ -462,9 +462,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "solar-energy-businesses-ai-answering-service",
+    slug: "solar-energy-companies-ai-customer-service",
     name: "Solar Energy Businesses",
-    heroTitle: "AI answering service for solar energy businesses in Oman",
+    heroTitle: "Customer care AI for solar energy businesses in Oman",
     heroSub: "Turn Oman's 340 days of sunshine into a full pipeline, every quote request answered, qualified, and booked for a site assessment.",
     painPoints: [
       { title: "Solar leads are expensive to win and easy to lose", desc: "You spend heavily to educate the market, then a curious villa owner calls once, gets no answer, and shelves the idea for another year." },
@@ -472,7 +472,7 @@ export const industries: Industry[] = [
       { title: "Site surveys booked loosely fall through", desc: "Assessments arranged by callback and memory get forgotten, and each missed survey pushes the close another month out." },
     ],
     useCases: [
-      { title: "Lead qualification with load context", desc: "The agent captures roof type, monthly electricity spend in OMR, and location, so your engineers walk into surveys pre-briefed." },
+      { title: "Enquiries sized by roof and bill", desc: "The agent captures roof type, monthly electricity spend in OMR, and location, so your engineers walk into surveys pre-briefed." },
       { title: "Educational first-touch", desc: "Common questions, how net billing works, typical payback, cleaning and maintenance, answered accurately from your approved content." },
       { title: "Site assessment scheduling", desc: "Qualified prospects book survey slots on the spot, with confirmations and reminders that keep the appointment alive." },
       { title: "Existing system support calls", desc: "Inverter alerts and underperformance reports from installed customers are logged with system details and routed to your O&M team." },
@@ -485,13 +485,13 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "spa-ai-answering-service",
+    slug: "spas-ai-customer-service",
     name: "Spas",
-    heroTitle: "AI answering service for spas in Oman",
+    heroTitle: "Guest call handling AI for spas in Oman",
     heroSub: "Serenity inside, a ringing phone outside, AI Customer Care books treatments, sells packages, and protects the calm your guests are paying for.",
     painPoints: [
-      { title: "Ringing phones break the atmosphere", desc: "Your receptionist whispering over a ringing line while a guest checks in is the opposite of the experience your brand promises." },
-      { title: "Booking calls come during treatments", desc: "Therapists can't answer mid-massage, and front desk is thin in the evenings, exactly when tomorrow's clients call to book." },
+      { title: "Ringing phones break the atmosphere", desc: "A host whispering over a ringing line while a guest checks in is the opposite of the experience your brand promises." },
+      { title: "Booking calls come during treatments", desc: "Therapists can't answer mid-massage, and evening cover is thin, exactly when tomorrow's clients call to book." },
       { title: "Empty slots from silent cancellations", desc: "A cancelled hammam slot left unfilled is revenue evaporated. Without an answered line and a waitlist, it stays empty." },
     ],
     useCases: [
@@ -503,14 +503,14 @@ export const industries: Industry[] = [
     omanNote: "Oman's spa scene spans hotel wellness destinations on Muscat's coast, ladies-only day spas in Al Khuwair, and resort spas that fill up when khareef season draws visitors to Salalah's green hills. Guests book in Omani Arabic, Gulf Arabic from GCC tourists, English, and Hindi, AI Customer Care glides between all of them with the warmth your brand requires, and guest records never leave Omani servers.",
     faqs: [
       { q: "Can it manage ladies-only scheduling rules?", a: "Yes. Therapist gender preferences, ladies-only hours, and facility rules are built into its booking logic and always respected." },
-      { q: "Will the voice match our spa's tone?", a: "You choose the voice and script the style, calm, warm, unhurried. Many spas say the AI sounds more on-brand than a rushed front desk." },
+      { q: "Will the voice match our spa's tone?", a: "You choose the voice and script the style, calm, warm, unhurried. Many spas say the AI sounds more on-brand than a colleague answering mid-rush." },
       { q: "Can it sell gift vouchers over the phone?", a: "It reserves vouchers and packages and sends a secure payment link by SMS, the agent itself never takes card numbers." },
     ],
   },
   {
-    slug: "staffing-answering-ai-service",
+    slug: "staffing-agencies-ai-customer-service",
     name: "Staffing Agencies",
-    heroTitle: "AI answering service for staffing agencies in Oman",
+    heroTitle: "Customer service AI for staffing agencies in Oman",
     heroSub: "Candidates calling about vacancies, clients calling about placements, both answered instantly, screened intelligently, and routed to the right recruiter.",
     painPoints: [
       { title: "Candidate calls flood every job posting", desc: "One advertised vacancy generates hundreds of calls asking the same questions. Your recruiters become switchboard operators instead of matchmakers." },
@@ -531,9 +531,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "taxi-ai-answering-service",
+    slug: "taxi-and-transport-ai-customer-service",
     name: "Taxi & Transport Services",
-    heroTitle: "AI answering service for taxi and transport companies in Oman",
+    heroTitle: "Booking and customer care AI for transport companies in Oman",
     heroSub: "Booking lines that never ring busy, airport runs, school contracts, and intercity trips dispatched around the clock.",
     painPoints: [
       { title: "A busy line is a lost fare", desc: "Taxi bookings are won in the first ten seconds. Callers who hit a busy tone at 5am for an airport run dial the next number in their phone." },
@@ -554,9 +554,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "travel-agents-ai-answering-service",
+    slug: "travel-agencies-ai-customer-service",
     name: "Travel Agents",
-    heroTitle: "AI answering service for travel agents in Oman",
+    heroTitle: "Customer service AI for travel agencies in Oman",
     heroSub: "Holiday enquiries, visa questions, and mid-trip emergencies answered around the clock, in whatever language your traveller dreams in.",
     painPoints: [
       { title: "Travellers plan at night, you sell by day", desc: "Families price Umrah packages and Salalah getaways after dinner. Your best enquiries arrive exactly when your consultants have gone home." },
@@ -577,9 +577,9 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "tutors-ai-answering-service",
+    slug: "tuition-centres-ai-customer-service",
     name: "Tutors",
-    heroTitle: "AI answering service for tutors and tuition centres in Oman",
+    heroTitle: "Parent enquiry handling AI for tuition centres in Oman",
     heroSub: "Parents call when they're worried, not when you're free. AI Customer Care answers every enquiry, books assessments, and fills your teaching schedule.",
     painPoints: [
       { title: "You can't answer calls mid-lesson", desc: "Your teaching hours and parents' calling hours are the same hours. Every lesson taught is a shift of missed enquiries." },
@@ -600,13 +600,13 @@ export const industries: Industry[] = [
     ],
   },
   {
-    slug: "vet-ai-answering-service",
+    slug: "veterinary-clinics-ai-customer-service",
     name: "Veterinary Clinics",
-    heroTitle: "AI answering service for veterinary clinics in Oman",
+    heroTitle: "Customer care AI for veterinary clinics in Oman",
     heroSub: "Panicked pet owners reach a calm voice instantly, emergencies triaged, appointments booked, and your clinical team left free to treat.",
     painPoints: [
       { title: "Emergencies and check-ups share one line", desc: "A cat hit by a car and a vaccination booking arrive on the same phone. Without triage, urgency is decided by whoever redials fastest." },
-      { title: "Front desk juggles animals and phones", desc: "Your assistant is restraining a nervous saluki while the line rings. Something gets dropped, and it's usually the caller." },
+      { title: "Your team juggles animals and phones", desc: "Your assistant is restraining a nervous saluki while the line rings. Something gets dropped, and it's usually the caller." },
       { title: "After-hours worry has nowhere to go", desc: "The owner whose dog ate something at midnight either finds guidance or floods your morning with panic. Voicemail provides neither." },
     ],
     useCases: [

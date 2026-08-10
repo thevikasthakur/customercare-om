@@ -16,11 +16,9 @@ export const site = {
     "Malayalam",
     "Tamil",
   ],
-  appUrl: "https://app.customercare.om",
-  docsUrl: "https://docs.customercare.om",
-  email: "salaam@customercare.om",
-  phone: "+968 24 000 000",
-  address: "Knowledge Oasis Muscat, Al Rusayl, Muscat, Sultanate of Oman",
+  email: "contact@customercare.om",
+  phone: "+968 9730 2812",
+  address: "1st Floor, Al Muzn Mall, Al Hail North, Muscat, Sultanate of Oman",
 };
 
 export type NavChild = { label: string; desc?: string; href: string };
@@ -28,37 +26,47 @@ export type NavItem = { label: string; href?: string; children?: NavChild[] };
 
 export const mainNav: NavItem[] = [
   {
-    label: "Products",
+    label: "Product",
     children: [
       {
         label: "Omani Arabic AI Customer Care",
         desc: "Customer Service Voice AI Agents for Oman",
-        href: "/products/omani-arabic-ai-customer-care/",
+        href: "/product/omani-arabic-ai-customer-care/",
       },
       {
         label: "AI Chatbot for Websites",
         desc: "Oman's own sovereign chatbot for web, WhatsApp, and email",
-        href: "/products/ai-chatbot-for-websites/",
+        href: "/product/ai-chatbot-for-websites/",
       },
       {
         label: "AI Email Agent",
         desc: "Your inbox organised, your replies drafted",
-        href: "/products/ai-email-agent/",
+        href: "/product/ai-email-agent/",
       },
       {
         label: "Outbound Calling AI Agents",
-        desc: "From CRM trigger to connected conversation",
-        href: "/products/outbound-calling-ai-agents/",
+        desc: "Reminders and follow-ups your CRM starts for you",
+        href: "/product/outbound-calling-ai-agents/",
       },
       {
         label: "Automated Support Tickets",
         desc: "Tickets created and routed from every channel",
-        href: "/products/automated-support-tickets/",
+        href: "/product/automated-support-tickets/",
+      },
+      {
+        label: "Smart Follow-Ups",
+        desc: "Staff chased, customers told where their issue stands",
+        href: "/product/smart-follow-ups/",
+      },
+      {
+        label: "Automated Lead Pipeline",
+        desc: "Enquiry calls turned into enriched, owned leads",
+        href: "/product/automated-lead-pipeline/",
       },
       {
         label: "Dashboard & Reporting",
         desc: "Real-time reporting on queries, calls, and revenue",
-        href: "/products/dashboard-reporting/",
+        href: "/product/dashboard-reporting/",
       },
     ],
   },
@@ -70,34 +78,32 @@ export const mainNav: NavItem[] = [
       { label: "Integrations", desc: "Connect the tools you already use", href: "/integration/" },
       { label: "Templates", desc: "Ready-made AI agent templates", href: "/template/" },
       { label: "Features", desc: "Explore AI Customer Care's features", href: "/features/" },
-      { label: "Developers", desc: "APIs and webhooks for your stack", href: "/developer/" },
-      { label: "Help Center", desc: "Get help for any platform issue", href: "https://docs.customercare.om" },
     ],
   },
   {
     label: "Company",
     children: [
       { label: "About", desc: "Learn about AI Customer Care", href: "/about/" },
-      { label: "Contact us", desc: "Use our form to connect with us", href: "/contact/" },
-      { label: "Careers", desc: "Join the AI Customer Care team in Muscat", href: "/careers/" },
-      { label: "Brand Kit", desc: "Logos and brand assets", href: "/brand-kit/" },
+      { label: "Contact us", desc: "Talk to the founder directly", href: "/contact/" },
     ],
   },
   { label: "Industries", href: "/industries/" },
-  { label: "Pricing", href: "/pricing/" },
   { label: "Enterprise", href: "/enterprise/" },
 ];
 
-export const footerNav: { title: string; links: NavChild[] }[] = [
+export const footerNav: { title: string; wide?: boolean; links: NavChild[] }[] = [
   {
-    title: "Products",
+    title: "Product",
+    wide: true,
     links: [
-      { label: "Omani Arabic AI Customer Care", href: "/products/omani-arabic-ai-customer-care/" },
-      { label: "AI Chatbot for Websites", href: "/products/ai-chatbot-for-websites/" },
-      { label: "AI Email Agent", href: "/products/ai-email-agent/" },
-      { label: "Outbound Calling AI Agents", href: "/products/outbound-calling-ai-agents/" },
-      { label: "Automated Support Tickets", href: "/products/automated-support-tickets/" },
-      { label: "Dashboard & Reporting", href: "/products/dashboard-reporting/" },
+      { label: "Omani Arabic AI Customer Care", href: "/product/omani-arabic-ai-customer-care/" },
+      { label: "AI Chatbot for Websites", href: "/product/ai-chatbot-for-websites/" },
+      { label: "AI Email Agent", href: "/product/ai-email-agent/" },
+      { label: "Outbound Calling AI Agents", href: "/product/outbound-calling-ai-agents/" },
+      { label: "Automated Support Tickets", href: "/product/automated-support-tickets/" },
+      { label: "Smart Follow-Ups", href: "/product/smart-follow-ups/" },
+      { label: "Automated Lead Pipeline", href: "/product/automated-lead-pipeline/" },
+      { label: "Dashboard & Reporting", href: "/product/dashboard-reporting/" },
     ],
   },
   {
@@ -106,8 +112,6 @@ export const footerNav: { title: string; links: NavChild[] }[] = [
       { label: "Features", href: "/features/" },
       { label: "Integrations", href: "/integration/" },
       { label: "Templates", href: "/template/" },
-      { label: "Developers", href: "/developer/" },
-      { label: "Pricing", href: "/pricing/" },
       { label: "Enterprise", href: "/enterprise/" },
       { label: "Book a Demo", href: "/book-a-demo/" },
     ],
@@ -115,8 +119,6 @@ export const footerNav: { title: string; links: NavChild[] }[] = [
   {
     title: "Resources",
     links: [
-      { label: "Documentation", href: "https://docs.customercare.om" },
-      { label: "Help Center", href: "https://docs.customercare.om" },
       { label: "Oman AI Calling Guide", href: "/guideline/oman/" },
       { label: "Comparison", href: "/comparison/" },
       { label: "Industries", href: "/industries/" },
@@ -126,21 +128,7 @@ export const footerNav: { title: string; links: NavChild[] }[] = [
     title: "Company",
     links: [
       { label: "About Us", href: "/about/" },
-      { label: "Careers", href: "/careers/" },
       { label: "Contact", href: "/contact/" },
-      { label: "Brand Kit", href: "/brand-kit/" },
-    ],
-  },
-  {
-    title: "Legal",
-    links: [
-      { label: "Terms of Service", href: "/terms-of-service/" },
-      { label: "Privacy Policy", href: "/privacy-policy/" },
-      { label: "Acceptable Use Policy", href: "/acceptable-use-policy/" },
-      { label: "General Terms", href: "/general-terms/" },
-      { label: "Call & lead T&C's (buyer)", href: "/calls-leads-buyer/" },
-      { label: "Call & lead T&C's (mutual)", href: "/calls-leads-mutual/" },
-      { label: "Call & lead T&C's (seller)", href: "/calls-leads-seller/" },
     ],
   },
 ];

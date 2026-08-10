@@ -11,7 +11,6 @@ import {
   PhoneCall,
 } from "lucide-react";
 import { features } from "@/data/features";
-import { site } from "@/data/site";
 import ContextContinuity from "@/components/ContextContinuity";
 import { CtaBanner } from "@/components/sections";
 
@@ -59,7 +58,7 @@ const pillars: { eyebrow: string; title: string; accent: string; sub: string; sl
     accent: "send themselves.",
     sub: "Confirmations, reminders, and campaigns across SMS, email, and outbound voice.",
     slugs: ["outbound-sms", "outbound-ai-email"],
-    extra: { label: "Outbound Calling AI Agents", href: "/products/outbound-calling-ai-agents/" },
+    extra: { label: "Outbound Calling AI Agents", href: "/product/outbound-calling-ai-agents/" },
   },
   {
     eyebrow: "Measure and integrate",
@@ -93,12 +92,6 @@ export default function FeaturesPage() {
               className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
             >
               Book a Demo <span aria-hidden>+</span>
-            </Link>
-            <Link
-              href={`${site.appUrl}/sign-up`}
-              className="inline-flex h-11 items-center border border-line-strong px-7 text-sm font-medium hover:bg-ink-3 transition-colors"
-            >
-              Start Free
             </Link>
           </div>
         </div>

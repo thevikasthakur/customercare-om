@@ -29,8 +29,8 @@ type Example = {
 
 const examples: Example[] = [
   {
-    tab: "Billing dispute",
-    tag: "Overcharge",
+    tab: "Billing",
+    tag: "Charged twice",
     icon: CreditCard,
     convo: [
       { from: "agent", text: "Thanks for calling Al Mounah. How can I help today?" },
@@ -39,20 +39,20 @@ const examples: Example[] = [
       { from: "agent", text: "Done. The duplicate charge is reversed and you will see it within one business day." },
     ],
     ticket: {
-      id: "TKT-4821",
+      id: "AC-10237",
       status: "In Progress",
-      title: "Refund a duplicate charge",
+      title: "Duplicate charge on order 8842, refund requested",
       priority: "P2 · High",
       assignee: "Nadia",
       initials: "NA",
       team: "Billing",
-      sentiment: "Positive",
-      labels: ["Billing", "Refund"],
+      sentiment: "Calm",
+      labels: ["Payments", "Reversal"],
     },
   },
   {
     tab: "Maintenance",
-    tag: "Emergency repair",
+    tag: "Water leak, urgent",
     icon: Wrench,
     convo: [
       { from: "agent", text: "Marhaba! What is happening?" },
@@ -61,7 +61,7 @@ const examples: Example[] = [
       { from: "agent", text: "A technician is assigned for today between 4 and 6. I have marked it urgent." },
     ],
     ticket: {
-      id: "TKT-4822",
+      id: "AC-10238",
       status: "Urgent",
       title: "AC water leak, master bedroom, Villa 12",
       priority: "P1 · Urgent",
@@ -73,8 +73,8 @@ const examples: Example[] = [
     },
   },
   {
-    tab: "Order issue",
-    tag: "Damaged delivery",
+    tab: "Deliveries",
+    tag: "Arrived scratched",
     icon: Package,
     convo: [
       { from: "agent", text: "Salaam, thank you for calling. How can I help?" },
@@ -83,7 +83,7 @@ const examples: Example[] = [
       { from: "agent", text: "Understood. A replacement panel ships this week and the fitter will call before visiting." },
     ],
     ticket: {
-      id: "TKT-4823",
+      id: "AC-10239",
       status: "In Progress",
       title: "Replace scratched panel, order 2214",
       priority: "P2 · High",
@@ -95,8 +95,8 @@ const examples: Example[] = [
     },
   },
   {
-    tab: "Tech support",
-    tag: "Account access",
+    tab: "Portal access",
+    tag: "OTP not arriving",
     icon: KeyRound,
     convo: [
       { from: "agent", text: "Welcome to support. What seems to be the trouble?" },
@@ -105,7 +105,7 @@ const examples: Example[] = [
       { from: "agent", text: "I have reset your OTP channel to WhatsApp and sent a fresh code. Please try now." },
     ],
     ticket: {
-      id: "TKT-4824",
+      id: "AC-10240",
       status: "Resolved",
       title: "Restore portal access, OTP delivery",
       priority: "P3 · Normal",

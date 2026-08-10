@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, PhoneOff, Sparkles } from "lucide-react";
 import { industries } from "@/data/industries";
-import CaseStudyTabs from "@/components/CaseStudyTabs";
 import { CtaBanner } from "@/components/sections";
 
 export const metadata: Metadata = {
@@ -33,65 +32,65 @@ const sectors: { title: string; desc: string; slugs: string[] }[] = [
   {
     title: "Banking, insurance & financial services",
     desc: "Claims intake, policy queries, and payment reminders under Central Bank of Oman customer-communication expectations.",
-    slugs: ["insurance", "mortgage-brokers-ai-answering-service"],
+    slugs: ["insurance-ai-customer-service", "mortgage-brokers-ai-customer-service"],
   },
   {
     title: "Healthcare networks",
     desc: "Clinic groups, dental chains, and wellness operators triaging thousands of patient calls under Ministry of Health privacy expectations.",
     slugs: [
-      "medical-wellness-ai-answering-service",
-      "dentists-ai-answering-service",
-      "vet-ai-answering-service",
-      "spa-ai-answering-service",
+      "medical-and-wellness-ai-customer-service",
+      "dental-clinics-ai-customer-service",
+      "veterinary-clinics-ai-customer-service",
+      "spas-ai-customer-service",
     ],
   },
   {
     title: "Property, facilities & development",
     desc: "Developers, property managers, and facilities operators handling tenant lines, maintenance queues, and leasing enquiries at portfolio scale.",
     slugs: [
-      "property-management-ai-answering-service",
-      "real-estate-agents-ai-answering-service",
-      "contractor-answering-service",
-      "cleaning-ai-answering-service",
-      "pest-control-ai-answering-service",
-      "movers-ai-answering-service",
+      "property-management-ai-customer-service",
+      "real-estate-agencies-ai-customer-service",
+      "contractors-and-builders-ai-customer-service",
+      "cleaning-companies-ai-customer-service",
+      "pest-control-ai-customer-service",
+      "moving-companies-ai-customer-service",
     ],
   },
   {
     title: "Automotive & mobility",
     desc: "Dealer groups, service networks, and transport fleets where every missed call is a lost booking or a stranded customer.",
-    slugs: ["car-dealers-repair-ai-answering-service", "taxi-ai-answering-service"],
+    slugs: ["car-dealers-and-workshops-ai-customer-service", "taxi-and-transport-ai-customer-service"],
   },
   {
     title: "Retail & e-commerce groups",
     desc: "Where-is-my-order lines, returns, and store enquiries for national retail brands and marketplace operators.",
-    slugs: ["e-commerce-retail-ai-answering-service"],
+    slugs: ["ecommerce-and-retail-ai-customer-service"],
   },
   {
     title: "Travel & hospitality",
     desc: "Booking changes, itinerary questions, and khareef-season surges for travel groups and hospitality operators.",
-    slugs: ["travel-agents-ai-answering-service"],
+    slugs: ["travel-agencies-ai-customer-service"],
   },
   {
     title: "Professional & business services",
     desc: "Law firms, agencies, staffing groups, education providers, and technology companies with reception lines their teams cannot keep up with.",
     slugs: [
-      "legal-law-ai-answering-service",
-      "marketing-firms-ai-answering-service",
-      "public-relations-firms-ai-answering-service",
-      "saas-companies-ai-answering-service",
-      "staffing-answering-ai-service",
-      "tutors-ai-answering-service",
+      "law-firms-ai-customer-service",
+      "marketing-agencies-ai-customer-service",
+      "public-relations-firms-ai-customer-service",
+      "saas-companies-ai-customer-service",
+      "staffing-agencies-ai-customer-service",
+      "tuition-centres-ai-customer-service",
     ],
   },
   {
     title: "Field-service & utilities contractors",
     desc: "Electrical, plumbing, carpentry, and solar operations dispatching crews from a constantly ringing service line.",
     slugs: [
-      "electrician-ai-answering-service",
-      "plumbers-ai-answering-service",
-      "carpenter-ai-answering-service",
-      "solar-energy-businesses-ai-answering-service",
+      "electrical-contractors-ai-customer-service",
+      "plumbing-businesses-ai-customer-service",
+      "carpentry-and-joinery-ai-customer-service",
+      "solar-energy-companies-ai-customer-service",
     ],
   },
 ];
@@ -179,19 +178,6 @@ export default function IndustriesPage() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* ── Case studies ── */}
-      <section className="border-b border-border py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mb-10">
-            <h2 className="max-w-2xl text-3xl md:text-5xl">
-              Enterprises that already made{" "}
-              <span className="accent-italic">the switch</span>.
-            </h2>
-          </div>
-          <CaseStudyTabs />
         </div>
       </section>
 

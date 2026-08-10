@@ -1,23 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  Cpu,
-  FileCheck2,
-  Landmark,
-  Lock,
-  Play,
-  Rocket,
-  Server,
-  ShieldCheck,
-} from "lucide-react";
-import { site } from "@/data/site";
+import { Cpu, FileCheck2, Landmark, Lock, Rocket, Server, ShieldCheck } from "lucide-react";
 import { CtaBanner } from "@/components/sections";
 
 export const metadata: Metadata = {
   title: "Enterprise",
   description:
-    "Handle every conversation perfectly at national scale, dedicated in-Oman infrastructure, Personal Data Protection Law data-processing agreements, and 99.99% uptime SLAs.",
+    "Enterprise customer care engineered in Oman, dedicated in-Oman infrastructure, Personal Data Protection Law data-processing agreements, and 99.99% uptime SLAs.",
 };
 
 const infraCards = [
@@ -29,34 +19,34 @@ const infraCards = [
   {
     icon: Cpu,
     title: "A model stack built for Oman",
-    desc: "Dialect-aware speech and language models tuned on regional speech, serving sub-300ms responses at 10,000+ concurrent calls.",
+    desc: "Dialect-aware speech and language models tuned on Gulf and Omani audio, serving sub-300ms responses at 10,000+ concurrent calls.",
   },
   {
     icon: Rocket,
-    title: "Built and deployed for you",
-    desc: "Our Muscat team designs call flows, migrates knowledge bases, and runs hypercare, your agents go live without pulling your engineers.",
+    title: "Delivered by our Muscat team",
+    desc: "We design the call flows, migrate the knowledge bases, and run hypercare, so your agents go live without pulling your engineers.",
   },
 ];
 
 const workingCards = [
   {
     img: "/media/ent-work-1.avif",
-    title: "We connect to your systems",
+    title: "Your CRM, billing and telephony, wired in",
     desc: "CRM, ticketing, billing, and calendars, wired for real-time read and write during the call. We also coordinate the SIP trunk from Omantel or Ooredoo that your voice channels run on, with residency controls that keep data in Oman.",
   },
   {
     img: "/media/ent-work-2.avif",
-    title: "We build your call flows",
+    title: "Service policies your team can approve",
     desc: "Your policies, your tone, your escalation rules, captured in flows your team can read, edit, and approve before a single caller hears them.",
   },
   {
     img: "/media/ent-work-3.avif",
-    title: "We simulate thousands of conversations",
-    desc: "Before launch, agents face simulated callers in all nine languages, measuring accuracy, compliance wording, and edge-case handling.",
+    title: "Rehearsed in all nine languages first",
+    desc: "Your agents work through realistic caller scenarios in every language you serve, and we measure accuracy, compliance wording, and edge-case handling before anyone rings in.",
   },
   {
     img: "/media/ent-work-4.avif",
-    title: "We go live and save you thousands",
+    title: "Rolled out in phases, tuned every week",
     desc: "Phased rollout with live monitoring, weekly optimisation, and quarterly reviews against the metrics your leadership actually tracks.",
   },
 ];
@@ -85,7 +75,7 @@ function WorkingCard({ c }: { c: (typeof workingCards)[number] }) {
 const exclusiveFeatures = [
   {
     title: "Custom Omani voices",
-    desc: "Branded voices recorded with Omani voice talent, exclusive to your organisation, formal register for ministries, warm for retail.",
+    desc: "Branded voices recorded with Omani voice talent, exclusive to your organisation: a formal register for ministries, a warmer one for retail.",
   },
   {
     title: "Personal Data Protection Law agreements & on-prem archival",
@@ -101,7 +91,7 @@ const protectRows = [
   {
     img: "/media/ent-protect-1.svg",
     title: "Data governance",
-    desc: "Role-based access, full audit trails, and retention schedules you control. Every byte of customer data, recordings, transcripts, contact records, stays on infrastructure inside Oman, governed by the Personal Data Protection Law.",
+    desc: "Role-based access, full audit trails, and retention schedules you control. Recordings, transcripts and contact records all stay on infrastructure inside Oman, governed by the Personal Data Protection Law.",
   },
   {
     img: "/media/ent-protect-2.svg",
@@ -115,7 +105,7 @@ const protectRows = [
   },
   {
     img: "/media/ent-protect-4.svg",
-    title: "Secure for healthcare & payments",
+    title: "Redaction for health and payment details",
     desc: "Automatic redaction of names, card numbers, and sensitive details from transcripts, aligned with Ministry of Health privacy expectations and Central Bank of Oman customer-communication rules.",
   },
 ];
@@ -123,14 +113,14 @@ const protectRows = [
 export default function EnterprisePage() {
   return (
     <>
-      {/* ── Hero: text left, video card right ── */}
+      {/* ── Hero ── */}
       <section className="border-b border-border pt-32 pb-16 md:pt-40 md:pb-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_1fr]">
+          <div className="max-w-3xl">
             <div>
               <h1 className="text-4xl md:text-6xl leading-[1.06]">
-                Handle every conversation{" "}
-                <span className="accent-italic">perfectly</span>
+                Enterprise customer care,{" "}
+                <span className="accent-italic">engineered in Oman</span>
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
                 Banks, ministries, utilities, and national brands run on
@@ -152,24 +142,6 @@ export default function EnterprisePage() {
                 </Link>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-[1.25rem] border border-line-strong">
-              <Image
-                src="/media/testimonial-poster.avif"
-                alt="Enterprise customer story video (placeholder visual)"
-                width={1280}
-                height={860}
-                className="w-full object-cover opacity-90"
-              />
-              <span className="absolute inset-0 m-auto flex h-14 w-14 items-center justify-center rounded-full bg-ink/90 border border-line-strong">
-                <Play className="h-5 w-5 text-lime translate-x-0.5" aria-hidden />
-              </span>
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-ink via-ink/60 to-transparent p-5">
-                <p className="text-sm font-semibold">Operations Director</p>
-                <p className="text-xs text-muted-foreground">
-                  National automotive group, Muscat
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -179,11 +151,11 @@ export default function EnterprisePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl md:text-5xl">
-              Infrastructure you can <span className="accent-italic">scale with</span>
+              Capacity, models and people, <span className="accent-italic">all inside Oman</span>
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              AI Customer Care combines dedicated capacity, a Gulf-tuned model stack, and
-              a delivery team in Muscat, built for deployments that cannot fail.
+              Single-tenant hardware in the Sultanate, speech models tuned on Gulf
+              dialects, and a delivery team in Muscat that owns the rollout with you.
             </p>
           </div>
           <div className="mt-12 grid gap-px border border-border bg-border md:grid-cols-3">
@@ -198,16 +170,16 @@ export default function EnterprisePage() {
         </div>
       </section>
 
-      {/* ── What working with AI Customer Care looks like ── */}
+      {/* ── Four steps from kickoff to live customer calls ── */}
       <section className="border-b border-border py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
             <h2 className="max-w-md text-3xl md:text-5xl">
-              What working with <span className="accent-italic">AI Customer Care</span> looks like
+              Four steps from kickoff to <span className="accent-italic">live customer calls</span>
             </h2>
             <p className="max-w-sm text-sm text-muted-foreground">
-              Our team handles everything from your telephone stack to your
-              CRM integration, most enterprises go live inside a month.
+              Telephony, integrations, call flows and rehearsal all sit with us, and
+              most enterprises are taking live customer calls inside a month.
             </p>
           </div>
           <div className="space-y-4">
@@ -223,17 +195,17 @@ export default function EnterprisePage() {
         </div>
       </section>
 
-      {/* ── Features you won't find anywhere else ── */}
+      {/* ── Built for Oman, down to the voice ── */}
       <section className="border-b border-border py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-12">
             <h2 className="max-w-md text-3xl md:text-5xl">
-              Features you won&rsquo;t find{" "}
-              <span className="accent-italic">anywhere else</span>
+              Built for Oman,{" "}
+              <span className="accent-italic">down to the voice</span>
             </h2>
             <p className="max-w-sm text-sm text-muted-foreground">
-              The parts of AI Customer Care that only exist because we build for Oman
-              first, not as an afterthought to a US product.
+              Omani voice talent, local legal agreements, and Arabic quality reviews:
+              things a product designed for another market cannot offer you.
             </p>
           </div>
           <div className="grid gap-px border border-border bg-border md:grid-cols-3">
@@ -258,7 +230,7 @@ export default function EnterprisePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
             <h2 className="max-w-xl text-2xl md:text-4xl">
-              Scale with security. AI Customer Care is audited and assessed against{" "}
+              Every layer of AI Customer Care is audited and assessed against{" "}
               <span className="accent-italic">the standards that matter in Oman</span>.
             </h2>
             <div className="grid grid-cols-2 gap-3">
@@ -281,16 +253,16 @@ export default function EnterprisePage() {
         </div>
       </section>
 
-      {/* ── How we protect your data ── */}
+      {/* ── Where your call data lives ── */}
       <section className="border-b border-border py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2 className="text-3xl md:text-5xl">
-              How we <span className="accent-italic">protect your data</span>
+              Where your call data lives, <span className="accent-italic">and who can touch it</span>
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-              Learn how AI Customer Care safeguards your data with enterprise-grade
-              security and Personal Data Protection Law compliance.
+              Residency, access control, redaction and independent testing, set out
+              plainly so your risk and compliance teams can sign off quickly.
             </p>
           </div>
           <div className="space-y-14">

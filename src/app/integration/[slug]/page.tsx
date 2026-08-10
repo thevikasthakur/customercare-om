@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import { ArrowLeft, ArrowRight, Check } from "lucide-react";
 import { integrations } from "@/data/integrations";
 import { integrationLogos } from "@/data/media";
-import { site } from "@/data/site";
 
 export function generateStaticParams() {
   return integrations.map((i) => ({ slug: i.slug }));
@@ -42,12 +41,6 @@ export default async function IntegrationPage({
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             <ArrowLeft className="h-4 w-4" aria-hidden /> Integrations
-          </Link>
-          <Link
-            href={`${site.appUrl}/sign-up`}
-            className="inline-flex h-9 items-center bg-lime px-4 text-xs font-medium text-ink hover:brightness-110 transition-[filter]"
-          >
-            Add to Agent
           </Link>
         </div>
       </div>
@@ -129,12 +122,6 @@ export default async function IntegrationPage({
                   {item.category}
                 </p>
                 <Link
-                  href={`${site.appUrl}/sign-up`}
-                  className="mt-5 inline-flex h-10 w-full items-center justify-center bg-ink text-sm font-medium text-white hover:bg-ink-3 transition-colors"
-                >
-                  Connect
-                </Link>
-                <Link
                   href="/integration/"
                   className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium text-neutral-600 hover:text-neutral-900"
                 >
@@ -146,16 +133,6 @@ export default async function IntegrationPage({
                   Links
                 </p>
                 <ul className="mt-3 space-y-2 text-sm">
-                  <li>
-                    <Link href={site.docsUrl} className="text-lime hover:underline underline-offset-4">
-                      How to configure
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={site.docsUrl} className="text-lime hover:underline underline-offset-4">
-                      Help Center
-                    </Link>
-                  </li>
                   <li>
                     <Link href="/guideline/oman/" className="text-lime hover:underline underline-offset-4">
                       Data residency in Oman

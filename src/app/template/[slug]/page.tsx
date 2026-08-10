@@ -5,9 +5,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight, Check, Users } from "lucide-react";
 import { templates } from "@/data/templates";
 import { templateShots } from "@/data/media";
-import { site } from "@/data/site";
 import TalkWidget from "@/components/TalkWidget";
-import TestimonialStack from "@/components/TestimonialStack";
 import { CtaBanner, Faq } from "@/components/sections";
 
 export function generateStaticParams() {
@@ -33,26 +31,26 @@ function usage(slug: string) {
 const customiseSteps = [
   {
     n: 1,
-    title: "Create an account and customise your business",
-    desc: "Sign up, name your agent, and set your business profile, hours, locations, and the languages your callers actually speak.",
+    title: "Set up your support desk profile",
+    desc: "Register, then set your service hours, branches, escalation contacts, and the languages your customers actually call in.",
     img: "/media/product-train.avif",
   },
   {
     n: 2,
-    title: "Connect your business knowledge",
-    desc: "Import this template, then ground it in your services, prices, and policies so every answer reflects your real business.",
+    title: "Load in your policies and product data",
+    desc: "Import this template, then point it at your tariffs, service catalogue, and policy documents so every reply matches what your own team would say.",
     img: "/media/product-voice-library.avif",
   },
   {
     n: 3,
-    title: "Add call flows to your agent",
-    desc: "Adjust the template's steps in the drag-and-drop builder, add transfers, SMS follow-ups, or CRM writes in seconds.",
+    title: "Tune the flows for your busiest queues",
+    desc: "Reorder the steps, set the transfer rules to your human agents, add WhatsApp follow-ups, or write call outcomes into your CRM.",
     img: "/media/product-connect.avif",
   },
   {
     n: 4,
-    title: "View and analyse your AI calls",
-    desc: "Every call is transcribed and scored, sentiment, topics, outcomes, and tasks, so you can tune the flow with real data.",
+    title: "Review transcripts and track resolutions",
+    desc: "Every conversation is transcribed and scored for sentiment, topic and outcome, so supervisors can read resolution rates by queue and by language.",
     img: "/media/bento-analytics.avif",
   },
 ];
@@ -60,7 +58,7 @@ const customiseSteps = [
 const templateFaqs = [
   {
     q: "Can I customise this template?",
-    a: "Fully. Every greeting, question, and action is editable in the drag-and-drop builder, the template just saves you starting from a blank canvas.",
+    a: "Fully. Every greeting, question, and action is editable from your settings screen, and the template works as it is until you decide to change something.",
   },
   {
     q: "Which languages does it support?",
@@ -78,7 +76,7 @@ const templateFaqs = [
   },
   {
     q: "What does it cost?",
-    a: "Templates are free on every plan; you only pay for talk-time minutes. Your first 100 minutes are free, with OMR billing and no credit card to start.",
+    a: "Every template is included; you pay only for connected talk time. The first 100 minutes are on us, billed in OMR, with no card needed to begin.",
   },
   {
     q: "Where does my call data live?",
@@ -113,12 +111,6 @@ export default async function TemplatePage({
               <p className="mt-4 max-w-lg text-muted-foreground leading-relaxed">{t.short}</p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <Link
-                  href={`${site.appUrl}/sign-up`}
-                  className="inline-flex h-11 items-center bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
-                >
-                  Use this template
-                </Link>
-                <Link
                   href="/book-a-demo/"
                   className="inline-flex h-11 items-center border border-line-strong px-7 text-sm font-medium hover:bg-ink-3 transition-colors"
                 >
@@ -135,7 +127,7 @@ export default async function TemplatePage({
       <section className="border-b border-border py-14 md:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 space-y-12">
           <div>
-            <h2 className="text-3xl md:text-4xl">Who is this template for?</h2>
+            <h2 className="text-3xl md:text-4xl">Which Omani teams this template suits</h2>
             {who.p.map((p, i) => (
               <p key={i} className="mt-4 text-muted-foreground leading-relaxed">
                 {p}
@@ -143,7 +135,7 @@ export default async function TemplatePage({
             ))}
           </div>
           <div>
-            <h2 className="text-3xl md:text-4xl">How this template works</h2>
+            <h2 className="text-3xl md:text-4xl">What the agent takes off your queue</h2>
             {how.p.map((p, i) => (
               <p key={i} className="mt-4 text-muted-foreground leading-relaxed">
                 {p}
@@ -151,7 +143,7 @@ export default async function TemplatePage({
             ))}
           </div>
           <div>
-            <h2 className="text-3xl md:text-4xl">Step by step breakdown</h2>
+            <h2 className="text-3xl md:text-4xl">The conversation, from hello to resolution</h2>
             <ul className="mt-6 grid gap-x-10 gap-y-4 md:grid-cols-2">
               {t.steps.map((s, i) => (
                 <li key={i} className="flex items-start gap-3 text-sm leading-relaxed text-muted-foreground">
@@ -196,15 +188,9 @@ export default async function TemplatePage({
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <h2 className="max-w-lg text-3xl md:text-5xl">
-              How to customise AI Customer Care{" "}
-              <span className="accent-italic">for your business</span>
+              From template to live customer calls in{" "}
+              <span className="accent-italic">four steps</span>
             </h2>
-            <Link
-              href={`${site.appUrl}/sign-up`}
-              className="inline-flex h-10 items-center bg-lime px-5 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
-            >
-              Use this template
-            </Link>
           </div>
           <div className="mt-14 space-y-14 md:space-y-16">
             {customiseSteps.map((s) => (
@@ -230,20 +216,13 @@ export default async function TemplatePage({
         </div>
       </section>
 
-      {/* ── Testimonials ── */}
-      <section className="border-b border-border py-16 md:py-24">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-          <TestimonialStack />
-        </div>
-      </section>
-
       {/* ── Enterprise band ── */}
       <section className="border-b border-border py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 md:grid-cols-2">
             <div>
               <h2 className="max-w-md text-3xl md:text-4xl">
-                Looking for <span className="accent-italic">enterprise</span> features?
+                Serious call volumes get an <span className="accent-italic">enterprise</span> tier
               </h2>
               <p className="mt-4 max-w-md text-sm text-muted-foreground leading-relaxed">
                 If your business handles over 2,000 calls a month, ask about
@@ -288,9 +267,9 @@ export default async function TemplatePage({
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-8 flex items-end justify-between gap-4">
             <div>
-              <h2 className="text-3xl md:text-4xl">Explore All Templates</h2>
+              <h2 className="text-3xl md:text-4xl">More customer care templates</h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Ready to use agents that are fully customisable.
+                Browse the rest of the library by industry and call type.
               </p>
             </div>
             <Link

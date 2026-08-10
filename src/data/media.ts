@@ -25,7 +25,7 @@ export const integrationLogos: Record<string, string> = {
 };
 
 export const templateShots: Record<string, string> = {
-  "ai-receptionist-template-for-law-firms": "tpl-ai-receptionist-template-for-law-firms.png",
+  "law-firm-client-intake-with-voice-ai": "tpl-law-firm-client-intake-with-voice-ai.png",
   "appointment-scheduling-for-contractors-with-voice-ai": "tpl-appointment-scheduling-for-contractors-with-voice-ai.png",
   "appointment-scheduling-for-skincare-clinics-with-voice-ai": "tpl-appointment-scheduling-for-skincare-clinics-with-voice-ai.png",
   "automate-rental-inquiries-with-voice-ai": "tpl-automate-rental-inquiries-with-voice-ai.png",

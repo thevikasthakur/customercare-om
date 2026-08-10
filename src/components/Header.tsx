@@ -1,8 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ChevronDown, Menu, PhoneCall, X } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { mainNav, site } from "@/data/site";
 import { cn } from "@/lib/utils";
 
@@ -30,7 +31,15 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
-            <PhoneCall className="h-6 w-6 text-lime" aria-hidden />
+            <Image
+              src="/media/logo.webp"
+              alt=""
+              width={51}
+              height={50}
+              className="h-7 w-auto"
+              priority
+              aria-hidden
+            />
             <span className="text-lg font-bold tracking-tight">{site.name}</span>
           </Link>
 
@@ -85,22 +94,10 @@ export default function Header() {
 
           <div className="hidden lg:flex items-center gap-3">
             <Link
-              href={site.appUrl}
-              className="inline-flex h-9 items-center border border-line-strong px-4 text-sm text-foreground hover:bg-ink-3 transition-colors"
-            >
-              Login
-            </Link>
-            <Link
               href="/book-a-demo/"
               className="inline-flex h-9 items-center border border-line-strong px-4 text-sm hover:bg-ink-3 transition-colors"
             >
               Book a Demo
-            </Link>
-            <Link
-              href={`${site.appUrl}/sign-up`}
-              className="inline-flex h-9 items-center bg-lime px-4 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
-            >
-              Try For Free
             </Link>
           </div>
 
@@ -155,12 +152,6 @@ export default function Header() {
                 className="inline-flex h-10 items-center justify-center border border-line-strong px-4 text-sm font-medium hover:bg-ink-3"
               >
                 Book a Demo
-              </Link>
-              <Link
-                href={`${site.appUrl}/sign-up`}
-                className="inline-flex h-10 items-center justify-center bg-lime px-4 text-sm font-medium text-ink"
-              >
-                Try For Free
               </Link>
             </div>
           </nav>

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { integrations } from "@/data/integrations";
 import { integrationLogos } from "@/data/media";
-import { site } from "@/data/site";
 import IntegrationsBrowser from "@/components/IntegrationsBrowser";
 import { CtaBanner } from "@/components/sections";
 
@@ -35,12 +34,6 @@ export default function IntegrationsPage() {
                   className="inline-flex h-11 items-center gap-2 bg-lime px-7 text-sm font-medium text-ink hover:brightness-110 transition-[filter]"
                 >
                   Book a Demo <span aria-hidden>+</span>
-                </Link>
-                <Link
-                  href={`${site.appUrl}/sign-up`}
-                  className="inline-flex h-11 items-center border border-line-strong px-7 text-sm font-medium hover:bg-ink-3 transition-colors"
-                >
-                  Start Free
                 </Link>
               </div>
             </div>

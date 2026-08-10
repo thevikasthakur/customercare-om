@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Check, Minus } from "lucide-react";
 import { PageHero, CtaBanner } from "@/components/sections";
 
 export const metadata: Metadata = {
   title: "Comparison",
   description:
-    "Exploring alternatives to AI Customer Care? See how Oman's AI customer-service platform stacks up against global voice AI vendors.",
+    "Weighing AI Customer Care against a global voice AI vendor? Here is where an Oman-hosted, Omani Arabic customer care service differs, in plain terms.",
 };
 
 const tableRows = [
@@ -24,12 +23,12 @@ export default function ComparisonPage() {
     <>
       <PageHero
         badge="Comparison"
-        title="Exploring alternatives to AI Customer Care? Here's how it stacks up."
-        sub="Global voice AI platforms are built for English-first, US-hosted deployments. AI Customer Care is built for Oman. Compare for yourself."
+        title="Comparing us with a global vendor? Read this first."
+        sub="Most voice AI is designed English-first and hosted abroad, then localised later. We started from Omani callers, Omani Arabic and Omani data residency. Here is what that changes in practice."
       />
       <section className="pb-14">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
-          <h2 className="text-2xl font-bold tracking-tight mb-6">Comparison table</h2>
+          <h2 className="text-2xl font-bold tracking-tight mb-6">Where the difference actually shows</h2>
           <div className="overflow-x-auto rounded-lg border">
             <table className="w-full text-sm">
               <thead>

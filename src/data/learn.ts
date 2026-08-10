@@ -3,9 +3,9 @@ import type { LearnArticle } from "./types";
 export const learnArticles: LearnArticle[] = [
   {
     slug: "how-much-to-pay-for-voice-ai-agent",
-    title: "How Much Should You Pay for a Voice AI Agent?",
+    title: "Comparing Voice AI Pricing Models for Omani Enterprises",
     date: "May 12, 2026",
-    excerpt: "Voice AI pricing ranges from a few baisa per minute to five-figure enterprise contracts. Here is how the pricing models actually work, what drives the cost, and how to budget realistically for an Omani business.",
+    excerpt: "Voice AI pricing ranges from a few baisa per minute to five-figure enterprise contracts. Here is how each pricing model behaves against real call traffic, what drives the cost underneath, and how to budget for it in Oman.",
     sections: [
       {
         p: [
@@ -65,7 +65,7 @@ export const learnArticles: LearnArticle[] = [
         ],
       },
       {
-        h: "The bottom line",
+        h: "Where this leaves your budget",
         p: [
           "There is no universal right price for a voice AI agent, but there is a right price for your call volume, your languages, and your compliance requirements. A business handling a few thousand calls a month in Muscat should expect a modest platform fee plus usage that compares very favourably with a single agent's salary, while a bank-scale deployment is a negotiated enterprise contract with residency, audit, and uptime commitments attached.",
           "Whatever the number, insist on pricing you can independently verify from the analytics dashboard, a definition of billable time you understand, and the freedom to change your own workflows without a change-request invoice. Those three conditions do more for your total cost than any per-minute discount.",
@@ -75,7 +75,7 @@ export const learnArticles: LearnArticle[] = [
   },
   {
     slug: "how-to-implement-voice-ai",
-    title: "How to Implement Voice AI in Your Business",
+    title: "A Phased Rollout Plan for Voice AI in Oman",
     date: "June 16, 2026",
     excerpt: "A practical, phase-by-phase guide to deploying a voice AI agent, from picking the first call type to going live and scaling, written for businesses operating in Oman.",
     sections: [
@@ -155,7 +155,7 @@ export const learnArticles: LearnArticle[] = [
   },
   {
     slug: "how-to-measure-voice-agent-roi",
-    title: "How to Measure Voice Agent ROI",
+    title: "Modelling Voice AI ROI for an Omani Enterprise",
     date: "July 21, 2026",
     excerpt: "Containment rate alone does not prove value. This guide sets out the full ROI model for a voice AI agent, cost savings, revenue recovered, and the metrics that actually belong in the board pack.",
     sections: [

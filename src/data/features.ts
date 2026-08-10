@@ -3,7 +3,7 @@ import type { Feature } from "./types";
 export const features: Feature[] = [
   {
     slug: "ai-agent-voices",
-    name: "AI Agent Voices",
+    name: "Multilingual Voice Library",
     short: "Natural, lifelike voices tuned for Omani Arabic and eight more languages, so every caller hears a familiar accent.",
     heroTitle: "Voices Your Callers Recognise as Their Own",
     heroSub: "Choose from a library of natural AI voices tuned for Omani Arabic, Gulf dialects, and eight international languages, all responding in under a second.",
@@ -30,7 +30,7 @@ export const features: Feature[] = [
       {
         h: "Built for how Oman speaks",
         p: [
-          "Oman is multilingual by default. A single business day can bring calls in Omani Arabic, English, Hindi, Urdu, Malayalam, and more. Our agents detect the caller's language and answer in it, using a voice appropriate to that language rather than an accented compromise.",
+          "Oman is multilingual by default. A single business day can bring calls in Omani Arabic, English, Hindi, Urdu, Malayalam, and more. Our agents detect the caller's language and handle the whole conversation in it, using a voice appropriate to that language rather than an accented compromise.",
           "For businesses serving both Omani nationals and the expatriate community, this means one phone number that greets everyone properly, without hiring separate teams for each language.",
         ],
       },
@@ -45,16 +45,16 @@ export const features: Feature[] = [
   },
   {
     slug: "ai-talk-block",
-    name: "AI Talk Block",
+    name: "Open Conversation Blocks",
     short: "A conversational building block that lets your agent handle open-ended dialogue inside any structured call flow.",
     heroTitle: "Free-Flowing Conversation, Exactly Where You Want It",
-    heroSub: "Drop an AI Talk Block into any call flow and let the agent converse naturally within the boundaries you define, then hand control back to the flow.",
+    heroSub: "Place an Open Conversation Block anywhere in a call flow and the agent talks freely inside the limits you set, then hands control back to the flow.",
     sections: [
       {
         h: "How it works",
         p: [
-          "Most call flows are a mix of structure and conversation. You want a fixed greeting, a verified identity step, a payment reminder, but in between, callers ask questions in their own words. The AI Talk Block is the node you place wherever open dialogue should happen.",
-          "Inside a Talk Block you define the agent's goal, the knowledge it can draw on, and the conditions that end the block, for example, once the caller confirms a booking date or asks for a human. When the condition is met, the flow resumes at the next step with everything the caller said captured as structured variables.",
+          "Most call flows are a mix of structure and conversation. You want a fixed greeting, a verified identity step, a payment reminder, but in between, callers ask questions in their own words. The Open Conversation Block is the node you place wherever unscripted dialogue belongs.",
+          "Inside a block you define the agent's goal, the knowledge it can draw on, and the conditions that end it, for example, once the caller confirms a booking date or asks for a human. When the condition is met, the flow resumes at the next step with everything the caller said captured as structured variables.",
         ],
         bullets: [
           "Define a goal, allowed knowledge sources, and exit conditions per block",
@@ -65,14 +65,14 @@ export const features: Feature[] = [
       {
         h: "Why structure plus conversation wins",
         p: [
-          "Pure decision-tree IVRs frustrate callers because real questions never fit the menu. Pure open-ended bots frustrate businesses because calls wander and outcomes are unpredictable. Talk Blocks give you both: the predictability of a designed flow with the flexibility of genuine conversation at each step.",
+          "Pure decision-tree IVRs frustrate callers because real questions never fit the menu. Pure open-ended bots frustrate businesses because calls wander and outcomes are unpredictable. Open Conversation Blocks give you both: the predictability of a designed flow with the flexibility of genuine conversation at each step.",
           "Because each block has an explicit goal, you can measure it. You know exactly which conversational step callers complete, abandon, or escalate from, and tune that one block without rebuilding the whole flow.",
         ],
       },
       {
         h: "Conversations that respect local etiquette",
         p: [
-          "Gulf phone culture values greeting and courtesy before business. A Talk Block can be configured to open with proper pleasantries in Omani Arabic, take the caller's pace, and only then move to the task, something rigid IVR menus have never done well.",
+          "Gulf phone culture values greeting and courtesy before business. A block can be configured to open with proper pleasantries in Omani Arabic, take the caller's pace, and only then move to the task, something rigid IVR menus have never done well.",
           "For Omani businesses in insurance, clinics, and government-facing services, this means automation that feels respectful rather than abrupt, which directly shows up in completion rates.",
         ],
       },
@@ -87,15 +87,15 @@ export const features: Feature[] = [
   },
   {
     slug: "ai-workflow-builder",
-    name: "AI Workflow Builder",
+    name: "Call Journey Designer",
     short: "A visual drag-and-drop canvas for designing complete call journeys, no code, no telephony expertise required.",
     heroTitle: "Design Complete Call Journeys on a Visual Canvas",
-    heroSub: "Drag, connect, and publish. The AI Workflow Builder turns your best call script into a live phone agent without writing a line of code.",
+    heroSub: "Drag, connect, and publish. The Call Journey Designer turns the call script your team already trusts into a live customer service flow, no code, no vendor ticket.",
     sections: [
       {
         h: "How it works",
         p: [
-          "The Workflow Builder is a visual canvas where each node is a step in the call: greetings, Talk Blocks, data lookups, condition branches, SMS sends, transfers, and hang-ups. You connect nodes with logic, if the caller is an existing customer, branch here; if the balance is overdue, branch there.",
+          "The Call Journey Designer is a visual canvas where each node is a step in the call: greetings, open conversation blocks, data lookups, condition branches, SMS sends, transfers, and hang-ups. You connect nodes with logic, if the caller is an existing customer, branch here; if the balance is overdue, branch there.",
           "Workflows can call your own systems mid-conversation through REST API nodes, so the agent can check an order status or book an appointment while the caller is still on the line. Publish with one click; every change is versioned, and you can roll back instantly.",
         ],
         bullets: [
@@ -107,7 +107,7 @@ export const features: Feature[] = [
       {
         h: "Why visual beats scripts and vendors",
         p: [
-          "Traditional IVR changes mean raising a ticket with a telecom vendor and waiting weeks. With a visual builder, the person who understands your customers, an operations lead, not a developer, can adjust the journey the same afternoon a problem is spotted.",
+          "Traditional IVR changes mean raising a ticket with a telecom vendor and waiting weeks. On a visual canvas, the person who understands your customers, an operations lead, not a developer, can adjust the journey the same afternoon a problem is spotted.",
           "Versioning also changes how teams improve. You can duplicate a live workflow, test a new opening in a sandbox, compare results in the analytics dashboard, and promote the winner, an iteration loop measured in days, not quarters.",
         ],
       },
@@ -129,7 +129,7 @@ export const features: Feature[] = [
   },
   {
     slug: "call-analytics-dashboard",
-    name: "Call Analytics Dashboard",
+    name: "Conversation Analytics",
     short: "Real-time dashboards showing call volumes, outcomes, sentiment, and containment, the numbers behind every conversation.",
     heroTitle: "Every Call, Measured. Every Trend, Visible.",
     heroSub: "A live dashboard that turns thousands of conversations into clear metrics: resolution rates, sentiment, peak hours, and the exact moments callers ask for a human.",
@@ -171,7 +171,7 @@ export const features: Feature[] = [
   },
   {
     slug: "call-history-monitoring",
-    name: "Call History & Monitoring",
+    name: "Call Records and Live Oversight",
     short: "Searchable transcripts, recordings, and live call monitoring in one place, with full audit trails.",
     heroTitle: "Every Conversation on Record, Every Live Call in View",
     heroSub: "Search any transcript, replay any recording, and watch live calls as they happen, with an audit trail built for regulated industries.",
@@ -216,7 +216,7 @@ export const features: Feature[] = [
     name: "Knowledge Base",
     short: "Upload documents, FAQs, and policies once, your AI agents answer from them accurately on every call.",
     heroTitle: "Teach Your Agent Once. It Answers Every Caller.",
-    heroSub: "Upload your policies, price lists, and FAQs, and every agent answers from your approved content, in the caller's language, on every call.",
+    heroSub: "Upload your policies, price lists, and FAQs, and every agent replies from your approved content, in the caller's own language, on every call.",
     sections: [
       {
         h: "How it works",
@@ -255,7 +255,7 @@ export const features: Feature[] = [
   },
   {
     slug: "outbound-ai-email",
-    name: "Outbound AI Email",
+    name: "Post-Call Email Follow-Up",
     short: "Send personalised follow-up emails automatically from call outcomes, confirmations, summaries, and next steps.",
     heroTitle: "Every Call Ends. The Follow-Up Sends Itself.",
     heroSub: "AI Customer Care drafts and sends personalised emails the moment a call ends, booking confirmations, quotes, summaries, in Arabic, English, or both.",
@@ -339,7 +339,7 @@ export const features: Feature[] = [
   },
   {
     slug: "rest-apis-and-webhooks",
-    name: "REST APIs and Webhooks",
+    name: "Integration APIs and Event Hooks",
     short: "Connect AI Customer Care to your CRM, ERP, and internal tools with clean REST APIs and real-time webhooks.",
     heroTitle: "Your Systems and Your Phone Line, Finally Talking",
     heroSub: "Full REST APIs and real-time webhooks connect our agents to your CRM, booking system, and internal tools, during the call, not after it.",
@@ -423,7 +423,7 @@ export const features: Feature[] = [
   },
   {
     slug: "warm-transfers",
-    name: "Warm Transfers with Context",
+    name: "Briefed Staff Handovers",
     short: "When calls move to humans, the full conversation moves with them, no repeating, no starting over.",
     heroTitle: "Handovers Where Nobody Repeats Themselves",
     heroSub: "When an agent transfers a call, your staff receive the caller's identity, issue, and full conversation summary before they say hello.",

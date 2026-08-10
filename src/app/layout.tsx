@@ -3,7 +3,46 @@ import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import JsonLd from "@/components/JsonLd";
 import { site } from "@/data/site";
+
+const organisation = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${site.url}/#organization`,
+  name: site.name,
+  url: site.url,
+  logo: `${site.url}/android-chrome-512x512.png`,
+  description: site.description,
+  email: site.email,
+  telephone: site.phone,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "1st Floor, Al Muzn Mall, Al Hail North",
+    addressLocality: "Muscat",
+    addressCountry: "OM",
+  },
+  areaServed: { "@type": "Country", name: "Oman" },
+  knowsLanguage: site.languages,
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "sales",
+    email: site.email,
+    telephone: site.phone,
+    areaServed: "OM",
+    availableLanguage: site.languages,
+  },
+};
+
+const website = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${site.url}/#website`,
+  name: site.name,
+  url: site.url,
+  inLanguage: "en-OM",
+  publisher: { "@id": `${site.url}/#organization` },
+};
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const fraunces = Fraunces({
@@ -42,7 +81,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en-OM">
+      <head>
+        <JsonLd data={organisation} />
+        <JsonLd data={website} />
+      </head>
       <body
         className={`${inter.variable} ${fraunces.variable} ${jetbrains.variable} page-frame min-h-screen bg-background text-foreground antialiased`}
       >

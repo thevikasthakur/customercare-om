@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/ai-readability.mjs",
     "start": "npx serve out",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ai:check": "node scripts/ai-readability.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

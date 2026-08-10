@@ -7,7 +7,7 @@ import { CtaBanner, Faq } from "@/components/sections";
 import ContextContinuity from "@/components/ContextContinuity";
 
 export const metadata: Metadata = {
-  title: "Product",
+  title: "Omani Arabic AI Customer Care",
   description:
     "Customer service voice AI agents for Omani enterprises: set the voice, load your policies, connect your systems, and see what every caller wanted. Nine languages, built for Oman, hosted in Oman.",
 };

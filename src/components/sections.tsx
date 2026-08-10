@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Check, ShieldCheck } from "lucide-react";
+import JsonLd from "@/components/JsonLd";
 import type { FaqItem, Section } from "@/data/types";
 
 export function PageHero({
@@ -84,6 +85,17 @@ export function Faq({
 }) {
   return (
     <section className="border-t border-border py-16 md:py-24">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: items.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }}
+      />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-3xl">
           <h2 className="text-4xl md:text-5xl">{title}</h2>
@@ -93,7 +105,10 @@ export function Faq({
               <details key={f.q} className="group py-5" open={i === 0}>
                 <summary className="flex cursor-pointer items-center justify-between text-base md:text-lg font-medium list-none">
                   {f.q}
-                  <span className="ml-4 text-lime transition-transform group-open:rotate-45 text-2xl leading-none shrink-0">
+                  <span
+                    className="ml-4 text-lime transition-transform group-open:rotate-45 text-2xl leading-none shrink-0"
+                    aria-hidden
+                  >
                     +
                   </span>
                 </summary>

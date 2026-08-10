@@ -315,9 +315,10 @@ const preamble = `# ${SITE_NAME}
 > queries in Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi,
 > Bengali, Malayalam and Tamil, across phone, web chat, WhatsApp and email.
 
-Every page on this site has a Markdown twin: append \`.md\` to any path, for
-example \`/product/smart-follow-ups.md\`. \`/llms-full.txt\` contains the whole
-site as a single Markdown document.
+Every page is available as Markdown. Either send \`Accept: text/markdown\` to the
+normal URL, or append \`.md\` to any path, for example
+\`/product/smart-follow-ups.md\`. \`/llms-full.txt\` contains the whole site as a
+single Markdown document.
 
 Key facts, so they do not have to be inferred:
 

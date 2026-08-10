@@ -3,3 +3,8 @@ node_modules
 out
 .env
 .env.*
+# Local Netlify folder
+.netlify
+
+# Deno lockfile written by the Netlify edge runtime during local dev
+deno.lock

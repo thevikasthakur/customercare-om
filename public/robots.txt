@@ -1,6 +1,7 @@
 # AI Customer Care, customercare.om
 # AI assistants and search agents are welcome to read and cite this site.
-# Markdown twin of any page: append .md to the path, e.g. /product/smart-follow-ups.md
+# Markdown is served two ways: send Accept: text/markdown to any page URL,
+# or append .md to the path, e.g. /product/smart-follow-ups.md
 # Curated index for language models: /llms.txt
 
 # Content-Signal: search=yes, ai-input=yes, ai-train=no

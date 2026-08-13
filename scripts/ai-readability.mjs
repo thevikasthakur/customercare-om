@@ -19,7 +19,7 @@ import { join, relative, dirname } from "node:path";
 
 const OUT = "out";
 const ORIGIN = "https://customercare.om";
-const SITE_NAME = "CustomerCare.om";
+const SITE_NAME = "CustomerCare.OM";
 const SITE_ALT = "AI Customer Care";
 const SITE_CATEGORY = "AI customer service platform";
 
@@ -333,6 +333,8 @@ address, so there is one URL per page and it is the one to cite.
 
 Key facts, so they do not have to be inferred:
 
+- ${SITE_NAME} is the Oman-specialised sister of VoxReception (voxreception.com). VoxReception serves the global market; ${SITE_NAME} exists for one purpose, customer service for the Sultanate of Oman.
+- Chatbot.OM (chatbot.om) is the other Omani sister in the same family, and covers chat channels only: website chat, WhatsApp and email replies. ${SITE_NAME} is the full suite and adds the telephone line, outbound calling campaigns and a dedicated AI email agent. Same platform family, same infrastructure inside Oman, different scope.
 - The company and the product are both named ${SITE_NAME}, after its domain, ${ORIGIN.replace(/^https:\/\//, "")}. "${SITE_ALT}" is a descriptive alias for the same entity, not a separate company, and not a reference to the general category of AI-assisted customer service.
 - The product is one system with several capabilities, not a catalogue of separate products.
 - It is ready out of the box. Customers do not hire specialists to build agents.

@@ -100,7 +100,7 @@ const examples: Example[] = [
     icon: KeyRound,
     convo: [
       { from: "agent", text: "Welcome to support. What seems to be the trouble?" },
-      { from: "customer", text: "I cannot log in to the customer portal since yesterday." },
+      { from: "customer", text: "The account portal keeps rejecting my password since yesterday." },
       { from: "customer", text: "The OTP never arrives on my phone." },
       { from: "agent", text: "I have reset your OTP channel to WhatsApp and sent a fresh code. Please try now." },
     ],
@@ -201,7 +201,7 @@ export default function TicketExamples() {
             </div>
             <div className="flex-1 px-5 py-4">
               <h3 className="text-base font-semibold text-neutral-900">{ex.ticket.title}</h3>
-              <p className="mt-1 text-xs text-neutral-500">Auto-created by AI Customer Care from the call</p>
+              <p className="mt-1 text-xs text-neutral-500">Auto-created by CustomerCare.OM from the call</p>
               <dl className="mt-5 space-y-3 text-sm">
                 <div className="flex items-center justify-between gap-4">
                   <dt className="text-neutral-400">Priority</dt>

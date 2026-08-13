@@ -72,7 +72,7 @@ const capabilities = [
   { title: "CRM sync", desc: "Every interaction logged to the contact record: who emailed, when, and about what." },
   { title: "Smart routing", desc: "Sales emails to sales, support emails to support, by topic, sender, or keyword." },
   { title: "Unsubscribe handling", desc: "Opt-out requests detected and preferences updated automatically, as the Personal Data Protection Law expects." },
-  { title: "Every mailbox, one view", desc: "Sales, support, and finance mailboxes managed from a single AI Customer Care view." },
+  { title: "Every mailbox, one view", desc: "Sales, support, and finance mailboxes managed from a single CustomerCare.OM view." },
   { title: "Custom instructions", desc: "Plain-language rules for how the agent should treat specific senders, topics, or tones." },
   { title: "Data resident in Oman", desc: "Every message processed inside the Sultanate. Nothing routed through overseas servers." },
 ];
@@ -199,7 +199,7 @@ export default function EmailAgentPage() {
                 <p>Shukran,</p>
                 <p className="text-xs">
                   <strong className="block text-neutral-800">Al Mounah Customer Care</strong>
-                  <span className="text-neutral-500">Drafted by AI Customer Care · care@almounah-trading.om</span>
+                  <span className="text-neutral-500">Drafted by CustomerCare.OM · care@almounah-trading.om</span>
                 </p>
               </div>
               <div className="flex justify-end border-t border-black/5 px-4 py-3">
@@ -292,7 +292,7 @@ export default function EmailAgentPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="eyebrow">Compare</p>
           <h2 className="mt-4 max-w-3xl text-3xl md:text-5xl">
-            Manual inbox vs others vs <span className="text-lime">AI Customer Care.</span>
+            Manual inbox vs others vs <span className="text-lime">CustomerCare.OM</span>
           </h2>
           <div className="mt-12 overflow-x-auto rounded-xl border border-line-strong">
             <table className="w-full min-w-[40rem] text-sm">
@@ -301,7 +301,7 @@ export default function EmailAgentPage() {
                   <th className="px-5 py-4 font-medium">Capability</th>
                   <th className="px-5 py-4 text-center font-medium">Manual inbox</th>
                   <th className="px-5 py-4 text-center font-medium">Other AI email</th>
-                  <th className="bg-ink-3 px-5 py-4 text-center font-medium text-lime">AI Customer Care</th>
+                  <th className="bg-ink-3 px-5 py-4 text-center font-medium text-lime">CustomerCare.OM</th>
                 </tr>
               </thead>
               <tbody>

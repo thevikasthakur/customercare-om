@@ -28,7 +28,7 @@ const productFaqs = [
   },
   {
     q: "How does training work?",
-    a: "Upload your price list, FAQs, and policies, or point AI Customer Care at your website. The knowledge base keeps answers grounded in your business, so the agent won't invent things it doesn't know.",
+    a: "Upload your price list, FAQs, and policies, or point CustomerCare.OM at your website. The knowledge base keeps answers grounded in your business, so the agent won't invent things it doesn't know.",
   },
   {
     q: "Which channels does the agent cover?",
@@ -71,7 +71,7 @@ const steps = [
   {
     n: 4,
     title: "Go live and watch what callers ask",
-    desc: "After every call AI Customer Care produces AI summaries, sentiment, topics, and tasks, so you get insight into your customer calls, not just recordings of them.",
+    desc: "After every call CustomerCare.OM produces AI summaries, sentiment, topics, and tasks, so you get insight into your customer calls, not just recordings of them.",
     img: "/media/bento-analytics.avif",
     alt: "Analytics dashboard with call volume and outcomes (placeholder visual)",
     w: 824,

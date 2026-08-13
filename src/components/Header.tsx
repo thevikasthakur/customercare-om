@@ -4,8 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
-import { mainNav, site } from "@/data/site";
+import { mainNav } from "@/data/site";
 import { cn } from "@/lib/utils";
+import Wordmark from "@/components/Wordmark";
 
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -40,7 +41,7 @@ export default function Header() {
               priority
               aria-hidden
             />
-            <span className="text-lg font-bold tracking-tight">{site.name}</span>
+            <Wordmark />
           </Link>
 
           {/* Desktop nav */}

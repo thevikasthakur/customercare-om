@@ -24,7 +24,7 @@ export const features: Feature[] = [
         h: "Why voice quality decides the call",
         p: [
           "Callers form a judgement about an automated line within the first few seconds. A robotic or mispronouncing voice signals that the conversation will be frustrating, and hang-up rates climb. A voice that sounds local and unhurried keeps people on the line long enough for the agent to actually help.",
-          "Because AI Customer Care voices stream with sub-second response times, conversations keep a human rhythm, no awkward gaps, no talking over each other, no dead air while the system thinks.",
+          "Because CustomerCare.OM voices stream with sub-second response times, conversations keep a human rhythm, no awkward gaps, no talking over each other, no dead air while the system thinks.",
         ],
       },
       {
@@ -240,7 +240,7 @@ export const features: Feature[] = [
       {
         h: "Bilingual knowledge for a bilingual market",
         p: [
-          "Most Omani businesses maintain documentation in a mix of Arabic and English, a tariff sheet in one, a warranty policy in the other. AI Customer Care retrieves across both, so a caller asking in Omani Arabic gets an accurate answer even if the source document is English.",
+          "Most Omani businesses maintain documentation in a mix of Arabic and English, a tariff sheet in one, a warranty policy in the other. CustomerCare.OM retrieves across both, so a caller asking in Omani Arabic gets an accurate answer even if the source document is English.",
           "All uploaded content is stored and processed within Oman, keeping proprietary documents and customer-facing policies under the same in-country protection as your call data.",
         ],
       },
@@ -258,7 +258,7 @@ export const features: Feature[] = [
     name: "Post-Call Email Follow-Up",
     short: "Send personalised follow-up emails automatically from call outcomes, confirmations, summaries, and next steps.",
     heroTitle: "Every Call Ends. The Follow-Up Sends Itself.",
-    heroSub: "AI Customer Care drafts and sends personalised emails the moment a call ends, booking confirmations, quotes, summaries, in Arabic, English, or both.",
+    heroSub: "CustomerCare.OM drafts and sends personalised emails the moment a call ends, booking confirmations, quotes, summaries, in Arabic, English, or both.",
     sections: [
       {
         h: "How it works",
@@ -282,7 +282,7 @@ export const features: Feature[] = [
       {
         h: "Bilingual by default",
         p: [
-          "AI Customer Care sends the email in the language the call happened in, Omani Arabic callers get Arabic emails with correct right-to-left formatting, English callers get English, or both side by side, the format many Omani businesses already use for official correspondence.",
+          "CustomerCare.OM sends the email in the language the call happened in, Omani Arabic callers get Arabic emails with correct right-to-left formatting, English callers get English, or both side by side, the format many Omani businesses already use for official correspondence.",
           "Dates can render in both Gregorian and Hijri calendars, and templates support the formal register expected in Gulf business communication rather than a translated Western casual tone.",
         ],
       },
@@ -340,7 +340,7 @@ export const features: Feature[] = [
   {
     slug: "rest-apis-and-webhooks",
     name: "Integration APIs and Event Hooks",
-    short: "Connect AI Customer Care to your CRM, ERP, and internal tools with clean REST APIs and real-time webhooks.",
+    short: "Connect CustomerCare.OM to your CRM, ERP, and internal tools with clean REST APIs and real-time webhooks.",
     heroTitle: "Your Systems and Your Phone Line, Finally Talking",
     heroSub: "Full REST APIs and real-time webhooks connect our agents to your CRM, booking system, and internal tools, during the call, not after it.",
     sections: [
@@ -366,7 +366,7 @@ export const features: Feature[] = [
       {
         h: "Integrating with the systems Omani businesses run",
         p: [
-          "Omani mid-market companies typically run a mix of global CRMs, regional ERPs, and home-grown booking tools. Because AI Customer Care integrates over plain REST and standard webhooks, all of them connect the same way, no proprietary middleware, no vendor lock-in.",
+          "Omani mid-market companies typically run a mix of global CRMs, regional ERPs, and home-grown booking tools. Because CustomerCare.OM integrates over plain REST and standard webhooks, all of them connect the same way, no proprietary middleware, no vendor lock-in.",
           "API traffic terminates at infrastructure hosted in Oman, so integrations that carry customer data keep that data in-country end to end, simplifying your Personal Data Protection Law data-flow mapping.",
         ],
       },
@@ -384,7 +384,7 @@ export const features: Feature[] = [
     name: "Smart Call Escalation with Triggers",
     short: "Define exactly when a call should reach a human, by sentiment, keywords, caller value, or repeated failure, and it will.",
     heroTitle: "The Right Calls Reach Humans. Automatically.",
-    heroSub: "Set precise triggers, frustration detected, VIP caller, sensitive topic, repeated misunderstanding, and AI Customer Care escalates before the moment is lost.",
+    heroSub: "Set precise triggers, frustration detected, VIP caller, sensitive topic, repeated misunderstanding, and CustomerCare.OM escalates before the moment is lost.",
     sections: [
       {
         h: "How it works",
@@ -431,7 +431,7 @@ export const features: Feature[] = [
       {
         h: "How it works",
         p: [
-          "When a transfer is triggered, by an escalation rule, a workflow step, or the caller's request, AI Customer Care first briefs the receiving human. The staff member sees or hears a concise summary: who is calling, what they need, what has already been verified, and what the AI already tried.",
+          "When a transfer is triggered, by an escalation rule, a workflow step, or the caller's request, CustomerCare.OM first briefs the receiving human. The staff member sees or hears a concise summary: who is calling, what they need, what has already been verified, and what the AI already tried.",
           "The caller stays on the line with the AI, which sets expectations naturally, until the human accepts. Only then is the call bridged. If no one is available, the system offers a scheduled callback and books it into the queue instead of dumping the caller into hold music indefinitely.",
         ],
         bullets: [
@@ -450,7 +450,7 @@ export const features: Feature[] = [
       {
         h: "Continuity across languages",
         p: [
-          "In Oman's multilingual service environment, the AI may handle a call in Malayalam or Urdu while the available specialist works in Arabic or English. AI Customer Care bridges that gap by delivering the handover summary in the staff member's preferred language, whatever language the call itself was in.",
+          "In Oman's multilingual service environment, the AI may handle a call in Malayalam or Urdu while the available specialist works in Arabic or English. CustomerCare.OM bridges that gap by delivering the handover summary in the staff member's preferred language, whatever language the call itself was in.",
           "Transfer targets can follow Omani schedules too, routing to the Muscat office during its hours, to an on-call number after them, and adjusting automatically for Ramadan working hours and public holidays.",
         ],
       },

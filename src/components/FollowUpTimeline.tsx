@@ -29,7 +29,7 @@ const stages: Stage[] = [
       text: "Your AC leak is logged as AC-10238. A technician is booked for today between 4pm and 6pm.",
     },
     standing: { expects: "A technician today, 4pm to 6pm", since: "Told at 09:12" },
-    note: "The promise made on the call becomes the clock everything else is measured against.",
+    note: "The 4pm to 6pm window agreed on the call is now the deadline the whole system watches.",
   },
   {
     label: "Acknowledged",
@@ -38,13 +38,13 @@ const stages: Stage[] = [
     internal: [
       {
         to: "Salim, Maintenance",
-        text: "AC-10238 has been sitting unopened for 10 minutes. Take it, or send it back to the queue.",
+        text: "AC-10238 is still unopened after 10 minutes. Accept it now, or release it for someone else to take.",
       },
-      { to: "Queue", text: "Salim accepted AC-10238 at 09:26. Chase cleared." },
+      { to: "Queue", text: "Salim picked up AC-10238 at 09:26. Nudge withdrawn." },
     ],
     customer: null,
     standing: { expects: "A technician today, 4pm to 6pm", since: "Unchanged since 09:12" },
-    note: "Whether Salim opened the ticket at 09:16 or 09:26 changes nothing for the customer, so they are not told about it. The window they were promised still stands.",
+    note: "Salim's ten quiet minutes are an internal matter. Nothing the customer was promised has changed, so their phone stays silent.",
   },
   {
     label: "Chased",
@@ -58,7 +58,7 @@ const stages: Stage[] = [
     ],
     customer: null,
     standing: { expects: "A technician today, 4pm to 6pm", since: "Unchanged since 09:12" },
-    note: "Salim is running behind, but 4pm is still reachable. The nudge goes to him, not to the customer, because the promise has not moved yet.",
+    note: "Salim is cutting it fine, yet the window can still be met. The pressure lands on him alone until a promise actually moves.",
   },
   {
     label: "Running late",
@@ -78,7 +78,7 @@ const stages: Stage[] = [
       text: "Update on AC-10238. The technician needs a drain pump from our Ruwi store, so he will reach you between 6pm and 7pm today instead of 4pm to 6pm. Reply 1 to keep today, or 2 to move to tomorrow morning.",
     },
     standing: { expects: "A technician today, 6pm to 7pm", since: "Revised at 16:06" },
-    note: "The customer hears the new time and the reason for it from you, before they have to ring and ask.",
+    note: "The revised window and its honest cause reach the customer from your side, while they still assume all is well.",
   },
   {
     label: "Resolved",
@@ -94,7 +94,7 @@ const stages: Stage[] = [
       text: "Your AC leak is fixed. If any water returns within 30 days, reply here and we will send the same technician back.",
     },
     standing: { expects: "Nothing further, unless the leak returns", since: "Closed at 18:48" },
-    note: "Closure is a message the customer receives, not a status only your team can see.",
+    note: "Done is announced to the customer, not just ticked in the system.",
   },
   {
     label: "Confirmed",
@@ -110,7 +110,7 @@ const stages: Stage[] = [
       text: "Good morning. Is the bedroom still dry? Reply yes to close this off, or tell us what is still wrong.",
     },
     standing: { expects: "Nothing further, unless the leak returns", since: "Closed at 18:48" },
-    note: "The last question is asked by us. That is the difference between a closed ticket and a fixed problem.",
+    note: "We ask the final question ourselves, because only the customer can say whether the problem is truly gone.",
   },
 ];
 
@@ -127,10 +127,10 @@ export default function FollowUpTimeline() {
   return (
     <section className="border-b border-border py-16 md:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        <p className="eyebrow text-center">One ticket, followed the whole way</p>
+        <p className="eyebrow text-center">Watch one ticket travel end to end</p>
         <h2 className="mx-auto mt-4 max-w-2xl text-center text-3xl md:text-5xl">
           A leaking AC in Al Khoudh,{" "}
-          <span className="accent-italic">from assignment to confirmed</span>.
+          <span className="accent-italic">from first call to double-checked</span>.
         </h2>
 
         {/* stage rail */}
@@ -165,7 +165,7 @@ export default function FollowUpTimeline() {
             <div className="flex items-center justify-between border-b border-black/10 px-4 py-2.5">
               <span className="flex items-center gap-2 text-xs font-semibold text-neutral-700">
                 <BellRing className="h-3.5 w-3.5 text-neutral-500" aria-hidden />
-                Inside your team
+                What your team sees
               </span>
               <span
                 className={`rounded-full px-2.5 py-1 text-[10px] font-semibold ${stateStyle[s.state]}`}
@@ -194,14 +194,14 @@ export default function FollowUpTimeline() {
             <div className="flex items-center justify-between border-b border-black/10 px-4 py-2.5">
               <span className="flex items-center gap-2 text-xs font-semibold text-neutral-700">
                 <MessageSquare className="h-3.5 w-3.5 text-neutral-500" aria-hidden />
-                On the customer&rsquo;s side
+                What the customer sees
               </span>
               <span
                 className={`rounded-full px-2.5 py-1 text-[10px] font-semibold ${
                   s.customer ? "bg-lime/30 text-neutral-800" : "bg-neutral-100 text-neutral-500"
                 }`}
               >
-                {s.customer ? "We message them" : "We stay quiet"}
+                {s.customer ? "Message sent" : "No message needed"}
               </span>
             </div>
             <div className="flex flex-1 flex-col p-5">
@@ -213,7 +213,7 @@ export default function FollowUpTimeline() {
               <div className={`rounded-xl border border-black/10 bg-neutral-50 px-4 py-3 ${s.customer ? "mt-4" : ""}`}>
                 <p className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] text-neutral-500">
                   <CalendarClock className="h-3 w-3" aria-hidden />
-                  What they are now expecting
+                  The promise they are holding
                 </p>
                 <p className="mt-1.5 text-sm font-medium text-neutral-800">{s.standing.expects}</p>
                 <p className="mt-0.5 text-xs text-neutral-500">{s.standing.since}</p>

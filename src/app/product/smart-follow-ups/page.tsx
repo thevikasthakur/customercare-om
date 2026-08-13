@@ -43,15 +43,15 @@ const chases = [
 
 const capabilities = [
   "Acknowledgement chasing on every newly assigned ticket",
-  "Automatic return to queue when nobody picks it up",
+  "Unclaimed tickets released back for someone else to take",
   "Escalation ladders you define, per team and per priority",
   "Proactive customer updates on phone, chat, WhatsApp, or email",
   "Revised completion dates sent with the reason attached",
   "Reschedule offered to the customer, not just announced at them",
-  "Resolution confirmation asked for, not assumed",
+  "Closure verified with the customer, never declared",
   "Reassignment when the owner is on leave or off shift",
   "Updates written in the language the customer used",
-  "Delay reasons tagged so recurring causes surface in reporting",
+  "Recurring delay causes trended month over month",
   "Quiet hours and holiday rules, including Eid and Fridays",
   "Full follow-up history stamped onto the ticket record",
 ];
@@ -103,7 +103,7 @@ const followUpFaqs = [
   },
   {
     q: "Does this work with the helpdesk we already run?",
-    a: "It runs end-to-end on AI Customer Care tickets, and it can also sit on top of the helpdesk you already use, reading assignment and due-date changes through our integrations and API and doing the chasing your current tool does not.",
+    a: "It runs end-to-end on CustomerCare.OM tickets, and it can also sit on top of the helpdesk you already use, reading assignment and due-date changes through our integrations and API and doing the chasing your current tool does not.",
   },
   {
     q: "Which language does the customer update arrive in?",
@@ -127,7 +127,7 @@ export default function SmartFollowUpsPage() {
                 This is the part that keeps the promise.
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
-                Every ticket AI Customer Care creates is then followed to the
+                Every ticket CustomerCare.OM creates is then followed to the
                 end: the assignee is chased until the work moves, and the
                 customer is told where it stands.{" "}
                 <strong className="text-foreground">
@@ -189,7 +189,7 @@ export default function SmartFollowUpsPage() {
                     { t: "09:26", d: "Nudged at 10 minutes, accepted at 14", done: true },
                     { t: "15:40", d: "Checked in before the window opens", done: true },
                     { t: "16:05", d: "Part missing from van, new window 6pm to 7pm", done: false },
-                    { t: "16:06", d: "Customer told the new time and the reason", done: false },
+                    { t: "16:06", d: "Customer sent the revised window and the cause", done: false },
                   ].map((row) => (
                     <li key={row.t} className="flex items-start gap-3">
                       <span
@@ -222,8 +222,8 @@ export default function SmartFollowUpsPage() {
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="eyebrow">Where service desks lose people</p>
           <h2 className="mt-4 text-3xl md:text-5xl">
-            An assigned ticket is not{" "}
-            <span className="accent-italic">a finished one</span>.
+            The danger zone sits between{" "}
+            <span className="accent-italic">assigned and done</span>.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-muted-foreground leading-relaxed">
             The complaint that damages you is rarely the fault itself. It is the
@@ -278,8 +278,8 @@ export default function SmartFollowUpsPage() {
                 The awkward message
               </p>
               <h2 className="mt-4 max-w-lg text-3xl md:text-5xl">
-                When it will take longer,{" "}
-                <span className="accent-italic">say so first</span>.
+                Break the bad news{" "}
+                <span className="accent-italic">before it breaks trust</span>.
               </h2>
               <p className="mt-5 max-w-md text-muted-foreground leading-relaxed">
                 Most service teams do eventually tell the customer about a delay.

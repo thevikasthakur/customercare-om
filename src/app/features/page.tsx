@@ -171,7 +171,7 @@ export default function FeaturesPage() {
                 <Link href={p.extra.href} className="group border-t border-lime/50 pt-5">
                   <h3 className="text-base font-semibold text-lime">{p.extra.label}</h3>
                   <p className="mt-2.5 text-sm text-muted-foreground leading-relaxed">
-                    Part of the wider AI Customer Care service. See the dedicated page
+                    Part of the wider CustomerCare.OM service. See the dedicated page
                     for the full picture.
                   </p>
                   <span className="mt-3 inline-flex items-center gap-1 text-xs font-medium text-lime">

@@ -18,62 +18,62 @@ import TicketExamples from "@/components/TicketExamples";
 export const metadata: Metadata = {
   title: "Automated Support Tickets",
   description:
-    "AI ticketing for Oman: tickets created, summarised, and routed automatically from every call, chat, and email, in Arabic and English, with data resident in Oman.",
+    "AI ticketing for Omani enterprises: support issues heard on live calls, chats, and email become graded, assigned tickets before the conversation ends, stored entirely inside Oman.",
 };
 
 const handsFree = [
   {
     icon: Ear,
-    title: "Detected live, without prompting",
-    desc: "Mid-conversation, the agent recognises a support issue: a duplicate charge, a delayed delivery, a failed installation, and never asks the customer to fill anything in.",
+    title: "Heard live, on the call",
+    desc: "While the customer is still speaking, the agent picks out the complaint: an overcharged invoice, a van that never showed, a unit that stopped cooling. No form appears at any point.",
   },
   {
     icon: FileText,
-    title: "Summary, category and priority filled in",
-    desc: "A clear write-up in English or Arabic, the full transcript attached in whichever of our nine languages the customer used, with severity graded from what was actually said.",
+    title: "Drafted with severity and context",
+    desc: "The write-up arrives in Arabic or English with the original recording and transcript alongside, in any of our nine supported languages, and an urgency grade drawn from the caller's own words.",
   },
   {
     icon: Route,
-    title: "Assignment lands with the owning team",
-    desc: "Billing to finance, faults to operations, escalations to the duty desk, each one carrying its due date and its chase reminders.",
+    title: "Delivered to whoever answers for it",
+    desc: "Finance takes the billing dispute, operations takes the fault, the duty desk takes the escalation. The deadline and its reminder schedule travel with the ticket.",
   },
 ];
 
 const capabilities = [
-  "Auto-create tickets from calls, chats, WhatsApp, and email",
-  "AI-generated ticket summaries in English or Arabic",
-  "Smart routing to the right team member",
-  "Custom ticket categories that match your business",
-  "Status tracking from open to resolved",
-  "Priority levels set from sentiment and urgency",
-  "Due dates and reminders that chase themselves",
-  "Team assignment with workload balancing",
-  "Notes and a full activity log on every ticket",
-  "CRM-linked tickets tied to the customer record",
-  "Intake-form tickets for walk-in and web requests",
-  "Ticket analytics: volumes, ages, and resolution times",
+  "Tickets opened automatically from calls, chats, WhatsApp, and email",
+  "Write-ups drafted by AI in Arabic or English",
+  "Issues routed straight to the owning team",
+  "Categories modelled on your own departments",
+  "Progress visible from intake through to closure",
+  "Severity graded from the customer's own words",
+  "Deadlines that send their own reminders",
+  "Workload spread evenly across the team",
+  "A complete audit trail kept on each ticket",
+  "Every case pinned to its CRM account",
+  "Optional web form for walk-in requests",
+  "Reporting on backlog, ageing, and time to fix",
 ];
 
 const ticketFaqs = [
   {
-    q: "Do customers have to fill in a form?",
-    a: "No. The customer describes the issue in their own words, and the record is built from that conversation. The paperwork happens on our side, not theirs.",
+    q: "What does the customer have to do to raise a ticket?",
+    a: "Nothing beyond explaining the issue the way they already were, on the call or in the chat. The record is assembled on our side; no portal, no reference form, no repeating themselves.",
   },
   {
-    q: "Which channels create tickets?",
-    a: "Phone calls, web chat, WhatsApp, and email, plus an intake form when you want one. Everything lands in one queue with one numbering scheme.",
+    q: "Where can tickets come from?",
+    a: "Phone calls, web chat, WhatsApp threads, and email, with an optional intake form for the front desk. All of them feed a single numbered queue, so nothing lives in two systems.",
   },
   {
-    q: "Can tickets be in Arabic?",
-    a: "Yes. Summaries can be generated in Arabic or English regardless of the conversation's language, and the original transcript is always attached.",
+    q: "Does it write tickets in Arabic?",
+    a: "Yes. You choose whether write-ups are drafted in Arabic or English, in whichever language the call took place, and the recording and transcript are kept in the original alongside.",
   },
   {
-    q: "How does routing work?",
-    a: "You define categories and owners once: billing to finance, maintenance to operations. The AI classifies each issue and assigns it, with fallbacks for anything ambiguous.",
+    q: "How do tickets reach the right team?",
+    a: "You map categories to owners once, such as invoicing disputes to finance and site faults to operations. Each new issue is classified against that map, and anything the AI cannot place confidently goes to a fallback owner instead of waiting unassigned.",
   },
   {
-    q: "Does it work with my existing helpdesk?",
-    a: "AI Customer Care can run ticketing end-to-end or push tickets into the helpdesk you already use through our integrations and API.",
+    q: "Can it feed the helpdesk we already run?",
+    a: "Yes. Run ticketing end to end on CustomerCare.OM, or keep your current helpdesk and let us create and update tickets there through our integrations and API.",
   },
 ];
 
@@ -89,12 +89,12 @@ export default function TicketsPage() {
                 Automated Support Tickets
               </p>
               <h1 className="max-w-xl text-4xl md:text-[3.4rem] leading-[1.08]">
-                <span className="text-lime">Ticketing without the typing.</span>{" "}
-                Support issues raised, ranked and routed across every channel.
+                <span className="text-lime">The ticket writes itself while the customer talks.</span>{" "}
+                Logged, graded, and assigned before the call ends.
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
                 Omani enterprises take thousands of support issues a week by
-                phone, chat, WhatsApp and email. AI Customer Care listens to the
+                phone, chat, WhatsApp and email. CustomerCare.OM listens to the
                 live conversation, drafts the record, grades the urgency and
                 hands it to the team that owns it.{" "}
                 <strong className="text-foreground">Before the customer says goodbye.</strong>
@@ -109,9 +109,9 @@ export default function TicketsPage() {
               </div>
               <div className="mt-10 grid max-w-md grid-cols-3 gap-6">
                 {[
-                  { v: "4", l: "Channels into one queue" },
-                  { v: "0", l: "Forms for the customer" },
-                  { v: "Same day", l: "Live on chat and email" },
+                  { v: "4", l: "Ways in, one queue out" },
+                  { v: "0", l: "Portals customers must log into" },
+                  { v: "Day one", l: "Working your chat and inbox" },
                 ].map((m) => (
                   <div key={m.l}>
                     <p className="font-display text-2xl md:text-3xl font-medium tracking-tight">{m.v}</p>
@@ -125,7 +125,7 @@ export default function TicketsPage() {
             <div className="overflow-clip rounded-xl border border-black/10 bg-white p-2 shadow-[0_1px_4px_rgba(12,12,13,0.05)]">
               <Image
                 src="/media/ai-customercare-tickets.webp"
-                alt="AI Customer Care tickets board with open, in-progress, and resolved columns"
+                alt="CustomerCare.OM tickets board with open, in-progress, and resolved columns"
                 width={1536}
                 height={1024}
                 className="w-full rounded-lg"
@@ -144,17 +144,18 @@ export default function TicketsPage() {
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="eyebrow">The support problem</p>
           <h2 className="mt-4 text-3xl md:text-5xl">
-            Support should begin with a conversation, <span className="accent-italic">not a form</span>.
+            Nobody should fill in paperwork{" "}
+            <span className="accent-italic">to report a problem</span>.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-muted-foreground leading-relaxed">
-            The customer has already set out the whole problem, in their own
-            words, in Arabic or English. A portal login and a page of form
-            fields only make them say it a second time, and your support team
-            still opens the case with no context at all.
+            By the time a customer finishes explaining an issue on the phone,
+            every detail your desk needs has been spoken aloud. Sending them to
+            a portal afterwards asks them to repeat it, and your team still
+            inherits a case stripped of its context.
           </p>
           <p className="mt-5 font-semibold">
-            AI Customer Care is already on that conversation, so the record is
-            written from it.
+            CustomerCare.OM hears the original conversation, so the record
+            starts complete.
           </p>
         </div>
       </section>
@@ -169,8 +170,8 @@ export default function TicketsPage() {
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="max-w-2xl text-3xl md:text-5xl">
-            One conversation in,{" "}
-            <span className="accent-italic">one owned ticket out.</span>
+            The customer explains once.{" "}
+            <span className="accent-italic">The ticket does the rest.</span>
           </h2>
           <div className="mt-12 grid gap-4 md:grid-cols-3">
             {handsFree.map((s, i) => (
@@ -188,13 +189,13 @@ export default function TicketsPage() {
             ))}
           </div>
           <p className="mt-8 font-mono text-xs uppercase tracking-[0.12em] text-lime">
-            Zero typing. Full history. Correct owner.
+            No forms filled. No context dropped. No orphan tickets.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4 border-t border-border pt-8">
             <p className="max-w-xl text-sm text-muted-foreground leading-relaxed">
-              And once it is owned, somebody has to keep it moving. Smart
-              Follow-Ups chases the assignee and updates the customer until the
-              ticket reaches a confirmed ending.
+              A ticket with an owner still needs momentum. Smart Follow-Ups
+              takes over from here, nudging the assignee and keeping the
+              customer posted until the fix is confirmed on both sides.
             </p>
             <Link
               href="/product/smart-follow-ups/"
@@ -211,8 +212,8 @@ export default function TicketsPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap items-end justify-between gap-6 mb-10">
             <h2 className="max-w-2xl text-3xl md:text-5xl">
-              Every queue, owner and outcome{" "}
-              <span className="accent-italic">on one board</span>.
+              The whole support load,{" "}
+              <span className="accent-italic">readable at a glance</span>.
             </h2>
             <Ticket className="h-10 w-10 text-lime" aria-hidden />
           </div>

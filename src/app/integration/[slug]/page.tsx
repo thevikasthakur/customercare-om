@@ -89,7 +89,7 @@ export default async function IntegrationPage({
                 </div>
               ))}
               <h2 className="mb-3 text-lg font-semibold">
-                What you can do with AI Customer Care + {item.name}
+                What you can do with CustomerCare.OM + {item.name}
               </h2>
               <ul className="space-y-2.5">
                 {item.capabilities.map((c) => (

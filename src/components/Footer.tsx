@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ShieldCheck } from "lucide-react";
 import { footerNav, site } from "@/data/site";
+import Wordmark from "@/components/Wordmark";
 
 export default function Footer() {
   return (
@@ -18,7 +19,7 @@ export default function Footer() {
                 className="h-7 w-auto"
                 aria-hidden
               />
-              <span className="text-lg font-bold tracking-tight">{site.name}</span>
+              <Wordmark />
             </Link>
             <p className="mt-4 text-sm text-muted-foreground max-w-xs leading-relaxed">
               {site.tagline}. Customer Service Voice AI Agents that handle
@@ -57,7 +58,8 @@ export default function Footer() {
         </div>
         <div className="mt-12 flex flex-col gap-4 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} AI Customer Care. Muscat, Sultanate of Oman.
+            &copy; {new Date().getFullYear()} {site.name}, the {site.category} for
+            Oman. Muscat, Sultanate of Oman.
           </p>
           <p className="font-mono text-xs text-muted-foreground">
             Proudly hosted in Oman · {site.domain}

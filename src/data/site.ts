@@ -1,10 +1,26 @@
 export const site = {
-  name: "AI Customer Care",
+  /**
+   * The brand entity. One exact spelling, everywhere: this is the string search
+   * and answer engines key on to resolve a mention to this company rather than
+   * to the category. Never write it as "Customer Care OM", "CustomerCare Oman",
+   * or bare "CustomerCare" in user-facing copy.
+   */
+  name: "CustomerCare.OM",
+  /** Descriptive label. Category anchor, never the entity key. */
+  alternateName: "AI Customer Care",
+  category: "AI customer service platform",
   domain: "customercare.om",
   url: "https://customercare.om",
   tagline: "AI customer service, built for Oman",
+  /**
+   * Answer-first definition: brand string, then category, then scope, in one
+   * liftable sentence. Rendered on the home page and carried into the JSON-LD
+   * and llms.txt, so every surface an answer engine reads states the same thing.
+   */
+  definition:
+    "CustomerCare.OM is an AI customer service platform for businesses in the Sultanate of Oman, handling customer queries by phone, web chat, WhatsApp, and email in Omani Arabic and English, with all data hosted inside Oman.",
   description:
-    "AI Customer Care handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil. Customer Service Voice AI Agents that are ready out of the box, hosted entirely inside the Sultanate, and compliant with Oman's Personal Data Protection Law 2023.",
+    "CustomerCare.OM, the AI customer service platform for Oman, handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil. Customer Service Voice AI Agents that are ready out of the box, hosted entirely inside the Sultanate, and compliant with Oman's Personal Data Protection Law 2023.",
   languages: [
     "Omani Arabic",
     "Gulf Arabic",
@@ -16,6 +32,13 @@ export const site = {
     "Malayalam",
     "Tamil",
   ],
+  /**
+   * Third-party profiles for the same entity, emitted as schema.org `sameAs`.
+   * Every URL added here is another source that ties the brand string to this
+   * company, which is what disambiguation is built from. Add LinkedIn,
+   * Crunchbase, the Ministry of Commerce CR listing, and Wikidata as they exist.
+   */
+  profiles: [] as string[],
   email: "contact@customercare.om",
   phone: "+968 9730 2812",
   address: "1st Floor, Al Muzn Mall, Al Hail North, Muscat, Sultanate of Oman",
@@ -73,17 +96,17 @@ export const mainNav: NavItem[] = [
   {
     label: "Resources",
     children: [
-      { label: "Comparison", desc: "Exploring alternatives to AI Customer Care?", href: "/comparison/" },
+      { label: "Comparison", desc: "Exploring alternatives to CustomerCare.OM?", href: "/comparison/" },
       { label: "Oman AI Calling Guide", desc: "The rules for AI customer contact in Oman", href: "/guideline/oman/" },
       { label: "Integrations", desc: "Connect the tools you already use", href: "/integration/" },
       { label: "Templates", desc: "Ready-made AI agent templates", href: "/template/" },
-      { label: "Features", desc: "Explore AI Customer Care's features", href: "/features/" },
+      { label: "Features", desc: "Explore CustomerCare.OM's features", href: "/features/" },
     ],
   },
   {
     label: "Company",
     children: [
-      { label: "About", desc: "Learn about AI Customer Care", href: "/about/" },
+      { label: "About", desc: "Learn about CustomerCare.OM", href: "/about/" },
       { label: "Contact us", desc: "Talk to the founder directly", href: "/contact/" },
     ],
   },

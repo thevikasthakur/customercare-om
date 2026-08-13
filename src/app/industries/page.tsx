@@ -7,7 +7,7 @@ import { CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Industries",
   description:
-    "For Omani enterprises still running IVR menus and human agent floors: AI Customer Care replaces press-1 queues with Customer Service Voice AI Agents in nine languages.",
+    "For Omani enterprises still running IVR menus and human agent floors: CustomerCare.OM replaces press-1 queues with Customer Service Voice AI Agents in nine languages.",
 };
 
 const ivr = [
@@ -110,7 +110,7 @@ export default function IndustriesPage() {
             Your customers disagree.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            AI Customer Care is built for Omani enterprises still running press-1 menus
+            CustomerCare.OM is built for Omani enterprises still running press-1 menus
             and human agent floors. Replace the queue with Customer Service
             Voice AI Agents that handle customer queries in nine languages, and
             let your people handle what actually needs people.
@@ -132,7 +132,7 @@ export default function IndustriesPage() {
         </div>
       </section>
 
-      {/* ── IVR vs AI Customer Care ── */}
+      {/* ── IVR vs CustomerCare.OM ── */}
       <section className="border-b border-border py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-px border border-border bg-border md:grid-cols-2">
@@ -151,7 +151,7 @@ export default function IndustriesPage() {
             </div>
             <div className="bg-ink-3 p-8 md:p-10">
               <p className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-[0.14em] text-lime">
-                <Sparkles className="h-4 w-4" aria-hidden /> The line AI Customer Care runs
+                <Sparkles className="h-4 w-4" aria-hidden /> The line CustomerCare.OM runs
               </p>
               <ul className="mt-6 space-y-3.5">
                 {vox.map((i) => (

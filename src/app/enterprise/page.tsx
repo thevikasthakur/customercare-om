@@ -124,7 +124,7 @@ export default function EnterprisePage() {
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
                 Banks, ministries, utilities, and national brands run on
-                AI Customer Care. Scale from one line to a million calls without your
+                CustomerCare.OM. Scale from one line to a million calls without your
                 data ever leaving Omani soil.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
@@ -230,7 +230,7 @@ export default function EnterprisePage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
             <h2 className="max-w-xl text-2xl md:text-4xl">
-              Every layer of AI Customer Care is audited and assessed against{" "}
+              Every layer of CustomerCare.OM is audited and assessed against{" "}
               <span className="accent-italic">the standards that matter in Oman</span>.
             </h2>
             <div className="grid grid-cols-2 gap-3">

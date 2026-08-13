@@ -98,7 +98,7 @@ const outboundFaqs = [
   },
   {
     q: "Is outbound AI calling allowed in Oman?",
-    a: "Yes, within the rules: calls must respect consent, identify themselves honestly, and follow telecom regulations and the Personal Data Protection Law. AI Customer Care bakes disclosure, consent records, and calling-hour limits into every campaign. See our Oman guideline page for the details.",
+    a: "Yes, within the rules: calls must respect consent, identify themselves honestly, and follow telecom regulations and the Personal Data Protection Law. CustomerCare.OM bakes disclosure, consent records, and calling-hour limits into every campaign. See our Oman guideline page for the details.",
   },
   {
     q: "How many calls can it place at once?",

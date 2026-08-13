@@ -10,26 +10,32 @@ import { site } from "@/data/site";
 import { CtaBanner, Faq } from "@/components/sections";
 
 export const metadata: Metadata = {
-  title: "Customer Service Voice AI Agents that speak Omani Arabic",
+  // Next.js does not apply a segment's own title template to its page, so the
+  // home page is the one title that has to carry the brand string itself.
+  title: `${site.name}, Omani Arabic customer service voice AI`,
   description: site.description,
 };
 
 const homeFaqs = [
   {
-    q: "Which languages does AI Customer Care speak?",
-    a: "AI Customer Care handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, and it detects the caller's language automatically within the first seconds of the call.",
+    q: "What is CustomerCare.OM?",
+    a: "CustomerCare.OM, also written AI Customer Care, is an AI customer service platform for businesses in the Sultanate of Oman. It handles customer queries by phone, web chat, WhatsApp, and email in nine languages, and it runs entirely on infrastructure inside Oman.",
   },
   {
-    q: "Which channels does AI Customer Care cover?",
+    q: "Which languages does CustomerCare.OM speak?",
+    a: "CustomerCare.OM handles customer queries in Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, and it detects the caller's language automatically within the first seconds of the call.",
+  },
+  {
+    q: "Which channels does CustomerCare.OM cover?",
     a: "Phone, web chat, web voice, WhatsApp, and email. One agent with one memory across every channel, plus outbound campaigns when you need to reach customers first.",
   },
   {
     q: "Where is my customer data stored?",
-    a: "Entirely inside the Sultanate of Oman. AI Customer Care runs on infrastructure hosted in-country, and nothing ever leaves the country: not recordings, not transcripts, not contact details.",
+    a: "Entirely inside the Sultanate of Oman. CustomerCare.OM runs on infrastructure hosted in-country, and nothing ever leaves the country: not recordings, not transcripts, not contact details.",
   },
   {
-    q: "Is AI Customer Care compliant with Oman's Personal Data Protection Law?",
-    a: "Yes. AI Customer Care was designed around the Personal Data Protection Law (Royal Decree 6/2022, in force since February 2023): consent capture, purpose limitation, data-subject rights workflows, and in-country residency are built into the platform, not bolted on.",
+    q: "Is CustomerCare.OM compliant with Oman's Personal Data Protection Law?",
+    a: "Yes. CustomerCare.OM was designed around the Personal Data Protection Law (Royal Decree 6/2022, in force since February 2023): consent capture, purpose limitation, data-subject rights workflows, and in-country residency are built into the platform, not bolted on.",
   },
   {
     q: "How quickly can I go live?",
@@ -39,7 +45,7 @@ const homeFaqs = [
   },
   {
     q: "What happens when a caller needs a human?",
-    a: "AI Customer Care detects escalation moments and performs a warm transfer to your team with full context, so the caller never repeats themselves. Outside working hours it takes a message and follows up by SMS or email.",
+    a: "CustomerCare.OM detects escalation moments and performs a warm transfer to your team with full context, so the caller never repeats themselves. Outside working hours it takes a message and follows up by SMS or email.",
   },
 ];
 
@@ -71,10 +77,12 @@ export default function HomePage() {
                 <span className="accent-italic">Omani Arabic</span>
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
-                Our Customer Service Voice AI Agents handle customer
-                queries across phone, web chat, WhatsApp, and email, in nine
-                languages your customers actually use. Ready out of the box, no
-                experts to hire.
+                <strong className="font-medium text-foreground">{site.name}</strong>{" "}
+                is an AI customer service platform for businesses in the
+                Sultanate of Oman. Our Customer Service Voice AI Agents handle
+                customer queries across phone, web chat, WhatsApp, and email, in
+                nine languages your customers actually use, from data centres
+                inside Oman. Ready out of the box, no experts to hire.
               </p>
               <div className="mt-8 flex flex-wrap items-center gap-3">
                 <Link
@@ -141,7 +149,7 @@ export default function HomePage() {
                 <div className="h-48 md:h-[22.4rem] overflow-clip">
                   <Image
                     src="/media/bento-integrations.avif"
-                    alt="Grid of CRM, calendar, and messaging tools AI Customer Care connects to"
+                    alt="Grid of CRM, calendar, and messaging tools CustomerCare.OM connects to"
                     width={1232}
                     height={717}
                     className="h-full w-full object-cover"
@@ -336,7 +344,7 @@ export default function HomePage() {
                         VC
                       </span>
                       <span className="text-[10px] font-medium text-neutral-800/80">
-                        AI Customer Care Research
+                        CustomerCare.OM Research
                       </span>
                     </span>
                   </div>

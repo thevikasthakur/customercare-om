@@ -11,7 +11,7 @@ export const templates: Template[] = [
       {
         h: "Where this template does the work",
         p: [
-          "Contractors lose work every time a call rings out while the crew is on a roof or under a slab. This template answers every inbound call instantly, greets the caller in Omani Arabic, Gulf Arabic, English, Hindi, or any of AI Customer Care's supported languages, and books site visits directly into your calendar.",
+          "Contractors lose work every time a call rings out while the crew is on a roof or under a slab. This template answers every inbound call instantly, greets the caller in Omani Arabic, Gulf Arabic, English, Hindi, or any of CustomerCare.OM's supported languages, and books site visits directly into your calendar.",
           "The agent collects the job type, location, and preferred timing, checks your real availability, and confirms the slot before the call ends. No voicemail, no missed leads, no double bookings.",
         ],
         bullets: [
@@ -305,7 +305,7 @@ export const templates: Template[] = [
       {
         h: "The Omani teams that run it",
         p: [
-          "Designed for skincare clinics, dermatology practices, and medispas in Muscat, Seeb, and Salalah. Clients often prefer to discuss appointments in Omani Arabic or English, and the agent maintains a warm, discreet tone in both, along with the other languages AI Customer Care supports.",
+          "Designed for skincare clinics, dermatology practices, and medispas in Muscat, Seeb, and Salalah. Clients often prefer to discuss appointments in Omani Arabic or English, and the agent maintains a warm, discreet tone in both, along with the other languages CustomerCare.OM supports.",
           "Client contact details and appointment histories are stored in Oman and handled under Personal Data Protection Law-aligned safeguards, which is essential for a clinic environment.",
         ],
       },
@@ -466,7 +466,7 @@ export const templates: Template[] = [
       {
         h: "The Omani teams that run it",
         p: [
-          "For counselling practices, therapy centres, and wellness clinics across Oman. Many clients prefer to discuss something this personal in their own language, and the agent offers Omani Arabic, English, Hindi, Malayalam, and the rest of AI Customer Care's languages, letting callers choose comfort over convenience.",
+          "For counselling practices, therapy centres, and wellness clinics across Oman. Many clients prefer to discuss something this personal in their own language, and the agent offers Omani Arabic, English, Hindi, Malayalam, and the rest of CustomerCare.OM's languages, letting callers choose comfort over convenience.",
           "Sensitive personal data is exactly what the Oman Personal Data Protection Law exists to protect: all call data is hosted in Oman and handled with strict access controls.",
         ],
       },

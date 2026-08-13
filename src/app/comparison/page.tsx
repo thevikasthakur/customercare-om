@@ -5,7 +5,7 @@ import { PageHero, CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Comparison",
   description:
-    "Weighing AI Customer Care against a global voice AI vendor? Here is where an Oman-hosted, Omani Arabic customer care service differs, in plain terms.",
+    "Weighing CustomerCare.OM against a global voice AI vendor? Here is where an Oman-hosted, Omani Arabic customer care service differs, in plain terms.",
 };
 
 const tableRows = [
@@ -34,7 +34,7 @@ export default function ComparisonPage() {
               <thead>
                 <tr className="border-b bg-muted/50 text-left">
                   <th className="px-4 py-3 font-semibold">Capability</th>
-                  <th className="px-4 py-3 font-semibold">AI Customer Care</th>
+                  <th className="px-4 py-3 font-semibold">CustomerCare.OM</th>
                   <th className="px-4 py-3 font-semibold">Typical global vendor</th>
                 </tr>
               </thead>

@@ -9,7 +9,7 @@ import { CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Partner Integrations",
   description:
-    "Connect AI Customer Care to the CRMs, calendars, and tools your team already uses, with data-residency controls that keep call data inside Oman.",
+    "Connect CustomerCare.OM to the CRMs, calendars, and tools your team already uses, with data-residency controls that keep call data inside Oman.",
 };
 
 export default function IntegrationsPage() {
@@ -24,7 +24,7 @@ export default function IntegrationsPage() {
                 Partner <span className="accent-italic">integrations</span>
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
-                AI Customer Care&rsquo;s integrations give your team ways to bring their
+                CustomerCare.OM&rsquo;s integrations give your team ways to bring their
                 data to their AI agent, real-time read and write, quick to
                 deploy, and always with call data resident in Oman.
               </p>

@@ -4,20 +4,26 @@ import { PageHero, Stat, CardGrid, CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "AI Customer Care builds customer service voice AI for Omani enterprises: agents that handle customer queries in the Sultanate's own languages, hosted on its own soil.",
+    "CustomerCare.OM builds customer service voice AI for Omani enterprises: agents that handle customer queries in the Sultanate's own languages, hosted on its own soil.",
 };
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
-        badge="About AI Customer Care"
+        badge="About CustomerCare.OM"
         title="Customer service AI built in Muscat, for the way Oman speaks"
-        sub="AI Customer Care is the Oman-specialised sister of VoxReception. Where VoxReception serves the global market, AI Customer Care exists for one purpose: perfect customer service for the Sultanate of Oman."
+        sub="CustomerCare.OM is the Oman-specialised sister of VoxReception. Where VoxReception serves the global market, CustomerCare.OM exists for one purpose: perfect customer service for the Sultanate of Oman."
         cta={false}
       />
       <section className="pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-3xl prose-vox">
+          <p>
+            CustomerCare.OM is an AI customer service platform for businesses in
+            the Sultanate of Oman. The company is named after its domain,
+            customercare.om, and is also referred to as AI Customer Care. Both
+            names refer to the same company, based in Muscat.
+          </p>
           <h2>The customer conversations global voice AI could not hold</h2>
           <p>
             Every global voice AI platform we tested had the same blind spot: it could
@@ -37,7 +43,7 @@ export default function AboutPage() {
           </p>
           <h2>Compliance is our foundation, not a feature</h2>
           <p>
-            We founded AI Customer Care after Oman&rsquo;s Personal Data Protection Law
+            We founded CustomerCare.OM after Oman&rsquo;s Personal Data Protection Law
             (Royal Decree 6/2022) came into force in 2023, and we made a decision most
             vendors would not: all infrastructure lives inside Oman, and zero customer
             data ever leaves the country. Not for model training, not for analytics,
@@ -55,7 +61,7 @@ export default function AboutPage() {
       <section className="py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-center mb-12">
-            What Omani enterprises get with AI Customer Care
+            What Omani enterprises get with CustomerCare.OM
           </h2>
           <CardGrid
             items={[
@@ -65,7 +71,7 @@ export default function AboutPage() {
               },
               {
                 title: "Your systems updated before the call ends",
-                desc: "Bookings in your calendar, leads in your CRM, tickets in your helpdesk. AI Customer Care turns conversations into completed work.",
+                desc: "Bookings in your calendar, leads in your CRM, tickets in your helpdesk. CustomerCare.OM turns conversations into completed work.",
               },
               {
                 title: "Anchored in Muscat",

@@ -9,7 +9,7 @@ import { CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "AI Agent Templates",
   description:
-    "Ready-made AI Customer Care templates for scheduling, lead qualification, ticketing, and more, tuned for Omani businesses and ready to customise in minutes.",
+    "Ready-made CustomerCare.OM templates for scheduling, lead qualification, ticketing, and more, tuned for Omani businesses and ready to customise in minutes.",
 };
 
 // deterministic "N+ businesses using this" per slug, stable across rebuilds
@@ -73,7 +73,7 @@ export default function TemplatesPage() {
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
             Each one arrives with the call flows, escalation rules and reporting
             an Omani support desk needs, handling customer queries in all nine
-            AI Customer Care languages.
+            CustomerCare.OM languages.
           </p>
         </div>
       </section>

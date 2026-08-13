@@ -3,7 +3,12 @@
  *
  * Runs after `next build` and, for every exported page:
  *   1. writes a Markdown twin at the same path plus `.md`
- *   2. injects <link rel="canonical"> and <link rel="alternate" type="text/markdown">
+ *   2. injects <link rel="canonical">
+ *
+ * The twins are not public addresses. They are the payload the Netlify edge
+ * function serves on an internal rewrite when a client sends
+ * `Accept: text/markdown`; a direct request for one is redirected to the page
+ * it belongs to, so each page keeps a single URL.
  * then writes /llms.txt (curated index) and /llms-full.txt (whole site as one file).
  *
  * No dependencies: the exported HTML is machine generated and consistent, so a
@@ -14,7 +19,9 @@ import { join, relative, dirname } from "node:path";
 
 const OUT = "out";
 const ORIGIN = "https://customercare.om";
-const SITE_NAME = "AI Customer Care";
+const SITE_NAME = "CustomerCare.om";
+const SITE_ALT = "AI Customer Care";
+const SITE_CATEGORY = "AI customer service platform";
 
 /** Routes that should not advertise a Markdown twin or appear in llms.txt. */
 const EXCLUDED = new Set([
@@ -257,13 +264,13 @@ for (const file of walk(OUT)) {
   const mdPath = route === "/" ? "/index.md" : `${route.replace(/\/$/, "")}.md`;
   const canonical = ORIGIN + route;
 
-  // 1. head links
+  // 1. canonical only. There is deliberately no
+  // <link rel="alternate" type="text/markdown">: that tag points at a separate
+  // Markdown address, and this site does not have one. Markdown comes from the
+  // page's own URL under Accept: text/markdown.
   if (!NO_CANONICAL.has(route) && !/rel="canonical"/i.test(html)) {
-    const head = [`<link rel="canonical" href="${canonical}"/>`];
-    if (!skip) {
-      head.push(`<link rel="alternate" type="text/markdown" href="${ORIGIN}${mdPath}"/>`);
-    }
-    writeFileSync(file, html.replace("</head>", `${head.join("")}</head>`));
+    const head = `<link rel="canonical" href="${canonical}"/>`;
+    writeFileSync(file, html.replace("</head>", `${head}</head>`));
   }
 
   if (skip || !body) continue;
@@ -275,6 +282,7 @@ for (const file of walk(OUT)) {
     description ? `description: ${JSON.stringify(description)}` : null,
     `canonical: ${canonical}`,
     `site: ${SITE_NAME}`,
+    `site_alias: ${SITE_ALT}`,
     `updated: ${stamp}`,
     "---",
   ].filter(Boolean).join("\n");
@@ -286,7 +294,9 @@ for (const file of walk(OUT)) {
 /* ──────────────────────────── llms.txt generation ───────────────────────── */
 
 const byRoute = new Map(pages.map((p) => [p.route, p]));
-const shortTitle = (p) => p.title.replace(new RegExp(`\\s*\\|\\s*${SITE_NAME}$`), "").trim();
+// The brand string contains a dot, so escape it before it becomes a pattern.
+const SITE_NAME_RE = SITE_NAME.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const shortTitle = (p) => p.title.replace(new RegExp(`\\s*\\|\\s*${SITE_NAME_RE}$`), "").trim();
 const trim = (s, n = 200) => {
   if (s.length <= n) return s;
   const cut = s.slice(0, n);
@@ -311,17 +321,19 @@ const under = (prefix) =>
 
 const preamble = `# ${SITE_NAME}
 
-> Customer Service Voice AI Agents for Omani enterprises. They handle customer
-> queries in Omani Arabic, Gulf Arabic, Standard Arabic, English, Swahili, Hindi,
-> Bengali, Malayalam and Tamil, across phone, web chat, WhatsApp and email.
+> ${SITE_NAME} is an ${SITE_CATEGORY} for businesses in the Sultanate of Oman.
+> Its Customer Service Voice AI Agents handle customer queries in Omani Arabic,
+> Gulf Arabic, Standard Arabic, English, Swahili, Hindi, Bengali, Malayalam and
+> Tamil, across phone, web chat, WhatsApp and email.
 
-Every page is available as Markdown. Either send \`Accept: text/markdown\` to the
-normal URL, or append \`.md\` to any path, for example
-\`/product/smart-follow-ups.md\`. \`/llms-full.txt\` contains the whole site as a
-single Markdown document.
+Every page is available as Markdown at its own URL. Send
+\`Accept: text/markdown\` and you get Markdown instead of HTML from the same
+address, so there is one URL per page and it is the one to cite.
+\`/llms-full.txt\` contains the whole site as a single Markdown document.
 
 Key facts, so they do not have to be inferred:
 
+- The company and the product are both named ${SITE_NAME}, after its domain, ${ORIGIN.replace(/^https:\/\//, "")}. "${SITE_ALT}" is a descriptive alias for the same entity, not a separate company, and not a reference to the general category of AI-assisted customer service.
 - The product is one system with several capabilities, not a catalogue of separate products.
 - It is ready out of the box. Customers do not hire specialists to build agents.
 - Hosting is entirely inside Oman and no customer data leaves the Sultanate, in line with Oman's Personal Data Protection Law (Royal Decree 6/2022, in force February 2023).

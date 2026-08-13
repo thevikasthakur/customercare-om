@@ -82,9 +82,9 @@ const sections = [
     ],
   },
   {
-    h: "How AI Customer Care implements all of this",
+    h: "How CustomerCare.OM implements all of this",
     p: [
-      "AI Customer Care was built in Oman, for these rules. Disclosure lines open every AI conversation, consent capture is logged with timestamps, opt-outs propagate across every channel instantly, and calling windows enforce Omani hours including seasonal schedules. All recordings, transcripts, and customer records are processed and stored on infrastructure inside the Sultanate, so cross-border transfer questions simply never arise.",
+      "CustomerCare.OM was built in Oman, for these rules. Disclosure lines open every AI conversation, consent capture is logged with timestamps, opt-outs propagate across every channel instantly, and calling windows enforce Omani hours including seasonal schedules. All recordings, transcripts, and customer records are processed and stored on infrastructure inside the Sultanate, so cross-border transfer questions simply never arise.",
     ],
   },
 ];

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -36,7 +37,7 @@ const steps = [
   {
     icon: UserPlus,
     title: "One salesperson, named on the lead",
-    desc: "Territory, language, sector, or current load: you choose the rule. What the rule never produces is a lead sitting in a shared inbox that everyone can see and nobody owns.",
+    desc: "Territory, language, sector, or current load: you choose the rule. What the rule never produces is an enquiry parked in a team inbox where it belongs to everyone and moves with no one.",
   },
 ];
 
@@ -106,7 +107,7 @@ const board = [
 const leadFaqs = [
   {
     q: "How does it tell a real lead from a casual question?",
-    a: "By the same signals a good salesperson listens for: quantity, budget, site, deadline, and whether the caller can actually decide. You set the threshold, and calls that fall short are logged as enquiries rather than pushed into the pipeline. A clean pipeline is the point.",
+    a: "By the same signals a good salesperson listens for: quantity, budget, site, deadline, and whether the caller can actually decide. You set the threshold, and calls that fall short stay recorded as plain enquiries instead of entering the pipeline. A clean pipeline is the point.",
   },
   {
     q: "Where does the enrichment information come from?",
@@ -121,7 +122,7 @@ const leadFaqs = [
     a: "No. It answers the factual product and availability questions you have approved, and it captures everything your salesperson needs. Pricing, negotiation, and the close stay with your people, which is exactly where your customers want them.",
   },
   {
-    q: "What happens to enquiries that are not ready to buy?",
+    q: "What about callers who are not ready to buy yet?",
     a: "They are kept, not discarded. A caller planning a project for next year is logged with the date they mentioned, and the follow-up is scheduled for then instead of chased now. Most teams find this is where their quietest pipeline was hiding.",
   },
   {
@@ -146,7 +147,7 @@ export default function LeadPipelinePage() {
                 Almost none of them become leads.
               </h1>
               <p className="mt-6 max-w-lg text-lg text-muted-foreground leading-relaxed">
-                AI Customer Care listens for buying intent on the enquiries your
+                CustomerCare.OM listens for buying intent on the enquiries your
                 line already takes, builds the lead with your own records
                 attached, and hands it to one salesperson who owns it.{" "}
                 <strong className="text-foreground">
@@ -220,8 +221,8 @@ export default function LeadPipelinePage() {
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="eyebrow">The revenue hiding in support</p>
           <h2 className="mt-4 text-3xl md:text-5xl">
-            Your service line is already{" "}
-            <span className="accent-italic">your busiest sales channel</span>.
+            Half of customer care is{" "}
+            <span className="accent-italic">customers trying to buy</span>.
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-muted-foreground leading-relaxed">
             Do you supply this? Can you deliver to Sohar? What would forty of them
@@ -267,6 +268,21 @@ export default function LeadPipelinePage() {
           <p className="mt-8 font-mono text-xs uppercase tracking-[0.12em] text-lime">
             Qualified on the call. Enriched from your records. Owned by a person.
           </p>
+
+          <figure className="mt-12">
+            <Image
+              src="/media/chatbot-to-human-transfer.webp"
+              alt="A customer's bulk enquiry moving from the AI agent to Ahmed, a named salesperson in Muscat, inside one continuous thread"
+              width={1672}
+              height={941}
+              className="w-full"
+              sizes="(max-width: 1024px) 92vw, 1152px"
+            />
+            <figcaption className="mt-4 font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground">
+              The moment of ownership: the customer is introduced to the person
+              now carrying their enquiry, with nothing repeated
+            </figcaption>
+          </figure>
         </div>
       </section>
 
@@ -320,8 +336,8 @@ export default function LeadPipelinePage() {
           <div className="grid items-center gap-10 md:grid-cols-[1.2fr_1fr]">
             <div>
               <h2 className="max-w-xl text-2xl md:text-4xl">
-                The same engine that chases tickets{" "}
-                <span className="accent-italic">chases deals</span>.
+                Deals stall for the same reason tickets do:{" "}
+                <span className="accent-italic">nobody chased</span>.
               </h2>
               <p className="mt-4 max-w-lg text-sm text-muted-foreground leading-relaxed">
                 Smart Follow-Ups keeps a support ticket moving between the

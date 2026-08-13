@@ -7,7 +7,7 @@ import { CtaBanner, Faq } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Dashboard & Reporting",
   description:
-    "Real-time reporting on customer queries, calls, and revenue. AI Customer Care's dashboards turn every conversation into numbers your leadership can act on.",
+    "Real-time reporting on customer queries, calls, and revenue. CustomerCare.OM's dashboards turn every conversation into numbers your leadership can act on.",
 };
 
 const analyticsCards = [
@@ -106,7 +106,7 @@ export default function DashboardReportingPage() {
           </h1>
           <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground leading-relaxed">
             Real-time reporting on customer queries, calls, and revenue. Every
-            conversation AI Customer Care handles becomes a number your leadership can
+            conversation CustomerCare.OM handles becomes a number your leadership can
             act on.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -133,10 +133,10 @@ export default function DashboardReportingPage() {
             <div className="relative p-6 md:p-12">
               <div className="overflow-clip rounded-[1.25rem] border border-line-strong shadow-2xl shadow-black/60">
                 <Image
-                  src="/media/bento-analytics.avif"
-                  alt="AI Customer Care reporting dashboard with query volumes and outcomes (placeholder visual)"
-                  width={2216}
-                  height={1385}
+                  src="/media/dashboard-oman-report.webp"
+                  alt="CustomerCare.OM reports screen tracking AI agent sales in Omani Rials across a week, with order totals and average time to order"
+                  width={1672}
+                  height={941}
                   className="w-full"
                   priority
                 />

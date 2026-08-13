@@ -11,9 +11,14 @@ const organisation = {
   "@type": "Organization",
   "@id": `${site.url}/#organization`,
   name: site.name,
+  // The descriptive label is declared as an alias, never as the entity name, so
+  // the resolvable brand string stays the key and the category stays an anchor.
+  alternateName: site.alternateName,
   url: site.url,
   logo: `${site.url}/android-chrome-512x512.png`,
-  description: site.description,
+  description: site.definition,
+  slogan: site.tagline,
+  ...(site.profiles.length ? { sameAs: site.profiles } : {}),
   email: site.email,
   telephone: site.phone,
   address: {
@@ -39,6 +44,7 @@ const website = {
   "@type": "WebSite",
   "@id": `${site.url}/#website`,
   name: site.name,
+  alternateName: site.alternateName,
   url: site.url,
   inLanguage: "en-OM",
   publisher: { "@id": `${site.url}/#organization` },

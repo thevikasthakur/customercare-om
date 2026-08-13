@@ -62,7 +62,7 @@ const templateFaqs = [
   },
   {
     q: "Which languages does it support?",
-    a: "All nine AI Customer Care languages, Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, with automatic mid-call switching.",
+    a: "All nine CustomerCare.OM languages, Omani Arabic, Gulf Arabic, English, Standard Arabic, Swahili, Hindi, Bengali, Malayalam, and Tamil, with automatic mid-call switching.",
   },
   {
     q: "How quickly can I go live with it?",
@@ -226,7 +226,7 @@ export default async function TemplatePage({
               </h2>
               <p className="mt-4 max-w-md text-sm text-muted-foreground leading-relaxed">
                 If your business handles over 2,000 calls a month, ask about
-                AI Customer Care&rsquo;s Enterprise Plan, dedicated in-Oman
+                CustomerCare.OM&rsquo;s Enterprise Plan, dedicated in-Oman
                 infrastructure, custom voices, and a delivery team in Muscat.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">

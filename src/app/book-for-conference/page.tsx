@@ -3,9 +3,9 @@ import { site } from "@/data/site";
 import { PageHero } from "@/components/sections";
 
 export const metadata: Metadata = {
-  title: "Meet AI Customer Care at an Event",
+  title: "Meet CustomerCare.OM at an Event",
   description:
-    "Book time with the AI Customer Care team at COMEX Muscat and other regional technology events.",
+    "Book time with the CustomerCare.OM team at COMEX Muscat and other regional technology events.",
 };
 
 export default function BookForConferencePage() {
@@ -13,7 +13,7 @@ export default function BookForConferencePage() {
     <>
       <PageHero
         badge="Events"
-        title="Meet AI Customer Care at an event"
+        title="Meet CustomerCare.OM at an event"
         sub="We exhibit at COMEX Global Technology Show in Muscat and technology events across the GCC. Reserve a slot and hear the agent live at our stand."
         cta={false}
       />

@@ -1,11 +1,15 @@
 /**
  * Markdown content negotiation for AI agents.
  *
- * Every page is exported twice by `scripts/ai-readability.mjs`: as HTML and as
- * a Markdown twin at the same path plus `.md`. This function lets an agent ask
- * for either at the *same* URL:
+ * There is exactly one public URL per page. Ask for it as HTML and you get
+ * HTML; ask for it as Markdown and you get Markdown:
  *
  *   curl -H "Accept: text/markdown" https://customercare.om/product/smart-follow-ups/
+ *
+ * `scripts/ai-readability.mjs` exports a Markdown twin beside every page, but
+ * those files are an implementation detail: they are the payload this function
+ * serves on an internal rewrite, and any request that asks for one directly is
+ * redirected to the canonical page. One piece of content, one address.
  *
  * Browsers send `text/html` and are unaffected. Both variants carry
  * `Vary: Accept` so caches never serve one where the other was asked for.
@@ -53,6 +57,12 @@ function twinFor(pathname: string): string | null {
   return `${pathname.replace(/\/+$/, "")}.md`;
 }
 
+/** The inverse: `/about.md` -> `/about/`, `/index.md` -> `/`. */
+function pageFor(pathname: string): string {
+  const stem = pathname.replace(/\.md$/i, "");
+  return stem === "/index" ? "/" : `${stem}/`;
+}
+
 function withVary(response: Response, contentType?: string): Response {
   const out = new Response(response.body, response);
   if (contentType) out.headers.set("content-type", contentType);
@@ -66,6 +76,8 @@ function withVary(response: Response, contentType?: string): Response {
 }
 
 export default async function handler(request: Request, context: Context) {
+  if (request.method !== "GET" && request.method !== "HEAD") return context.next();
+
   const url = new URL(request.url);
 
   // Discovery files are Markdown despite the .txt extension the spec mandates.
@@ -74,10 +86,10 @@ export default async function handler(request: Request, context: Context) {
     return response.ok ? withVary(response, MARKDOWN) : response;
   }
 
-  // Direct hit on a twin: static hosting would call it text/plain or worse.
+  // A twin is not a public address. Anyone arriving at one gets sent to the
+  // page it belongs to, so the content has a single canonical URL.
   if (url.pathname.endsWith(".md")) {
-    const response = await context.next();
-    return response.ok ? withVary(response, MARKDOWN) : response;
+    return Response.redirect(new URL(pageFor(url.pathname), url.origin), 301);
   }
 
   if (prefersMarkdown(request.headers.get("accept") ?? "")) {

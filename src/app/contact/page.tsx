@@ -6,7 +6,7 @@ import { PageHero, CtaBanner } from "@/components/sections";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Talk to AI Customer Care in Muscat. Email, phone, and office address, no forms and no queues.",
+    "Talk to CustomerCare.OM in Muscat. Email, phone, and office address, no forms and no queues.",
 };
 
 export default function ContactPage() {

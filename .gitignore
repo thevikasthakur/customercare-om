@@ -8,3 +8,8 @@ out
 
 # Deno lockfile written by the Netlify edge runtime during local dev
 deno.lock
+
+# Article generator run-state, logs and rejected drafts (local only)
+scripts/.article-generation-state.json
+scripts/.rejected-*.json
+scripts/cron.log

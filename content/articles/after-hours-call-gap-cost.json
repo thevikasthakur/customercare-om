@@ -1,0 +1,279 @@
+{
+  "id": "article-2026-08-13-calls-after-closing",
+  "taskId": "2026-08-13-calls-after-closing",
+  "slug": "after-hours-call-gap-cost",
+  "title": "What Happens to Calls After You Lock Up at Six?",
+  "seoTitle": "What Happens to Calls After You Lock Up at Six?",
+  "excerpt": "Your front desk goes home at six. Your customers' evenings are just getting started. Here is what that silence actually costs, in real OMR numbers you can check against your own call log.",
+  "seoDescription": "Evening calls to clinics and real estate offices go unanswered every night after six. See the true OMR cost of that gap, and three honest fixes.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "What Happens to Calls After You Lock Up at Six?",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-13",
+  "modifiedDate": "2026-08-13",
+  "reviewedDate": "2026-08-13",
+  "reviewBy": "2026-11-11",
+  "status": "published",
+  "tags": [
+    "after-hours calls",
+    "call coverage costs",
+    "polyclinic operations",
+    "real estate enquiries",
+    "customer service staffing",
+    "missed calls",
+    "business owner playbook"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\">\n<stop offset=\"0%\" stop-color=\"#2c0a0d\"/>\n<stop offset=\"55%\" stop-color=\"#7a1c22\"/>\n<stop offset=\"100%\" stop-color=\"#f1a09a\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<circle cx=\"40\" cy=\"38\" r=\"20\" fill=\"#e8c07c\"/>\n<g transform=\"translate(58,55)\">\n<rect x=\"0\" y=\"0\" width=\"66\" height=\"115\" rx=\"14\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"3\"/>\n<circle cx=\"33\" cy=\"100\" r=\"6\" fill=\"#f4f4f0\"/>\n</g>\n<path d=\"M138 95 Q158 75 138 55\" stroke=\"#d4ff4f\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n<path d=\"M148 105 Q178 75 148 45\" stroke=\"#d4ff4f\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.75\"/>\n<path d=\"M158 115 Q198 75 158 35\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" opacity=\"0.5\"/>\n<rect x=\"18\" y=\"148\" width=\"240\" height=\"62\" rx=\"8\" fill=\"#2c0a0d\" opacity=\"0.88\"/>\n<text x=\"32\" y=\"178\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#f4f4f0\">OMR 4,200</text>\n<text x=\"32\" y=\"199\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">lost each month after 6pm</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-pdpl",
+      "label": "MTCIT: Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl-executive-regulation",
+      "label": "MTCIT: Executive Regulations of the Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/regulations-72/executive-regulations-of-the-personal-data-protection-law-1035",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cms-lawnow-pdpl-enforcement",
+      "label": "CMS Law Now: Oman personal data protection law entering the enforcement phase",
+      "url": "https://cms-lawnow.com/en/ealerts/2026/02/oman-personal-data-protection-law-entering-the-enforcement-phase",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Your front desk locks up at six. Your customers do not stop needing you at six. Every evening call that only reaches a recorded message at a Muscat polyclinic or a real estate office is a booking, a viewing or a walk-in that someone else answers before your team is back at their desks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-evening-a-business-goes-quiet",
+      "text": "the evening a business goes quiet"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most operator desks and front office teams here still run an eight to six day, with a shorter Friday. Customers do not run on that clock. A parent calls about a clinic appointment after picking up the kids from school. A family checks a rental listing after dinner. During khareef, hotels and clinics in Salalah keep hearing the phone ring well past sunset as visitors settle into the evening. None of this is unusual. It is simply when people actually have a free minute to deal with life."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The result is a predictable gap. Calls that land between six in the evening and nine the next morning, plus all of Friday, reach a recorded message, a shared inbox or nothing at all. For a business that answers hundreds of calls a week during the day, that quiet stretch is not empty. It is only unattended."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-an-unanswered-call-actually-costs",
+      "text": "what an unanswered call actually costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Put real numbers against the gap and it stops being an abstract inconvenience. Take Al Waha Polyclinic Group, a composite example of a three branch clinic operator in Muscat whose front desk closes at six. Its evening call pattern, worked out from a typical week, looks like this."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Number",
+        "Note"
+      ],
+      "rows": [
+        [
+          "Average calls between 6pm and 9am, plus Friday",
+          "30 a day",
+          "Front desk shift ends at 6, phone reverts to a recorded message"
+        ],
+        [
+          "New booking enquiries in that batch",
+          "18 a day",
+          "30 x 60 percent"
+        ],
+        [
+          "Callers who do not try again the next morning",
+          "55 percent",
+          "They book with a clinic that already answered"
+        ],
+        [
+          "Bookings genuinely lost each day",
+          "10",
+          "18 x 55 percent, rounded"
+        ],
+        [
+          "Average value of one new patient, consultation plus first follow up",
+          "OMR 14",
+          "Composite figure for a mid size clinic group"
+        ],
+        [
+          "Monthly cost of the evening gap",
+          "About OMR 4,200",
+          "10 x 30 days x OMR 14"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Run the same math on your own call log and the number rarely comes out small. A real estate brokerage with evening viewing requests, or a dealership fielding service questions after the workshop closes, will land on a different figure, but the shape of the loss is the same."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A closed phone line does not close the evening: it moves your customers to whichever line answers first."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-three-ways-businesses-cover-the-gap",
+      "text": "the three ways businesses cover the gap"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once a business decides the gap is worth closing, the options come down to three, and each one has an honest cost."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Extend the shift: ",
+            "strong": true
+          },
+          {
+            "text": "pay staff overtime to cover until nine and roster someone for Friday. It plugs the busiest hours, but late nights and holiday eves stay open, and the wage bill adds up fast on top of a rota that already runs six days."
+          }
+        ],
+        [
+          {
+            "text": "Outsource to a call centre: ",
+            "strong": true
+          },
+          {
+            "text": "an outside team answers around the clock, but agents who do not know your branches, your doctors or your listings usually take a message instead of closing a booking, so conversion tends to fall."
+          }
+        ],
+        [
+          {
+            "text": "Automate the first response: ",
+            "strong": true
+          },
+          {
+            "text": "software answers the call itself, handles straightforward requests and hands anything complicated to a note for the morning team, at one flat monthly cost no matter how many calls land at midnight."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A version of the third option now understands callers who mix English, Arabic and Omani dialect in the same sentence, the way people here actually talk on the phone. CustomerCare.OM is built this way for clinics, real estate offices and similar teams that already run a phone line: one option to weigh against the other two, not a reason to skip the maths above."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "By the time I open the voicemail at eight the next morning, half those callers have already booked somewhere else.",
+      "attribution": "Maha, evening desk coordinator, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start by measuring your own gap before choosing a fix. Pull whatever call log or missed-call report your phone system already keeps, or check a "
+        },
+        {
+          "text": "call analytics dashboard",
+          "href": "/features/call-analytics-dashboard/"
+        },
+        {
+          "text": " if you have one, and count what actually happens after six and on Fridays for one ordinary week, not a holiday week."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If most after hours calls are simple, a booking, a viewing time, a document ready for pickup, an extra shift or automation covers them well. If they usually need judgement, a price negotiation, a medical concern, keep a real person reachable even if it costs overtime, and let automation catch the message and hand it over first thing."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The cheapest hour to answer is the one right before a customer calls your competitor instead."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two minute check",
+      "paragraphs": [
+        "Open your call log for the last seven days.",
+        "Count how many calls landed after 6pm or on Friday, and how many reached a live person rather than a recording.",
+        "Ask your morning team what share of those overnight messages actually turned into a booking, a viewing or a sale.",
+        "Multiply your daily missed count by what one of those enquiries is normally worth. That is your monthly number to weigh against any fix."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does Oman's data protection law apply to evening calls too?",
+          "a": "Yes. Any recording or message you keep from an after hours line is personal data under the data protection law, in force since February 2023 and fully enforceable since February 2026, so whichever fix you choose still needs the same consent and storage care as your daytime desk."
+        },
+        {
+          "q": "Is forwarding calls to a manager's mobile a real fix?",
+          "a": "It covers a handful of calls a week, not a khareef weekend or a holiday eve, and it mixes work calls with a personal number, which makes handover hard on the day that manager is off."
+        },
+        {
+          "q": "Should Friday count as a full evening gap or half a day?",
+          "a": "Treat it as the full gap. Friday combines the weekend pattern with the after six pattern, so a business that only plans for weekday evenings still gets caught out."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The evening gap is not a technology problem first. It is a measurement problem. Count what actually happens on your line after six, put a real OMR number against it the way Al Waha's evening figures show above, and only then decide whether an extra shift, an outsourced desk or an automated one is worth the cost. Whatever you choose, the customer calling at eight on a Thursday evening should not have to guess whether anyone is listening."
+        }
+      ]
+    }
+  ]
+}

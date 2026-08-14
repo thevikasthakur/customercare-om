@@ -96,6 +96,7 @@ export const mainNav: NavItem[] = [
   {
     label: "Resources",
     children: [
+      { label: "Blog", desc: "One new read every day on customer service in Oman", href: "/blog/" },
       { label: "Comparison", desc: "Exploring alternatives to CustomerCare.OM?", href: "/comparison/" },
       { label: "Oman AI Calling Guide", desc: "The rules for AI customer contact in Oman", href: "/guideline/oman/" },
       { label: "Integrations", desc: "Connect the tools you already use", href: "/integration/" },
@@ -142,6 +143,7 @@ export const footerNav: { title: string; wide?: boolean; links: NavChild[] }[] =
   {
     title: "Resources",
     links: [
+      { label: "Blog", href: "/blog/" },
       { label: "Oman AI Calling Guide", href: "/guideline/oman/" },
       { label: "Comparison", href: "/comparison/" },
       { label: "Industries", href: "/industries/" },

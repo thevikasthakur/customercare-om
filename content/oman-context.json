@@ -1,0 +1,222 @@
+{
+  "$comment": "Oman almanac for the daily article generator. The generator injects only the entries near the publication date (or explicitly referenced via eventRefs) into the prompt, together with each entry's 'impact' and 'verify' notes. Islamic dates are expected dates and must always be phrased as subject to the official moon sighting announcement. No em or en dashes anywhere in this file. Facts verified August 2026.",
+  "timezone": "Asia/Muscat",
+  "nationalDates": [
+    {
+      "key": "new-year",
+      "name": "New Year's Day",
+      "month": 1,
+      "day": 1,
+      "impact": "Quiet public-office day, busy leisure day. Muscat Nights usually opens around now, so retail, restaurants and family venues see footfall rise while many front desks run holiday rosters.",
+      "verify": "Confirm whether January 1 is a granted holiday for the current year; it is customary but announced, not automatic."
+    },
+    {
+      "key": "accession-day",
+      "name": "Accession Day (His Majesty Sultan Haitham bin Tarik took office 11 January 2020)",
+      "month": 1,
+      "day": 11,
+      "impact": "National sentiment day with official ceremonies. Businesses often publish greetings; call volumes stay normal but government offices may adjust hours.",
+      "verify": "Check the current year's holiday announcement before stating any day off."
+    },
+    {
+      "key": "renaissance-day",
+      "name": "Renaissance Day",
+      "month": 7,
+      "day": 23,
+      "impact": "Commemorates the 1970 start of Oman's modern renaissance. Mid-summer timing means it lands inside the extreme heat season when phone and WhatsApp queries replace walk-ins.",
+      "verify": "Confirm current-year observance; treatment has varied between a marked day and a granted holiday."
+    },
+    {
+      "key": "omani-womens-day",
+      "name": "Omani Women's Day",
+      "month": 10,
+      "day": 17,
+      "impact": "Celebration of Omani women, including the many women who own and run service businesses. A natural day for stories about women-led teams, not a public holiday.",
+      "verify": "It is an observance, not a day off. Do not imply closures."
+    },
+    {
+      "key": "national-day",
+      "name": "Oman National Day (official dates 20 and 21 November)",
+      "month": 11,
+      "day": 20,
+      "impact": "The biggest civic celebration of the year: decorated cars, family gatherings, promotions everywhere. Retail, restaurants, salons and hotels see a demand spike while the holiday days themselves empty the office.",
+      "verify": "The celebrated dates are 20 and 21 November, but the exact days off are announced by royal directive each year and are sometimes moved to create a long weekend. Older sources say 18 November; do not use that date. Never assert the exact days off without checking the current-year announcement."
+    }
+  ],
+  "islamicDates": [
+    {
+      "key": "mawlid-1448",
+      "name": "Prophet's Birthday (Mawlid), 12 Rabi al-Awwal 1448",
+      "approxDate": "2026-08-27",
+      "moonSighting": true,
+      "impact": "A public holiday in Oman. Falls in late summer this year; families travel, and businesses run holiday rosters while customer queries keep arriving.",
+      "verify": "The holiday date is confirmed by official announcement close to the time. Phrase as expected around 27 August 2026, subject to the official moon sighting announcement."
+    },
+    {
+      "key": "isra-miraj-1448",
+      "name": "Isra wal Miraj, 27 Rajab 1448",
+      "approxDate": "2027-01-05",
+      "moonSighting": true,
+      "impact": "A public holiday in Oman, landing in the same January stretch as New Year, Muscat Nights and Accession Day, which makes a fragmented working month for service teams.",
+      "verify": "Expected around early January 2027, subject to the official moon sighting announcement. Confirm before asserting."
+    },
+    {
+      "key": "ramadan-start-1448",
+      "name": "First day of Ramadan 1448",
+      "approxDate": "2027-02-08",
+      "moonSighting": true,
+      "impact": "Private sector working hours for Muslim employees drop to a maximum of six hours a day or thirty a week under the Labour Law (Royal Decree 53/2023). Daily life shifts: quiet mornings, a rush before iftar, and customer activity moving late into the night, when most front desks are closed.",
+      "verify": "Expected around 8 February 2027, subject to the official moon sighting announcement. Working-hours circulars for the year are issued by the authorities shortly before Ramadan; check them before quoting exact hours."
+    },
+    {
+      "key": "eid-al-fitr-1448",
+      "name": "Eid al-Fitr 1448",
+      "approxDate": "2027-03-11",
+      "moonSighting": true,
+      "impact": "A multi-day public holiday and one of the year's biggest spending moments: salons, tailors, sweet shops, car washes and travel all peak in the final Ramadan week, then the country goes quiet for the Eid days themselves.",
+      "verify": "Expected around 11 March 2027, subject to the official moon sighting announcement. Holiday length is announced each year; do not assert the number of days off."
+    },
+    {
+      "key": "eid-al-adha-1448",
+      "name": "Eid al-Adha 1448",
+      "approxDate": "2027-05-16",
+      "moonSighting": true,
+      "impact": "A multi-day public holiday with heavy travel, livestock and food purchases, and family hosting. Businesses face a pre-Eid enquiry surge followed by closed days when calls still arrive.",
+      "verify": "Expected around 16 May 2027 (with the Day of Arafah the day before), subject to the official moon sighting announcement."
+    },
+    {
+      "key": "hijri-new-year-1449",
+      "name": "Islamic New Year (Awal Muharram) 1449",
+      "approxDate": "2027-06-07",
+      "moonSighting": true,
+      "impact": "A public holiday marking the start of the Hijri year. A quieter holiday commercially, but rosters and opening-hours announcements still need handling.",
+      "verify": "Expected around early June 2027, subject to the official moon sighting announcement."
+    },
+    {
+      "key": "mawlid-1449",
+      "name": "Prophet's Birthday (Mawlid), 12 Rabi al-Awwal 1449",
+      "approxDate": "2027-08-16",
+      "moonSighting": true,
+      "impact": "A public holiday in Oman during the late-summer stretch.",
+      "verify": "Expected around mid August 2027, subject to the official moon sighting announcement."
+    }
+  ],
+  "seasonalWindows": [
+    {
+      "key": "khareef-dhofar",
+      "name": "Khareef season in Dhofar",
+      "window": { "startMonth": 6, "startDay": 21, "endMonth": 9, "endDay": 21 },
+      "impact": "The monsoon turns Salalah green and cool while the rest of the Gulf bakes, drawing hundreds of thousands of GCC visitors. Hotels, rentals, tours, restaurants and clinics in Dhofar see enquiries multiply, many of them at night and in several languages. The Khareef Dhofar festival programme runs roughly mid July to late August.",
+      "verify": "Season dates are stable (about 21 June to 21 September) but festival programmes and visitor numbers change each year; check current announcements from the Ministry of Heritage and Tourism before quoting specifics."
+    },
+    {
+      "key": "midday-work-ban",
+      "name": "Summer midday outdoor work ban",
+      "window": { "startMonth": 6, "startDay": 1, "endMonth": 8, "endDay": 31 },
+      "impact": "The Ministry of Labour bans outdoor and construction work from 12:30 to 15:30 through June, July and August, with fines for violations. Field-service businesses reshuffle schedules, and afternoon phone coverage matters more because crews are off site.",
+      "verify": "The 12:30 to 15:30 window and June to August period have been consistent, but confirm the current year's ministerial decision and fine amounts before quoting them."
+    },
+    {
+      "key": "extreme-summer",
+      "name": "Peak summer heat",
+      "window": { "startMonth": 5, "startDay": 15, "endMonth": 9, "endDay": 15 },
+      "impact": "Daytime temperatures well above 40 degrees keep people indoors; errands move to evenings and to the phone and WhatsApp. Businesses that only answer during standard hours miss the hours when customers are actually active.",
+      "verify": "General seasonal pattern; no announcement needed, but avoid exaggerated temperature claims."
+    },
+    {
+      "key": "school-year-start",
+      "name": "Back to school period",
+      "window": { "startMonth": 8, "startDay": 20, "endMonth": 9, "endDay": 10 },
+      "impact": "The new school year opens in late August. Uniform shops, bookshops, tuition centres, school transport operators and clinics face a two-week enquiry storm from working parents who mostly call or message outside office hours.",
+      "verify": "Exact term start dates are announced by the Ministry of Education each year; confirm before stating a date."
+    },
+    {
+      "key": "tourist-high-season",
+      "name": "Tourist high season",
+      "window": { "startMonth": 10, "startDay": 1, "endMonth": 4, "endDay": 30 },
+      "impact": "As Europe's summer ends and Oman's weather turns mild, international visitors arrive: cruise calls at Port Sultan Qaboos, desert camps, Musandam trips, Nizwa forts. Hotels, tour operators, car hire and restaurants field enquiries in English, German, French and more, often at odd hours from other time zones.",
+      "verify": "Seasonal pattern is stable; specific cruise schedules and visitor statistics change, so verify any figures."
+    },
+    {
+      "key": "muscat-nights",
+      "name": "Muscat Nights festival",
+      "window": { "startMonth": 12, "startDay": 28, "endMonth": 1, "endDay": 31 },
+      "impact": "Muscat's winter festival (in recent years the whole of January) fills parks and venues across the governorate with events and draws around two million visits, lifting footfall and enquiries for nearby retail, food and family businesses.",
+      "verify": "Dates and programme are announced by Muscat Municipality each season; confirm the current edition's dates before asserting them."
+    },
+    {
+      "key": "year-end-close",
+      "name": "Year-end closing period",
+      "window": { "startMonth": 12, "startDay": 10, "endMonth": 12, "endDay": 31 },
+      "impact": "Budgets close, leave balances get used, and many decision makers disappear until January. A good moment for service reviews, KPI resets and planning the January restart.",
+      "verify": "No announcement needed."
+    }
+  ],
+  "milestones": [
+    {
+      "key": "pdpl-in-force",
+      "kind": "standing",
+      "name": "Personal Data Protection Law in force",
+      "lanes": ["pulse", "rights-and-privacy", "owner-playbook"],
+      "impact": "Oman's Personal Data Protection Law (Royal Decree 6/2022) has applied since 13 February 2023. It governs how businesses collect, store and use customer data, including names, phone numbers and call recordings.",
+      "verify": "The law text and guidance live with the Ministry of Transport, Communications and Information Technology (MTCIT), the regulator. Verify any penalty figures against current official material before quoting them."
+    },
+    {
+      "key": "pdpl-enforcement-live",
+      "kind": "standing",
+      "name": "Personal Data Protection Law enforcement phase",
+      "date": "2026-02-05",
+      "lanes": ["pulse", "rights-and-privacy", "owner-playbook"],
+      "impact": "The compliance grace period under the Executive Regulation (Ministerial Decision 34/2024), extended by Ministerial Decision 6/2025, ended on 5 February 2026. Since then the law is fully enforceable and MTCIT actively supervises, receives complaints and can penalise. Compliance stopped being optional homework and became live exposure.",
+      "verify": "Enforcement posture and any published penalty decisions evolve; search for current MTCIT statements before describing enforcement activity."
+    },
+    {
+      "key": "tra-spam-rules",
+      "kind": "watch",
+      "name": "TRA work on spam and scam message rules",
+      "lanes": ["pulse", "rights-and-privacy"],
+      "impact": "The Telecommunications Regulatory Authority has been consulting on rules to curb spam and scam messages, in the direction of explicit prior consent for electronic marketing and tighter duties on providers and SMS aggregators. For businesses this points at consent-based outreach becoming the enforced norm.",
+      "verify": "This work was at consultation stage; verify the current status (consultation, issued regulation, or in force) with web search before describing it, and never present a draft rule as law."
+    },
+    {
+      "key": "national-ai-policy",
+      "kind": "standing",
+      "name": "Oman's National AI Policy and programme",
+      "lanes": ["pulse", "ai-explained"],
+      "impact": "Under Vision 2040, Oman runs a National Programme for AI and Advanced Digital Technologies (announced September 2024) and MTCIT has published a National AI Policy plus a policy on safe and ethical use of AI systems. The state's target is a digital economy contributing 5 percent of GDP by 2030 and 10 percent by 2040.",
+      "verify": "Programme names, targets and any new initiatives should be checked against mtcit.gov.om and Oman News Agency coverage before citing."
+    },
+    {
+      "key": "maeen-model",
+      "kind": "watch",
+      "name": "Maeen, the Omani language model project",
+      "lanes": ["pulse", "ai-explained"],
+      "impact": "At COMEX 2025 Oman announced national AI initiatives including Maeen, a project to build an Omani language model reflecting Omani language and culture. It is official recognition that generic Arabic AI does not fully serve Omani speech.",
+      "verify": "Check the project's current status and any releases before describing progress; do not overstate its maturity."
+    },
+    {
+      "key": "ramadan-working-hours",
+      "kind": "standing",
+      "name": "Ramadan working hours rule",
+      "lanes": ["pulse", "owner-playbook", "seasonal"],
+      "impact": "Under the Labour Law (Royal Decree 53/2023), Muslim employees in the private sector work at most six hours a day or thirty a week during Ramadan. Service coverage shrinks exactly when customer activity moves to the evening.",
+      "verify": "Quote the six-hour rule generally; check the current year's circulars for sector-specific arrangements."
+    },
+    {
+      "key": "consumer-protection-law",
+      "kind": "standing",
+      "name": "Consumer Protection Law",
+      "lanes": ["pulse", "rights-and-privacy", "weekend-read"],
+      "impact": "The Consumer Protection Law (Royal Decree 66/2014) gives customers in Oman rights to truthful information, repair, replacement and refund for defective goods and services. Consumer protection sits with the Ministry of Commerce, Industry and Investment Promotion.",
+      "verify": "Check current guidance from the ministry before describing complaint procedures or penalties."
+    },
+    {
+      "key": "labour-law-2023",
+      "kind": "standing",
+      "name": "Labour Law (Royal Decree 53/2023)",
+      "lanes": ["pulse", "owner-playbook"],
+      "impact": "Oman's current Labour Law, which replaced the 2003 law, governs working hours, overtime, leave and holiday pay, all of which shape how service teams are rostered.",
+      "verify": "Verify specific articles before quoting them; secondary summaries often cite the old law."
+    }
+  ]
+}

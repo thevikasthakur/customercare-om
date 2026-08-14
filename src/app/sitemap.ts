@@ -5,6 +5,7 @@ import { integrations } from "@/data/integrations";
 import { templates } from "@/data/templates";
 import { features } from "@/data/features";
 import { learnArticles } from "@/data/learn";
+import { getPublishedArticles, getSeriesList } from "@/lib/articles";
 
 export const dynamic = "force-static";
 
@@ -22,8 +23,9 @@ const excluded = new Set([
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
+  const articles = getPublishedArticles();
 
-  const entries: { path: string; priority: number }[] = [
+  const entries: { path: string; priority: number; lastModified?: Date; changeFrequency?: "daily" | "monthly" }[] = [
     { path: "/", priority: 1 },
     ...productHrefs.map((path) => ({ path, priority: 0.9 })),
     { path: "/enterprise/", priority: 0.9 },
@@ -33,6 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/integration/", priority: 0.7 },
     { path: "/guideline/oman/", priority: 0.7 },
     { path: "/comparison/", priority: 0.7 },
+    { path: "/blog/", priority: 0.8, changeFrequency: "daily" },
     { path: "/book-a-demo/", priority: 0.8 },
     { path: "/contact/", priority: 0.6 },
     { path: "/about/", priority: 0.6 },
@@ -41,14 +44,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...templates.map((t) => ({ path: `/template/${t.slug}/`, priority: 0.6 })),
     ...integrations.map((i) => ({ path: `/integration/${i.slug}/`, priority: 0.5 })),
     ...learnArticles.map((a) => ({ path: `/learn/voice-ai/${a.slug}/`, priority: 0.5 })),
+    ...getSeriesList().map((s) => ({
+      path: `/blog/series/${s.slug}/`,
+      priority: 0.6,
+      changeFrequency: "daily" as const,
+    })),
+    ...articles.map((a) => ({
+      path: `/blog/${a.slug}/`,
+      priority: 0.7,
+      lastModified: new Date(`${a.modifiedDate}T00:00:00Z`),
+    })),
   ];
 
   return entries
     .filter((e) => !excluded.has(e.path))
     .map((e) => ({
       url: `${site.url}${e.path}`,
-      lastModified,
-      changeFrequency: "monthly" as const,
+      lastModified: e.lastModified ?? lastModified,
+      changeFrequency: e.changeFrequency ?? ("monthly" as const),
       priority: e.priority,
     }));
 }

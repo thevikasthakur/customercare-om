@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.customercare.article-generator</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/thakur/Workspace/voxcare-static/scripts/run-article-gen-wrapper.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/thakur/Workspace/voxcare-static</string>
+
+  <!-- Host machine runs on IST (UTC+5:30); Muscat is UTC+4. 10:35 IST is
+       09:05 in Muscat, so the article is live for the Omani morning. The
+       20:35 IST run is the same-day retry if the morning run failed.
+       The sister machine (com.chatbot-om.article-generator) deliberately
+       runs later (11:50/21:50 IST) so its cross-site duplicate check sees
+       this machine's article for the day. Keep this one first. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>10</integer><key>Minute</key><integer>35</integer></dict>
+    <dict><key>Hour</key><integer>20</integer><key>Minute</key><integer>35</integer></dict>
+  </array>
+
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>SessionCreate</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/thakur/Workspace/voxcare-static/scripts/cron.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/thakur/Workspace/voxcare-static/scripts/cron.log</string>
+</dict>
+</plist>

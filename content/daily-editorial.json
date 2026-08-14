@@ -1,0 +1,858 @@
+{
+  "$comment": "Daily editorial engine for the CustomerCare.OM blog. Each weekday has a lane with a rotating topic bank. Dated overrides win over the lane for that date. Working titles are starting points the generator may sharpen but never lengthen. No em or en dashes anywhere in this file. Bank keys and override keys must be unique across the whole file.",
+  "startsOn": "2026-08-13",
+  "timezone": "Asia/Muscat",
+  "settings": {
+    "bannedTerms": ["receptionist", "answering service", "the Kingdom"],
+    "brandName": "CustomerCare.OM",
+    "wrongBrandForms": ["Customer Care OM", "CustomerCare Oman", "Customer Care Oman", "CustomerCareOM"]
+  },
+  "lanes": {
+    "0": {
+      "key": "service-desk",
+      "series": "Customer Service Playbook",
+      "category": "Customer Service Skills",
+      "catchUpEligible": true,
+      "laneBrief": "Start-of-week reading for the people who run customer-facing teams in Oman: owners, supervisors, front-desk leads. Teach one customer service skill, metric or practice properly, with a worked example an Omani business can copy on Sunday morning. Practical training material, not theory.",
+      "bank": [
+        {
+          "key": "what-good-service-looks-like",
+          "workingTitle": "What Does Good Customer Service Actually Look Like?",
+          "angle": "The handful of things customers actually judge: how fast you respond, whether the answer is right, whether they had to repeat themselves, and whether someone followed through. One Omani example per dimension.",
+          "sourceIds": []
+        },
+        {
+          "key": "five-service-numbers",
+          "workingTitle": "The Five Numbers Every Service Team Should Track",
+          "angle": "First response time, resolution rate, abandoned calls, satisfaction, and repeat contacts. Define each in one sentence, show a small tracking table a service desk could fill in weekly.",
+          "sourceIds": []
+        },
+        {
+          "key": "okrs-for-service-team",
+          "workingTitle": "OKRs for a Customer Care Team, Worked Through",
+          "angle": "What OKRs are in plain words, why they beat vague goals, and one complete example set for an Omani retailer heading into a busy season, with three measurable key results per objective.",
+          "sourceIds": []
+        },
+        {
+          "key": "kpis-for-agents",
+          "workingTitle": "Fair KPIs for the People Answering Your Phones",
+          "angle": "Per-person KPIs that reward good service instead of gaming: quality-weighted, not just call counts. Includes an example scorecard for an operator team and the metrics that backfire.",
+          "sourceIds": []
+        },
+        {
+          "key": "reply-speed-benchmarks",
+          "workingTitle": "How Fast Should You Reply to a Customer Message?",
+          "angle": "Realistic response-time expectations per channel (phone, WhatsApp, email, Instagram) and what customers do when you miss them. Includes a simple service-level table readers can adopt.",
+          "sourceIds": []
+        },
+        {
+          "key": "measure-satisfaction-simply",
+          "workingTitle": "Measuring Satisfaction Without Annoying Your Customers",
+          "angle": "One-question surveys, timing, and reading the results honestly. Why a 4.6 average can hide angry customers, and what a small Omani business can run with zero budget.",
+          "sourceIds": []
+        },
+        {
+          "key": "escalation-rules",
+          "workingTitle": "When Should a Query Jump to the Manager?",
+          "angle": "Designing escalation rules: which topics, which customers, which words trigger a handover, and how to make the handover carry context so the customer never restarts the story.",
+          "sourceIds": []
+        },
+        {
+          "key": "service-recovery",
+          "workingTitle": "The Complaint That Becomes Your Most Loyal Customer",
+          "angle": "Service recovery done properly: acknowledge fast, fix visibly, follow up. A worked example of a botched delivery in Seeb turned around in 48 hours, and the script that did it.",
+          "sourceIds": []
+        },
+        {
+          "key": "consistent-answers",
+          "workingTitle": "One Question, Three Channels, Three Different Answers?",
+          "angle": "Why the phone, the WhatsApp line and the walk-in desk drift apart, what that costs in trust, and how a single source of answers keeps every channel saying the same thing.",
+          "sourceIds": []
+        },
+        {
+          "key": "triage-queues",
+          "workingTitle": "Not Every Customer Query Deserves the Same Queue",
+          "angle": "Triage for small teams: urgent vs routine vs sales enquiries, how to route each, and a one-page triage sheet for an Omani services company.",
+          "sourceIds": []
+        },
+        {
+          "key": "answers-written-once",
+          "workingTitle": "Write the Answer Once, Use It Everywhere",
+          "angle": "Building a small knowledge base from the twenty questions you answer daily: opening hours, prices, directions, policies. How to keep it current and who owns it.",
+          "sourceIds": []
+        },
+        {
+          "key": "stop-repeating-story",
+          "workingTitle": "Why Customers Hate Repeating Themselves, and the Fix",
+          "angle": "Context continuity: handover notes, shared history, and how a customer who called yesterday should be greeted today. Includes a before-and-after dialogue.",
+          "sourceIds": []
+        },
+        {
+          "key": "coaching-with-real-calls",
+          "workingTitle": "Coach Your Call Team with Last Week's Hardest Calls",
+          "angle": "A lightweight weekly coaching loop for operator teams: pick five real calls, replay what the caller heard, agree one improvement each. How supervisors run it in thirty minutes without shaming anyone.",
+          "sourceIds": []
+        },
+        {
+          "key": "peak-day-standup",
+          "workingTitle": "The Ten-Minute Morning Standup That Saves Peak Days",
+          "angle": "A tiny routine for busy seasons: yesterday's misses, today's expected surge, who covers what. One example agenda an Omani retail team can copy.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "1": {
+      "key": "pulse",
+      "series": "Oman Service Pulse",
+      "category": "Rules & Updates",
+      "newsDriven": true,
+      "catchUpEligible": false,
+      "laneBrief": "The Monday scan. Check the last 7 to 10 days of announcements from MTCIT, TRA, the Ministry of Labour, the Ministry of Commerce, Oman News Agency and reputable Omani outlets. If something material happened for customer-facing businesses (a rule, a deadline, an enforcement action, a holiday announcement, a festival programme), explain what changed, who it applies to, from when, and what to do this week. Only if nothing material happened, write the fallback evergreen topic.",
+      "bank": [
+        {
+          "key": "where-rules-are-announced",
+          "workingTitle": "Where Oman Announces the Rules That Affect Your Business",
+          "angle": "A guided map of official channels: MTCIT, TRA, Ministry of Labour, Ministry of Commerce, Oman News Agency, the Official Gazette. What each one publishes and how to check them in ten minutes a week.",
+          "sourceIds": ["mtcit", "tra", "mol", "mociip", "ona"]
+        },
+        {
+          "key": "verify-before-forwarding",
+          "workingTitle": "Before You Forward That Rule Change to the Group Chat",
+          "angle": "A two-minute verification habit for viral rule-change messages: find the official source, check the date, check who it applies to. Uses one realistic composite example of a WhatsApp rumour.",
+          "sourceIds": ["ona", "mociip"]
+        },
+        {
+          "key": "why-holidays-announced-late",
+          "workingTitle": "Why Oman's Holidays Are Announced So Close to the Day",
+          "angle": "How moon sighting works, who announces holidays, and how businesses can plan rosters and customer messages around a date that is expected but not fixed.",
+          "sourceIds": ["ona", "oman-portal"]
+        },
+        {
+          "key": "pdpl-grace-over",
+          "workingTitle": "The Data Protection Grace Period Is Over. What Changes?",
+          "angle": "Since 5 February 2026 the Personal Data Protection Law is fully enforceable. What enforcement means in practice for a business holding customer names, numbers and call recordings, and the first three things to fix.",
+          "sourceIds": ["mtcit", "customercare-guideline"],
+          "eventRefs": ["pdpl-enforcement-live"]
+        },
+        {
+          "key": "tra-spam-direction",
+          "workingTitle": "The End of Spam Texts? What TRA Is Working On",
+          "angle": "The TRA's push against spam and scam messages and the direction of travel: explicit prior consent for marketing messages. What a business that sends offers by SMS or WhatsApp should change now, before it becomes mandatory.",
+          "sourceIds": ["tra"],
+          "eventRefs": ["tra-spam-rules"]
+        },
+        {
+          "key": "customer-rights-law",
+          "workingTitle": "What Omani Customers Can Demand by Law",
+          "angle": "The Consumer Protection Law in plain words: repair, replacement, refund, truthful advertising. What a customer can insist on, how complaints work, and what a well-run business does before it gets to a complaint.",
+          "sourceIds": ["mociip"],
+          "eventRefs": ["consumer-protection-law"]
+        },
+        {
+          "key": "midday-ban-office-side",
+          "workingTitle": "The Midday Break Rule, Seen from the Front Desk",
+          "angle": "The June to August 12:30 to 15:30 outdoor work ban: who it covers, the fines, and the knock-on effect nobody plans for, which is that field crews go quiet while customer calls keep coming.",
+          "sourceIds": ["mol"],
+          "eventRefs": ["midday-work-ban"],
+          "bestWindow": { "startMonth": 5, "startDay": 1, "endMonth": 8, "endDay": 31 }
+        },
+        {
+          "key": "ramadan-hours-law",
+          "workingTitle": "Ramadan Working Hours: What the Labour Law Actually Says",
+          "angle": "The six-hour day and thirty-hour week for Muslim employees in the private sector, common misreadings, and how service businesses keep customers covered while the team works shorter days.",
+          "sourceIds": ["mol"],
+          "eventRefs": ["ramadan-working-hours"],
+          "bestWindow": { "startMonth": 1, "startDay": 1, "endMonth": 4, "endDay": 15 }
+        },
+        {
+          "key": "maeen-explained",
+          "workingTitle": "Oman Is Building Its Own AI Language Model. Why?",
+          "angle": "Maeen and the national AI initiatives in plain words: why generic Arabic AI misses Omani speech, what the state is doing about it, and what it signals for how businesses will talk to customers.",
+          "sourceIds": ["mtcit", "ona"],
+          "eventRefs": ["maeen-model", "national-ai-policy"]
+        },
+        {
+          "key": "oman-ai-policy-businesses",
+          "workingTitle": "Oman Has an AI Policy. What Does It Ask of You?",
+          "angle": "MTCIT's National AI Policy and safe-use policy explained for a non-technical owner: transparency, accountability and data care when you put AI in front of customers.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["national-ai-policy"]
+        },
+        {
+          "key": "vision-2040-customer-experience",
+          "workingTitle": "What Vision 2040 Means for How You Serve Customers",
+          "angle": "The digital economy targets behind Vision 2040 and what they translate to on the ground: customers who expect to reach you digitally, in their language, at their hour.",
+          "sourceIds": ["vision2040", "ncsi"],
+          "eventRefs": ["national-ai-policy"]
+        },
+        {
+          "key": "holiday-phone-coverage",
+          "workingTitle": "Who Answers Your Phone on a Public Holiday?",
+          "angle": "Holidays keep customers active but close the office. The maths of what a closed day costs in missed enquiries, and the coverage options from rotas to automation, honestly compared.",
+          "sourceIds": ["oman-portal"]
+        }
+      ]
+    },
+    "2": {
+      "key": "ai-explained",
+      "series": "AI, Explained Simply",
+      "category": "AI & Technology",
+      "catchUpEligible": true,
+      "laneBrief": "Plain-language explainers of conversational AI for readers with no technical background. One concept per article, explained through everyday Omani situations rather than jargon. Where Arabic or Omani Arabic is relevant, make that the heart of the piece. The reader should finish able to explain the concept to a colleague.",
+      "bank": [
+        {
+          "key": "how-machines-understand-speech",
+          "workingTitle": "How Does a Machine Actually Understand Speech?",
+          "angle": "Speech recognition, understanding and reply generation traced through one everyday call to a Muscat business, in language a non-technical reader can follow. No maths, no acronyms without definitions.",
+          "sourceIds": []
+        },
+        {
+          "key": "omani-arabic-and-ai",
+          "workingTitle": "Why Omani Arabic Is Hard for Most AI",
+          "angle": "Dialect versus textbook Arabic: the words, pace and code-switching of real Omani speech, why models trained on Standard Arabic stumble, and what building for the dialect involves. Nod to Oman's own Maeen project.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["maeen-model"]
+        },
+        {
+          "key": "msa-vs-spoken-arabic",
+          "workingTitle": "The Arabic in the Textbook Is Not the Arabic on the Phone",
+          "angle": "What Modern Standard Arabic is for, what spoken Gulf and Omani Arabic are, and why a customer conversation lives almost entirely in the second. Concrete example phrases and how meaning shifts.",
+          "sourceIds": []
+        },
+        {
+          "key": "code-switching-calls",
+          "workingTitle": "When Customers Mix Arabic and English Mid-Sentence",
+          "angle": "Code-switching in Omani daily speech, why it breaks naive systems, and how modern conversational AI follows the switch. Includes two realistic mixed-language dialogues.",
+          "sourceIds": []
+        },
+        {
+          "key": "ai-making-things-up",
+          "workingTitle": "When AI Makes Things Up, and How Businesses Stop It",
+          "angle": "Hallucination explained honestly: why it happens, what it looks like in a customer conversation, and the guardrails (grounding in a knowledge base, escalation rules) that keep an AI agent accurate.",
+          "sourceIds": []
+        },
+        {
+          "key": "ivr-vs-conversation",
+          "workingTitle": "Press One for Frustration: Why Phone Menus Feel Old",
+          "angle": "IVR menus versus conversational agents: why menus were built, why customers hate them, and what changes when the caller can just say what they want. Includes the history in three sentences.",
+          "sourceIds": []
+        },
+        {
+          "key": "what-training-means",
+          "workingTitle": "What Does It Mean to Train an AI Agent?",
+          "angle": "Demystify training: it is mostly feeding the agent your real documents, prices, policies and past questions, then correcting it. What a business actually has to prepare, shown as a checklist.",
+          "sourceIds": []
+        },
+        {
+          "key": "latency-on-calls",
+          "workingTitle": "Why a One-Second Pause Feels Like Forever on a Call",
+          "angle": "Conversational latency: how humans time turns in speech, what delay does to trust, and why building fast AI speech is genuinely hard engineering.",
+          "sourceIds": []
+        },
+        {
+          "key": "can-a-voice-sound-omani",
+          "workingTitle": "Can a Computer Voice Sound Genuinely Omani?",
+          "angle": "Text-to-speech in Arabic: accent, warmth, pacing and greetings. Why a Gulf voice lands differently from a generic Arabic one, and how businesses choose a voice customers trust.",
+          "sourceIds": []
+        },
+        {
+          "key": "many-languages-one-line",
+          "workingTitle": "One Caller Speaks Swahili, the Next Malayalam. Then What?",
+          "angle": "Multilingual Oman on one phone line: the languages heard in Omani commerce (Arabic, English, Swahili, Hindi, Bengali, Malayalam, Tamil) and how language detection and switching work in modern agents.",
+          "sourceIds": ["ncsi"]
+        },
+        {
+          "key": "keeping-ai-on-script",
+          "workingTitle": "How Businesses Keep AI Agents On Script",
+          "angle": "Guardrails in plain words: allowed topics, forbidden promises, escalation triggers, human review. What control an owner really has over what the agent says.",
+          "sourceIds": []
+        },
+        {
+          "key": "calls-become-notes",
+          "workingTitle": "Every Call Becomes Notes: How AI Summaries Work",
+          "angle": "Transcription and summarisation: how a ten-minute call turns into a three-line note, ticket and follow-up task, and why written records change how a business learns from its customers.",
+          "sourceIds": []
+        },
+        {
+          "key": "reading-the-callers-mood",
+          "workingTitle": "Can Software Tell When a Caller Is Upset?",
+          "angle": "Sentiment detection honestly explained: what tone and word choice reveal, what the limits are, and the right use of it, which is routing frustrated customers to a human faster.",
+          "sourceIds": []
+        },
+        {
+          "key": "accuracy-numbers-truth",
+          "workingTitle": "What Accuracy Numbers Really Mean in Voice AI",
+          "angle": "Vendors quote 95 percent this and 99 percent that. What word error rate, containment and resolution actually measure, and the questions that expose a number that will not survive real Omani callers.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "3": {
+      "key": "rights-and-privacy",
+      "series": "Your Data, Your Rights",
+      "category": "Privacy & Consumer Rights",
+      "catchUpEligible": true,
+      "laneBrief": "Consumer privacy, consent and data rights in Oman, written so both sides understand: the customer whose data it is, and the small business holding it. Anchor legal claims in the Personal Data Protection Law and official guidance, verified on the day. Always answer the reader's real question: what does this mean for me, this week?",
+      "bank": [
+        {
+          "key": "pdpl-for-customers",
+          "workingTitle": "What Oman's Data Protection Law Means for You as a Customer",
+          "angle": "The Personal Data Protection Law from the data subject's side: what counts as personal data, what businesses must ask before collecting it, and what you can request (access, correction, deletion). Written for the general public.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force", "pdpl-enforcement-live"]
+        },
+        {
+          "key": "customer-list-regulated",
+          "workingTitle": "Your Customer List Is Regulated Now. The Simple Version",
+          "angle": "For the business whose customer records sit in spreadsheets, a shared inbox and one CRM nobody audits: what the law expects for collection, storage and use of that list, in five plain obligations with a self-check.",
+          "sourceIds": ["mtcit", "customercare-guideline"],
+          "eventRefs": ["pdpl-enforcement-live"]
+        },
+        {
+          "key": "what-counts-as-consent",
+          "workingTitle": "What Counts as Consent When You Collect a Phone Number?",
+          "angle": "Consent in practice: the difference between a customer giving a number for a delivery and agreeing to marketing, how to ask properly at the counter and online, and what records to keep.",
+          "sourceIds": ["mtcit", "tra"],
+          "eventRefs": ["pdpl-in-force", "tra-spam-rules"]
+        },
+        {
+          "key": "recording-customer-calls",
+          "workingTitle": "Can You Record Customer Calls in Oman?",
+          "angle": "Call recording under the Personal Data Protection Law: lawful basis, telling the caller, storage and access. A practical compliant-recording checklist for a small business.",
+          "sourceIds": ["mtcit", "customercare-guideline"],
+          "eventRefs": ["pdpl-in-force"]
+        },
+        {
+          "key": "where-data-lives",
+          "workingTitle": "Where Does Your Customer Data Actually Live?",
+          "angle": "Data residency explained: cloud tools quietly store Omani customer data abroad, why cross-border transfer is a legal question under the law, and the questions to ask every vendor.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force"]
+        },
+        {
+          "key": "delete-my-data",
+          "workingTitle": "A Customer Asks You to Delete Their Data. Now What?",
+          "angle": "Handling erasure and correction requests step by step: verify, locate, delete or explain, record. A response template and the deadlines to treat as good practice.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-enforcement-live"]
+        },
+        {
+          "key": "first-hours-after-leak",
+          "workingTitle": "The First 72 Hours After a Data Leak",
+          "angle": "A breach playbook for a small business: contain, assess, notify the regulator and affected customers, learn. Calm, concrete, with a one-page checklist.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-enforcement-live"]
+        },
+        {
+          "key": "reminder-or-spam",
+          "workingTitle": "The Line Between a Reminder and Spam",
+          "angle": "Service messages versus marketing: an appointment reminder is welcome, a promo blast may need consent. Where the line sits, what TRA is tightening, and how to stay on the right side.",
+          "sourceIds": ["tra"],
+          "eventRefs": ["tra-spam-rules"]
+        },
+        {
+          "key": "sensitive-data-extra-care",
+          "workingTitle": "Health Records, Salaries and Other Data You Must Guard Harder",
+          "angle": "Sensitive personal data under Omani law: what qualifies (health, finances, beliefs), why clinics, insurers and employers carry extra duties, and what extra care looks like in practice.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force"]
+        },
+        {
+          "key": "privacy-notice-that-works",
+          "workingTitle": "The Privacy Notice Nobody Reads, and What Yours Must Say",
+          "angle": "The minimum honest privacy notice for a small Omani business: what you collect, why, who sees it, how long you keep it, how to reach you. A fill-in-the-blanks skeleton included.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force"]
+        },
+        {
+          "key": "free-tools-data-abroad",
+          "workingTitle": "That Free App May Be Sending Omani Data Abroad",
+          "angle": "The hidden data flows of free CRMs, form builders and chat widgets: where the data goes, why it matters under the law, and how to audit your own stack in an afternoon.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force"]
+        },
+        {
+          "key": "staff-data-rights",
+          "workingTitle": "Your Staff Have Data Rights Too",
+          "angle": "Employee data under the Personal Data Protection Law and the Labour Law: files, CCTV, phone monitoring and references, and the fair way to handle each.",
+          "sourceIds": ["mtcit", "mol"],
+          "eventRefs": ["pdpl-in-force", "labour-law-2023"]
+        },
+        {
+          "key": "cameras-and-call-logs",
+          "workingTitle": "Cameras, Call Logs and What the Law Expects",
+          "angle": "Everyday surveillance in shops and offices: CCTV signage, retention, who may view footage and logs, and how the same principles apply to recorded customer conversations.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force"]
+        },
+        {
+          "key": "childrens-data-care",
+          "workingTitle": "Extra Care Rules for Children's Data",
+          "angle": "Schools, tuition centres, clinics and kids' activity businesses hold children's data: the stricter consent expectations and the practical safeguards that follow.",
+          "sourceIds": ["mtcit"],
+          "eventRefs": ["pdpl-in-force"]
+        }
+      ]
+    },
+    "4": {
+      "key": "owner-playbook",
+      "series": "Business Owner Playbook",
+      "category": "Running Customer Service",
+      "catchUpEligible": true,
+      "laneBrief": "Thursday planning reading for the people who run customer service operations in Oman: owners and operations leads of businesses that already staff a front office, an operator desk or an IVR line (hotels, clinic groups, dealerships, real estate firms, insurers, logistics, colleges). Name a real operational pain, show its true cost with worked OMR numbers sized for a staffed service operation, then walk the fixes honestly. Where AI customer care genuinely solves it, say so plainly and let CustomerCare.OM appear once as the practical example, never as the hero of the piece.",
+      "bank": [
+        {
+          "key": "calls-after-closing",
+          "workingTitle": "What Happens to Calls After You Lock Up at Six?",
+          "angle": "After-hours enquiries: when customers actually call and message (evenings, Fridays, holiday eves), what the evening gap costs a polyclinic group or a real estate brokerage whose operators go home at six, and the coverage options compared with honest numbers.",
+          "sourceIds": []
+        },
+        {
+          "key": "price-of-unanswered-phone",
+          "workingTitle": "The Real Price of a Ringing Phone Nobody Answers",
+          "angle": "Missed-call maths: a worked table from rings to lost bookings to lost OMR for a composite Muscat facilities-management firm with a two-person operator desk, plus the two cheapest ways to stop the leak this month.",
+          "sourceIds": []
+        },
+        {
+          "key": "what-did-your-team-learn",
+          "workingTitle": "Your Team Answered 200 Calls This Week. What Did You Learn?",
+          "angle": "The insight gap of purely human phone service: no records, no patterns, no numbers. What call analytics reveal (peak hours, repeat questions, lost-deal reasons) and how decisions change once conversations become data.",
+          "sourceIds": []
+        },
+        {
+          "key": "friday-coverage-question",
+          "workingTitle": "Who Serves Your Customers on Friday?",
+          "angle": "The weekend gap: Friday is family time in Oman and also peak browsing and planning time for customers. How businesses cover the day without burning out staff, from rotas to automation.",
+          "sourceIds": []
+        },
+        {
+          "key": "spike-vs-seasonal-hiring",
+          "workingTitle": "Hire for the Season, or Handle the Spike Differently?",
+          "angle": "Seasonal demand (Khareef, Eid, National Day, back to school) and the real cost of temporary hires versus flexing capacity with automation and overflow handling. A decision table by spike length and predictability.",
+          "sourceIds": []
+        },
+        {
+          "key": "whatsapp-ate-front-desk",
+          "workingTitle": "The WhatsApp Inbox That Ate the Front Desk",
+          "angle": "When the business number becomes a firehose: unanswered chats, lost context, a front office team drowning between the counter and the phone. Triage, templates, shared inboxes and automation, in escalating order of effort.",
+          "sourceIds": []
+        },
+        {
+          "key": "one-person-knows-everything",
+          "workingTitle": "When Only One Employee Knows Everything",
+          "angle": "Key-person risk at the front desk: what leaves with them on leave day, and how to move knowledge out of one head into systems the whole business can use.",
+          "sourceIds": []
+        },
+        {
+          "key": "three-branches-one-number",
+          "workingTitle": "Three Branches, One Phone Number, Zero Chaos",
+          "angle": "Routing for multi-branch businesses: how calls should find the right branch, language and person, and what a clean setup looks like for a growing Omani chain.",
+          "sourceIds": []
+        },
+        {
+          "key": "where-enquiries-leak",
+          "workingTitle": "Enquiries That Never Become Customers, and Where They Leak",
+          "angle": "The funnel from first contact to paying customer: the four leak points (unanswered, unrecorded, unqualified, unfollowed) with a worked example and the fix for each.",
+          "sourceIds": []
+        },
+        {
+          "key": "cost-per-handled-call",
+          "workingTitle": "What One Handled Call Really Costs You",
+          "angle": "Fully loaded cost per call for a staffed operator desk: salaries, space, training, turnover, idle time between calls. A worked OMR table for a composite service team, then the same maths for automated handling, compared honestly including setup effort.",
+          "sourceIds": []
+        },
+        {
+          "key": "promised-callback",
+          "workingTitle": "Promised a Call Back? Your Customer Remembers",
+          "angle": "Follow-up failure: why promised callbacks die in busy weeks, what broken promises cost in reviews and repeat business, and follow-up systems that survive the rush.",
+          "sourceIds": []
+        },
+        {
+          "key": "office-closed-business-open",
+          "workingTitle": "Serving Customers When Nobody Can Reach the Office",
+          "angle": "Storm days, extreme heat advisories and anything else that empties the office while customers keep calling: continuity options from call forwarding to cloud-based service that needs no one at a desk.",
+          "sourceIds": []
+        },
+        {
+          "key": "ivr-menu-cost",
+          "workingTitle": "What Your IVR Menu Does to Callers",
+          "angle": "The press-one maze from the caller's side: abandonment on long menus, misroutes, the operators who still end up taking the call. A worked example of one IVR tree at a composite insurer, and what replacing menus with a conversation changes.",
+          "sourceIds": []
+        },
+        {
+          "key": "front-desk-burnout",
+          "workingTitle": "Your Best Service Person Is Tired of Repeating Themselves",
+          "angle": "The burnout loop of answering the same twenty questions forever: what it does to quality and turnover, and how to reserve humans for the conversations that need them.",
+          "sourceIds": []
+        },
+        {
+          "key": "what-switching-involves",
+          "workingTitle": "What Moving to AI Customer Care Actually Involves",
+          "angle": "The honest adoption path: gathering documents, choosing call types, testing in Arabic and English, going live in about a week. What stays human, what changes for staff, and the questions to ask any provider including CustomerCare.OM.",
+          "sourceIds": ["customercare-guideline"]
+        }
+      ]
+    },
+    "5": {
+      "key": "weekend-read",
+      "series": "The Weekend Read",
+      "category": "Work & Life",
+      "catchUpEligible": true,
+      "laneBrief": "The Friday piece, written for everyone, not just managers: employees, customers, families. One relatable, clearly composite Omani character or scene carries the whole article; when the character works in service, they work somewhere with a real front office, switchboard or call desk. Warm, specific and effortlessly shareable in a family or office WhatsApp group. Every story must turn: after the reader lives the problem alongside the character, the story shows what the character or their industry actually does about it. Delay that turn until late so the reader stays, then pay it off properly; a story that only describes the pain is incomplete.",
+      "bank": [
+        {
+          "key": "khareef-front-office",
+          "workingTitle": "Peak Khareef at a Salalah Front Office, Hour by Hour",
+          "angle": "A composite day behind a Salalah hotel's front desk and switchboard in high season: the 6am checkout wave, the tour-group arrivals, three phone lines and a WhatsApp inbox, the languages at the counter, the midnight booking calls. What the season gives and takes for the team on shift.",
+          "sourceIds": ["mht"],
+          "bestWindow": { "startMonth": 6, "startDay": 15, "endMonth": 9, "endDay": 21 }
+        },
+        {
+          "key": "clinic-sunday-morning",
+          "workingTitle": "Sunday Morning at the Polyclinic's Call Desk",
+          "angle": "The week's loudest two hours through the eyes of a composite call-desk coordinator at a multi-doctor polyclinic: the queue, four ringing lines, the WhatsApp pings, the small kindnesses. Why this job is harder than it looks.",
+          "sourceIds": []
+        },
+        {
+          "key": "caller-switched-languages",
+          "workingTitle": "The Caller Who Switched Languages Three Times",
+          "angle": "One composite phone call that moves between Omani Arabic, English and Hindi, and everything it reveals about how Oman actually talks. Gentle, funny, true to daily life.",
+          "sourceIds": []
+        },
+        {
+          "key": "grandmother-orders-online",
+          "workingTitle": "How My Grandmother Orders Groceries Now",
+          "angle": "A composite family story about older Omanis adopting WhatsApp ordering and voice notes: what made it click, what still frustrates, and what businesses get wrong about older customers.",
+          "sourceIds": []
+        },
+        {
+          "key": "wedding-season-service",
+          "workingTitle": "Wedding Season Is a Customer Service Marathon",
+          "angle": "Halls, caterers, tailors, salons and photographers in the same crazy weeks: a composite bride's family coordinating ten vendors, and which vendors made it easy versus impossible to reach.",
+          "sourceIds": []
+        },
+        {
+          "key": "what-tourists-ask",
+          "workingTitle": "What Tourists Ask, According to Everyone Who Serves Them",
+          "angle": "A tour through the questions visitors ask hotel desks, tour operator phone lines and airport counters from Muscat to Nizwa, what they reveal, and the tiny answers that win five-star reviews.",
+          "sourceIds": ["mht"],
+          "bestWindow": { "startMonth": 10, "startDay": 1, "endMonth": 4, "endDay": 30 }
+        },
+        {
+          "key": "hour-before-iftar",
+          "workingTitle": "The Hour Before Iftar, From Behind the Counter",
+          "angle": "A composite scene of Ramadan's daily crescendo inside a restaurant group's operation: the delivery line ringing, the counter queue, the timing, the sprint, the silence at the adhan. Written with warmth for anyone who has lived it.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 1, "startDay": 25, "endMonth": 4, "endDay": 10 }
+        },
+        {
+          "key": "eid-service-desk",
+          "workingTitle": "Three Phone Lines, Forty Bookings: Eid Week at the Service Desk",
+          "angle": "The week before Eid inside a composite car dealership's service centre: everyone wants the car ready before the family drive, the booking calendar overflows, the phone queue grows, and the service desk team runs its biggest week of the year.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 2, "startDay": 15, "endMonth": 6, "endDay": 15 }
+        },
+        {
+          "key": "errands-at-45-degrees",
+          "workingTitle": "Errands at 45 Degrees: How Oman Shops in Peak Summer",
+          "angle": "Life reorganised around heat: dawn and night errands, delivery apps, phone-first everything. A composite family's summer week and what it means for anyone serving customers in July.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 5, "startDay": 15, "endMonth": 9, "endDay": 1 }
+        },
+        {
+          "key": "national-day-in-calls",
+          "workingTitle": "National Day Weekend, Measured in Phone Calls",
+          "angle": "The holiday through a composite set of calls: the restaurant fully booked, the mechanic closed, the hotel upgrade request, the cousin coordinating a convoy. Celebration logistics as only Oman does them.",
+          "sourceIds": [],
+          "bestWindow": { "startMonth": 11, "startDay": 1, "endMonth": 11, "endDay": 30 }
+        },
+        {
+          "key": "you-complained-now-what",
+          "workingTitle": "You Called to Complain. Here Is What Should Happen Next",
+          "angle": "From the customer's side: the anatomy of a complaint handled well versus badly, your rights under consumer protection, and the calm script that gets results without a fight.",
+          "sourceIds": ["mociip"],
+          "eventRefs": ["consumer-protection-law"]
+        },
+        {
+          "key": "service-in-small-towns",
+          "workingTitle": "Why Service Feels Personal in Nizwa and Rustaq",
+          "angle": "Small-town service culture: everyone knows everyone, reputation travels at majlis speed, and a missed call is personal. What big-city businesses can relearn from the interior.",
+          "sourceIds": []
+        }
+      ]
+    },
+    "6": {
+      "key": "seasonal",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "catchUpEligible": true,
+      "laneBrief": "The Saturday planning piece: look at what is coming on Oman's calendar in the next weeks (seasons, festivals, holidays, deadlines) and help a business get its customer service ready before the wave hits. Concrete preparation steps with dates, not generic advice. Verify current-year dates and programmes by web search.",
+      "bank": [
+        {
+          "key": "ramadan-service-plan",
+          "workingTitle": "Your Ramadan Service Plan, Built in One Afternoon",
+          "angle": "A complete pre-Ramadan checklist: shorter team hours versus night-shifted customer activity, updated opening-hours messages everywhere, iftar-rush staffing, and what to automate before the first fast day.",
+          "sourceIds": ["mol"],
+          "eventRefs": ["ramadan-start-1448", "ramadan-working-hours"],
+          "bestWindow": { "startMonth": 12, "startDay": 15, "endMonth": 3, "endDay": 15 }
+        },
+        {
+          "key": "khareef-line-ready",
+          "workingTitle": "Salalah Books Out in Khareef. Is Your Phone Ready?",
+          "angle": "Preparing a Dhofar business for the monsoon wave: enquiry volumes, GCC visitor expectations, night-time bookings, multilingual callers, and a two-week readiness plan with a capacity worksheet.",
+          "sourceIds": ["mht"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 4, "startDay": 15, "endMonth": 8, "endDay": 15 }
+        },
+        {
+          "key": "national-day-ready",
+          "workingTitle": "Getting Your Business National Day Ready",
+          "angle": "The November playbook: holiday-date uncertainty, promo-season enquiry spikes, decorated-fleet bookings, and the messages to schedule now. Includes a countdown checklist from two weeks out.",
+          "sourceIds": ["ona"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 10, "startDay": 15, "endMonth": 11, "endDay": 21 }
+        },
+        {
+          "key": "muscat-nights-footfall",
+          "workingTitle": "Two Million Visits Downtown: Muscat Nights for Businesses",
+          "angle": "What the January festival month means for retail, food and family venues near the action: evening-heavy demand, event-day spikes, and how to catch enquiries generated by the crowds.",
+          "sourceIds": ["oman-observer"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 12, "startDay": 1, "endMonth": 1, "endDay": 31 }
+        },
+        {
+          "key": "tourist-season-languages",
+          "workingTitle": "October Brings Tourists Who Do Not Speak Arabic",
+          "angle": "High-season prep for tourism-adjacent businesses: the languages arriving with cruise ships and winter escapers, time-zone-shifted enquiries, and a language-coverage audit any hotel or tour desk can run.",
+          "sourceIds": ["mht", "ncsi"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 9, "startDay": 1, "endMonth": 11, "endDay": 15 }
+        },
+        {
+          "key": "back-to-school-storm",
+          "workingTitle": "Back to School Is a Two-Week Customer Service Storm",
+          "angle": "Late August for schools, colleges, tuition centres and school transport operators: front offices flooded with parent enquiries, evening call patterns, and the prepared-answers pack that gets a team through it.",
+          "sourceIds": ["moe"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 8, "startDay": 1, "endMonth": 9, "endDay": 10 }
+        },
+        {
+          "key": "eid-weeks-double-enquiries",
+          "workingTitle": "Eid Weeks Double Your Enquiries. Plan for It",
+          "angle": "The two Eids as demand events: pre-holiday booking rushes, closed-day coverage, moon-sighting date uncertainty, and a staffing-plus-automation plan sized with a worked example.",
+          "sourceIds": ["ona"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 2, "startDay": 1, "endMonth": 6, "endDay": 15 }
+        },
+        {
+          "key": "summer-slowdown-myth",
+          "workingTitle": "The Summer Slowdown Is a Myth for Half of Oman",
+          "angle": "Who actually slows in July and who surges (AC repair, car care, travel, delivery, Salalah everything): reading your own seasonality from last year's numbers and planning coverage to match.",
+          "sourceIds": [],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 4, "startDay": 15, "endMonth": 7, "endDay": 31 }
+        },
+        {
+          "key": "weather-closes-office",
+          "workingTitle": "When Weather Closes the Office but Not the Business",
+          "angle": "Storm advisories, tropical systems and flash floods: a continuity plan for customer service that keeps promises when nobody can drive to work. Communication templates included.",
+          "sourceIds": ["ona"],
+          "eventRefs": []
+        },
+        {
+          "key": "year-end-service-review",
+          "workingTitle": "Close the Year with a Service Review, Not Just Accounts",
+          "angle": "A December ritual: pull the year's enquiry and complaint numbers, find the three biggest leaks, set next year's service targets. A one-page review template a service team can finish in a morning.",
+          "sourceIds": [],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 12, "startDay": 1, "endMonth": 12, "endDay": 31 }
+        },
+        {
+          "key": "announcing-holiday-hours",
+          "workingTitle": "Announcing Holiday Hours So Nobody Is Surprised",
+          "angle": "The humble opening-hours announcement done properly: where to post it (Google, WhatsApp, phone greeting, door), when, in which languages, and the template that prevents holiday-week complaints.",
+          "sourceIds": []
+        },
+        {
+          "key": "roster-without-final-date",
+          "workingTitle": "Planning a Roster When the Holiday Date Is Not Final",
+          "angle": "Moon-sighting uncertainty as an operations problem: two-scenario rosters, conditional customer messages, and how experienced Omani managers plan Eid weeks without knowing the exact day.",
+          "sourceIds": ["ona"],
+          "eventRefs": [],
+          "bestWindow": { "startMonth": 2, "startDay": 1, "endMonth": 6, "endDay": 15 }
+        }
+      ]
+    }
+  },
+  "datedOverrides": [
+    {
+      "date": "2026-08-24",
+      "key": "ov-mawlid-week-2026",
+      "workingTitle": "Mawlid Falls This Week. Is Your Roster Ready?",
+      "series": "Oman Service Pulse",
+      "category": "Rules & Updates",
+      "angle": "The Prophet's Birthday holiday is expected around 27 August, subject to the official announcement. How holiday pay works, how to plan a roster around an unconfirmed date, and the customer messages to prepare now.",
+      "sourceIds": ["ona", "mol"],
+      "eventRefs": ["mawlid-1448"]
+    },
+    {
+      "date": "2026-08-29",
+      "key": "ov-back-to-school-2026",
+      "workingTitle": "The School Year Starts. So Does the Enquiry Storm",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "Term start is here: what school and college front offices, tuition centres and transport operators face in the next two weeks, and the same-day fixes that keep parents answered.",
+      "sourceIds": ["moe"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-10-03",
+      "key": "ov-tourist-season-2026",
+      "workingTitle": "The Tourists Are Coming Back. Ready in Five Languages?",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "October opens Oman's high season: cruise calls, desert camps, European winter escapers. A language and coverage audit for hotels, tours and restaurants, to run this week.",
+      "sourceIds": ["mht"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-10-17",
+      "key": "ov-womens-day-2026",
+      "workingTitle": "Omani Women's Day, Seen from the Front Desk",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "On Omani Women's Day, the women who run and staff Oman's service businesses: composite portraits of an owner, a supervisor and a coordinator, and what their days reveal about serving customers well.",
+      "sourceIds": ["ona"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-11-14",
+      "key": "ov-national-day-prep-2026",
+      "workingTitle": "One Week to National Day. The Business Countdown",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "The official dates are 20 and 21 November with days off announced by directive: the seven-day countdown for promotions, bookings, holiday hours and coverage while the country celebrates.",
+      "sourceIds": ["ona"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-11-16",
+      "key": "ov-national-day-week-2026",
+      "workingTitle": "National Day Week: What Is Confirmed, What to Watch",
+      "series": "Oman Service Pulse",
+      "category": "Rules & Updates",
+      "angle": "The Monday of National Day week: confirmed holiday days if announced, event programmes, traffic advisories, and the service decisions to make before Thursday.",
+      "sourceIds": ["ona", "oman-observer"],
+      "eventRefs": []
+    },
+    {
+      "date": "2026-12-26",
+      "key": "ov-january-cluster-2026",
+      "workingTitle": "January Is One Long Festival. Plan the Coverage Now",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "New Year, Muscat Nights all month, Accession Day and an expected Isra wal Miraj holiday: January's fragmented working weeks, the footfall upside, and a coverage plan built before the year turns.",
+      "sourceIds": ["oman-observer", "ona"],
+      "eventRefs": ["isra-miraj-1448"]
+    },
+    {
+      "date": "2027-01-09",
+      "key": "ov-accession-day-2027",
+      "workingTitle": "Accession Day and a Holiday Cluster: This Week in January",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "Accession Day on 11 January amid the Muscat Nights month and an expected Isra wal Miraj holiday: keeping service promises through a week where half the calendar is ceremonial.",
+      "sourceIds": ["ona"],
+      "eventRefs": ["isra-miraj-1448"]
+    },
+    {
+      "date": "2027-01-30",
+      "key": "ov-ramadan-runway-2027",
+      "workingTitle": "Ramadan Is Expected in Ten Days. The Readiness List",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "With Ramadan expected around 8 February subject to the moon sighting: the final readiness list for shorter working hours, night-shifted customer demand, updated greetings and automated coverage.",
+      "sourceIds": ["mol", "ona"],
+      "eventRefs": ["ramadan-start-1448", "ramadan-working-hours"]
+    },
+    {
+      "date": "2027-02-08",
+      "key": "ov-ramadan-begins-2027",
+      "workingTitle": "Ramadan Begins: Hours, Rhythm and Customer Care",
+      "series": "Oman Service Pulse",
+      "category": "Rules & Updates",
+      "angle": "If confirmed, the first working day of Ramadan: the six-hour rule in force, how the day's rhythm shifts for customers and teams, and the first-week adjustments that matter most.",
+      "sourceIds": ["mol", "ona"],
+      "eventRefs": ["ramadan-start-1448", "ramadan-working-hours"]
+    },
+    {
+      "date": "2027-03-06",
+      "key": "ov-eid-fitr-rush-2027",
+      "workingTitle": "The Eid Rush Starts Now. Five Days of Peak Demand",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "The final Ramadan week: hotels, travel desks, dealership service centres and delivery operations hit their annual peak while the exact Eid date awaits the moon sighting. A day-by-day plan through the holiday for a staffed service desk.",
+      "sourceIds": ["ona"],
+      "eventRefs": ["eid-al-fitr-1448"]
+    },
+    {
+      "date": "2027-05-08",
+      "key": "ov-eid-adha-week-2027",
+      "workingTitle": "Eid al-Adha Week: Travel, Hosting and a Closed Office",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "Eid al-Adha expected around 16 May subject to the sighting: the travel and hosting surge, pre-holiday enquiry spike, and keeping customers answered through the closed days.",
+      "sourceIds": ["ona"],
+      "eventRefs": ["eid-al-adha-1448"]
+    },
+    {
+      "date": "2027-05-31",
+      "key": "ov-midday-ban-2027",
+      "workingTitle": "The Midday Ban Starts Tomorrow. So Does Summer Service",
+      "series": "Oman Service Pulse",
+      "category": "Rules & Updates",
+      "angle": "From 1 June outdoor work stops from 12:30 to 15:30: who the rule covers, the fines, and the summer service pattern it creates, with field crews off site while customer calls continue.",
+      "sourceIds": ["mol"],
+      "eventRefs": ["midday-work-ban"]
+    },
+    {
+      "date": "2027-06-19",
+      "key": "ov-khareef-opens-2027",
+      "workingTitle": "Khareef Opens This Week. Salalah, Take a Breath",
+      "series": "Season Ready",
+      "category": "Oman Seasons & Peaks",
+      "angle": "The monsoon season begins around 21 June: what Dhofar businesses should have ready for the first visitor wave, from booking capacity to multilingual phone coverage, with this year's festival dates verified.",
+      "sourceIds": ["mht"],
+      "eventRefs": []
+    }
+  ],
+  "sitePages": [
+    { "path": "/", "title": "CustomerCare.OM home", "context": "AI customer service platform for Oman, phone web chat WhatsApp email, Omani Arabic, hosted in Oman" },
+    { "path": "/product/omani-arabic-ai-customer-care/", "title": "Omani Arabic AI Customer Care", "context": "customer service voice AI agents for Oman, understands Omani Arabic dialect callers, phone line automation" },
+    { "path": "/product/ai-chatbot-for-websites/", "title": "AI Chatbot for Websites", "context": "website chat, WhatsApp chat, sovereign chatbot, instant answers online, chat channels" },
+    { "path": "/product/ai-email-agent/", "title": "AI Email Agent", "context": "email inbox automation, drafted replies, organised support email" },
+    { "path": "/product/outbound-calling-ai-agents/", "title": "Outbound Calling AI Agents", "context": "reminders, confirmations, follow-up calls, outbound campaigns started from CRM" },
+    { "path": "/product/automated-support-tickets/", "title": "Automated Support Tickets", "context": "tickets created and routed from every channel, issue tracking, complaint handling" },
+    { "path": "/product/smart-follow-ups/", "title": "Smart Follow-Ups", "context": "chasing staff, telling customers where their issue stands, promised callbacks kept" },
+    { "path": "/product/automated-lead-pipeline/", "title": "Automated Lead Pipeline", "context": "enquiry calls turned into enriched leads, lead capture, sales pipeline" },
+    { "path": "/product/dashboard-reporting/", "title": "Dashboard & Reporting", "context": "call analytics, insights, real time reporting on queries calls revenue, patterns peak hours" },
+    { "path": "/comparison/", "title": "Comparison", "context": "alternatives to CustomerCare.OM, compare AI customer service providers, evaluate vendors" },
+    { "path": "/guideline/oman/", "title": "Oman AI Calling Guide", "context": "rules for AI customer contact in Oman, consent, call recording, PDPL compliance for calls" },
+    { "path": "/features/", "title": "Features", "context": "platform capabilities index, voices, workflows, escalation, analytics" },
+    { "path": "/features/call-analytics-dashboard/", "title": "Call Analytics Dashboard", "context": "call volumes, peak hours, outcomes, insight from conversations" },
+    { "path": "/features/knowledge-base/", "title": "Knowledge Base", "context": "upload documents prices policies, single source of answers, train the agent" },
+    { "path": "/features/smart-call-escalation-with-triggers/", "title": "Smart Call Escalation", "context": "escalation rules, route to human on triggers, upset caller handover" },
+    { "path": "/features/warm-transfers/", "title": "Warm Transfers", "context": "handover to human with context, no repeating the story" },
+    { "path": "/integration/", "title": "Integrations", "context": "connect CRM calendar helpdesk tools, HubSpot Salesforce Zapier Google Calendar" },
+    { "path": "/template/", "title": "Templates", "context": "ready made AI agent templates, appointment scheduling, ticketing, lead qualification" },
+    { "path": "/industries/", "title": "Industries", "context": "industry specific AI customer service, clinics real estate retail travel contractors" },
+    { "path": "/industries/dental-clinics-ai-customer-service/", "title": "Dental Clinics", "context": "clinic appointment booking, patient calls, no-show reduction, medical front desk" },
+    { "path": "/industries/real-estate-agencies-ai-customer-service/", "title": "Real Estate Agencies", "context": "property enquiries, viewings, rental questions, lead qualification for agents" },
+    { "path": "/industries/ecommerce-and-retail-ai-customer-service/", "title": "Ecommerce & Retail", "context": "order status, product questions, delivery queries, store customer service" },
+    { "path": "/industries/travel-agencies-ai-customer-service/", "title": "Travel Agencies", "context": "tour bookings, itinerary questions, tourist enquiries, multilingual travel desk" },
+    { "path": "/enterprise/", "title": "Enterprise", "context": "large deployments, data residency in Oman, security, compliance, IVR replacement" },
+    { "path": "/about/", "title": "About", "context": "company story, team, Muscat based, mission for Oman" },
+    { "path": "/contact/", "title": "Contact", "context": "talk to the founder, sales questions, support" },
+    { "path": "/book-a-demo/", "title": "Book a Demo", "context": "see the platform live, trial, first 100 minutes free" }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$comment": "Registered source leads offered to the generator per task. The model must still verify claims by live web search on the publication date; these are starting points, not citations to copy blindly. kind is one of: oman-official, regional-official, media, analysis, vendor.",
+  "sources": [
+    {
+      "id": "mtcit",
+      "label": "Ministry of Transport, Communications and Information Technology (MTCIT)",
+      "url": "https://mtcit.gov.om",
+      "kind": "oman-official",
+      "topics": ["personal data protection", "PDPL executive regulation", "national AI policy", "digital economy", "Maeen"]
+    },
+    {
+      "id": "tra",
+      "label": "Telecommunications Regulatory Authority (TRA Oman)",
+      "url": "https://tra.gov.om",
+      "kind": "oman-official",
+      "topics": ["telecom regulation", "spam and scam messages", "marketing consent", "consumer telecom rights"]
+    },
+    {
+      "id": "mol",
+      "label": "Ministry of Labour",
+      "url": "https://mol.gov.om",
+      "kind": "oman-official",
+      "topics": ["labour law", "Ramadan working hours", "midday work ban", "Omanisation"]
+    },
+    {
+      "id": "mociip",
+      "label": "Ministry of Commerce, Industry and Investment Promotion",
+      "url": "https://tejarah.gov.om",
+      "kind": "oman-official",
+      "topics": ["consumer protection", "commercial registration", "business licensing"]
+    },
+    {
+      "id": "ona",
+      "label": "Oman News Agency",
+      "url": "https://omannews.gov.om",
+      "kind": "oman-official",
+      "topics": ["official announcements", "moon sighting", "public holidays", "royal decrees"]
+    },
+    {
+      "id": "oman-portal",
+      "label": "Oman government services portal",
+      "url": "https://www.oman.om",
+      "kind": "oman-official",
+      "topics": ["government services", "official holidays", "e-services"]
+    },
+    {
+      "id": "mht",
+      "label": "Ministry of Heritage and Tourism",
+      "url": "https://mht.gov.om",
+      "kind": "oman-official",
+      "topics": ["Khareef Dhofar", "tourist season", "festivals", "visitor statistics"]
+    },
+    {
+      "id": "moe",
+      "label": "Ministry of Education",
+      "url": "https://home.moe.gov.om",
+      "kind": "oman-official",
+      "topics": ["school year dates", "academic calendar"]
+    },
+    {
+      "id": "ncsi",
+      "label": "National Centre for Statistics and Information",
+      "url": "https://www.ncsi.gov.om",
+      "kind": "oman-official",
+      "topics": ["population", "business statistics", "tourism numbers", "digital indicators"]
+    },
+    {
+      "id": "vision2040",
+      "label": "Oman Vision 2040 Implementation Follow-up Unit",
+      "url": "https://www.oman2040.om",
+      "kind": "oman-official",
+      "topics": ["Vision 2040 priorities", "digital transformation", "economic diversification"]
+    },
+    {
+      "id": "oman-observer",
+      "label": "Oman Observer",
+      "url": "https://www.omanobserver.om",
+      "kind": "media",
+      "topics": ["Oman business news", "regulation coverage", "festivals", "holiday announcements"]
+    },
+    {
+      "id": "times-of-oman",
+      "label": "Times of Oman",
+      "url": "https://timesofoman.com",
+      "kind": "media",
+      "topics": ["Oman news", "ministry announcements", "consumer stories"]
+    },
+    {
+      "id": "muscat-daily",
+      "label": "Muscat Daily",
+      "url": "https://www.muscatdaily.com",
+      "kind": "media",
+      "topics": ["Oman business news", "tourism", "technology in Oman"]
+    },
+    {
+      "id": "omantel",
+      "label": "Omantel",
+      "url": "https://www.omantel.om",
+      "kind": "vendor",
+      "topics": ["business phone lines", "SIP trunks", "telecom services"]
+    },
+    {
+      "id": "ooredoo-oman",
+      "label": "Ooredoo Oman",
+      "url": "https://www.ooredoo.om",
+      "kind": "vendor",
+      "topics": ["business phone lines", "telecom services"]
+    },
+    {
+      "id": "customercare-guideline",
+      "label": "CustomerCare.OM Oman AI calling guide",
+      "url": "https://customercare.om/guideline/oman/",
+      "kind": "vendor",
+      "topics": ["AI customer contact rules in Oman", "consent", "call recording"]
+    }
+  ]
+}

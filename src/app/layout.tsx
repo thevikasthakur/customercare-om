@@ -87,14 +87,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-OM">
+    // The next/font variable classes belong on <html>, not <body>: the theme
+    // declares --font-display as var(--font-fraunces) at :root, and a custom
+    // property is resolved where it is declared. Defining the font variables
+    // one level lower left --font-display, --font-sans and --font-mono
+    // permanently empty, so every font-family rule fell back to system sans.
+    <html lang="en-OM" className={`${inter.variable} ${fraunces.variable} ${jetbrains.variable}`}>
       <head>
         <JsonLd data={organisation} />
         <JsonLd data={website} />
       </head>
-      <body
-        className={`${inter.variable} ${fraunces.variable} ${jetbrains.variable} page-frame min-h-screen bg-background text-foreground antialiased`}
-      >
+      <body className="page-frame min-h-screen bg-background text-foreground antialiased">
         <Header />
         <main>{children}</main>
         <Footer />

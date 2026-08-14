@@ -7,6 +7,13 @@
       "runtimeArgs": ["run", "dev"],
       "port": 3000,
       "autoPort": true
+    },
+    {
+      "name": "chatbot-om-prod",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "start", "--prefix", "/Users/thakur/Workspace/chatbot-OM", "--", "-p", "3100"],
+      "port": 3100,
+      "autoPort": false
     }
   ]
 }

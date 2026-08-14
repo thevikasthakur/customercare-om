@@ -165,7 +165,7 @@ export const features: Feature[] = [
       "Real-time containment, sentiment, and outcome tracking",
       "Language-mix and peak-hour analysis across all campaigns",
       "One-click drill-down from charts to full transcripts",
-      "GST time zone and Sunday–Thursday week defaults",
+      "GST time zone and Sunday to Thursday week defaults",
       "All analytics data processed and stored inside Oman",
     ],
   },
@@ -248,7 +248,7 @@ export const features: Feature[] = [
     bullets: [
       "Answers grounded strictly in your approved documents",
       "Instant updates, new content is live on the very next call",
-      "Arabic–English cross-language question answering",
+      "Arabic-English cross-language question answering",
       "Automatic escalation when no confident answer exists",
       "In-country storage of all uploaded knowledge",
     ],

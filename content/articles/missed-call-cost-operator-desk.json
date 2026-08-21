@@ -1,0 +1,300 @@
+{
+  "id": "article-2026-08-20-price-of-unanswered-phone",
+  "taskId": "2026-08-20-price-of-unanswered-phone",
+  "slug": "missed-call-cost-operator-desk",
+  "title": "What a Missed Call Really Costs Your Operator Desk",
+  "seoTitle": "What a Missed Call Really Costs Your Operator Desk",
+  "excerpt": "Two operators, seventy calls a day, and a leak nobody priced until now: what missed calls really cost a Muscat facilities management desk each month, and the two cheapest fixes.",
+  "seoDescription": "A two-person operator desk missing calls can cost a Muscat facilities firm thousands of rials a month. See the worked missed call maths and two cheap fixes.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "The Real Price of a Ringing Phone Nobody Answers",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-20",
+  "modifiedDate": "2026-08-20",
+  "reviewedDate": "2026-08-20",
+  "reviewBy": "2026-11-18",
+  "status": "published",
+  "tags": [
+    "missed calls",
+    "operator desk",
+    "facilities management",
+    "call handling costs",
+    "customer service operations",
+    "phone line coverage",
+    "Oman business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#0d1f16\"/><stop offset=\"50%\" stop-color=\"#1e4634\"/><stop offset=\"100%\" stop-color=\"#8fd3a8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"300\" cy=\"55\" r=\"18\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"3\" opacity=\"0.9\"/><circle cx=\"300\" cy=\"55\" r=\"32\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"3\" opacity=\"0.6\"/><circle cx=\"300\" cy=\"55\" r=\"46\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"3\" opacity=\"0.3\"/><rect x=\"284\" y=\"42\" width=\"32\" height=\"48\" rx=\"8\" fill=\"#e8c07c\"/><rect x=\"292\" y=\"50\" width=\"16\" height=\"8\" rx=\"2\" fill=\"#0d1f16\"/><circle cx=\"300\" cy=\"80\" r=\"3\" fill=\"#0d1f16\"/><rect x=\"20\" y=\"128\" width=\"230\" height=\"46\" rx=\"6\" fill=\"#0d1f16\" opacity=\"0.88\"/><text x=\"32\" y=\"161\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#d4ff4f\">OMR 3,900</text><rect x=\"20\" y=\"178\" width=\"270\" height=\"26\" rx=\"4\" fill=\"#0d1f16\" opacity=\"0.75\"/><text x=\"30\" y=\"196\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">lost every month to missed calls</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "One missed call looks like nothing happened. For a two-person operator desk at a Muscat facilities management firm, a month of missed calls quietly adds up to thousands of rials in lost repair jobs. Most owners have never actually counted them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-missed-call-really-costs",
+      "text": "What a Missed Call Really Costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A ringing phone that nobody picks up looks like nothing happened. In a facilities management business, something did happen: a tenant with water leaking from a dead AC unit tried you first, waited through several rings, then called the next contractor's number pinned to the building's group chat."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every call moves through the same stages: it rings, it gets answered or it does not, the caller waits for a callback or moves on, and somewhere along the way a job gets booked or lost. Follow that chain all the way to rials and the leak stops being invisible."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-person-desk-and-the-math",
+      "text": "The Two-Person Desk and the Math"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take a composite example: a Muscat facilities management firm we can call Ruwi Building Services, with a two-person operator desk covering 8am to 5pm on weekdays and a normal load of AC, plumbing and electrical requests. Here is what one ordinary month looks like once someone actually counts the missed calls."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "One working day at the desk, followed to OMR",
+      "headers": [
+        "Stage",
+        "Per day",
+        "What it means"
+      ],
+      "rows": [
+        [
+          "Calls ringing in",
+          "70",
+          "AC, plumbing, electrical and general requests"
+        ],
+        [
+          "Answered live by the desk",
+          "52",
+          "Both operators free, or a caller gets through"
+        ],
+        [
+          "Missed (lunch, busy line, after 5pm, weekends)",
+          "18",
+          "Ringing, voicemail or a busy tone"
+        ],
+        [
+          "Reached later by callback",
+          "7",
+          "Desk calls back before the caller acts elsewhere"
+        ],
+        [
+          "Never reached at all",
+          "11",
+          "Caller does not wait for a callback"
+        ],
+        [
+          "Would likely have booked a job if answered",
+          "5",
+          "45% of the never-reached, based on the desk's own booking rate"
+        ],
+        [
+          "Average job value",
+          "OMR 30",
+          "Call-out fee plus first repair, typical for AC or plumbing"
+        ],
+        [
+          "Lost revenue per day",
+          "OMR 150",
+          "5 jobs multiplied by OMR 30"
+        ],
+        [
+          "Lost revenue per month",
+          "OMR 3,900",
+          "26 working days"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Compare that OMR 3,900 monthly leak with what the desk itself costs to run. Two operators earning a modest OMR 550 a month each add up to about OMR 1,100 in salary. The phone is leaking more than three times what the desk costs to staff, every single month, and nobody had priced it before."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A missed call does not vanish, it just rings on someone else's desk."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-callers-do-when-no-one-answers",
+      "text": "What Callers Do When No One Answers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Facilities management callers are rarely browsing. A blocked drain or a dead compressor is urgent, and most buildings keep more than one contractor's number pinned to a group chat. When your line does not answer, the caller does not wait quietly."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "They try the next number on the list within minutes, especially for anything urgent."
+          }
+        ],
+        [
+          {
+            "text": "They post in the building's group chat before your desk even notices the missed call."
+          }
+        ],
+        [
+          {
+            "text": "A quiet caller gives up and remembers the miss the next time your contract comes up for renewal."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The pattern is not new to this desk alone. This blog tracked the same gap when front desks lock up at six, in "
+        },
+        {
+          "text": "What Happens to Calls After You Lock Up at Six?",
+          "href": "/blog/after-hours-call-gap-cost/"
+        },
+        {
+          "text": ", and the lesson holds here too: calls do not wait for you to be ready."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The damage is rarely just the one missed job. A facilities contract usually renews once a year, and the person deciding whether to renew remembers exactly how many times your line failed them, not how many times it worked."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Every missed call at one in the afternoon is a job on someone else's van by quarter past.",
+      "attribution": "Bushra, operations lead at a facilities management firm, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-cheapest-fixes-this-month",
+      "text": "The Two Cheapest Fixes This Month"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need to hire a third operator to stop this leak. Two changes cost far less than the OMR 3,900 they are likely to save, and both can start this month."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Close the two predictable gaps first. Forward the desk line to one operator's mobile during lunch, and set up a WhatsApp number callers can message after 5pm with a promised callback time. This costs nothing but a five-minute policy change, and it catches roughly half the missed calls in the table above."
+          }
+        ],
+        [
+          {
+            "text": "Put something on the line that can actually answer when both operators are busy or the desk is closed, instead of a ring that just keeps going. A phone line built for callers here, such as CustomerCare.OM, can take the AC or plumbing request, log the address and urgency, and hand the desk a ready job the moment someone is free, in Arabic or English, at one in the afternoon or one in the morning. A "
+          },
+          {
+            "text": "call analytics dashboard",
+            "href": "/features/call-analytics-dashboard/"
+          },
+          {
+            "text": " on top of that shows exactly where the gaps sit each week, instead of a guess."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The fix that costs nothing closes half the gap, and the fix that costs something pays for the rest before the AC season peaks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pull your own numbers before you assume the desk is fine. Ask whoever manages your office phone system for a missed call report from the last 30 days, most systems already keep one. Multiply your missed calls by your own booking rate and your own average job value, and you will have your own version of the OMR 3,900 above."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Ask whoever answers your desk phone for last month's missed call count.",
+        "Multiply that number by how often an answered call turns into a booked job.",
+        "Multiply again by your average job value. If the total is bigger than what the desk costs to run each month, the leak is real and worth fixing now."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Will a third operator fix this?",
+          "a": "It helps during the busiest hours, but not the lunch gap or the hours after five, when the desk is simply closed no matter how many people are on it."
+        },
+        {
+          "q": "Is a WhatsApp callback line enough for urgent repairs?",
+          "a": "It stops the caller from giving up immediately, but someone still has to answer it fast and keep the promised callback time."
+        },
+        {
+          "q": "How do I find my own booking rate for answered calls?",
+          "a": "Ask the desk to track it for two weeks: calls answered against jobs actually booked from those calls."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The Bottom Line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A two-person desk is not the problem, an unanswered ring is. Count your own missed calls this month, price them the way the table above does, and close the two gaps that cost the least to fix first."
+        }
+      ]
+    }
+  ]
+}

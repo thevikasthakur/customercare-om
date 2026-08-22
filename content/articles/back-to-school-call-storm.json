@@ -1,0 +1,287 @@
+{
+  "id": "article-2026-08-22-back-to-school-storm",
+  "taskId": "2026-08-22-back-to-school-storm",
+  "slug": "back-to-school-call-storm",
+  "title": "Back to School Is a Two-Week Call Storm",
+  "seoTitle": "Back to School Is a Two-Week Call Storm",
+  "excerpt": "Parents call every front desk they can find in the two weeks before term starts, mostly after six in the evening. Here is the fix that actually holds.",
+  "seoDescription": "Late August floods school transport lines and tuition centres with parent calls. Here's how Oman's front desks prepare before the two-week surge peaks.",
+  "series": "Season Ready",
+  "category": "Oman Seasons & Peaks",
+  "topic": "Back to School Is a Two-Week Customer Service Storm",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-22",
+  "modifiedDate": "2026-08-22",
+  "reviewedDate": "2026-08-22",
+  "reviewBy": "2026-11-20",
+  "status": "published",
+  "tags": [
+    "back to school",
+    "school transport",
+    "tuition centres",
+    "front desk staffing",
+    "call volume",
+    "Oman customer service",
+    "seasonal peaks"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#062e2b\"/>\n<stop offset=\"55%\" stop-color=\"#0f4c4c\"/>\n<stop offset=\"100%\" stop-color=\"#79e0c8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g transform=\"translate(300,150) rotate(-30)\">\n<rect x=\"-60\" y=\"-14\" width=\"120\" height=\"28\" rx=\"14\" fill=\"#e8c07c\"/>\n<circle cx=\"-55\" cy=\"0\" r=\"16\" fill=\"#e8c07c\"/>\n<circle cx=\"55\" cy=\"0\" r=\"16\" fill=\"#e8c07c\"/>\n</g>\n<path d=\"M 325 95 A 35 35 0 0 1 352 122\" stroke=\"#d4ff4f\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>\n<path d=\"M 340 75 A 60 60 0 0 1 380 112\" stroke=\"#d4ff4f\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/>\n<path d=\"M 355 55 A 85 85 0 0 1 408 100\" stroke=\"#d4ff4f\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\"/>\n<text x=\"24\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"36\" font-weight=\"bold\" fill=\"#f4f4f0\">54% answered</text>\n<text x=\"24\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#e8c07c\">not 94%, back-to-school week</text>\n</svg>",
+  "sources": [
+    {
+      "id": "moe-portal",
+      "label": "Ministry of Education, Sultanate of Oman",
+      "url": "https://home.moe.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "oman-school-calendar-2026-2027",
+      "label": "Oman school calendar 2026-2027: staff and student return dates",
+      "url": "https://www.omanedusvc.om/2026/08/oman-school-calendar-2026-2027.html",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "The two weeks around the new school year are the loudest stretch of the whole year for any desk that serves families, and the phones do not wait for office hours. School transport lines, tuition centres and uniform counters all get the same rush: parents who want a straight answer today, mostly after six in the evening. What a team does with that rush this month decides how smooth the rest of the term feels."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-late-august-hits-different",
+      "text": "Why late August hits different this year"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This year the crunch arrives in two waves rather than one. State school teaching staff return from 30 August 2026 and students return from 6 September 2026, while many private schools and colleges already reopened weeks earlier in August. Right in between sits the Prophet's Birthday holiday, expected around 27 August 2026 and subject to the official moon sighting announcement, so families travel just as enrollment questions peak. For a school transport line or a tuition centre, that means a public holiday sitting inside the busiest ten days of the year, not before it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-parents-are-actually-calling-about",
+      "text": "What parents are actually calling about"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ask any front desk that has lived through this and the list barely changes from one year to the next. Parents are not calling to chat. They want one fact, fast, and they call back within the hour if nobody answers."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Which bus route or pickup point covers their street this year"
+          }
+        ],
+        [
+          {
+            "text": "Whether a seat or a class slot is still open"
+          }
+        ],
+        [
+          {
+            "text": "The exact fee amount and the last date to pay it"
+          }
+        ],
+        [
+          {
+            "text": "Uniform sizes and stock, especially the week before the first day"
+          }
+        ],
+        [
+          {
+            "text": "Whether a sibling discount or a waiting list spot applies"
+          }
+        ],
+        [
+          {
+            "text": "What changes if a pickup time or class time has moved"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-front-desk-math",
+      "text": "The front desk math during the surge"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Consider a composite example. Nasser runs the call desk for a school transport company covering three schools in Muscat with fourteen vans. Two staff answer phones and WhatsApp through the year. Here is what the two weeks around term start usually do to his normal numbers."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Nasser's transport desk: a normal week versus the back-to-school week (composite example)",
+      "headers": [
+        "Metric",
+        "Normal week",
+        "Back-to-school week (25 Aug to 6 Sept)"
+      ],
+      "rows": [
+        [
+          "Calls reaching the desk",
+          "260",
+          "700"
+        ],
+        [
+          "Calls answered live",
+          "245 (94%)",
+          "380 (54%)"
+        ],
+        [
+          "Calls missed or abandoned",
+          "15",
+          "320"
+        ],
+        [
+          "Average monthly fee per seat",
+          "OMR 45",
+          "OMR 45"
+        ],
+        [
+          "Recurring revenue at risk if just 1 in 10 missed callers give up",
+          "-",
+          "about OMR 1,440 a month"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Nasser's two staff are not doing anything wrong. There are simply close to three times as many calls landing in the same eight hour shift, and most of the overflow happens after five in the evening, once the office line has already rolled to voicemail for the night."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A desk that answers ninety four calls out of every hundred in a normal week can slip to barely half in the two weeks around term start, without a single staff member doing anything wrong."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-evening-problem",
+      "text": "The evening problem nobody schedules for"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most of those missed calls are not happening at midday. Parents are at work until five or six, so questions about routes and fees land over dinner, right when the switchboard queue gets long or the line rolls to voicemail. A note left on a desk for the next morning does not help a parent who is deciding tonight whether to book a competitor's van instead."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "By late August our phones ring like exam day, and it does not stop for two weeks.",
+      "attribution": "Yusra, operations lead for a school transport service, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-prepared-answers-pack",
+      "text": "The prepared answers pack that gets a team through"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix that actually holds is not more staff for two weeks. Temporary hires need training on routes and fees they will forget by October, and by the time they are useful, the surge is over. What works is a written answers pack: one page with the real answer to every question on the list above, agreed once by whoever owns routes, fees and admissions, so every person on the phone, human or automated, gives the same answer."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ready-made phone and chat scripts for exactly this kind of routine question, appointment slots, waiting lists, fee confirmations, already exist as "
+        },
+        {
+          "text": "agent templates",
+          "href": "/template/"
+        },
+        {
+          "text": ", so a team is not writing from a blank page in the middle of the surge."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For the calls that land after the desk closes, or the third line ringing when the first two are already busy, the honest fix is a phone line that already knows the pack's answers and keeps working past six. CustomerCare.OM is built to pick up exactly where a business's own desk leaves off, whenever the phones are busy or the office has closed for the night."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write the answers pack this week, before the last week of August arrives. Sit with whoever owns routes, fees and admissions for twenty minutes and get the five most common questions onto one page everyone can read from. Decide, in writing, who is answering the phone after six in the evening for the next two weeks, and what happens if that person is off during the Mawlid holiday. If the honest answer is voicemail, that is the gap parents will notice first."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Do you have one written answer for the five questions parents ask most, agreed by one person rather than five different phrasings?",
+        "Who is picking up calls after six in the evening for the next two weeks, including the days around the Mawlid holiday?",
+        "If today's missed call count doubled tomorrow, would anyone notice before a parent calls back annoyed?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "When exactly does the new school year start this year?",
+          "a": "State schools have teaching staff back from 30 August 2026 and students back from 6 September 2026, based on the Ministry of Education's calendar. Many private schools and colleges open earlier in August, so check each institution's own date."
+        },
+        {
+          "q": "Should a business hire temporary staff for these two weeks?",
+          "a": "Usually not. Temporary staff need training on routes, fees and slots they will barely use before the surge ends. A written answers pack plus extended evening coverage usually costs less and works from day one."
+        },
+        {
+          "q": "What if the extra calls do not stop after the first two weeks?",
+          "a": "Keep counting missed calls past 6 September. If the number stays high because a route changed or a new branch opened, that is a sign to make the evening coverage permanent instead of seasonal."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Back to school is not a mystery event: the dates are published every year, the questions repeat, and the gap is almost always the same two hours after work. A written answers pack and a clear answer for who picks up after six turn a stressful fortnight into a busy but ordinary couple of weeks."
+        }
+      ]
+    }
+  ]
+}

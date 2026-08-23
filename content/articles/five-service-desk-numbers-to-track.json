@@ -1,0 +1,357 @@
+{
+  "id": "article-2026-08-23-five-service-numbers",
+  "taskId": "2026-08-23-five-service-numbers",
+  "slug": "five-service-desk-numbers-to-track",
+  "title": "The Five Numbers Every Service Desk Should Track",
+  "seoTitle": "The Five Numbers Every Service Desk Should Track",
+  "excerpt": "A caller who cannot get through once rarely tries twice. Here are the five numbers that show you why, before customers start calling someone else.",
+  "seoDescription": "Track first response time, resolution rate, abandoned calls, satisfaction and repeat contacts weekly, with a table any Oman service desk can copy.",
+  "series": "Customer Service Playbook",
+  "category": "Customer Service Skills",
+  "topic": "The Five Numbers Every Service Team Should Track",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-23",
+  "modifiedDate": "2026-08-23",
+  "reviewedDate": "2026-08-23",
+  "reviewBy": "2026-11-21",
+  "status": "published",
+  "tags": [
+    "customer service metrics",
+    "service desk KPIs",
+    "first response time",
+    "resolution rate",
+    "abandoned calls",
+    "customer satisfaction",
+    "repeat contacts",
+    "call centre management"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"225\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0%\" stop-color=\"#181109\"/>\n<stop offset=\"50%\" stop-color=\"#54371a\"/>\n<stop offset=\"100%\" stop-color=\"#e8c07c\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g>\n<circle cx=\"66\" cy=\"48\" r=\"15\" fill=\"#d4ff4f\" stroke=\"#181109\" stroke-width=\"2\"/>\n<path d=\"M59 48 l5 6 l10 -12\" stroke=\"#181109\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<circle cx=\"118\" cy=\"48\" r=\"15\" fill=\"#d4ff4f\" stroke=\"#181109\" stroke-width=\"2\"/>\n<path d=\"M111 48 l5 6 l10 -12\" stroke=\"#181109\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<circle cx=\"170\" cy=\"48\" r=\"15\" fill=\"#d4ff4f\" stroke=\"#181109\" stroke-width=\"2\"/>\n<path d=\"M163 48 l5 6 l10 -12\" stroke=\"#181109\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<circle cx=\"222\" cy=\"48\" r=\"15\" fill=\"#79e0c8\" stroke=\"#181109\" stroke-width=\"2\"/>\n<path d=\"M215 48 l5 6 l10 -12\" stroke=\"#181109\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<circle cx=\"274\" cy=\"48\" r=\"15\" fill=\"#79e0c8\" stroke=\"#181109\" stroke-width=\"2\"/>\n<path d=\"M267 48 l5 6 l10 -12\" stroke=\"#181109\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n</g>\n<rect x=\"28\" y=\"112\" width=\"310\" height=\"76\" rx=\"10\" fill=\"#181109\" opacity=\"0.62\"/>\n<text x=\"48\" y=\"156\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">5 NUMBERS</text>\n<text x=\"48\" y=\"178\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">one sheet, every Sunday</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Ask five customer service supervisors in Oman how many calls their desk dropped last week and most will guess. That guess is expensive, because a caller who cannot get through the first time rarely tries again, they call the next business on the list instead. Five numbers, tracked on one sheet every week, turn that guess into a plan you can act on by Sunday morning."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-guessing-costs-you",
+      "text": "Why guessing costs you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every business that answers customers by phone already runs some kind of front desk: an operator line, a switchboard, a reception counter, or all three. What most of these teams do not have is a simple weekly view of how the desk actually performed. Not a full dashboard, just five numbers a supervisor can pull together in twenty minutes."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Without those numbers, problems hide in plain sight. A dealership service manager might feel Mondays are busy without knowing that a third of Monday's callers hang up before anyone answers. A clinic call desk might believe satisfaction is fine because nobody has complained, when quiet, unhappy customers usually just do not come back."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-five-numbers-explained",
+      "text": "The five numbers, explained"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "These five numbers follow a call or a message through its whole life, from the moment it arrives to whether the customer ever needed to contact you again about the same thing."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "First response time",
+            "strong": true
+          },
+          {
+            "text": ": how long a caller waits before a real person, or the system, answers or replies, in seconds for a call and minutes for WhatsApp or email."
+          }
+        ],
+        [
+          {
+            "text": "Resolution rate",
+            "strong": true
+          },
+          {
+            "text": ": the share of contacts closed the same day, without the customer needing a callback or a second message."
+          }
+        ],
+        [
+          {
+            "text": "Abandoned calls",
+            "strong": true
+          },
+          {
+            "text": ": calls where the caller hangs up before anyone answers, usually because the wait or the menu wore them out."
+          }
+        ],
+        [
+          {
+            "text": "Satisfaction",
+            "strong": true
+          },
+          {
+            "text": ": however you capture it, a quick rating at the end of a call or a follow up message, the share of contacts rated good or better."
+          }
+        ],
+        [
+          {
+            "text": "Repeat contacts",
+            "strong": true
+          },
+          {
+            "text": ": the share of customers who call back about the same issue within seven days, because the first answer did not fully solve it."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A caller who abandons your line rarely calls back to complain. They simply call whoever answers next."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-week-any-desk-can-track",
+      "text": "A week any desk can track"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this needs new software to start. A supervisor can build this table in a spreadsheet and fill it in every Sunday for the week that just closed, the same morning most teams here plan the week ahead."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Metric",
+        "This week's number",
+        "How to calculate it",
+        "A reasonable target"
+      ],
+      "rows": [
+        [
+          "First response time",
+          "46 seconds",
+          "Total wait time divided by calls answered",
+          "Under 30 seconds for calls"
+        ],
+        [
+          "Resolution rate",
+          "71 percent",
+          "Contacts closed same day divided by total contacts",
+          "Above 80 percent"
+        ],
+        [
+          "Abandoned calls",
+          "9 percent (58 of 640)",
+          "Calls dropped before answer divided by total calls",
+          "Under 5 percent"
+        ],
+        [
+          "Satisfaction",
+          "82 percent good or better",
+          "Positive ratings divided by contacts rated",
+          "Above 85 percent"
+        ],
+        [
+          "Repeat contacts",
+          "13 percent",
+          "Customers calling back on the same issue within 7 days divided by total contacts",
+          "Under 10 percent"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "turning-one-number-into-a-cost",
+      "text": "Turning one number into a cost"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take the abandoned calls row and turn it into a number that means something to whoever signs off on staffing. This is the maths any desk can redo with its own figures."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Calls received this week: 640."
+          }
+        ],
+        [
+          {
+            "text": "Calls abandoned before anyone answered: 58, which is 9 percent."
+          }
+        ],
+        [
+          {
+            "text": "Average value of a completed booking or order: OMR 18."
+          }
+        ],
+        [
+          {
+            "text": "If even half of those callers would have booked had someone answered: 58 x 0.5 x 18 comes to OMR 522 lost in a single week."
+          }
+        ],
+        [
+          {
+            "text": "Carry that same maths across a month and the desk is looking at roughly OMR 2,088 in calls that never turned into revenue."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reading-the-numbers-together",
+      "text": "Reading the numbers together"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "No single number tells the whole story on its own. Read together, though, the five numbers usually point straight at a fix."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "High abandoned calls with a fast first response time once someone does pick up: not enough people answering the phone, not a training problem."
+          }
+        ],
+        [
+          {
+            "text": "Low resolution rate paired with decent satisfaction: staff are polite, but they are promising callbacks instead of solving problems on the spot."
+          }
+        ],
+        [
+          {
+            "text": "High repeat contacts alongside a resolution rate that looks fine on paper: the answer looked complete in the log but did not actually work for the customer."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That gap between what a log shows and what a customer actually experienced is worth listening for, because it usually lines up with "
+        },
+        {
+          "text": "what customers actually judge you on",
+          "href": "/blog/four-things-customers-judge/"
+        },
+        {
+          "text": " when they decide whether to come back."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The five numbers rarely move for the same reason twice, which is exactly why they are worth checking every week and not just once a quarter."
+    },
+    {
+      "type": "quote",
+      "quote": "I used to feel busy on Mondays. The numbers showed me a third of Monday's callers never got through at all.",
+      "attribution": "Fatma, service manager, car dealership in Ghala",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start with whichever number you can measure without buying anything. Abandoned calls are usually already logged by your phone system, and first response time can be timed by hand for a week if it is not."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once you have real numbers, set one target for each, review them the same morning every week, Sunday works well for most teams here, and change one thing at a time so you actually know what worked. A "
+        },
+        {
+          "text": "call analytics dashboard",
+          "href": "/product/dashboard-reporting/"
+        },
+        {
+          "text": ", the kind CustomerCare.OM builds for desks that already staff phone lines, can pull first response time and abandoned calls automatically once your line carries more traffic than one person can log by hand."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Ask your operator desk or pull last week's call log for two figures only: total calls received, and calls that rang off before anyone answered.",
+        "Divide the second figure by the first. If it comes to more than one in ten, that is this week's fix, not next quarter's."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How often should we review these five numbers?",
+          "a": "Weekly is enough for most teams. Move to daily during a known peak, such as a festival week or the back to school rush."
+        },
+        {
+          "q": "Do we need call centre software to start?",
+          "a": "No. A spreadsheet and a supervisor with twenty minutes on Sunday morning is enough to begin this week."
+        },
+        {
+          "q": "What counts as a reasonable abandoned call rate?",
+          "a": "Under 5 percent is a common target. Above 10 percent usually means the phone is understaffed for the hours it actually rings."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Five numbers will not fix a busy Monday by themselves. But a supervisor who checks the same five numbers every week, and changes one thing when they move, usually ends the month with a shorter queue, fewer abandoned calls, and fewer customers calling back twice for the same problem."
+        }
+      ]
+    }
+  ]
+}

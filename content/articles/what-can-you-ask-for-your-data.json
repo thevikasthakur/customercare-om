@@ -1,0 +1,382 @@
+{
+  "id": "article-2026-08-19-pdpl-for-customers",
+  "taskId": "2026-08-19-pdpl-for-customers",
+  "slug": "what-can-you-ask-for-your-data",
+  "title": "What Can You Ask a Business About Your Data?",
+  "seoTitle": "Oman's Data Protection Law: Your Rights as a Customer",
+  "excerpt": "A civil ID scan here, a phone number kept for years there, a recorded support call: Oman's data law says you can ask what a business does with it, and get an answer in 45 days.",
+  "seoDescription": "Oman's Personal Data Protection Law is now enforced. Here is what counts as your data and how to ask any business for access, correction or deletion.",
+  "series": "Your Data, Your Rights",
+  "category": "Privacy & Consumer Rights",
+  "topic": "What Oman's Data Protection Law Means for You as a Customer",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-19",
+  "modifiedDate": "2026-08-19",
+  "reviewedDate": "2026-08-19",
+  "reviewBy": "2026-11-17",
+  "status": "published",
+  "tags": [
+    "personal data protection law",
+    "consumer rights",
+    "MTCIT",
+    "data privacy",
+    "consumer protection",
+    "Oman regulation"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#0d1f16\"/>\n<stop offset=\"50%\" stop-color=\"#1e4634\"/>\n<stop offset=\"100%\" stop-color=\"#8fd3a8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"100\" y=\"40\" width=\"200\" height=\"150\" rx=\"12\" fill=\"#f4f4f0\"/>\n<polygon points=\"270,40 300,40 300,70\" fill=\"#e8c07c\"/>\n<rect x=\"120\" y=\"60\" width=\"120\" height=\"10\" rx=\"5\" fill=\"#0d1f16\" opacity=\"0.3\"/>\n<rect x=\"120\" y=\"78\" width=\"90\" height=\"8\" rx=\"4\" fill=\"#0d1f16\" opacity=\"0.22\"/>\n<text x=\"200\" y=\"135\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#0d1f16\" text-anchor=\"middle\">45 DAYS</text>\n<rect x=\"120\" y=\"150\" width=\"160\" height=\"24\" rx=\"6\" fill=\"#d4ff4f\"/>\n<text x=\"200\" y=\"167\" font-family=\"Arial, sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#0d1f16\" text-anchor=\"middle\">TO REPLY, BY LAW</text>\n<text x=\"20\" y=\"30\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#f4f4f0\">Your data, your rights</text>\n<text x=\"20\" y=\"207\" font-family=\"Arial, sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#0d1f16\">Ask to see it, fix it, or delete it</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-personal-data",
+      "label": "MTCIT: Personal Data Protection",
+      "url": "https://mtcit.gov.om/sectors/governance/personal",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-executive-regulation",
+      "label": "MTCIT: Executive Regulations of the Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/regulations-72/executive-regulations-of-the-personal-data-protection-law-1035",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cms-enforcement-phase",
+      "label": "CMS Law: Oman personal data protection law entering the enforcement phase",
+      "url": "https://cms-lawnow.com/en/ealerts/2026/02/oman-personal-data-protection-law-entering-the-enforcement-phase",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "If a clinic scans your civil ID just to book a filling, or a dealership keeps your phone number for years after you sold the car, that is now something a law has an opinion about. Since February 2026, Oman's Personal Data Protection Law stopped being paperwork in a compliance folder and became something the regulator actively enforces. This week's question is the one nobody explains well: as the customer, what can you actually ask for?"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-grace-period-is-over",
+      "text": "The grace period is over"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's Personal Data Protection Law has applied since February 2023, but businesses were given time to get organised. That grace period, already extended once, ended on 5 February 2026. Since then, the Ministry of Transport, Communications and Information Technology, the regulator for this law, has been actively supervising, taking complaints and can penalise businesses that get it wrong. For you, that timing matters: a complaint you raise now lands with a regulator that is expected to act on it, not file it for later."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-counts-as-your-data",
+      "text": "What counts as your personal data"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Personal data is broader than most people assume. It is any information that can identify you, on its own or combined with something else a business already holds."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Your name, civil ID or passport number, and phone number"
+          }
+        ],
+        [
+          {
+            "text": "Your home address, delivery location or a saved GPS pin"
+          }
+        ],
+        [
+          {
+            "text": "Health records, prescriptions and appointment history at a clinic or hospital"
+          }
+        ],
+        [
+          {
+            "text": "Photos, ID scans and camera footage that shows your face"
+          }
+        ],
+        [
+          {
+            "text": "Call recordings and chat messages, including your voice on a support line"
+          }
+        ],
+        [
+          {
+            "text": "Vehicle registration, insurance and service history at a dealership"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If a business can attach a piece of information to you specifically, the law treats it as your data, whether it lives in a spreadsheet, a phone system or a filing cabinet."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "before-they-collect-anything",
+      "text": "Before they collect anything"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The law expects a business to ask, not just take. Before it processes your data, it is supposed to tell you certain things and, in most cases, get your consent first."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Who is collecting the data and how to contact them"
+          }
+        ],
+        [
+          {
+            "text": "Why they need it and what they plan to do with it"
+          }
+        ],
+        [
+          {
+            "text": "Whether it will be shared with anyone else, and who"
+          }
+        ],
+        [
+          {
+            "text": "That you can withdraw your consent at any time"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For marketing messages specifically, consent has to be clear and on record, and a business must let you opt out immediately and at no cost, which matters given how many promotional texts land on phones here."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "You do not need a lawyer to find out what a business knows about you: a written request and a 45-day countdown is the whole process."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-things-you-can-ask-for",
+      "text": "Three things you can ask for"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once a business holds your data, the law gives you three practical levers."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Access: ask what data they hold on you, where it came from and who they have shared it with."
+          }
+        ],
+        [
+          {
+            "text": "Correction: ask them to fix anything wrong, an old address, a misspelled name, a phone number that now belongs to someone else."
+          }
+        ],
+        [
+          {
+            "text": "Deletion: ask them to erase data they no longer need, though they can refuse if they are legally required to keep it, such as tax or health records."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Once you ask in writing, the business has 45 days to respond under the executive regulation attached to the law. They can push back if a request is excessive or clearly meant to cause trouble, but a straightforward request should get a straightforward answer."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Amal, guest relations manager at a Muscat hotel (composite example), timed her team's first formal data request this July.",
+      "headers": [
+        "Step",
+        "Task",
+        "Staff time",
+        "Cost at OMR 2.5 an hour"
+      ],
+      "rows": [
+        [
+          "1",
+          "Find the guest's records across the booking system, CRM and call logs",
+          "1.5 hours",
+          "OMR 3.75"
+        ],
+        [
+          "2",
+          "Compile the file and redact any other guest's details",
+          "1 hour",
+          "OMR 2.50"
+        ],
+        [
+          "3",
+          "Manager review and sign off before sending",
+          "0.5 hour",
+          "OMR 1.25"
+        ],
+        [
+          "Total",
+          "One completed request",
+          "3 hours",
+          "OMR 7.50"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Multiply that by even four requests in a busy month, guests travelling around the Mawlid holiday for instance, and it is real staff time pulled off the front desk. That is the operational case for organised records, not just the legal one."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "A customer asked us to delete his number after he sold the car. Now we check that list before every campaign.",
+      "attribution": "Nasser, service manager, a Muscat car dealership",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "if-they-ignore-you",
+      "text": "If a business ignores your request"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If 45 days pass with no answer, or you think the response was wrong, you can complain to MTCIT. You have 30 days from when you discover the problem to file, using the ministry's official channel, and the ministry aims to decide within 60 days. Keep your written request and any reply as evidence, a screenshot of a chat message counts."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Before you hand over your civil ID, phone number or health details, ask why the business needs it. That question is now a right, not a nuisance."
+          }
+        ],
+        [
+          {
+            "text": "Put every request in writing, an email or the same chat thread you already use, and keep a copy with the date."
+          }
+        ],
+        [
+          {
+            "text": "You can ask to see, correct or delete data held by a clinic, dealership, gym, insurer, or any business you have dealt with, even years ago."
+          }
+        ],
+        [
+          {
+            "text": "If a business is breached and your data is at risk, it owes you notice within 72 hours, without you having to ask."
+          }
+        ],
+        [
+          {
+            "text": "If 45 days pass with no answer, your next stop is a complaint to MTCIT, not silence."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For the business side reading this over a colleague's shoulder, the same clock cuts both ways: "
+        },
+        {
+          "text": "a system that keeps every call, chat and record inside Oman and can pull up one caller's full history in a few clicks",
+          "href": "/enterprise/"
+        },
+        {
+          "text": " turns a 45-day deadline into an easy afternoon instead of a scramble through three logins."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Pick one business that holds your data right now: a clinic, a gym, an insurer, a dealership.",
+        "Do you know who to contact there if you wanted to see, fix or delete your file?",
+        "If you cannot answer that in ten seconds, you have found exactly the gap this law was written to close."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do call recordings and chat messages count as my personal data?",
+          "a": "Yes. If your voice or your messages can be linked back to you, they are covered the same as your name or ID number."
+        },
+        {
+          "q": "Can a business refuse to delete my information?",
+          "a": "Yes, if it must legally keep it. Health records and accounting documents often carry a set retention period."
+        },
+        {
+          "q": "What if a business already had my number before the law came in?",
+          "a": "The law still applies now. You can ask them to explain how they use it, correct it, or stop contacting you."
+        },
+        {
+          "q": "How fast must a business answer my request?",
+          "a": "Within 45 days under the executive regulation, though they can push back on requests that are excessive or clearly not genuine."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's Personal Data Protection Law has applied since February 2023, but the grace period that let businesses catch up ended in February 2026. As a customer, you can now put a straightforward request in writing, ask a business to show you, fix or delete what it holds, and expect an answer within 45 days. That is a real deadline, not a suggestion, and it is worth using."
+        }
+      ]
+    }
+  ]
+}

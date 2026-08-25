@@ -1,0 +1,261 @@
+{
+  "id": "article-2026-08-25-omani-arabic-and-ai",
+  "taskId": "2026-08-25-omani-arabic-and-ai",
+  "slug": "why-ai-misunderstands-omani-arabic",
+  "title": "Why Most AI Still Misunderstands Omani Arabic",
+  "seoTitle": "Why Most AI Still Misunderstands Omani Arabic",
+  "excerpt": "The Arabic your customers speak on the phone was never in the textbook, and it usually was not in the AI's training data either.",
+  "seoDescription": "Omani Arabic on the phone is faster and more mixed than textbook Arabic. Here is why most AI stumbles, and how to test whether yours does too.",
+  "series": "AI, Explained Simply",
+  "category": "AI & Technology",
+  "topic": "Why Omani Arabic Is Hard for Most AI",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-25",
+  "modifiedDate": "2026-08-25",
+  "reviewedDate": "2026-08-25",
+  "reviewBy": "2026-11-23",
+  "status": "published",
+  "tags": [
+    "Omani Arabic",
+    "AI customer service",
+    "voice AI",
+    "Maeen",
+    "dialect technology",
+    "call handling",
+    "Oman AI policy",
+    "khareef"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"225\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0%\" stop-color=\"#14121c\"/>\n<stop offset=\"50%\" stop-color=\"#3a3554\"/>\n<stop offset=\"100%\" stop-color=\"#a8a8f8\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<circle cx=\"320\" cy=\"60\" r=\"95\" fill=\"#79e0c8\" opacity=\"0.12\"/>\n<line x1=\"255\" y1=\"55\" x2=\"330\" y2=\"100\" stroke=\"#f4f4f0\" stroke-width=\"26\" stroke-linecap=\"round\"/>\n<polyline points=\"235,70 265,55 245,80 295,60 275,90 315,68\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<rect x=\"14\" y=\"122\" width=\"230\" height=\"46\" fill=\"#14121c\"/>\n<text x=\"24\" y=\"156\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#d4ff4f\">SAY AGAIN?</text>\n<rect x=\"14\" y=\"176\" width=\"300\" height=\"24\" fill=\"#14121c\"/>\n<text x=\"24\" y=\"193\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">Why most AI misses Omani Arabic</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-maeen",
+      "label": "MTCIT: Oman launches three national AI initiatives at COMEX 2025 (Maeen)",
+      "url": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-launches-three-national-initiatives-at-the-artificial-intelligence-and-quantum-computing-forum-462",
+      "kind": "oman-official"
+    },
+    {
+      "id": "oman-observer-comex",
+      "label": "Oman Observer: Oman unveils ambitious digital vision at COMEX 2025",
+      "url": "https://www.omanobserver.om/article/1176230/business/oman-unveils-ambitious-digital-vision-at-comex-2025",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A caller in Barka switches from Arabic to English mid sentence, drops a word only people from the interior use, and talks twice as fast as a news anchor. Most Arabic speech AI was trained on none of that. Every time it guesses wrong, the call still lands back on your desk, and the minutes it costs you add up on every shift."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "two-arabics-one-phone-line",
+      "text": "Two Arabics, one phone line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Modern Standard Arabic, the formal Arabic used in news bulletins, textbooks and official letters, is not how anyone actually talks on the phone. What your customers speak is Omani Arabic: a spoken dialect with its own words, its own rhythm and its own shortcuts, and it shifts a little from Muscat to the interior to Dhofar. Add code switching, jumping between Arabic and English inside the same sentence, and you have the everyday sound of a real customer call."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This gap is not a small accent difference. A system trained only on formal Arabic can miss ordinary dialect words entirely, misread a fast sentence as noise, or freeze the moment a caller drops in an English word for a product name or a time. During khareef, when Dhofar's phone lines fill with visitors mixing Gulf Arabic, English and everything between, that gap gets tested on nearly every call."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-the-models-stumble",
+      "text": "Why the models stumble"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most Arabic language AI, including the voice systems already sitting behind many phone menus, learned its Arabic from whatever text and audio was easiest to gather and label at scale: news broadcasts, religious texts, government documents, formal writing. That pile barely contains spoken dialect, and it almost never contains a caller switching languages mid sentence."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The Arabic your customers speak on the phone was almost never in the data any language model learned from."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The result shows up as small, expensive failures. A system asks the caller to repeat something they already said clearly. It hears an English word inside an Arabic sentence and stalls. It cannot keep pace with a fast, casual sentence the way it follows a slow, formal one. Every one of those moments either forces a transfer to a human agent or leaves the caller repeating themselves, and both cost time your desk is already short on. For the deeper mechanics of how speech turns into text and back into a voice, "
+        },
+        {
+          "text": "that groundwork is covered elsewhere.",
+          "href": "/blog/how-machine-understands-omani-arabic/"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "building-for-the-dialect",
+      "text": "What building for the dialect actually takes"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Getting this right is not a setting you switch on. It takes real recorded calls, not scripted studio readings, labelled by people who actually speak the dialect, including its regional variants and its code switch points. It takes a feedback loop: logging every call the system misunderstood and correcting it against exactly that failure, again and again, because slang and word choice shift by generation and by region."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman is making its own attempt at this from the government side. Maeen, "
+        },
+        {
+          "text": "announced at COMEX 2025",
+          "href": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-launches-three-national-initiatives-at-the-artificial-intelligence-and-quantum-computing-forum-462"
+        },
+        {
+          "text": ", is described as the country's first advanced national language model, built on local data with the explicit aim of reflecting Omani language and culture rather than generic Arabic. It launched for government use first, and the project is still early, but the announcement itself is a useful signal: officials are saying openly that generic Arabic AI does not fully serve how people here actually talk."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A handful of voice systems built specifically for phone lines take the same approach for customer calls: trained on dialect recordings, tested against real code switching, and measured on how often a caller has to repeat themselves. "
+        },
+        {
+          "text": "CustomerCare.OM's Omani Arabic customer care service",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": " is one example built this way, for businesses that already staff a phone line and want fewer of those transfers, not a shop deciding whether to answer the phone at all."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "A composite worked example. Swap in your own call volume and staff cost to see what dialect misunderstanding is quietly costing your desk.",
+      "headers": [
+        "Item",
+        "Example number",
+        "Your business"
+      ],
+      "rows": [
+        [
+          "Calls answered per day",
+          "300",
+          "___"
+        ],
+        [
+          "Share that trip up a generic system (dialect words, code switching, fast speech)",
+          "1 in 5 (60 calls)",
+          "___"
+        ],
+        [
+          "Extra minutes per bounced call (repeat, transfer, re-explain)",
+          "3 minutes",
+          "___"
+        ],
+        [
+          "Loaded cost of a minute of agent time",
+          "OMR 0.100",
+          "___"
+        ],
+        [
+          "Extra cost per day",
+          "OMR 18.000",
+          "___"
+        ],
+        [
+          "Extra cost per month (26 working days)",
+          "OMR 468.000",
+          "___"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Half our transfers are just the system asking someone to repeat what they already said clearly.",
+      "attribution": "Aisha, call desk coordinator, Muscat polyclinic",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need to understand language models to check this. Pull five real calls from yesterday and count how many times a caller had to repeat something, switched to English out of frustration, or got bounced to a human because the system stalled. That number is your dialect gap, and it is usually bigger than owners expect."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are evaluating any AI system for your phone line, ask for a live demo using your own recorded calls, in the dialect and mix of languages your customers actually use, not a polished script in formal Arabic. A vendor that cannot handle that test on the spot will not handle it on a real Tuesday afternoon either."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Getting Omani Arabic right is not a nice extra for a phone line, it is the difference between a call that ends and one that escalates."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two minute check",
+      "paragraphs": [
+        "Pull five calls from yesterday's log.",
+        "Count every time someone had to repeat themselves or switch languages mid call.",
+        "Ask your current phone system or IVR provider whether it was ever tested on dialect calls, not just formal Arabic.",
+        "If the answer is vague, treat that as your answer."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is Modern Standard Arabic useless for customer service then?",
+          "a": "No. It still works well for written replies, emails and formal documents. The gap is specifically in spoken, real time calls, where customers do not talk that way."
+        },
+        {
+          "q": "What is Maeen exactly?",
+          "a": "Oman's own national Arabic language model project, announced in September 2025 and aimed first at government services, built to reflect local language and culture rather than generic Arabic."
+        },
+        {
+          "q": "Does a system need to catch every local word to be useful?",
+          "a": "No. It needs to handle the common patterns of dialect and code switching confidently enough that most calls finish without needing a human rescue."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Omani Arabic on the phone is faster, more mixed and more local than the Arabic most AI ever studied, and that gap shows up as real minutes lost on your desk. It is fixable: test any system on your own real calls, ask hard questions of any vendor, and watch a national project like Maeen mature. None of that requires you to understand a single line of code."
+        }
+      ]
+    }
+  ]
+}

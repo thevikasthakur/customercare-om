@@ -1,0 +1,292 @@
+{
+  "id": "article-2026-08-26-customer-list-regulated",
+  "taskId": "2026-08-26-customer-list-regulated",
+  "slug": "five-rules-for-your-customer-list",
+  "title": "Five Rules for the Customer List You Already Have",
+  "seoTitle": "Five Rules for the Customer List You Already Have",
+  "excerpt": "Your booking spreadsheet, shared inbox and CRM are all covered by Oman's data protection law now that the grace period has ended. Five plain obligations, and a two minute check.",
+  "seoDescription": "Oman's data protection law now fully applies to your customer list. Five plain obligations, OMR fine ranges, and a two minute self-check.",
+  "series": "Your Data, Your Rights",
+  "category": "Privacy & Consumer Rights",
+  "topic": "Your Customer List Is Regulated Now. The Simple Version",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-26",
+  "modifiedDate": "2026-08-26",
+  "reviewedDate": "2026-08-26",
+  "reviewBy": "2026-11-24",
+  "status": "published",
+  "tags": [
+    "personal data protection law",
+    "customer data",
+    "consumer privacy",
+    "MTCIT compliance",
+    "data consent",
+    "customer list audit"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#0d1f16\"/>\n<stop offset=\"50%\" stop-color=\"#1e4634\"/>\n<stop offset=\"100%\" stop-color=\"#8fd3a8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g transform=\"translate(258,150) rotate(-8)\">\n<rect x=\"-70\" y=\"-95\" width=\"140\" height=\"180\" rx=\"6\" fill=\"#e8c07c\"/>\n<rect x=\"-50\" y=\"-70\" width=\"100\" height=\"8\" fill=\"#f4f4f0\"/>\n<rect x=\"-50\" y=\"-48\" width=\"100\" height=\"8\" fill=\"#f4f4f0\"/>\n<rect x=\"-50\" y=\"-26\" width=\"100\" height=\"8\" fill=\"#f4f4f0\"/>\n<rect x=\"-50\" y=\"-4\" width=\"100\" height=\"8\" fill=\"#f4f4f0\"/>\n<rect x=\"-50\" y=\"18\" width=\"70\" height=\"8\" fill=\"#f4f4f0\"/>\n</g>\n<g transform=\"translate(302,176)\">\n<path d=\"M -22 -10 a22 22 0 0 1 44 0 v14 h-10 v-14 a12 12 0 0 0 -24 0 v14 h-10 z\" fill=\"#79e0c8\"/>\n<rect x=\"-30\" y=\"4\" width=\"60\" height=\"46\" rx=\"8\" fill=\"#79e0c8\"/>\n<circle cx=\"0\" cy=\"24\" r=\"6\" fill=\"#0d1f16\"/>\n<rect x=\"-3\" y=\"24\" width=\"6\" height=\"14\" fill=\"#0d1f16\"/>\n</g>\n<text x=\"18\" y=\"60\" font-family=\"Arial, sans-serif\" font-size=\"36\" font-weight=\"bold\" fill=\"#d4ff4f\">5 RULES</text>\n<text x=\"18\" y=\"84\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">for the list you already have</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-pdp",
+      "label": "MTCIT: Personal Data Protection",
+      "url": "https://mtcit.gov.om/sectors/governance/personal",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-law",
+      "label": "MTCIT: Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-news",
+      "label": "MTCIT news: enforcement phase update",
+      "url": "https://prod.mtcit.gov.om/ITAPortal/MediaCenter/NewsDetail.aspx?NID=91274",
+      "kind": "oman-official"
+    },
+    {
+      "id": "decree-penalties",
+      "label": "Decree Blog: penalties under the Personal Data Protection Law",
+      "url": "https://blog.decree.om/2026/the-cost-of-a-breach-understanding-penalties-under-the-new-personal-data-protection-law",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Somewhere in your business right now sits a list: booking names and phone numbers in a spreadsheet, guest notes in a shared inbox, medical history or vehicle details in a CRM nobody has opened in months. Since 5 February 2026, that list has stopped being just useful. It is regulated, and the grace period that let a messy version slide has ended."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-counts-as-your-customer-list",
+      "text": "What counts as your customer list"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's data protection law does not only cover fancy databases. It covers any name, phone number, email, national ID, health note, vehicle registration or call recording your business collects, stores or uses to serve customers. If you run an operator desk, a front office or a service line, you almost certainly hold this kind of information today, whether it lives in a proper CRM, a shared inbox, or a paper diary behind the counter. The law calls what you do with that information "
+        },
+        {
+          "text": "processing",
+          "emphasis": true
+        },
+        {
+          "text": ", and processing is now something the Ministry can ask you to explain."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-grace-period-is-over",
+      "text": "The grace period is over"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Personal Data Protection Law has applied since February 2023, but the Ministry of Transport, Communications and Information Technology gave businesses time to get ready. That adjustment window closed on 5 February 2026. Since then the Ministry actively supervises compliance, takes complaints from customers, and can issue fines. For a hotel, a clinic group or a dealership that has been quietly collecting customer details for years, this is not a future compliance project. It is live exposure, starting with the list you already have."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The list nobody in your business has opened in months is exactly the list a regulator can now ask to see."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "five-plain-obligations",
+      "text": "Five plain obligations"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Strip away the legal language and the law asks for five things from any business holding a customer list. Check your own operation against each one."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Ask before you collect.",
+            "strong": true
+          },
+          {
+            "text": " Get clear consent before you take someone's phone number or email, and get it in writing if you plan to use it for marketing texts or calls later."
+          }
+        ],
+        [
+          {
+            "text": "Say why you're keeping it.",
+            "strong": true
+          },
+          {
+            "text": " Tell the customer, even in one line on a form or a message, what you'll use their information for. A booking confirmation is a different purpose from a promotional blast."
+          }
+        ],
+        [
+          {
+            "text": "Guard it like cash.",
+            "strong": true
+          },
+          {
+            "text": " Limit who in your team can open the list, and if it's ever breached, you have 72 hours to tell the Ministry and the customers affected."
+          }
+        ],
+        [
+          {
+            "text": "Only use it for what you said.",
+            "strong": true
+          },
+          {
+            "text": " A phone number collected for an appointment reminder is not automatically fair game for a campaign six months later."
+          }
+        ],
+        [
+          {
+            "text": "Let them see it, fix it, or delete it.",
+            "strong": true
+          },
+          {
+            "text": " Customers can ask what you hold on them, ask you to correct it, or ask you to delete it, and someone in your business needs to own that request when it lands."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-gap-could-cost",
+      "text": "What a gap could cost"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is what those obligations look like once they turn into fines, based on the ranges published under the law. Match your own list against each row before you assume the size of your business keeps you off the Ministry's radar."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Gap in your customer list",
+        "What it breaks",
+        "Fine range (OMR)"
+      ],
+      "rows": [
+        [
+          "Phone numbers collected for bookings, later used for marketing texts with no separate consent",
+          "Using data beyond what the customer agreed to",
+          "1,000 to 5,000 per offence"
+        ],
+        [
+          "Health notes, ID copies or biometric details stored with no extra permit",
+          "Handling sensitive data without authorisation",
+          "15,000 to 20,000 per offence"
+        ],
+        [
+          "Guest or patient list backed up to a server outside Oman with nobody checking",
+          "An unauthorised cross border transfer",
+          "100,000 to 500,000"
+        ],
+        [
+          "No record of who consented to what, or when",
+          "Missing basic documentation",
+          "500 to 2,000"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Our booking sheet had every patient's number and no record of consent. That gap alone could have cost us thousands.",
+      "attribution": "Yaqoub, operations manager, Seeb polyclinic",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start by finding your own list, wherever it actually lives, and walk through the five obligations against it this week, not next quarter."
+        },
+        {
+          "text": " If a customer asks what you hold on them, you should already have a plain answer ready, the kind covered in "
+        },
+        {
+          "text": "What Can You Ask a Business About Your Data",
+          "href": "/blog/what-can-you-ask-for-your-data/"
+        },
+        {
+          "text": "."
+        },
+        {
+          "text": " If part of the gap is that nobody logs consent from every call or keeps that data outside Oman, an "
+        },
+        {
+          "text": "enterprise setup",
+          "href": "/enterprise/"
+        },
+        {
+          "text": " built for Oman, such as CustomerCare.OM's, keeps that call data and its consent trail inside the country automatically."
+        },
+        {
+          "text": " Either way, the fix is a habit, not a one time form: review the list, its purpose and its home, every few months."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "key",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "List where your customer data actually lives: CRM, shared inbox, spreadsheet, front desk diary.",
+        "For each place, ask: did we get consent, do we know why we're keeping it, is it secured, and could a customer ask us to delete it today.",
+        "If you can't answer two of those four instantly, that is this week's fix, not next quarter's."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does this apply to a small hotel or a single-branch clinic, not just big companies?",
+          "a": "Yes. The law covers any business that collects personal data, regardless of size. What differs is the risk: a business with an operator desk handling hundreds of calls a week has more data, so more exposure if the list is a mess."
+        },
+        {
+          "q": "Do we need to hire a dedicated data protection officer?",
+          "a": "The law expects someone in the business to be accountable for data protection decisions. For a smaller operation this can be an existing manager who takes on the role, not necessarily a new hire."
+        },
+        {
+          "q": "What counts as a breach we have to report?",
+          "a": "Any loss, theft or unauthorised access to personal data that could put customers at risk, reported to the Ministry within 72 hours of your business becoming aware of it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Your customer list was never just a business asset. Since February 2026 it is also a record the Ministry can ask to see. Five habits, consent, purpose, security, limited use and customer access, turn that list from a liability into something you can defend on paper, this week rather than after a complaint arrives."
+        }
+      ]
+    }
+  ]
+}

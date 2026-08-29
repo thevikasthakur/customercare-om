@@ -1,0 +1,372 @@
+{
+  "id": "article-2026-08-29-ov-back-to-school-2026",
+  "taskId": "2026-08-29-ov-back-to-school-2026",
+  "slug": "school-term-start-two-weeks",
+  "title": "The Two Weeks That Decide Your School's Whole Term",
+  "seoTitle": "The Two Weeks That Decide Your School's Whole Term",
+  "excerpt": "Staff are back at their desks, students arrive next week, and the front office phone won't stop for a fortnight. Here's what that costs, and what actually cuts the queue.",
+  "seoDescription": "School staff return 30 August and students on 6 September. See what the two weeks after term start cost a school's front office phone line, and the fix.",
+  "series": "Season Ready",
+  "category": "Oman Seasons & Peaks",
+  "topic": "The School Year Starts. So Does the Enquiry Storm",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-08-29",
+  "modifiedDate": "2026-08-29",
+  "reviewedDate": "2026-08-29",
+  "reviewBy": "2026-11-27",
+  "status": "published",
+  "tags": [
+    "back to school",
+    "school front office",
+    "term start",
+    "school transport",
+    "tuition centres",
+    "call handling",
+    "Oman education",
+    "front office coverage"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><radialGradient id=\"g\" cx=\"50%\" cy=\"42%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#ffd166\"/><stop offset=\"45%\" stop-color=\"#6b4d12\"/><stop offset=\"100%\" stop-color=\"#1c1408\"/></radialGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#g)\"/><rect x=\"70\" y=\"128\" width=\"180\" height=\"55\" rx=\"8\" fill=\"#e8c07c\"/><rect x=\"70\" y=\"128\" width=\"180\" height=\"20\" rx=\"6\" fill=\"#f4f4f0\" opacity=\"0.25\"/><rect x=\"90\" y=\"138\" width=\"24\" height=\"18\" rx=\"2\" fill=\"#1c1408\"/><rect x=\"122\" y=\"138\" width=\"24\" height=\"18\" rx=\"2\" fill=\"#1c1408\"/><rect x=\"154\" y=\"138\" width=\"24\" height=\"18\" rx=\"2\" fill=\"#1c1408\"/><rect x=\"186\" y=\"138\" width=\"24\" height=\"18\" rx=\"2\" fill=\"#1c1408\"/><circle cx=\"100\" cy=\"185\" r=\"12\" fill=\"#1c1408\"/><circle cx=\"220\" cy=\"185\" r=\"12\" fill=\"#1c1408\"/><circle cx=\"100\" cy=\"185\" r=\"5\" fill=\"#79e0c8\"/><circle cx=\"220\" cy=\"185\" r=\"5\" fill=\"#79e0c8\"/><rect x=\"290\" y=\"40\" width=\"26\" height=\"44\" rx=\"6\" fill=\"#f4f4f0\"/><rect x=\"296\" y=\"48\" width=\"14\" height=\"24\" fill=\"#1c1408\"/><path d=\"M280 35 Q270 25 275 12\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M326 35 Q336 25 331 12\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"24\" width=\"150\" height=\"46\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.6\"/><text x=\"24\" y=\"58\" font-family=\"Arial, sans-serif\" font-size=\"32\" font-weight=\"bold\" fill=\"#d4ff4f\">14 DAYS</text><rect x=\"14\" y=\"78\" width=\"240\" height=\"24\" rx=\"4\" fill=\"#1c1408\" opacity=\"0.55\"/><text x=\"22\" y=\"95\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#f4f4f0\">the school phone won't stop</text></svg>",
+  "sources": [
+    {
+      "id": "moe-portal",
+      "label": "Ministry of Education, Sultanate of Oman",
+      "url": "https://home.moe.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mdares-calendar",
+      "label": "Mdares AI: Oman academic calendar 2026-2027",
+      "url": "https://mdares.ai/om-en/calendar",
+      "kind": "vendor"
+    },
+    {
+      "id": "alghad-calendar",
+      "label": "Al Ghad: Ministry of Education announces 2026/2027 academic calendar",
+      "url": "https://alghad.com/Section-199/%D8%A7%D9%84%D8%BA%D8%AF-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9-%D8%AA%D8%B9%D9%84%D9%86-%D8%AA%D9%82%D9%88%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A-2026-2027-2085162",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Staff at private schools across Oman return to their desks this Sunday, 30 August 2026, with students following on 6 September. For the two weeks after that, a school's front office phone rings harder than at any other point in the year, and almost none of it is about admissions."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-storm-nobody-registers-for",
+      "text": "The storm nobody registers for"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Parents don't call in the last week of August to ask about admission. They call in the two weeks after, once the timetable lands in their hands and the bus doesn't show up where they expected it. A front office that puts extra hands on enrolment week, then relaxes, is bracing for the wrong week."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The same pattern hits college admissions desks, tuition centres opening a new intake, and the transport companies contracted to run school buses. All of them staff for a quiet desk, then get a fortnight that behaves like a call centre."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-same-five-questions",
+      "text": "Why the same five questions swamp the desk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Anyone who has lived through a few term starts will tell you the questions repeat almost word for word. That's not because the questions are trivial. It's because nobody has written the answers down where a parent can find them without dialling in."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Which bus picks up my child, and at what time, now that routes have changed?"
+          }
+        ],
+        [
+          {
+            "text": "Has my child's fee payment gone through, and what happens if it hasn't?"
+          }
+        ],
+        [
+          {
+            "text": "Why hasn't my child been placed in the class I was told about over the summer?"
+          }
+        ],
+        [
+          {
+            "text": "The uniform or book list changed. Where do I collect the new one?"
+          }
+        ],
+        [
+          {
+            "text": "My child needs a medical or allergy form signed before Sunday. Who signs it?"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A missed call in the first week of term isn't a lost sale. It's a parent who now assumes nobody is watching their child's day."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-two-weeks-costs-a-front-office",
+      "text": "What two weeks actually costs a front office"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take a composite private school in Muscat with 900 students and a three-person front office team. Its numbers during a quiet week in July look nothing like its numbers in the two weeks after term starts."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "A composite school front office, quiet week versus term start",
+      "headers": [
+        "Measure",
+        "Quiet week in July",
+        "First two weeks of term"
+      ],
+      "rows": [
+        [
+          "Calls reaching the front office each day",
+          "35 to 40",
+          "180 to 220"
+        ],
+        [
+          "Calls answered within three rings",
+          "About 9 in 10",
+          "Fewer than half"
+        ],
+        [
+          "Calls that turn into a callback or a walk-in",
+          "4 to 5 a day",
+          "60 or more a day"
+        ],
+        [
+          "Staff hours spent on repeat questions (buses, fees, uniforms)",
+          "About 1 hour",
+          "5 to 6 hours"
+        ],
+        [
+          "Cost of two temporary staff, 6 hours a day for 10 working days at OMR 6 an hour",
+          "not needed",
+          "OMR 720"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Run your own numbers the same way: count today's calls for one hour, multiply for a working day, then check what you actually paid last September to cope. Most offices have never done that sum. It's the one that decides whether two temporary staff for a fortnight beats the alternative."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "tuition-centres-and-buses-feel-it-too",
+      "text": "Tuition centres and buses feel it too"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Tuition centres opening a new term face the identical crunch: parents confirming schedules, asking about make-up sessions, or negotiating fee instalments before the first class. Transport operators running school contracts often have it worse, because a bus route question can't wait for a callback. A parent standing at a gate with no bus in sight calls again in two minutes, then tries a second number, then messages the school group."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Every ring in that first week is a parent who's already worried. We can't let it go to nothing.",
+      "attribution": "Ruqaya, front office coordinator, private school, Seeb",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-finally-cuts-the-missed-calls",
+      "text": "What finally cuts the missed calls"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix isn't hiring a bigger front office for two weeks and disbanding it after. Most of the volume is the same five questions asked hundreds of times, which means most of it can be answered before a parent ever needs to call."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Publish the bus route and pickup time changes on the school's WhatsApp broadcast the same day they're confirmed, not the day school reopens."
+          }
+        ],
+        [
+          {
+            "text": "Print the five recurring questions and their answers on one sheet at reception and post the same sheet to parent groups."
+          }
+        ],
+        [
+          {
+            "text": "Give the transport operator its own number, separate from the school's main line, so a bus question never queues behind a fee question."
+          }
+        ],
+        [
+          {
+            "text": "Cover the hours parents actually call: evenings after work and the half hour before the first bell, not just office hours."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some schools and transport operators now keep that evening window covered with "
+        },
+        {
+          "text": "an AI customer service line",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": " such as CustomerCare.OM, which understands a parent switching between English and Omani Arabic mid sentence, logs the bus or fee question, and leaves the front office a note instead of a missed call."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That only works once the five recurring questions are already answered somewhere, which is why the list above comes first."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The two weeks decide whether parents trust the front office for the rest of the term, not whether the desk survives them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Whether you run a school office, a tuition centre or a transport desk, act now, not after the first missed-call complaint reaches a parent WhatsApp group."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Pull last September's call numbers if you kept them, or start counting this week if you didn't."
+          }
+        ],
+        [
+          {
+            "text": "Write down the five questions your desk answered most in the first two weeks last year."
+          }
+        ],
+        [
+          {
+            "text": "Put those answers where parents see them before they dial: a pinned WhatsApp message, a printed sheet, a recorded line."
+          }
+        ],
+        [
+          {
+            "text": "Decide now who answers a bus question after 6pm, because that's when most parents are actually free to call."
+          }
+        ],
+        [
+          {
+            "text": "Review the numbers again in mid-September and keep whatever cut the queue, drop what didn't."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The arithmetic behind an unanswered call works the same for any desk, not only a school's, and "
+        },
+        {
+          "text": "what a missed call really costs an operator desk",
+          "href": "/blog/missed-call-cost-operator-desk/"
+        },
+        {
+          "text": " is worth the five minutes it takes to read."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Before Sunday, ask your team three questions: What were the five things parents asked us most in the first two weeks last year? Where would a parent find those answers without calling us? Who is answering the phone after 6pm during the two weeks after term starts?",
+        "If any answer is 'nobody knows', that's this week's fix, not a problem to leave sitting until the queue builds again."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Why do calls spike after term starts, not during registration?",
+          "a": "Because the real questions, bus timing, class placement, fee confirmation, only surface once school actually opens and something doesn't match what a parent expected over the summer."
+        },
+        {
+          "q": "Do college admissions offices see the same pattern?",
+          "a": "Yes, though theirs often peaks around results and enrolment deadlines rather than the first bell, with many of the same questions about fees and schedules."
+        },
+        {
+          "q": "Is hiring temporary staff for two weeks worth it?",
+          "a": "Only if they're answering questions that couldn't be answered another way first. Publishing the recurring answers usually cuts the call volume before you need to decide."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Term start is not one bad Monday. It's a two-week test of whether your front office, tuition centre or transport desk can be reached when a parent is worried. Answer the five questions before they're asked, cover the hours parents actually call, and the fortnight that usually breaks a desk becomes just another two weeks of term."
+        }
+      ]
+    }
+  ]
+}

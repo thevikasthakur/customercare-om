@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ShieldCheck } from "lucide-react";
+import { ArrowUpRight, ShieldCheck } from "lucide-react";
 import { footerNav, site } from "@/data/site";
 import Wordmark from "@/components/Wordmark";
 
@@ -34,7 +34,16 @@ export default function Footer() {
                 6/2022, in force 2023). Zero customer data ever leaves Oman.
               </p>
             </div>
-            <p className="mt-5 text-xs text-muted-foreground">{site.address}</p>
+            <p className="mt-5 max-w-xs text-xs leading-relaxed text-muted-foreground">
+              New office from {site.office.availableFromLabel}: {site.office.address}
+            </p>
+            <a
+              href={site.sister.url}
+              className="mt-5 inline-flex items-center gap-1.5 text-xs text-muted-foreground transition-colors hover:text-lime"
+            >
+              Need chat only? Visit {site.sister.domain}
+              <ArrowUpRight className="h-3.5 w-3.5" aria-hidden />
+            </a>
           </div>
           {footerNav.map((col) => (
             <div key={col.title} className={col.wide ? "col-span-2" : undefined}>

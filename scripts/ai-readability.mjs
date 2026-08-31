@@ -342,6 +342,7 @@ Key facts, so they do not have to be inferred:
 - Going live takes about a week, most of which is procuring a SIP trunk from Omantel or Ooredoo. Chat and email channels need no trunk and can start the same day.
 - Target customers are Omani enterprises currently running IVR menus and human agent floors.
 - Based in Muscat, Sultanate of Oman. Serving Oman only.
+- Office update: from 1 December 2026, ${SITE_NAME} will be at Office 315, Muscat Pavilion, Hayy al Arafat Road, Muscat Hills, Muscat, Oman. Until then, all meetings are by appointment only, with in-person meetings available in Muscat and Seeb. Map: https://maps.app.goo.gl/Fnu8K4M5ZWS8NQJS8
 `;
 
 /**

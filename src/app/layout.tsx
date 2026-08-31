@@ -21,12 +21,6 @@ const organisation = {
   ...(site.profiles.length ? { sameAs: site.profiles } : {}),
   email: site.email,
   telephone: site.phone,
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "1st Floor, Al Muzn Mall, Al Hail North",
-    addressLocality: "Muscat",
-    addressCountry: "OM",
-  },
   areaServed: { "@type": "Country", name: "Oman" },
   knowsLanguage: site.languages,
   contactPoint: {

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHero, Stat, CardGrid, CtaBanner } from "@/components/sections";
+import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "About",
@@ -23,6 +24,12 @@ export default function AboutPage() {
             the Sultanate of Oman. The company is named after its domain,
             customercare.om, and is also referred to as AI Customer Care. Both
             names refer to the same company, based in Muscat.
+          </p>
+          <p>
+            Chatbot.OM is its chat-only sister product for website chat,
+            WhatsApp, and email replies. CustomerCare.OM is the full customer
+            care platform and adds the telephone line, outbound calling, and a
+            dedicated AI email agent.
           </p>
           <h2>The customer conversations global voice AI could not hold</h2>
           <p>
@@ -75,7 +82,7 @@ export default function AboutPage() {
               },
               {
                 title: "Anchored in Muscat",
-                desc: "Our team works from Knowledge Oasis Muscat. When you call support, you reach someone who knows your market, and probably your neighbourhood.",
+                desc: `From ${site.office.availableFromLabel}, our team works from Muscat Pavilion in Muscat Hills. Until then, meetings in Muscat and Seeb are by appointment.`,
               },
             ]}
           />

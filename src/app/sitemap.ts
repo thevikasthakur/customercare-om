@@ -37,7 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/comparison/", priority: 0.7 },
     { path: "/blog/", priority: 0.8, changeFrequency: "daily" },
     { path: "/book-a-demo/", priority: 0.8 },
-    { path: "/contact/", priority: 0.6 },
+    { path: "/contact/", priority: 0.8 },
     { path: "/about/", priority: 0.6 },
     ...industries.map((i) => ({ path: `/industries/${i.slug}/`, priority: 0.7 })),
     ...features.map((f) => ({ path: `/features/${f.slug}/`, priority: 0.6 })),

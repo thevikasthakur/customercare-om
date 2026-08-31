@@ -41,7 +41,20 @@ export const site = {
   profiles: [] as string[],
   email: "contact@customercare.om",
   phone: "+968 9730 2812",
-  address: "1st Floor, Al Muzn Mall, Al Hail North, Muscat, Sultanate of Oman",
+  office: {
+    address:
+      "Office 315, Muscat Pavilion, Hayy al Arafat Road, Muscat Hills, Muscat, Oman",
+    availableFrom: "2026-12-01",
+    availableFromLabel: "1 December 2026",
+    mapsUrl: "https://maps.app.goo.gl/Fnu8K4M5ZWS8NQJS8",
+    interimMeetingAreas: ["Muscat", "Seeb"],
+  },
+  sister: {
+    name: "Chatbot.OM",
+    domain: "chatbot.om",
+    url: "https://chatbot.om",
+    scope: "chat-only customer service across website chat, WhatsApp, and email replies",
+  },
 };
 
 export type NavChild = { label: string; desc?: string; href: string };

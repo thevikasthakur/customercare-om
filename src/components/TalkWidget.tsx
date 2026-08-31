@@ -1,20 +1,89 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Mic } from "lucide-react";
+import { Mic, Square } from "lucide-react";
+import {
+  getVoiceAgentConfig,
+  VoiceAgentSession,
+  type VoiceCallStatus,
+} from "@/lib/voice-agent";
+
+const voiceConfig = getVoiceAgentConfig();
+
+const STATUS_LABEL: Record<VoiceCallStatus, string> = {
+  idle: "Talk to CustomerCare.OM",
+  connecting: "Connecting you to our agent…",
+  live: "Live — tap the mic to end",
+  ended: "Call ended — tap to talk again",
+  error: "Couldn't connect — tap to retry",
+};
 
 /**
  * Interactive hero widget: a square stage filled with a dot field that
  * reacts to the pointer, a slowly rotating blurred ring, and a circular
  * "Talk to CustomerCare.OM" mic button with springy hover/press states.
  * Canvas rendering is DPR-aware and respects prefers-reduced-motion.
+ *
+ * When the NEXT_PUBLIC_VOX_* env vars are set at build time, tapping the
+ * mic opens a live WebRTC voice session with the predefined agent (see
+ * src/lib/voice-agent.ts). Unconfigured builds keep the original
+ * behaviour: the mic routes to /book-a-demo/.
  */
 export default function TalkWidget() {
   const stageRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [hovering, setHovering] = useState(false);
+  const [status, setStatus] = useState<VoiceCallStatus>("idle");
+  const [statusDetail, setStatusDetail] = useState<string | null>(null);
+  const [caption, setCaption] = useState("");
+  const sessionRef = useRef<VoiceAgentSession | null>(null);
   const router = useRouter();
+
+  const endSession = useCallback(() => {
+    sessionRef.current?.stop();
+    sessionRef.current = null;
+  }, []);
+
+  // Stop the call when the page is backgrounded/closed or the hero unmounts.
+  useEffect(() => {
+    if (!voiceConfig) return;
+    const onPageHide = () => endSession();
+    window.addEventListener("pagehide", onPageHide);
+    return () => {
+      window.removeEventListener("pagehide", onPageHide);
+      endSession();
+    };
+  }, [endSession]);
+
+  const handleMicClick = useCallback(() => {
+    if (!voiceConfig) {
+      router.push("/book-a-demo/");
+      return;
+    }
+    if (status === "connecting" || status === "live") {
+      endSession();
+      return;
+    }
+    setCaption("");
+    setStatusDetail(null);
+    const session = new VoiceAgentSession(voiceConfig, {
+      onStatus: (next, detail) => {
+        setStatus(next);
+        setStatusDetail(detail ?? null);
+        if (next === "ended" || next === "error") {
+          sessionRef.current = null;
+        }
+      },
+      onTranscript: (role, text) => {
+        if (role === "assistant" && text) setCaption(text);
+      },
+    });
+    sessionRef.current = session;
+    void session.start();
+  }, [status, endSession, router]);
+
+  const inCall = status === "connecting" || status === "live";
 
   useEffect(() => {
     const stage = stageRef.current;
@@ -142,32 +211,61 @@ export default function TalkWidget() {
         <div className="relative grid h-[33%] w-[33%] place-items-center">
           <div
             className={`talk-ring absolute left-1/2 top-1/2 rounded-full ${
-              hovering ? "talk-ring-hot" : ""
+              hovering || inCall ? "talk-ring-hot" : ""
             }`}
             aria-hidden
           />
           <button
             type="button"
-            aria-label="Talk to CustomerCare.OM, try a live call demo"
-            onClick={() => router.push("/book-a-demo/")}
+            aria-label={
+              status === "live"
+                ? "End the live call with CustomerCare.OM"
+                : "Talk to CustomerCare.OM, try a live call demo"
+            }
+            aria-pressed={inCall}
+            onClick={handleMicClick}
             onPointerEnter={() => setHovering(true)}
             onPointerLeave={() => setHovering(false)}
             className="talk-btn relative z-10 grid h-full w-full place-items-center rounded-full"
           >
             <span className="talk-btn-inner absolute rounded-full" aria-hidden />
-            <Mic
-              className="relative z-10 h-[26%] w-[26%] text-neutral-800 drop-shadow-[0_2px_5px_rgba(0,0,0,0.25)]"
-              strokeWidth={2.2}
-              aria-hidden
-            />
+            {status === "live" ? (
+              <Square
+                className="relative z-10 h-[22%] w-[22%] text-neutral-800 drop-shadow-[0_2px_5px_rgba(0,0,0,0.25)]"
+                strokeWidth={2.2}
+                fill="currentColor"
+                aria-hidden
+              />
+            ) : (
+              <Mic
+                className={`relative z-10 h-[26%] w-[26%] text-neutral-800 drop-shadow-[0_2px_5px_rgba(0,0,0,0.25)] ${
+                  status === "connecting" ? "animate-pulse" : ""
+                }`}
+                strokeWidth={2.2}
+                aria-hidden
+              />
+            )}
           </button>
         </div>
         <span className="talk-label z-10 inline-flex items-center gap-2.5 rounded-full border border-line-strong bg-ink-2/80 px-4.5 py-2 backdrop-blur-md">
-          <span className="talk-status-dot h-[7px] w-[7px] rounded-full bg-lime" aria-hidden />
-          <span className="font-mono text-[13px] tracking-[0.01em] text-foreground">
-            Talk to CustomerCare.OM
+          <span
+            className={`talk-status-dot h-[7px] w-[7px] rounded-full ${
+              status === "error" ? "bg-red-400" : "bg-lime"
+            }`}
+            aria-hidden
+          />
+          <span className="font-mono text-[13px] tracking-[0.01em] text-foreground" aria-live="polite">
+            {status === "error" && statusDetail ? statusDetail : STATUS_LABEL[status]}
           </span>
         </span>
+        {status === "live" && caption && (
+          <p
+            className="z-10 max-w-[80%] text-center text-sm leading-relaxed text-muted-foreground line-clamp-2"
+            aria-live="polite"
+          >
+            {caption}
+          </p>
+        )}
       </div>
     </div>
   );

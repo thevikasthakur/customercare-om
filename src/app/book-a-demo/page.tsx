@@ -50,13 +50,19 @@ export default function BookADemoPage() {
                 handle, and we will tailor the demo to it.
               </p>
             </div>
-            <div className="bg-ink-2 p-8 sm:col-span-2">
+            <a
+              href={site.office.mapsUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="bg-ink-2 p-8 transition-colors hover:bg-ink-3 sm:col-span-2"
+            >
               <MapPin className="h-5 w-5 text-lime" aria-hidden />
-              <h2 className="mt-4 text-base font-semibold">Or visit us</h2>
+              <h2 className="mt-4 text-base font-semibold">New office · from 1 Dec</h2>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                {site.address}
+                {site.office.address}. Until then, in-person meetings in Muscat
+                and Seeb are by appointment only.
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </section>

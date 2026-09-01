@@ -1,0 +1,263 @@
+{
+  "id": "article-2026-09-01-msa-vs-spoken-arabic",
+  "taskId": "2026-09-01-msa-vs-spoken-arabic",
+  "slug": "textbook-arabic-vs-phone-arabic",
+  "title": "The Arabic Your Customers Speak Isn't in the Textbook",
+  "seoTitle": "The Arabic Your Customers Speak Isn't in the Textbook",
+  "excerpt": "Your scripts are written in the Arabic taught in school. Your customers call in the Arabic they actually grew up speaking. That gap has a cost you can count.",
+  "seoDescription": "Modern Standard Arabic is what's taught in school. Spoken Gulf Arabic is what customers say on the phone, and the gap between them has a real cost.",
+  "series": "AI, Explained Simply",
+  "category": "AI & Technology",
+  "topic": "The Arabic in the Textbook Is Not the Arabic on the Phone",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-01",
+  "modifiedDate": "2026-09-01",
+  "reviewedDate": "2026-09-01",
+  "reviewBy": "2026-11-30",
+  "status": "published",
+  "tags": [
+    "Omani Arabic",
+    "Gulf Arabic",
+    "Modern Standard Arabic",
+    "call handling",
+    "customer service AI",
+    "phone line",
+    "AI explained simply"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\" font-family=\"Arial, sans-serif\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0\" stop-color=\"#062e2b\"/>\n<stop offset=\"0.5\" stop-color=\"#0f4c4c\"/>\n<stop offset=\"1\" stop-color=\"#79e0c8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g transform=\"translate(60,160)\">\n<rect x=\"-35\" y=\"-10\" width=\"70\" height=\"45\" rx=\"4\" fill=\"#0f4c4c\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n<line x1=\"0\" y1=\"-10\" x2=\"0\" y2=\"35\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n<line x1=\"-25\" y1=\"0\" x2=\"-8\" y2=\"0\" stroke=\"#79e0c8\" stroke-width=\"1.5\"/>\n<line x1=\"-25\" y1=\"10\" x2=\"-8\" y2=\"10\" stroke=\"#79e0c8\" stroke-width=\"1.5\"/>\n<line x1=\"-25\" y1=\"20\" x2=\"-8\" y2=\"20\" stroke=\"#79e0c8\" stroke-width=\"1.5\"/>\n<line x1=\"8\" y1=\"0\" x2=\"25\" y2=\"0\" stroke=\"#79e0c8\" stroke-width=\"1.5\"/>\n<line x1=\"8\" y1=\"10\" x2=\"25\" y2=\"10\" stroke=\"#79e0c8\" stroke-width=\"1.5\"/>\n<line x1=\"8\" y1=\"20\" x2=\"25\" y2=\"20\" stroke=\"#79e0c8\" stroke-width=\"1.5\"/>\n</g>\n<g transform=\"translate(300,115) rotate(-35)\">\n<rect x=\"-45\" y=\"-10\" width=\"90\" height=\"20\" rx=\"10\" fill=\"#e8c07c\"/>\n<circle cx=\"-45\" cy=\"0\" r=\"16\" fill=\"#e8c07c\"/>\n<circle cx=\"45\" cy=\"0\" r=\"16\" fill=\"#e8c07c\"/>\n</g>\n<path d=\"M340,85 Q356,100 340,115\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M352,75 Q374,100 352,125\" stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\"/>\n<text x=\"200\" y=\"45\" font-size=\"32\" font-weight=\"bold\" fill=\"#f4f4f0\" text-anchor=\"middle\">TWO ARABICS</text>\n<rect x=\"55\" y=\"55\" width=\"290\" height=\"24\" fill=\"#062e2b\" opacity=\"0.6\"/>\n<text x=\"200\" y=\"72\" font-size=\"14\" fill=\"#d4ff4f\" text-anchor=\"middle\">one for paper, one for the phone</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-comex-2025",
+      "label": "MTCIT: Oman Launches Three National Initiatives at the AI and Quantum Computing Forum (COMEX 2025)",
+      "url": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-launches-three-national-initiatives-at-the-artificial-intelligence-and-quantum-computing-forum-462",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Every phone script in Oman is written in the Arabic taught in school. Almost none of your callers actually speak that Arabic back to you. The gap between the two is where \"can you repeat that, please\" comes from, and it costs your call desk minutes every single day."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "two-arabics-one-phone-call",
+      "text": "Two Arabics, One Phone Call"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Arabic speakers grow up living in two registers at once. Modern Standard Arabic, often called fusha, is the written, formal version taught in every school in Oman: the Arabic of the news, official letters, and most training manuals. Nobody grows up speaking it at home."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Spoken Gulf Arabic, and the Omani flavour of it, is the other register: the Arabic of the house, the souq, the school run, and the phone call. It borrows freely from English, Swahili, Baluchi, and Hindi words that reached Oman through trade and migration, and it shortens and reorders words that formal Arabic keeps stiff. Your customers switch into it the moment the call connects, whether or not the person answering does the same."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "I want (a booking, a repair, a refund). Formal: ureed. What callers actually say: abi or waddi, said quickly and often trailing straight into the request."
+          }
+        ],
+        [
+          {
+            "text": "Right away. Formal: al-aan. What callers actually say: daheen or halgeen, which usually means \"before you finish this sentence.\""
+          }
+        ],
+        [
+          {
+            "text": "Do you have a room, slot, or part available? Formal: hal yujad. What callers actually say: a short \"ma3ak...?\", literally \"do you have with you\", dropped straight into the sentence."
+          }
+        ],
+        [
+          {
+            "text": "That's fine, thank you. Formal: shukran, hatha kaafin. What callers actually say: tayyib, mashkoor, a signal the call is closing and it is time to wrap up."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-your-call-desk-lives-in-the-second-one",
+      "text": "Why Your Call Desk Lives in the Second One"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most written Arabic that is easy to collect and train on comes from news sites, books, and official documents, all in Modern Standard Arabic. That is exactly why so many phone systems, IVR menus, and even some AI tools speak Arabic fluently on paper and still stumble on a real call. A caller asking about a hotel booking, an insurance claim, or a car service slot rarely talks like a newspaper."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's own push to build a language model for Omani speech, a project called "
+        },
+        {
+          "text": "Maeen",
+          "href": "https://mtcit.gov.om/media-4/news-announcements-11/news-85/oman-launches-three-national-initiatives-at-the-artificial-intelligence-and-quantum-computing-forum-462"
+        },
+        {
+          "text": ", announced at COMEX 2025, is a sign this gap is recognised at the national level, not just a frustration on your call desk. Building something that understands the phone, not just the page, is treated as a real problem worth solving."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Your customers were never taught to speak the Arabic your system was trained on."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-repeat-costs-your-call-desk",
+      "text": "What a Repeat Costs Your Call Desk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is a way to put a number on it, using a call desk handling 180 calls a day, a realistic size for a mid-sized hotel, a clinic group, or a dealership. Swap the middle column for your own figures and see what a small, repeated friction adds up to across a month."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "Example figure",
+        "Your business"
+      ],
+      "rows": [
+        [
+          "Calls the desk takes on an average day",
+          "180",
+          "Fill in your own figure"
+        ],
+        [
+          "Share of calls in spoken, not formal, Arabic (almost all everyday calls)",
+          "90%",
+          "Fill in your own figure"
+        ],
+        [
+          "Calls that stall because the caller has to repeat or rephrase",
+          "about 12% of those = 19 calls",
+          "Fill in your own figure"
+        ],
+        [
+          "Extra minutes per stalled call (repeat, escalate, or a hang-up and a second call)",
+          "2 minutes = 38 minutes/day",
+          "Fill in your own figure"
+        ],
+        [
+          "Loaded cost of one operator-desk minute (salary, line, supervision)",
+          "OMR 0.18",
+          "Fill in your own figure"
+        ],
+        [
+          "Extra cost per day",
+          "38 x OMR 0.18 = OMR 6.84",
+          "Fill in your own figure"
+        ],
+        [
+          "Extra cost per month (26 working days)",
+          "OMR 177.84",
+          "Fill in your own figure"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Guests don't ask for a room in fusha. They say 'ma3ak ghurfa lel-yawm,' and if you miss that, you lose the booking.",
+      "attribution": "Badr, front office manager, Salalah hotel",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What This Means for You"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Listen back to five real calls this week, not the script your team trained on. Count how many callers open in spoken Arabic, mix in English words for prices or brands, or use a phrase your training material never covered. That gap is exactly where a caller decides you understood them, or didn't."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are training staff, train them to answer the way a caller actually speaks, rather than pushing everyone toward stiff, formal Arabic that can feel distant on a phone call. If you are evaluating any Arabic AI tool for your phone line, including CustomerCare.OM's "
+        },
+        {
+          "text": "Omani Arabic AI Customer Care",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": ", the one question worth asking is whether it was built for the spoken conversation, not just formal text."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A caller who has to repeat the sentence has already decided you're not listening."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Pick three calls from today's log and play the first thirty seconds of each.",
+        "Note every place the caller used a word your script or your IVR menu doesn't have.",
+        "If it happens on more than one call in three, the gap is already costing you minutes you can count."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is Omani Arabic a separate language from Modern Standard Arabic?",
+          "a": "No. They come from the same language, but they diverge enough in daily speech that a system or script built only for the formal version misses much of an ordinary phone call."
+        },
+        {
+          "q": "Why do so many businesses still write call scripts in formal Arabic?",
+          "a": "Because that is the version taught in school and used in official writing, so it is the version people default to when they sit down to write something. Callers still speak the other one."
+        },
+        {
+          "q": "Can one phone system handle both registers?",
+          "a": "Yes, if it is built and trained on how people actually talk on the phone, not only on formal written text."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The Bottom Line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Modern Standard Arabic and spoken Gulf Arabic are not two accents of the same thing. They are two different jobs: one for the page, one for the phone. Your call desk lives entirely in the second job, so that is the Arabic worth testing, training for, and building your systems around."
+        }
+      ]
+    }
+  ]
+}

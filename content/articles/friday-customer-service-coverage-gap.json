@@ -1,0 +1,281 @@
+{
+  "id": "article-2026-09-03-friday-coverage-question",
+  "taskId": "2026-09-03-friday-coverage-question",
+  "slug": "friday-customer-service-coverage-gap",
+  "title": "Who Serves Your Customers on Friday?",
+  "seoTitle": "Who's Serving Your Customers on Friday?",
+  "excerpt": "Friday is Oman's day off and one of the busiest days customers spend deciding where to book, buy or visit. Here's what a skeleton crew actually costs, and the honest fix.",
+  "seoDescription": "Friday is Oman's rest day and peak browsing time. See the real OMR cost of a skeleton crew versus full staffing versus an overflow line, worked out.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "Who Serves Your Customers on Friday?",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-03",
+  "modifiedDate": "2026-09-03",
+  "reviewedDate": "2026-09-03",
+  "reviewBy": "2026-12-02",
+  "status": "published",
+  "tags": [
+    "Friday coverage",
+    "staff rota",
+    "overtime pay",
+    "customer service operations",
+    "khareef season",
+    "call coverage",
+    "Oman labour law"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#0a0b0f\"/><stop offset=\"55%\" stop-color=\"#1a1d24\"/><stop offset=\"100%\" stop-color=\"#d4ff4f\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"90\" cy=\"115\" r=\"54\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"4\" opacity=\"0.5\"/><circle cx=\"90\" cy=\"115\" r=\"6\" fill=\"#79e0c8\"/><line x1=\"90\" y1=\"115\" x2=\"90\" y2=\"72\" stroke=\"#f4f4f0\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"90\" y1=\"115\" x2=\"120\" y2=\"128\" stroke=\"#f4f4f0\" stroke-width=\"4\" stroke-linecap=\"round\"/><rect x=\"150\" y=\"60\" width=\"230\" height=\"46\" rx=\"6\" fill=\"#0a0b0f\" opacity=\"0.75\"/><text x=\"162\" y=\"94\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#d4ff4f\">FRIDAY</text><rect x=\"150\" y=\"150\" width=\"230\" height=\"30\" rx=\"5\" fill=\"#0a0b0f\" opacity=\"0.75\"/><text x=\"162\" y=\"171\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#e8c07c\">who answers while you rest?</text></svg>",
+  "sources": [
+    {
+      "id": "labour-law-overtime-times",
+      "label": "Times of Oman: Overtime under Oman's Labour Law",
+      "url": "https://timesofoman.com/article/171083-overtime-under-omans-labour-law-is-employee-consent-mandatory",
+      "kind": "media"
+    },
+    {
+      "id": "labour-law-text-decree",
+      "label": "Royal Decree 53/2023 Issuing the Labour Law (decree.om)",
+      "url": "https://decree.om/2023/rd20230053/",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Friday is Oman's official day off, and it is also, going by browsing patterns across the Gulf, one of the busiest days for people deciding where to eat, book a villa or find a Saturday clinic slot. If your desk runs on two tired staff every Friday, you are quietest exactly when your customers are wide awake and comparing options."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-friday-paradox",
+      "text": "The Friday paradox"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Friday is the weekly rest day, so most service operations trim the roster to whoever drew the short straw. But regional traffic patterns show Thursday evening into Friday as a peak window for browsing and planning, not a lull. Hotels see weekend bookings firm up, polyclinics get calls about Saturday appointments, dealerships hear from people who finally have a free hour to compare cars, and real estate firms get requests to view a flat that same afternoon."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Staff genuinely need Friday off too. Oman's Labour Law entitles anyone who works the weekly rest day to extra pay on top of their normal wage, so covering Friday properly is not free. That is the trap: real customer demand meets a real, and reasonably priced, staff cost."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-skeleton-crew-really-costs",
+      "text": "What a skeleton crew really costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most managers solve Friday with one person on the desk and a promise to call back Saturday. That looks cheap on the rota, but it is not free. Every call that rings past the third try becomes a caller who tries a competitor, and you never see that cost on any invoice."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Friday is Oman's day off and the day most customers decide where to spend their money."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "friday-by-the-numbers",
+      "text": "Friday by the numbers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take a composite example: a 40 room boutique hotel in Salalah during khareef, when Friday enquiry calls roughly double against a normal weekday. The numbers below are illustrative so you can redo them with your own call volumes and average booking value."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Three ways to cover a khareef Friday at a 40 room Salalah hotel (composite figures)",
+      "headers": [
+        "Approach",
+        "Staff cost for the day",
+        "Calls answered",
+        "Estimated bookings",
+        "What actually happens"
+      ],
+      "rows": [
+        [
+          "Two staff, rest day overtime pay",
+          "OMR 80",
+          "70 of 70",
+          "About 14",
+          "Full capture, but two staff lose their rest day"
+        ],
+        [
+          "One staff, no overtime",
+          "OMR 40",
+          "35 of 70",
+          "About 7",
+          "Half the calls ring out; roughly 7 enquiries go elsewhere"
+        ],
+        [
+          "One staff plus an overflow line for the rest",
+          "OMR 46",
+          "70 of 70",
+          "About 12",
+          "Near full capture, and one staff member actually gets Friday off"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-ways-teams-cover-friday",
+      "text": "Three ways teams cover Friday"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Full rota with rest day pay: everyone works, everyone is paid the legal extra, and the cost shows up every single week, not just during khareef or back to school."
+          }
+        ],
+        [
+          {
+            "text": "Skeleton crew and a callback promise: cheapest on paper, but every unanswered call is a guess about how many would have booked, and nobody ever checks."
+          }
+        ],
+        [
+          {
+            "text": "A staffed core plus an overflow line: one or two people handle the desk and priority guests, while a phone line, WhatsApp number or IVR replacement quietly takes the rest and logs it for Monday morning."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-rota-trap-managers-fall-into",
+      "text": "The rota trap managers fall into"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The usual pattern is the same two names on the Friday rota, week after week. It works fine in a quiet month and falls apart the moment khareef, back to school or a long weekend triples the call volume overnight. By the time a manager notices the gap, a month of missed Friday calls has already gone unrecorded, because nobody was there to write them down."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "persona": true,
+      "quote": "Friday used to mean two tired staff and a phone that never stopped. Now one of them actually gets Friday off.",
+      "attribution": "Saeed, front office manager, Salalah"
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-changes-when-the-line-answers-itself",
+      "text": "What changes when the line answers itself"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The honest fix is not asking staff to work harder on their day off. It is separating the calls that truly need a person, a guest with a complaint, a patient with a complex case, a buyer ready to sign, from the calls that just need an accurate answer: room availability, appointment slots, opening hours, or where a delivery has reached."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is the gap that CustomerCare.OM was built to sit in for businesses that already staff a phone line: it answers overflow and after hours calls in the caller's own Omani Arabic or English, books the routine requests, and turns every call into notes and numbers your team reviews on the ",
+          "href": "/features/call-analytics-dashboard/"
+        },
+        {
+          "text": "call analytics dashboard",
+          "href": "/features/call-analytics-dashboard/"
+        },
+        {
+          "text": " on Monday, without anyone giving up their Friday."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A missed call on a rest day still costs you the booking, even though nobody was ever rude to the caller."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pull last Friday's call log and compare it to a normal Tuesday. If the volume is close but the answer rate drops, you have a coverage gap, not a demand problem. Decide, deliberately, whether the fix is paying the legal overtime for full staffing, accepting the missed calls as a real cost, or routing the overflow somewhere it gets answered anyway."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Whichever you choose, put a number on it. A rota built on a guess repeats the same gap every khareef, every back to school fortnight, every long weekend."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two minute Friday check",
+      "paragraphs": [
+        "Compare last Friday's answered calls against last Tuesday's, same hours.",
+        "Note how many calls came in after your last staff member clocked off.",
+        "Ask what one of those calls was actually worth, a booking, a viewing, an appointment, and multiply by how many you missed."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I have to pay staff extra for working on Friday?",
+          "a": "Yes. Under Oman's Labour Law, staff who work the weekly rest day are entitled to extra pay on top of their normal wage, so a fully staffed Friday has a real, calculable cost."
+        },
+        {
+          "q": "Is one person enough to cover Friday alone?",
+          "a": "It depends on your normal Friday call volume. If Friday calls run close to a weekday, one person will fall behind fast, especially during khareef or a school holiday weekend."
+        },
+        {
+          "q": "What should get a human on Friday, even with lighter coverage?",
+          "a": "Complaints, anything involving money or a signature, and returning guests or patients with a history worth remembering. Routine questions can usually be answered accurately without a person on the line."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Friday will keep being both Oman's rest day and one of the week's busiest browsing windows. The businesses that handle it well are not the ones asking staff to give up their Friday, they are the ones who decided, with real numbers, which calls need a person and which just need an answer."
+        }
+      ]
+    }
+  ]
+}

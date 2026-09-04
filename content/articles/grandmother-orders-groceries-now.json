@@ -1,0 +1,246 @@
+{
+  "id": "article-2026-09-04-grandmother-orders-online",
+  "taskId": "2026-09-04-grandmother-orders-online",
+  "slug": "grandmother-orders-groceries-now",
+  "title": "How My Grandmother Orders Groceries Now",
+  "seoTitle": "How My Grandmother Orders Groceries Now",
+  "excerpt": "She used to lose twenty minutes in a phone menu every Thursday. Now her grocery order goes out as a fifty second voice note before her tea is cold.",
+  "seoDescription": "A composite Omani family story: WhatsApp voice notes replaced confusing phone menus, and what call desks still get wrong about older customers.",
+  "series": "The Weekend Read",
+  "category": "Work & Life",
+  "topic": "How My Grandmother Orders Groceries Now",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-04",
+  "modifiedDate": "2026-09-04",
+  "reviewedDate": "2026-09-04",
+  "reviewBy": "2026-12-03",
+  "status": "published",
+  "tags": [
+    "WhatsApp voice notes",
+    "older customers",
+    "call desk",
+    "Omani Arabic",
+    "customer service",
+    "family stories",
+    "phone menus"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><radialGradient id=\"bg\" cx=\"50%\" cy=\"45%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#1c1408\"/><stop offset=\"50%\" stop-color=\"#6b4d12\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/></radialGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><rect x=\"140\" y=\"28\" width=\"120\" height=\"170\" rx=\"20\" fill=\"#1c1408\" opacity=\"0.9\" stroke=\"#e8c07c\" stroke-width=\"2\"/><rect x=\"156\" y=\"66\" width=\"88\" height=\"42\" rx=\"21\" fill=\"#0f0a04\"/><g stroke=\"#d4ff4f\" stroke-width=\"4\" stroke-linecap=\"round\"><line x1=\"170\" y1=\"80\" x2=\"170\" y2=\"94\"/><line x1=\"180\" y1=\"74\" x2=\"180\" y2=\"100\"/><line x1=\"190\" y1=\"84\" x2=\"190\" y2=\"90\"/><line x1=\"200\" y1=\"70\" x2=\"200\" y2=\"104\"/><line x1=\"210\" y1=\"78\" x2=\"210\" y2=\"96\"/><line x1=\"220\" y1=\"86\" x2=\"220\" y2=\"88\"/></g><text x=\"200\" y=\"148\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#f4f4f0\" text-anchor=\"middle\">71</text><text x=\"200\" y=\"172\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#79e0c8\" text-anchor=\"middle\">orders groceries by voice note</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Khadija is seventy one, lives in Seeb, and used to lose twenty minutes every Thursday inside a phone menu, pressing one for orders and two for complaints before she could say a word. Six months ago she started sending a fifty second voice note instead, and now the grocery order arrives before her tea has cooled. What changed was not her age. It was who finally built a channel for how she actually talks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-twenty-minute-phone-menu",
+      "text": "The Twenty-Minute Phone Menu"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Khadija never disliked the phone. She has called the same grocery for fifteen years and can still recite prices from before delivery apps existed. What she disliked was the menu: press one for orders, two for complaints, three to speak to someone, and by the time a person picked up she had rehearsed her order twice and second guessed the Arabic each button expected. If the system did not catch what she said the first time, she just stopped and called her granddaughter instead."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-businesses-get-wrong-about-older-customers",
+      "text": "What Businesses Get Wrong About Older Customers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most businesses split into two camps here. One assumes anyone over sixty will always prefer to call, so the phone stays the only real channel and the WhatsApp number is barely staffed. The other assumes moving a customer to chat means teaching them to type, a skill many older customers never built and have no interest in building now. Both camps miss the same thing: talking, not typing, is what older customers already do all day. A voice note is not a compromise for them. It is simply how they already speak to their children."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Nobody needed to teach Khadija to use a phone, they needed to build one that listened to how she actually talks."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-daughter-who-runs-the-call-desk",
+      "text": "The Daughter Who Runs the Call Desk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Khadija's daughter, Munira, runs customer service for Al Rawda Pharmacies, a composite pharmacy delivery chain with three branches across Muscat and a call desk of four people. She saw the same pattern at work long before she saw it at home. Pulling a month of call logs, she found a cluster of customers over sixty who hung up inside the phone menu almost every time, and a WhatsApp inbox where voice notes sat unopened for hours because the desk was trained to type replies, not to press play. Those customers were not silent. They were simply being ignored in the format they had chosen."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-voice-note-fix-that-finally-worked",
+      "text": "The Voice Note Fix That Finally Worked"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix at work was not complicated once Munira named the problem. The desk switched to "
+        },
+        {
+          "text": "an Omani Arabic voice AI",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": ", the kind CustomerCare.OM builds for phone lines and WhatsApp together, so a caller states what she needs instead of hunting for the right button, and a voice note becomes a confirmed order without anyone typing it out. When something needs a pharmacist's judgment, like a repeat prescription with a dosage question, it goes to a live person through "
+        },
+        {
+          "text": "a warm transfer",
+          "href": "/features/warm-transfers/"
+        },
+        {
+          "text": " that carries the details across, so the customer never repeats herself to a stranger. At home, the fix was one sentence. Munira told her mother to just send a voice note because they listen to those now, and Khadija has not dialed the old menu since."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The fix was never teaching her to type, it was teaching the business to listen."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-month-at-the-call-desk",
+      "text": "One Month at the Call Desk, Before and After"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is roughly what changed for Munira's team, with numbers she tracked herself. Use the same categories to check your own desk this month."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Munira's call desk, one month before and after (composite numbers)",
+      "headers": [
+        "What the desk tracked",
+        "July, old system",
+        "August, after the fix"
+      ],
+      "rows": [
+        [
+          "Calls from customers 60 and older",
+          "290",
+          "300"
+        ],
+        [
+          "Calls that hung up inside the phone menu",
+          "88",
+          "21"
+        ],
+        [
+          "WhatsApp voice notes answered the same day",
+          "40%",
+          "96%"
+        ],
+        [
+          "Average minutes to complete a repeat order",
+          "6.5",
+          "2.5"
+        ],
+        [
+          "Repeat orders estimated lost to delay",
+          "OMR 610",
+          "OMR 95"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "My mother taught me more about our call desk than any consultant did.",
+      "attribution": "Munira, customer service lead, Al Rawda Pharmacies, Seeb",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you run a service desk, stop assuming your older customers are the ones avoiding technology. Listen to what actually arrives as a voice note this week and notice how long it sits unopened. If you are the one trying to get a parent or grandparent comfortable ordering online, do not start with a typing lesson. Show them the microphone icon and let them talk the way they already talk to you."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Check who is avoiding your WhatsApp number. If most orders from customers over sixty still arrive as calls, ask whether anyone actually replies fast enough to voice notes to be trusted."
+          }
+        ],
+        [
+          {
+            "text": "Time your own phone menu. Call your business line and count how many key presses happen before a caller can just talk."
+          }
+        ],
+        [
+          {
+            "text": "Give your desk team permission to press play first. A fifty second voice note is often faster to act on than typing three clarifying questions back."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open your business WhatsApp now and find the last three voice notes from numbers you do not recognise.",
+        "If none were opened within the hour, you already have customers like Khadija who gave up and called instead, or worse, gave up entirely.",
+        "Then call your own phone line and count the key presses before anyone can actually speak. Every extra press is a chance to lose her."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do older customers really prefer voice notes to typing?",
+          "a": "Many do. A voice note matches how they already talk to their children, no typing and no worry about getting the Arabic spelling wrong."
+        },
+        {
+          "q": "What if my business only has a phone line, no WhatsApp?",
+          "a": "The same fix applies. Let callers say what they need instead of forcing them through a fixed menu of button presses."
+        },
+        {
+          "q": "Does this replace the call desk team?",
+          "a": "No. It clears the simple, repeat orders so the team has time for calls that need a real person, like Munira's pharmacists."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Khadija still calls sometimes, mostly from habit, but her Thursday order now leaves as a voice note somewhere between finishing her coffee and starting her prayers. The lesson traveled from her kitchen to her daughter's call desk, and from there to every customer who was never really avoiding technology, just avoiding the parts of it that ignored how they speak."
+        }
+      ]
+    }
+  ]
+}

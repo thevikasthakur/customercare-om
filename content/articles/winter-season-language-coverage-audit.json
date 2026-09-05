@@ -1,0 +1,383 @@
+{
+  "id": "article-2026-09-05-tourist-season-languages",
+  "taskId": "2026-09-05-tourist-season-languages",
+  "slug": "winter-season-language-coverage-audit",
+  "title": "Does Your Front Desk Speak Russian Yet?",
+  "seoTitle": "Does Your Front Desk Speak Russian Yet?",
+  "excerpt": "Russian arrivals are up 140 percent this winter. If your front desk only really works in English and Arabic, October is about to test that.",
+  "seoDescription": "Winter charter flights bring guests speaking Russian, German and Spanish. Run this language coverage audit before October's tourist season peaks.",
+  "series": "Season Ready",
+  "category": "Oman Seasons & Peaks",
+  "topic": "October Brings Tourists Who Do Not Speak Arabic",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-05",
+  "modifiedDate": "2026-09-05",
+  "reviewedDate": "2026-09-05",
+  "reviewBy": "2026-12-04",
+  "status": "published",
+  "tags": [
+    "Season Ready",
+    "winter tourism",
+    "hotels",
+    "multilingual customer service",
+    "front desk operations",
+    "tour desks",
+    "Oman tourism season"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"g1\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#062e2b\"/>\n<stop offset=\"55%\" stop-color=\"#0f4c4c\"/>\n<stop offset=\"100%\" stop-color=\"#79e0c8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#g1)\"/>\n<g transform=\"translate(320,160) rotate(-15)\">\n<rect x=\"-14\" y=\"-48\" width=\"28\" height=\"96\" rx=\"14\" fill=\"#e8c07c\"/>\n</g>\n<path d=\"M 300 118 Q 288 128 300 140\" stroke=\"#f4f4f0\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M 312 108 Q 292 128 312 148\" stroke=\"#f4f4f0\" stroke-width=\"3\" fill=\"none\" opacity=\"0.6\"/>\n<text x=\"28\" y=\"98\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#f4f4f0\">DA · JA · SÍ</text>\n<text x=\"28\" y=\"124\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#d4ff4f\">Can your front desk say it back?</text>\n</svg>",
+  "sources": [
+    {
+      "id": "oman-observer-winter-campaign",
+      "label": "'Experience Our Winter' is Oman's new tourism campaign, Oman Observer",
+      "url": "https://www.omanobserver.om/article/1180702/oman/tourism/experience-our-winter-is-omans-new-tourism-campaign",
+      "kind": "media"
+    },
+    {
+      "id": "times-of-oman-winter-promotion",
+      "label": "Oman launches winter tourism promotion for 2025-2026 season, Times of Oman",
+      "url": "https://timesofoman.com/article/165872-oman-launches-winter-tourism-promotion-for-2025-2026-season",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Oman's tourism ministry says arrivals from Russia jumped 140 percent last winter season, and charter flights are set to bring in roughly 110,000 more visitors by April, many with no English or Arabic ready. The question this October is not whether your team is polite. It's whether they can actually follow the booking, the allergy or the flight change a guest is trying to describe to them."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-season-starts-before-the-calendar-says-so",
+      "text": "The season starts before the calendar says so"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every winter, Oman's tourism ministry runs a push called "
+        },
+        {
+          "text": "Experience Our Winter",
+          "href": "https://www.omanobserver.om/article/1180702/oman/tourism/experience-our-winter-is-omans-new-tourism-campaign"
+        },
+        {
+          "text": ", aimed at pulling visitors in from October through April, right when the rest of the Northern Hemisphere turns cold. Last season the campaign helped bring 93,000 tourists in on charter flights alone. This season it expects around 640 charter flights carrying roughly 110,000 visitors, worth more than 100 million US dollars to the country."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That growth is not spread evenly. "
+        },
+        {
+          "text": "Arrivals from Russia grew 140 percent",
+          "href": "https://timesofoman.com/article/165872-oman-launches-winter-tourism-promotion-for-2025-2026-season"
+        },
+        {
+          "text": ". Switzerland and the Netherlands grew 49 to 60 percent, and Spain grew 21 percent. Nordic countries, Poland and Austria grew 11 to 25 percent, Gulf markets grew 6 to 17 percent, and Asian markets grew about 5 percent. Not one of those visitors arrives speaking Omani Arabic, and plenty are not comfortable in English either."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-languages-arriving-on-your-doorstep",
+      "text": "The languages arriving on your doorstep"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Put those numbers next to the passports you're likely to see this winter, and a pattern forms. Front desks, tour counters and car hire desks should expect:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Russian, often with limited English, arriving in far bigger numbers than a year ago"
+          }
+        ],
+        [
+          {
+            "text": "German, from Switzerland and Austria as well as Germany itself"
+          }
+        ],
+        [
+          {
+            "text": "Dutch and Spanish, with English fluency that varies by generation"
+          }
+        ],
+        [
+          {
+            "text": "Nordic languages and Polish, usually comfortable switching to English"
+          }
+        ],
+        [
+          {
+            "text": "Gulf Arabic dialects, familiar to an Omani Arabic speaker on staff but different again from the standard Arabic taught in schools"
+          }
+        ],
+        [
+          {
+            "text": "A smaller but growing mix of Asian languages"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Cruise ships add their own version of the same mix in one sitting. A single call at a Muscat or Salalah port can put a few hundred passengers ashore for an afternoon, all expecting an answer right away. A multilingual "
+        },
+        {
+          "text": "travel desk",
+          "href": "/industries/travel-agencies-ai-customer-service/"
+        },
+        {
+          "text": " booking shore excursions for that call faces the identical jumble, just compressed into hours instead of a season."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A booking your desk cannot fully understand is a booking you are about to lose."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-we-speak-english-stops-working",
+      "text": "Why 'we speak English' stops working"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most front desks assume English covers the gap. It does, for many Dutch, Nordic and Asian guests. It does not cover everyone, and October is exactly when that stops being a small problem."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Picture a hotel in Muscat on a Tuesday evening. A German speaking family calls about a cancelled shore excursion, mixing fast German with a few English words that don't quite land. The person on the desk catches 'cancel' and 'money' and not much else. The call ends unresolved, and a sharp review follows two days later. Multiply that by however many German, Russian and Spanish speaking guests call in an ordinary October week, and the pattern stops being occasional. It becomes routine."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-time-zone-that-never-sleeps",
+      "text": "The time zone that never sleeps"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "There's a second gap sitting under the language one: timing. Oman doesn't shift its clocks, so it stays several hours ahead of the countries sending these visitors. A Swiss or German traveller browsing hotels after dinner, somewhere around 8pm to 11pm at home, is messaging your front desk between 10pm and 2am Oman time. Guests already on the ground do the same thing: a cruise passenger asks about tomorrow's excursion the night before, a driver renting a car for the coast road messages at midnight after a long flight."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If your rostered coverage still matches a nine to six weekday, a real share of this winter's questions are landing on an empty inbox."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-language-gap-costs-one-hotel",
+      "text": "What a language gap costs one hotel"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take a composite hotel: ninety rooms in Muscat, an average room rate of OMR 45 a night, and around sixty tourism enquiries a week once the winter season is underway. Break those enquiries down by language and the gaps tend to sit exactly where the ministry's numbers point: Russian and German."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "A composite hotel's winter enquiry mix (illustrative example, not a real property)",
+      "headers": [
+        "Language",
+        "Enquiries per week",
+        "Handled well today?",
+        "Cost of one missed booking"
+      ],
+      "rows": [
+        [
+          "Gulf Arabic",
+          "18",
+          "Yes",
+          "-"
+        ],
+        [
+          "English (Dutch, Nordic, most Asian guests)",
+          "22",
+          "Yes",
+          "-"
+        ],
+        [
+          "Russian",
+          "9",
+          "No",
+          "OMR 135"
+        ],
+        [
+          "German (Switzerland, Austria, Germany)",
+          "8",
+          "Partly, one shift only",
+          "OMR 135"
+        ],
+        [
+          "Spanish",
+          "3",
+          "No",
+          "OMR 135"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Miss just one Russian enquiry and one German enquiry a week between now and the winter peak, roughly eight weeks out, and that is sixteen missed bookings and OMR 2,160 in lost room nights, before counting the guest who tells friends not to bother calling."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "We were polite to that German family. We just could not understand them.",
+      "attribution": "Khalid, front office manager, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-audit-you-can-run-this-week",
+      "text": "The audit you can run this week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Khalid's hotel fixed this with a simple audit. Any front desk, tour counter or car hire desk can run the same one before the flights start landing in earnest."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Pull the last four weeks of bookings and enquiries, and sort them by language, not just by channel."
+          }
+        ],
+        [
+          {
+            "text": "Ask each person on shift, honestly, which languages they can hold a full conversation in, not just greet a guest in."
+          }
+        ],
+        [
+          {
+            "text": "Match the two lists. Wherever a language shows up in bookings but nobody on shift can handle it, that's your gap."
+          }
+        ],
+        [
+          {
+            "text": "Check what happens to that gap in the evenings and on weekends, when most of these enquiries actually arrive."
+          }
+        ],
+        [
+          {
+            "text": "Decide how the gap gets covered: a bilingual hire, a translation line, or an "
+          },
+          {
+            "text": "AI agent",
+            "href": "/product/omani-arabic-ai-customer-care/"
+          },
+          {
+            "text": " that already understands Omani Arabic callers and can pick up the major languages arriving this winter, so the phone and WhatsApp keep answering after the desk goes home."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "CustomerCare.OM is one option built for Oman. Whichever route a hotel or tour desk picks, the point stays the same: don't let a language gap quietly decide who gets a room and who gets silence."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Run the audit above before the middle of October, while the season is still filling up rather than already full. Look first for Russian and German, the two markets growing fastest right now, and check who answers your phone and WhatsApp between six in the evening and midnight, since that is when most of this winter's real questions will land. If the honest answer is nobody, decide whether that's a hiring problem or a coverage problem, and fix the one you actually have. A language gap you've mapped is a rostering decision. A language gap you haven't mapped is a guest you lose without ever knowing why."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Pull last month's bookings or enquiries and count languages, not just nationalities.",
+        "Circle every language where nobody on today's shift can hold a full conversation.",
+        "If Russian or German gets circled, that's this October's biggest gap, not a hypothetical one."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need staff fluent in every language on this list?",
+          "a": "No. Cover the two or three languages your own numbers show growing fastest, usually Russian and German this season, and have a backup plan for the rest."
+        },
+        {
+          "q": "Don't Gulf visitors just speak Arabic like everyone here?",
+          "a": "Gulf Arabic dialects differ from Omani Arabic and from the standard Arabic taught in schools, so even Arabic speaking guests can trip up a script built for one dialect."
+        },
+        {
+          "q": "Is this only a hotel problem?",
+          "a": "No. Tour desks, car hire counters and clinics near tourist areas see the same mix of languages and should run the same audit."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The winter season doesn't wait for a roster to catch up. The languages are already booking flights; the only open question is whether your front desk learns about the gap from an audit, or from a guest who never calls back."
+        }
+      ]
+    }
+  ]
+}

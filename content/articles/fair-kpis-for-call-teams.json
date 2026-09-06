@@ -1,0 +1,276 @@
+{
+  "id": "article-2026-09-06-kpis-for-agents",
+  "taskId": "2026-09-06-kpis-for-agents",
+  "slug": "fair-kpis-for-call-teams",
+  "title": "Fair KPIs for the People Answering Your Phones",
+  "seoTitle": "Fair KPIs for the People Answering Your Phones",
+  "excerpt": "Call-count bonuses reward the fastest talker on your desk. Here is the quality-weighted scorecard that rewards the operator who actually solves the problem.",
+  "seoDescription": "A calls-only KPI trains your fastest talker to hang up first. Here is a quality-weighted scorecard for operator teams, with a worked OMR bonus example.",
+  "series": "Customer Service Playbook",
+  "category": "Customer Service Skills",
+  "topic": "Fair KPIs for the People Answering Your Phones",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-06",
+  "modifiedDate": "2026-09-06",
+  "reviewedDate": "2026-09-06",
+  "reviewBy": "2026-12-05",
+  "status": "published",
+  "tags": [
+    "customer service KPIs",
+    "call quality",
+    "operator performance",
+    "call center metrics",
+    "service desk management",
+    "employee scorecards",
+    "call handling"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#0d1f16\"/>\n<stop offset=\"50%\" stop-color=\"#1e4634\"/>\n<stop offset=\"100%\" stop-color=\"#8fd3a8\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g stroke=\"#e8c07c\" stroke-width=\"7\" stroke-linecap=\"round\">\n<line x1=\"255\" y1=\"55\" x2=\"255\" y2=\"120\"/>\n<line x1=\"272\" y1=\"55\" x2=\"272\" y2=\"120\"/>\n<line x1=\"289\" y1=\"55\" x2=\"289\" y2=\"120\"/>\n<line x1=\"306\" y1=\"55\" x2=\"306\" y2=\"120\"/>\n<line x1=\"250\" y1=\"118\" x2=\"312\" y2=\"55\"/>\n</g>\n<path d=\"M240,95 L268,128 L328,48\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"15\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.95\"/>\n<rect x=\"12\" y=\"90\" width=\"230\" height=\"42\" rx=\"6\" fill=\"#0d1f16\" opacity=\"0.45\"/>\n<text x=\"22\" y=\"118\" font-family=\"Arial, sans-serif\" font-size=\"26\" font-weight=\"bold\" fill=\"#f4f4f0\">SCORE THE CALL</text>\n<rect x=\"12\" y=\"136\" width=\"190\" height=\"22\" rx=\"5\" fill=\"#0d1f16\" opacity=\"0.4\"/>\n<text x=\"22\" y=\"152\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#d4ff4f\">not just the count</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "If you rank the people who answer your phones by how many calls they took today, you have just taught your fastest talker that hanging up quickly beats solving the problem. A call count is easy to pull from any switchboard log, so it becomes the number a bonus, a shift pick or a promotion turns on. There is a fairer way to score a shift, one that rewards the operator who actually fixed something, not just the one who moved fastest."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-trap-of-counting-calls",
+      "text": "The trap of counting calls"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every operator desk, a hotel front office, a dealership service line, a polyclinic call desk, already has a number glowing on a screen: calls answered today. It is the easiest KPI, key performance indicator, a number used to judge how well someone is doing, to pull straight from the log. So it quietly becomes the one number that decides pay, praise or who gets first pick of next month's roster."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A caller with a wrong invoice, a missed appointment or a warranty claim needs a few extra minutes. An operator scored purely on volume learns fast that the safer move is to end the call, transfer it elsewhere, or promise a callback that never comes. None of that shows up in today's tally. It shows up three weeks later, in a complaint, a cancelled booking or a one star review. What a fairer scorecard looks like is coming, but first look at the specific numbers that make this worse."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "metrics-that-quietly-backfire",
+      "text": "Metrics that quietly backfire"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most of the numbers a busy desk already tracks were built for a factory line, not a conversation. Used on their own, each one below rewards close to the wrong behaviour."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Average handle time on its own: rewards whoever hangs up fastest, even mid problem."
+          }
+        ],
+        [
+          {
+            "text": "Calls per hour targets: push operators to cherry pick easy calls and let complicated ones sit longer in the queue."
+          }
+        ],
+        [
+          {
+            "text": "Zero hold time as a rule: agents skip the identity check or file lookup a short hold would have caught, so bookings and accounts get mixed up."
+          }
+        ],
+        [
+          {
+            "text": "Abandoned call rate charged to one person: usually a queue design or staffing problem, not something the operator who answered controls."
+          }
+        ],
+        [
+          {
+            "text": "First contact resolution counted without a follow up window: staff close a case on paper to hit the target, then the customer calls back annoyed a week later."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A metric that cannot tell a rushed call from a resolved one will always reward the wrong operator."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-quality-weighted-actually-means",
+      "text": "What quality weighted actually means"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Quality weighted simply means no single number decides the score. A handful of metrics are combined, each given a weight, so speed alone cannot win and thoroughness alone cannot win either. Volume still counts, most desks genuinely need people who can get through a full shift of calls, but it is capped so it cannot swallow the whole score."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The rest of the weight goes to things a customer would actually recognise as good service: did the problem get solved without a repeat call, did a supervisor listening back to a sample of calls hear a complete and courteous conversation, and did the caller who answered a quick rating afterwards say yes, that helped. None of this needs new software to start. A supervisor with a notepad and fifteen minutes a week can build the audit column by hand, though a "
+        },
+        {
+          "text": "call analytics dashboard",
+          "href": "/features/call-analytics-dashboard/"
+        },
+        {
+          "text": " that already logs outcomes and sentiment turns that fifteen minutes into a running number every manager can see without the manual listening."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-scorecard-you-can-copy-this-week",
+      "text": "A scorecard you can copy this week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is a composite scorecard sized for a five person operator team, the kind you would find on a dealership service line or a polyclinic call desk. Under an old calls-only bonus split, the operator who took more calls simply took home more of the pool, regardless of what those calls achieved. Weight the same team by quality, and the pool moves."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example. Swap in your own team's numbers and bonus pool.",
+      "headers": [
+        "Metric (weight in the score)",
+        "Operator A, fast",
+        "Operator B, thorough"
+      ],
+      "rows": [
+        [
+          "Calls handled, capped at 300 (15% weight)",
+          "300 (took 420 total)",
+          "300 (took 310 total)"
+        ],
+        [
+          "Post call satisfaction, out of 5 (30% weight)",
+          "3.9",
+          "4.7"
+        ],
+        [
+          "First contact resolution (25% weight)",
+          "70%",
+          "92%"
+        ],
+        [
+          "Supervisor quality audit (20% weight)",
+          "65%",
+          "88%"
+        ],
+        [
+          "Escalation judgment (10% weight)",
+          "60%",
+          "90%"
+        ],
+        [
+          "Weighted score out of 100",
+          "76",
+          "91"
+        ],
+        [
+          "Share of an OMR 40 monthly bonus pool",
+          "OMR 18.20",
+          "OMR 21.80"
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Score the call, not just the clock, and the fastest talker on your team stops winning by accident."
+    },
+    {
+      "type": "quote",
+      "quote": "My best operator used to have the worst handle time on the board. Now the board finally agrees with me.",
+      "attribution": "Nadia, call desk coordinator, polyclinic in Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pick four or five metrics for your desk, not fifteen. Cap the weight of raw volume, somewhere around fifteen to twenty percent is enough, so it cannot outvote everything else. Add a real audit, even five calls a month per operator, listened to by a supervisor against a short checklist: greeting, verification, tone, and whether the caller's actual problem got solved."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Publish the weights to the team before the month starts, not after, so nobody feels the goalposts moved mid shift. If your desk already set "
+        },
+        {
+          "text": "season OKRs",
+          "href": "/blog/customer-care-okrs-busy-season/"
+        },
+        {
+          "text": ", objectives and key results, a way of writing down a goal and the numbers that prove you hit it, tie this scorecard's weights to those same goals so operators are not chasing two different targets at once."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Pull last month's top rated operator by call count alone.",
+        "Now check three numbers for that same person: their satisfaction score, their first contact resolution, and their last audit score.",
+        "If you cannot answer all three in under two minutes, your scorecard is still counting calls, not quality."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How many calls should a supervisor actually listen to each month?",
+          "a": "Five to eight calls per operator, chosen at random, is enough to catch a pattern without turning the supervisor into a full time listener."
+        },
+        {
+          "q": "Should raw calls handled count in the score at all?",
+          "a": "Yes, but capped. A desk still needs people who can get through a full shift, so give volume a small, fixed weight rather than letting it dominate."
+        },
+        {
+          "q": "Does the same scorecard work for WhatsApp and email queues?",
+          "a": "The same principle, quality over count, carries over, but the weights need adjusting for the slower pace of a written conversation before you copy the numbers across."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A call count is a fact about a phone line. It is not a fact about the person who answered it. Weight the score toward what actually solved a customer's problem, and the fastest talker on your team finally has to compete on the same terms as your most patient one."
+        }
+      ]
+    }
+  ]
+}

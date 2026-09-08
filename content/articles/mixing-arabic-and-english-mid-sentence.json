@@ -1,0 +1,328 @@
+{
+  "id": "article-2026-09-08-code-switching-calls",
+  "taskId": "2026-09-08-code-switching-calls",
+  "slug": "mixing-arabic-and-english-mid-sentence",
+  "title": "Why Customers Mix Arabic and English Mid-Sentence",
+  "seoTitle": "Why Customers Mix Arabic and English Mid-Sentence",
+  "excerpt": "The word that decides your customer's whole request is often the one language your phone line wasn't listening for.",
+  "seoDescription": "Customers in Oman often switch Arabic and English inside one sentence. Here is why keyword systems miss it, and how modern AI follows the switch.",
+  "series": "AI, Explained Simply",
+  "category": "AI & Technology",
+  "topic": "When Customers Mix Arabic and English Mid-Sentence",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-08",
+  "modifiedDate": "2026-09-08",
+  "reviewedDate": "2026-09-08",
+  "reviewBy": "2026-12-07",
+  "status": "published",
+  "tags": [
+    "code-switching",
+    "Omani Arabic",
+    "conversational AI",
+    "call centre",
+    "customer service",
+    "bilingual customers",
+    "phone support",
+    "AI explained simply"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0%\" stop-color=\"#2c0a0d\"/>\n<stop offset=\"50%\" stop-color=\"#7a1c22\"/>\n<stop offset=\"100%\" stop-color=\"#f1a09a\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"30\" y=\"55\" width=\"340\" height=\"100\" rx=\"20\" fill=\"#3a1015\" stroke=\"#d4ff4f\" stroke-width=\"3\"/>\n<polygon points=\"55,155 40,185 95,155\" fill=\"#3a1015\" stroke=\"#d4ff4f\" stroke-width=\"3\"/>\n<circle cx=\"60\" cy=\"70\" r=\"14\" fill=\"#3a1015\" stroke=\"#79e0c8\" stroke-width=\"2\"/>\n<text x=\"60\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#79e0c8\" text-anchor=\"middle\">AR</text>\n<circle cx=\"340\" cy=\"70\" r=\"14\" fill=\"#3a1015\" stroke=\"#d4ff4f\" stroke-width=\"2\"/>\n<text x=\"340\" y=\"75\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">EN</text>\n<text x=\"200\" y=\"103\" font-family=\"Arial, sans-serif\" font-size=\"28\" font-weight=\"bold\" fill=\"#f4f4f0\" text-anchor=\"middle\">ARABIC + ENGLISH</text>\n<text x=\"200\" y=\"132\" font-family=\"Arial, sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#d4ff4f\" text-anchor=\"middle\">ONE SENTENCE</text>\n<text x=\"200\" y=\"198\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\" text-anchor=\"middle\">how customers actually talk on the phone</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "\"Bagha أجي Thursday morning, بس if the part hasn't arrived, cancel it لي.\" That is a normal sentence for many callers in Oman, half Arabic, half English, switched mid breath. Get it wrong at your service desk and the customer repeats themselves, gets sent to the wrong queue, or just hangs up and tries somewhere else."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-code-switching-actually-is",
+      "text": "What code switching actually is"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Linguists call this code switching: moving between two languages inside one conversation, sometimes inside one sentence, without losing meaning for the person doing it. It is not broken Arabic and it is not broken English. It is simply how people who grew up moving between both languages talk every day, especially about appointments, prices, and anything that already has an English word built into daily life, like invoice, WhatsApp, or appointment itself."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ask any front office manager or call desk coordinator and they will tell you this happens on ordinary calls, not rare ones. The switch usually lands on the word that matters most: the date, the amount, or the action the caller wants taken right now."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-calls",
+      "text": "Two calls, one switch each"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here are two composite examples built from how these calls usually go, not transcripts of a real caller. Notice where the language changes, and what a system would miss if it only caught half of it."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Customer, booking a service slot: ",
+            "strong": true
+          },
+          {
+            "text": "\"Bagha أجي Thursday morning, بس if the part hasn't arrived لين هسا, ما فيه داعي, cancel it لي.\""
+          }
+        ],
+        [
+          {
+            "text": "Agent: ",
+            "strong": true
+          },
+          {
+            "text": "\"No problem, I will hold Thursday nine, ماشي؟ وإذا الجزء ما وصل بنلغي الموعد ونتصل عليك.\""
+          }
+        ],
+        [
+          {
+            "text": "Customer, polyclinic follow up: ",
+            "strong": true
+          },
+          {
+            "text": "\"Doctor قالت لازم أسوي follow-up الأسبوع الجاي, is Tuesday okay أو لازم أنتظر لين الخميس؟\""
+          }
+        ],
+        [
+          {
+            "text": "Agent: ",
+            "strong": true
+          },
+          {
+            "text": "\"Tuesday متاح at ten, بس إذا تبين نفس الدكتورة, الخميس هو المتاح.\""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-keyword-systems-choke",
+      "text": "Why keyword systems choke on the switch"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "An old style phone menu, or a simple keyword bot, usually decides your language once, from the first few words, then listens for matches inside that one language for the rest of the call. That works fine when a caller stays in one lane the whole time."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "It falls apart the moment the caller drifts into the other language for the one word that carries the actual instruction, like cancel or لغيت. If the dealership call above locked onto Arabic at the start, cancel it لي can register as noise, a word the system does not recognise and simply skips. The booking stays open. The customer believes it is cancelled. Nobody finds out until the car does not show up, or the slot sits empty while someone else waits for it."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The word that decides the whole call is often the one language the system was not listening for."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "following-the-switch",
+      "text": "How modern conversational AI follows the switch"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A conversational AI system, software built to hold a natural back and forth exchange instead of matching fixed menu options, does not pick a language and lock the door. It reads meaning across the whole sentence, word by word, whichever language each word arrives in, then carries that meaning into the next sentence even if the customer switches again."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That is the real difference between a system that knows two languages and one that can follow a customer through both at once, mid breath. It is exactly what a phone line built for callers who speak Omani Arabic, such as the one behind "
+        },
+        {
+          "text": "CustomerCare.OM's phone agents",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": ", is trained to do: follow the switch instead of fighting it, and log what the caller actually asked for either way."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-it-costs-your-desk",
+      "text": "What a missed switch costs your desk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need a research report to see what this costs, a call log and a calculator will do. Here is a composite worked example any call desk can redo with its own numbers."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: what missed switches cost one desk in a month",
+      "headers": [
+        "Step",
+        "Composite example",
+        "Your business"
+      ],
+      "rows": [
+        [
+          "Calls answered per day",
+          "180",
+          "___"
+        ],
+        [
+          "Calls with a language switch mid sentence",
+          "45 (about one in four)",
+          "___"
+        ],
+        [
+          "Of those, calls repeated or transferred because the switch was missed",
+          "18 (about 40 percent)",
+          "___"
+        ],
+        [
+          "Extra minutes per repeated call",
+          "2 minutes",
+          "___"
+        ],
+        [
+          "Agent cost per minute (OMR 350 monthly wage over 12,480 working minutes)",
+          "OMR 0.028",
+          "___"
+        ],
+        [
+          "Extra cost per day (18 x 2 x 0.028)",
+          "about OMR 1.01",
+          "___"
+        ],
+        [
+          "Extra cost per month (26 working days)",
+          "about OMR 26",
+          "___"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Twenty six rial a month will not break a service desk. The bigger cost is the customer who had to repeat themselves and remembers it the next time they choose where to book."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The important word is always the one they say in English, cancel, tomorrow, refund. Miss it and you have lost the whole call.",
+      "attribution": "Hilal, service manager, car dealership in Ghala",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start by listening, not by buying anything. Pull five recent calls and notice only the moment the language changes."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Notice which language carries the instruction, the date, the amount, the yes or no, versus which one carries the small talk."
+          }
+        ],
+        [
+          {
+            "text": "If your line still runs a fixed language IVR menu, a phone menu that only recognises fixed key presses or single language commands, ask what happens when a caller answers an English prompt in Arabic, or the reverse."
+          }
+        ],
+        [
+          {
+            "text": "If you are evaluating any conversational AI for your phone line, ask the vendor directly whether it tracks meaning across a language switch, or resets when the language changes."
+          }
+        ],
+        [
+          {
+            "text": "Tell your human agents this is normal speech, not something to correct. Asking a caller to pick one language adds friction they will not thank you for."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Understanding two languages and following a customer through both in one sentence are not the same skill."
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this today",
+      "paragraphs": [
+        "Pull the recordings of your last ten calls. For each one, note only whether the caller changed language mid sentence, and if so, whether the agent, human or automated, asked them to repeat themselves.",
+        "If more than two out of ten needed a repeat because of the switch, that is worth fixing before your next busy season."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is mixing Arabic and English a sign of weak language skills?",
+          "a": "No. Code switching is normal bilingual speech. It shows up in fluent speakers everywhere two languages share daily life, Oman included."
+        },
+        {
+          "q": "Can I just train my team to ask callers to pick one language?",
+          "a": "You can, but it adds friction to every call, and most callers will not remember to do it once they are mid sentence about something urgent."
+        },
+        {
+          "q": "Does this only happen on phone calls?",
+          "a": "No. The same mid sentence mixing shows up in WhatsApp messages and web chat, any channel where a customer types or speaks the way they normally do."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Code switching is not a glitch in how your customers talk. It is how they have always talked. A phone line, a chat, or a team that expects the switch and follows it through will simply handle more calls correctly on the first try, in the customer's own words."
+        }
+      ]
+    }
+  ]
+}

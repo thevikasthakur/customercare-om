@@ -1,0 +1,289 @@
+{
+  "id": "article-2026-09-09-recording-customer-calls",
+  "taskId": "2026-09-09-recording-customer-calls",
+  "slug": "is-it-legal-to-record-customer-calls",
+  "title": "Is It Legal to Record That Customer Call?",
+  "seoTitle": "Is It Legal to Record That Customer Call?",
+  "excerpt": "Your desk has recorded calls for years. Since Oman's data law went live for real, not saying so out loud is the compliance gap nobody checked.",
+  "seoDescription": "Oman's data protection law treats every recorded call as personal data. Here's the lawful basis, disclosure line and storage rule your desk needs now.",
+  "series": "Your Data, Your Rights",
+  "category": "Privacy & Consumer Rights",
+  "topic": "Can You Record Customer Calls in Oman?",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-09",
+  "modifiedDate": "2026-09-09",
+  "reviewedDate": "2026-09-09",
+  "reviewBy": "2026-12-08",
+  "status": "published",
+  "tags": [
+    "call recording",
+    "data protection law",
+    "PDPL",
+    "consumer privacy",
+    "MTCIT",
+    "customer data compliance",
+    "consent"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\" r=\"75%\">\n<stop offset=\"0%\" stop-color=\"#ffd166\"/>\n<stop offset=\"45%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#1c1408\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g transform=\"translate(55,55)\">\n<rect x=\"0\" y=\"0\" width=\"80\" height=\"118\" rx=\"18\" fill=\"#1c1408\" opacity=\"0.88\"/>\n<circle cx=\"40\" cy=\"24\" r=\"7\" fill=\"#d4ff4f\"/>\n<circle cx=\"40\" cy=\"24\" r=\"15\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"2\" opacity=\"0.6\"/>\n<circle cx=\"40\" cy=\"24\" r=\"24\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"2\" opacity=\"0.3\"/>\n<rect x=\"18\" y=\"70\" width=\"44\" height=\"6\" rx=\"3\" fill=\"#79e0c8\" opacity=\"0.7\"/>\n<rect x=\"18\" y=\"84\" width=\"30\" height=\"6\" rx=\"3\" fill=\"#79e0c8\" opacity=\"0.5\"/>\n</g>\n<rect x=\"158\" y=\"72\" width=\"220\" height=\"44\" rx=\"8\" fill=\"#1c1408\" opacity=\"0.9\"/>\n<text x=\"172\" y=\"104\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#f4f4f0\">RECORDED?</text>\n<rect x=\"158\" y=\"128\" width=\"200\" height=\"24\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.8\"/>\n<text x=\"170\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">Ask first. Then record.</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-pdpl-law",
+      "label": "MTCIT: Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl-governance",
+      "label": "MTCIT: Personal Data Protection governance page",
+      "url": "https://mtcit.gov.om/sectors/governance/personal",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cms-enforcement-phase",
+      "label": "CMS Law Now: Oman personal data protection law entering the enforcement phase",
+      "url": "https://cms-lawnow.com/en/ealerts/2026/02/oman-personal-data-protection-law-entering-the-enforcement-phase",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Your front desk has recorded customer calls for years, probably without a second thought. Since Oman's data protection law moved into full enforcement this year, an unannounced recording can turn into a complaint to the regulator. The fix costs one afternoon of a supervisor's time, not a new system."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-recording-already-happening",
+      "text": "The recording that already happens"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Walk into any hotel front office, polyclinic call desk or dealership service line and the same thing is quietly happening. The phone system, the call center software, sometimes even the WhatsApp Business line, is already recording the conversation for training or dispute records. Almost nobody says so out loud."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Aisha, who coordinates the service line for a car dealership in Seeb, only noticed the gap when a customer asked where his recorded call about a warranty repair was stored. Nobody on her team had a ready answer. That single question is what pushed her to review the whole call flow."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-law-actually-requires",
+      "text": "What the law actually requires"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's Personal Data Protection Law governs how a business collects, stores and uses information that identifies a person, and a recorded voice counts. The law has applied since February 2023, and the compliance grace period that let businesses catch up ended in February 2026. Since then the regulator, the Ministry of Transport, Communications and Information Technology, can act on complaints from customers, not just review paperwork on request."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A recorded call becomes personal data the moment it is saved, whether it sits on the phone system's server, a laptop backup or a voice note. To record it lawfully, a business needs a reason the law recognizes, and for a normal customer call that reason is almost always the caller's explicit consent."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A recorded voice becomes personal data the moment it is saved, the same as a name on your customer list."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "telling-the-caller-is-not-optional",
+      "text": "Telling the caller is not optional"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Consent does not need to be a signed form. Oman's rules let a business obtain consent by any method it determines, so a spoken line at the start of the call, or a recorded announcement before the ringing stops, satisfies the law as long as the caller understands what is happening and can say no. Timing is what matters most."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Telling a caller after the call has already been recorded and saved does not count. Callers also keep the right to object, ask a business to delete a recording, or complain to the ministry within 30 days of discovering that no one told them. That deadline is shorter than most service desks assume."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-two-hour-fix",
+      "text": "The fix that fits in a week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this needs new software. Retrofitting a compliant recording process into a desk that already answers dozens of calls a day is closer to an afternoon of paperwork than a system overhaul. Here is what a composite example, Al Waha Polyclinic, worked through in one week."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Al Waha Polyclinic (composite example), 45 calls a day, all already recorded",
+      "headers": [
+        "Step",
+        "Who owns it",
+        "Time needed",
+        "Approx. cost"
+      ],
+      "rows": [
+        [
+          "Add one line to the greeting: this call may be recorded for training, say no to opt out",
+          "Front office lead + phone vendor",
+          "2 hours",
+          "OMR 15"
+        ],
+        [
+          "List every place a recording lands: call system, backup drive, WhatsApp voice notes",
+          "IT support",
+          "Half a day",
+          "OMR 80"
+        ],
+        [
+          "Set a retention limit, for example delete after 90 days unless a complaint is open",
+          "Operations manager",
+          "1 hour meeting",
+          "OMR 0"
+        ],
+        [
+          "Write a one page rule for who can play back a recording and why",
+          "HR or compliance lead",
+          "2 hours",
+          "OMR 0"
+        ],
+        [
+          "Brief the team on the 30 day complaint window and how to log an opt out",
+          "Team huddle",
+          "30 minutes",
+          "OMR 0"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The whole exercise cost Al Waha under OMR 100 and one working week, spread across people who already held these jobs. No consultant, no new license."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "We recorded every guest call for years. Nobody said so until we added one line to the greeting.",
+      "attribution": "Waleed, guest relations manager, Muscat hotel",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "where-the-recording-lives-and-who-can-play-it-back",
+      "text": "Where the recording lives and who can play it back"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Storage matters as much as consent. A recording anyone in the office can open from a shared folder is not being handled responsibly, even if the caller agreed to it. Limit playback to people who genuinely need it, a supervisor resolving a dispute or a trainer reviewing a call, and keep a short log of who opened which recording and when."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Businesses that hand call handling to an AI system have this built in by default. CustomerCare.OM's guide to AI customer calls in Oman, for instance, treats the recording notice as the first line of every automated call rather than something bolted on later.",
+          "href": "/guideline/oman/"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "If your team already records calls, check today whether the greeting or IVR message actually says so out loud."
+          }
+        ],
+        [
+          {
+            "text": "If a customer asks whether their call was recorded and where it lives, you should have an answer within minutes, not days."
+          }
+        ],
+        [
+          {
+            "text": "Set a retention limit in writing, even a simple one, and delete recordings on schedule instead of keeping everything indefinitely."
+          }
+        ],
+        [
+          {
+            "text": "Keep a short log of who accessed a recording and why, in case the ministry or the customer ever asks."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Call your own business number right now from another phone. Listen to the greeting. Does it mention recording at all? If it does not, that is today's fix, not next quarter's project."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do I need written consent to record a customer call?",
+          "a": "No. Oman's rules let you obtain consent by any method you determine, so a clear spoken notice at the start of the call is enough, as long as the caller can say no."
+        },
+        {
+          "q": "Can a customer make me delete a recording?",
+          "a": "Yes. They can ask, and if there is no ongoing dispute or legal reason to keep it, you should honor the request and confirm once it is done."
+        },
+        {
+          "q": "What if we already have months of recordings with no disclosure at all?",
+          "a": "Start disclosing today, set a deletion date for the older batch, and do not wait for a complaint to fix the greeting."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Recording a customer call was never the problem. Not telling the caller is. Add one honest sentence to your greeting, decide who can hear the recording and for how long, and the biggest compliance gap on most service desks closes within a week."
+        }
+      ]
+    }
+  ]
+}

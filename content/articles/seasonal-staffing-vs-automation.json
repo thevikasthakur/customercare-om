@@ -1,0 +1,327 @@
+{
+  "id": "article-2026-09-10-spike-vs-seasonal-hiring",
+  "taskId": "2026-09-10-spike-vs-seasonal-hiring",
+  "slug": "seasonal-staffing-vs-automation",
+  "title": "Hire for the Season, or Handle the Spike Differently?",
+  "seoTitle": "Seasonal Staffing vs Automation for Service Desks",
+  "excerpt": "Every peak season, your desk faces the same choice: hire temporary staff or handle the spike differently. Here's what each option actually costs, in real OMR.",
+  "seoDescription": "Khareef, Eid and back-to-school create call spikes. See what temporary hires really cost versus overflow automation, by spike length and predictability.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "Hire for the Season, or Handle the Spike Differently?",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-10",
+  "modifiedDate": "2026-09-10",
+  "reviewedDate": "2026-09-10",
+  "reviewBy": "2026-12-09",
+  "status": "published",
+  "tags": [
+    "seasonal staffing",
+    "khareef",
+    "customer service operations",
+    "overflow calls",
+    "temporary hiring",
+    "call desk costs",
+    "Oman business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><radialGradient id=\"g\" cx=\"50%\" cy=\"50%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#1c1408\"/><stop offset=\"50%\" stop-color=\"#6b4d12\"/><stop offset=\"100%\" stop-color=\"#ffd166\"/></radialGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#g)\"/><line x1=\"10\" y1=\"196\" x2=\"390\" y2=\"196\" stroke=\"#79e0c8\" stroke-width=\"2\" stroke-dasharray=\"5,5\" opacity=\"0.8\"/><polygon points=\"20,200 70,197 130,192 190,186 250,150 300,40 340,150 370,190 380,196 380,225 20,225\" fill=\"#d4ff4f\"/><circle cx=\"300\" cy=\"58\" r=\"9\" fill=\"#1c1408\"/><rect x=\"14\" y=\"32\" width=\"248\" height=\"64\" rx=\"8\" fill=\"#1c1408\" opacity=\"0.88\"/><text x=\"26\" y=\"64\" font-family=\"Arial, sans-serif\" font-size=\"30\" font-weight=\"bold\" fill=\"#f4f4f0\">HIRE OR FLEX?</text><text x=\"26\" y=\"86\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">What a seasonal spike really costs</text><text x=\"270\" y=\"188\" font-family=\"Arial, sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#1c1408\">8 WEEKS</text></svg>",
+  "sources": [
+    {
+      "id": "oman-observer-permit-fees",
+      "label": "Oman Observer: Revised work permit fees for private sector recruitment",
+      "url": "https://www.omanobserver.om/article/1119554/oman/labour/revised-work-permit-fees-will-have-positive-impact-on-economy-occi",
+      "kind": "media"
+    },
+    {
+      "id": "omanet-omanisation-discount",
+      "label": "Omanet: Discount on expat permit fees for meeting Omanisation targets",
+      "url": "https://omanet.om/en/news/labour/oman-firms-get-expat-permit-fee-discount-for-meeting-omanisation-targets/",
+      "kind": "oman-official"
+    },
+    {
+      "id": "oman-law-blog-labour-law",
+      "label": "Oman Law Blog (Curtis): Key changes in the new Oman Labour Law",
+      "url": "https://omanlawblog.curtis.com/2023/08/introduction-to-key-changes-in-new-oman.html",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Every khareef, every Eid, every back-to-school week, someone on your operations team asks the same question: hire more people for this, or handle it differently? Get it wrong and you either pay salaries for a rush that lasted three weeks, or your lines stay busy through the ten weeks that actually mattered. There is a way to answer this with your own numbers instead of a guess, starting with what a temporary hire really costs before that person answers a single call."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-same-question-every-season",
+      "text": "The Same Question, Every Season"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Hotels in Salalah watch enquiries triple through khareef. Polyclinics field a two-week surge of parents calling before school starts. Dealerships get flooded around Eid and National Day promotions. Insurers face renewal season, real estate firms face viewing season. In every case, a team sized for an average day meets a stretch that is nothing like average."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Khareef in Dhofar: roughly ten weeks, tripled enquiries, many after dark and in more than one language"
+          }
+        ],
+        [
+          {
+            "text": "Back-to-school: about two weeks in late August, uniform, transport and clinic calls from working parents"
+          }
+        ],
+        [
+          {
+            "text": "Eid and National Day weekends: two to four days, a short and sharp burst around a fixed date"
+          }
+        ],
+        [
+          {
+            "text": "Tourist high season, October to March: daily enquiries in English, German and French, often outside office hours"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-temporary-hire-actually-costs",
+      "text": "What a Temporary Hire Actually Costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take a composite three-property hotel group in Salalah that decides to add two call handlers for eight weeks of khareef. The maths looks simple until every line gets added up."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Cost item, 8-week spike, two extra call handlers",
+        "Amount (OMR)"
+      ],
+      "rows": [
+        [
+          "Recruitment or referral fee for two short-term local hires",
+          "120"
+        ],
+        [
+          "Paid training days before they can take calls unsupervised (4 days each)",
+          "160"
+        ],
+        [
+          "Salary for 8 weeks (OMR 300 a month per person)",
+          "1,200"
+        ],
+        [
+          "End-of-contract settlement: leave pay and notice",
+          "90"
+        ],
+        [
+          "Total, before uniforms, a desk or a second phone line",
+          "1,570"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That OMR 1,570 assumes local hires who need no work permit. Bring someone in from abroad for a two-month spike and the government fee for the recruitment licence alone can run from about OMR 200 to OMR 300 depending on the role, before salary, visa and medical costs, and the paperwork usually takes longer than the spike lasts."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-hidden-costs-nobody-budgets",
+      "text": "The Hidden Costs Nobody Puts in the Budget"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The invoice is only half the story. A new hire needs three or four days before they stop asking a supervisor every third question, and calls still come in during that time. A caller who cannot get through while someone is still learning the booking system is still a missed call, and "
+        },
+        {
+          "text": "a missed call already carries a cost of its own",
+          "href": "/blog/missed-call-cost-operator-desk/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Mistakes made by someone still learning your room types or appointment slots travel fast, especially when the caller is deciding whether to extend a stay during khareef. Once the season ends, the person who finally knew the answers walks out the door, taking that knowledge along, ready to repeat the whole cycle when the season comes around again."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A temporary hire who needs three weeks to learn your booking system has already missed the spike you hired them for."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "when-hiring-still-makes-sense",
+      "text": "When Hiring More People Is Still Right"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of this argues against hiring, ever. If a spike is really the first sign of permanent growth, a hotel adding rooms, a clinic opening a branch, hire properly and keep the people. And nothing here touches work that has to happen in person: housekeeping, valet, a nurse at the front desk. This is about who picks up the phone and answers the message, not who does the physical work on site."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "match-the-fix-to-the-spike",
+      "text": "Match the Fix to the Spike"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Two things decide the right fix: how long the spike lasts, and how far ahead you can see it coming."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Spike length and predictability",
+        "What actually works"
+      ],
+      "rows": [
+        [
+          "A day or two, fixed date (a National Day weekend, an Eid holiday)",
+          "Overflow handling only. No one recruits, trains and releases staff for two days."
+        ],
+        [
+          "One to two weeks, predictable (back-to-school enquiries, an Eid sales push)",
+          "Reassign existing staff for the daytime rush, add overflow automation for the hours the desk is closed."
+        ],
+        [
+          "Six to ten weeks, predictable (khareef in Dhofar, the October to March tourist season)",
+          "A small number of temporary hires for daytime coverage, automation for after hours, weekends and overflow."
+        ],
+        [
+          "Sudden and unplanned (a viral booking surge, a system outage, a route closure)",
+          "Automation first. It scales the same afternoon; recruiting cannot move that fast."
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Our temporary staff finally learn the room types the week khareef ends.",
+      "attribution": "Khalfan, front office manager, a Salalah hotel",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-overflow-closes-the-gap",
+      "text": "How Overflow Actually Closes the Gap"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For the six-to-ten week spikes and the sudden ones, the honest fix is the same: let something else answer what the desk cannot. That means picking up when every line is busy, answering after the front office team has gone home, and following "
+        },
+        {
+          "text": "a caller who mixes Omani Arabic with English mid-sentence",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Tools built for this, CustomerCare.OM among them, plug into the desk's existing phone number, turn every call into a note the operations lead can read the next morning, and bill for conversations handled rather than a headcount that has to be recruited, trained and let go again."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The bill for automation shrinks the day the surge ends. The bill for a temporary hire does not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pull up last year's calendar before this year's spike catches you again. Mark every rush, khareef, Eid, National Day, back-to-school, tourist season, and note how long each one actually lasted. Anything under two weeks: reassign your own team and add overflow handling for the hours you are closed. Anything six weeks or longer: a small temporary team for the daytime desk, paired with automation for the hours and languages that stretch it thin. Anything you cannot predict: automation has to be your first move, because hiring cannot move fast enough."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "How many days did last year's spike actually last, start to finish?",
+        "Could you see it coming more than two weeks out, or did it arrive overnight?",
+        "Would a new hire finish training before the spike is already over?",
+        "Right now, where do calls go when every line on your desk is busy?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can I just add overtime for my current team instead of hiring?",
+          "a": "Yes, for anything under two weeks. Overtime pay usually costs less than recruiting, training and releasing new staff, though Oman's labour law caps how much overtime you can rely on before it stops being the cheaper option."
+        },
+        {
+          "q": "Does automation replace the front desk during the season?",
+          "a": "No. It answers what the desk cannot: after hours, extra lines and enquiries that mix Omani Arabic and English. Your team still handles the complex cases and the guests standing in front of them."
+        },
+        {
+          "q": "What happens to each option once the season ends?",
+          "a": "A temporary hire has to be released, and the following spike means recruiting and training all over again. Overflow automation simply answers fewer calls once the desk is back to full strength."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The Bottom Line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The right fix depends on two numbers you already have: how long the spike lasts and how early you can see it coming. Short and predictable means reassign your team. Long and predictable means a few temporary hires plus overflow help. Sudden means automation first, because nothing else can move that fast. Work it out before the next khareef, or the next National Day weekend, does it for you."
+        }
+      ]
+    }
+  ]
+}

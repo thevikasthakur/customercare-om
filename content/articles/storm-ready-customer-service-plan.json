@@ -1,0 +1,343 @@
+{
+  "id": "article-2026-09-12-weather-closes-office",
+  "taskId": "2026-09-12-weather-closes-office",
+  "slug": "storm-ready-customer-service-plan",
+  "title": "When Weather Closes the Office, Not the Business",
+  "seoTitle": "When Weather Closes the Office, Not the Business",
+  "excerpt": "Roads flood, staff can't drive in, and the phone keeps ringing. Here is the plan and templates that keep your promises anyway.",
+  "seoDescription": "A storm advisory can shut roads across Oman overnight. Here is a continuity plan, ready message templates and real numbers for your call desk.",
+  "series": "Season Ready",
+  "category": "Oman Seasons & Peaks",
+  "topic": "When Weather Closes the Office but Not the Business",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-12",
+  "modifiedDate": "2026-09-12",
+  "reviewedDate": "2026-09-12",
+  "reviewBy": "2026-12-11",
+  "status": "published",
+  "tags": [
+    "business continuity",
+    "storm season",
+    "flash floods",
+    "remote work",
+    "call desk coverage",
+    "Season Ready",
+    "Oman weather",
+    "customer service planning"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\" r=\"75%\">\n<stop offset=\"0%\" stop-color=\"#1c1408\"/>\n<stop offset=\"55%\" stop-color=\"#6b4d12\"/>\n<stop offset=\"100%\" stop-color=\"#ffd166\"/>\n</radialGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g stroke=\"#79e0c8\" stroke-width=\"2\" opacity=\"0.5\" stroke-linecap=\"round\">\n<line x1=\"28\" y1=\"8\" x2=\"8\" y2=\"55\"/>\n<line x1=\"58\" y1=\"2\" x2=\"40\" y2=\"48\"/>\n<line x1=\"342\" y1=\"10\" x2=\"324\" y2=\"58\"/>\n<line x1=\"370\" y1=\"4\" x2=\"354\" y2=\"50\"/>\n</g>\n<g transform=\"translate(160,78) rotate(-35)\">\n<rect x=\"-70\" y=\"-14\" width=\"140\" height=\"28\" rx=\"14\" fill=\"#f4f4f0\"/>\n<circle cx=\"-70\" cy=\"0\" r=\"21\" fill=\"#f4f4f0\"/>\n<circle cx=\"70\" cy=\"0\" r=\"21\" fill=\"#f4f4f0\"/>\n</g>\n<g stroke=\"#d4ff4f\" stroke-width=\"3\" fill=\"none\" opacity=\"0.85\">\n<path d=\"M 210 40 Q 226 48 224 65\"/>\n<path d=\"M 226 30 Q 248 44 244 70\"/>\n</g>\n<rect x=\"26\" y=\"150\" width=\"308\" height=\"42\" rx=\"8\" fill=\"#1c1408\" opacity=\"0.88\"/>\n<text x=\"42\" y=\"180\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"30\" fill=\"#f4f4f0\">STILL RINGING</text>\n<rect x=\"26\" y=\"196\" width=\"308\" height=\"24\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.82\"/>\n<text x=\"42\" y=\"213\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">storms close roads, not promises</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mjla-remote-work-decision",
+      "label": "Ministry of Justice and Legal Affairs: Ministerial Decision 523/2025 on remote work",
+      "url": "https://mjla.gov.om/decisions/1095",
+      "kind": "oman-official"
+    },
+    {
+      "id": "met-caa-warnings",
+      "label": "Directorate General of Meteorology: current weather warnings",
+      "url": "https://met.caa.gov.om/en/warnings/",
+      "kind": "oman-official"
+    },
+    {
+      "id": "oman-observer-remote-work-march-2026",
+      "label": "Oman Observer: Remote work announced for public and private sectors",
+      "url": "https://www.omanobserver.om/article/1186614/oman/weather/remote-work-announced-for-public-and-private-sectors",
+      "kind": "media"
+    },
+    {
+      "id": "times-of-oman-shaheen-damage",
+      "label": "Times of Oman: Cyclone Shaheen damage pegged at OMR200 million",
+      "url": "https://m.timesofoman.com/article/110471-cyclone-shaheen-damage-in-oman-pegged-at-omr200-million",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "In March 2026, heavy rain shut roads across eight governorates and sent government and private staff home for two days. Your guests still needed rooms, your patients still needed appointments, your deliveries still needed updates, storms do not pause any of that. This is the plan that keeps those promises when nobody can safely drive to the office."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "storm-doesnt-pause-the-phone",
+      "text": "the storm doesn't pause the phone"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's "
+        },
+        {
+          "text": "early warning system",
+          "href": "https://met.caa.gov.om/en/warnings/"
+        },
+        {
+          "text": " can flag a storm days before it lands, but flash floods often peak overnight, exactly when a hotel's night desk, a clinic's on-call line or a dealership's roadside number matters most. When wadis run and roads close, your operator desk usually empties first: the team that normally answers forty calls an hour cannot get past a barrier on the way to Barka or Nizwa. Your customers keep calling anyway. A guest wants to know if the airport road is open. A patient wants to move tomorrow's appointment. A delivery customer wants to know if their order is still coming. None of that traffic slows down because your building is unreachable. Oman's most extreme case, Cyclone Shaheen in 2021, caused "
+        },
+        {
+          "text": "about OMR 200 million in damage in a single week",
+          "href": "https://m.timesofoman.com/article/110471-cyclone-shaheen-damage-in-oman-pegged-at-omr200-million"
+        },
+        {
+          "text": "; most storms are far smaller, but every one of them tests the same weak point, whether anyone can still pick up the phone."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-already-happened-this-year",
+      "text": "what already happened this year"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is not a hypothetical. On 25 March 2026, the government "
+        },
+        {
+          "text": "ordered remote work for offices and private businesses",
+          "href": "https://www.omanobserver.om/article/1186614/oman/weather/remote-work-announced-for-public-and-private-sectors"
+        },
+        {
+          "text": " across Muscat, North and South Al Batinah, Musandam, Al Buraimi, Al Dhahirah, Al Dakhiliyah and North Al Sharqiyah, after the early warning centre flagged heavy rain and flash flood risk. Two of those governorates, Al Batinah and Al Dakhiliyah, are exactly where a lot of hotels, clinics, dealerships and delivery fleets sit. For two days, staff who could reach a laptop worked from a spare room at home. Staff who could not, stayed home too, and were excused. Businesses that had already decided who answers the phone from home kept functioning through those two days. Businesses that had not spent that half hour in advance found out the hard way, mid storm."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-three-things-that-break-first",
+      "text": "the three things that break first"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A storm does not break your business all at once. It breaks three things in this order, and each one is fixable if you see it coming."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The phone line, because it only rings at one desk and goes silent the moment nobody can reach that desk."
+          }
+        ],
+        [
+          {
+            "text": "The queue, because WhatsApp and email pile up unread while the person who normally sorts them is stuck behind a flooded wadi."
+          }
+        ],
+        [
+          {
+            "text": "The story your customer tells afterward, because a missed appointment with no update reads as nobody cares, not as the road was closed."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Your customers do not know the road is flooded, they only know whether someone answered."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-rule-that-makes-this-easy",
+      "text": "the rule that makes this easy"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman finalised "
+        },
+        {
+          "text": "a formal remote work rule",
+          "href": "https://mjla.gov.om/decisions/1095"
+        },
+        {
+          "text": " in 2025, under the Labour Law. It spells out what a business must do before staff work from outside the office: keep a list of who is working remotely, give them the tools and system access they need, and track their work without spying on their private lives. That rule means a storm day does not have to be an improvised guess. You already have a lawful, documented way to send part of your call desk home with a laptop and a forwarded number, worked out before the first advisory ever lands."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "templates-that-keep-the-promise",
+      "text": "the templates that keep the promise"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write these once, save them somewhere the whole team can find, and you only need to fill in a date or a road name when the next advisory lands."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Phone hold message: ",
+            "strong": true
+          },
+          {
+            "text": "\"Because of today's weather advisory, some of our team cannot reach the office. Please stay on the line, or message us on WhatsApp at [number], we are answering there too.\""
+          }
+        ],
+        [
+          {
+            "text": "Appointment WhatsApp: ",
+            "strong": true
+          },
+          {
+            "text": "\"Because of the weather advisory, [business] is running with a smaller team today. Your appointment on [date] is safe. Reply RESCHEDULE if you would rather move it, and we will confirm a new time within the hour.\""
+          }
+        ],
+        [
+          {
+            "text": "Delivery delay note: ",
+            "strong": true
+          },
+          {
+            "text": "\"Sorry, flooding on [road] has delayed your order. New window: [time]. No charge for the delay.\""
+          }
+        ],
+        [
+          {
+            "text": "Internal staff cascade: ",
+            "strong": true
+          },
+          {
+            "text": "\"Storm advisory active for [governorate]. If you can safely reach a laptop, log in and answer calls forwarded to [line]. If you cannot travel or connect, you are excused, mark yourself out on the roster.\""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-flooded-thursday-in-numbers",
+      "text": "one flooded Thursday, in numbers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is how the numbers move for a composite delivery firm's five-agent call desk in Sohar, assuming each resolved call is worth about OMR 6.500 in orders and goodwill. Rebuild the same table with your own numbers and see where your desk stands."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "A five-agent call desk on a normal day, a storm day with no plan, and a storm day with one (composite figures)",
+      "headers": [
+        "Day",
+        "Calls attempted",
+        "Calls unanswered",
+        "Extra calls lost vs normal",
+        "Cost of the extra lost calls"
+      ],
+      "rows": [
+        [
+          "Normal working day",
+          "250",
+          "20 (8%)",
+          "0",
+          "OMR 0"
+        ],
+        [
+          "Storm day, no continuity plan",
+          "250",
+          "137 (55%)",
+          "117",
+          "OMR 760"
+        ],
+        [
+          "Storm day, continuity plan running",
+          "250",
+          "38 (15%)",
+          "18",
+          "OMR 117"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "When the Sohar road flooded in March, WhatsApp was the only promise we could still keep.",
+      "attribution": "Khalfan, call desk coordinator, delivery firm, Sohar",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Write your storm plan on a calm day, not during an advisory. Decide today which two or three people can answer from home, agree how the phone gets forwarded, and save your templates where anyone on the team can find them in a hurry. Some businesses now route the number itself to "
+        },
+        {
+          "text": "an AI agent that keeps answering in Omani Arabic and English",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": " even when every human is stuck at home, so the promise survives the drive nobody could make."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Do you already know which two staff members can log in and answer calls from home today, not during the next advisory?",
+        "Is there a WhatsApp number customers already know, so the phone line is not the only way to reach you?",
+        "Does your on-hold or auto-reply message get updated within an hour of an advisory, or does it still say we are open, please hold?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Can the government really tell my business to send staff home?",
+          "a": "Yes. When the early warning centre flags serious risk for a governorate, the Ministry of Labour can direct remote work for both government and private businesses there, as it did across eight governorates in March 2026."
+        },
+        {
+          "q": "Do I need a new contract to let my call desk work from home during a storm?",
+          "a": "No. Oman's 2025 remote work rule already covers it: keep a record of who is working remotely and give them the tools they need, and the arrangement is lawful without drafting anything new."
+        },
+        {
+          "q": "What if we have no laptops or remote software ready yet?",
+          "a": "Forward the office number to a manager's mobile and answer through WhatsApp Business. It is not elegant, but it keeps the promise until you build the fuller plan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Storms will keep closing roads before they close demand. The businesses that come through a flooded Thursday with their reputation intact are the ones that wrote the plan, tested the WhatsApp number and told their team who works from home, before the first advisory ever landed."
+        }
+      ]
+    }
+  ]
+}

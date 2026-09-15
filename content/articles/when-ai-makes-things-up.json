@@ -1,0 +1,267 @@
+{
+  "id": "article-2026-09-15-ai-making-things-up",
+  "taskId": "2026-09-15-ai-making-things-up",
+  "slug": "when-ai-makes-things-up",
+  "title": "When AI Makes Things Up, and How Businesses Stop It",
+  "seoTitle": "When AI Makes Things Up, and How Businesses Stop It",
+  "excerpt": "An AI agent that doesn't know the answer will often invent one anyway, confidently. Here's why that happens, and the two guardrails that stop it.",
+  "seoDescription": "AI hallucination explained plainly: why AI agents invent answers, and the knowledge base and escalation rules that keep customer calls accurate.",
+  "series": "AI, Explained Simply",
+  "category": "AI & Technology",
+  "topic": "When AI Makes Things Up, and How Businesses Stop It",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-15",
+  "modifiedDate": "2026-09-15",
+  "reviewedDate": "2026-09-15",
+  "reviewBy": "2026-12-14",
+  "status": "published",
+  "tags": [
+    "AI hallucination",
+    "conversational AI",
+    "knowledge base",
+    "escalation rules",
+    "customer service AI",
+    "Omani Arabic",
+    "call handling"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\" r=\"75%\"><stop offset=\"0%\" stop-color=\"#ffd166\"/><stop offset=\"45%\" stop-color=\"#6b4d12\"/><stop offset=\"100%\" stop-color=\"#1c1408\"/></radialGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><path d=\"M60 35 h210 a20 20 0 0 1 20 20 v65 a20 20 0 0 1 -20 20 h-140 l-32 30 v-30 h-28 a20 20 0 0 1 -20 -20 v-65 a20 20 0 0 1 20 -20 z\" fill=\"#1c1408\" stroke=\"#d4ff4f\" stroke-width=\"4\"/><path d=\"M82 60 q14 -14 28 0 t28 0 t28 0 t28 0\" stroke=\"#e8c07c\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M82 85 q14 14 28 0 t28 0 t28 0\" stroke=\"#79e0c8\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M82 108 q10 -10 20 0 t20 0 t20 0 t20 0\" stroke=\"#e8c07c\" stroke-width=\"5\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"28\" y=\"150\" width=\"345\" height=\"44\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.88\"/><text x=\"40\" y=\"180\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"27\" fill=\"#d4ff4f\">CONFIDENTLY WRONG</text><rect x=\"28\" y=\"196\" width=\"230\" height=\"20\" rx=\"4\" fill=\"#1c1408\" opacity=\"0.75\"/><text x=\"38\" y=\"211\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#f4f4f0\">AI hallucination, explained</text></svg>",
+  "sources": [
+    {
+      "id": "cbc-air-canada-chatbot",
+      "label": "CBC News: Air Canada chatbot lawsuit ruling",
+      "url": "https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416",
+      "kind": "media"
+    },
+    {
+      "id": "aba-air-canada-chatbot",
+      "label": "American Bar Association: BC tribunal confirms companies remain liable for AI chatbot information",
+      "url": "https://www.americanbar.org/groups/business_law/resources/business-law-today/2024-february/bc-tribunal-confirms-companies-remain-liable-information-provided-ai-chatbot/",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Ask an AI agent a question it does not actually know the answer to, and it will rarely say \"I do not know.\" More often it invents something that sounds completely reasonable, and says it with full confidence. For a hotel, clinic or dealership running calls through AI, that single habit can turn one wrong sentence into a refund, a complaint, or a customer who never calls back."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-call-that-never-happened",
+      "text": "The call that never happened"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take Waleed, who coordinates the call desk for a polyclinic group with branches in Al Khuwair and Bausher (a composite example). A caller asked the AI agent handling overflow calls whether the orthopaedic specialist saw patients at the Bausher branch on Thursday evenings, the way the same doctor does at Al Khuwair. Bausher does not run evening clinics. The AI agent said yes anyway, because Thursday evening clinics are common across the group's other branches. The caller arrived at 6pm to a locked front desk."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-ai-agents-guess",
+      "text": "Why AI agents guess in the first place"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This behaviour has a name: hallucination. It means an AI produces an answer that sounds confident and reasonable but is not actually true. The technology behind most AI agents, a large language model, does not look answers up in a filing cabinet. It predicts the most likely next words based on patterns it learned from enormous amounts of text. Most of the time that produces a sensible answer. When the model has nothing solid to draw on, it fills the gap with something plausible rather than admitting it does not know."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The gap gets wider with Arabic. Most AI models studied far more English and formal written Arabic than the Omani Arabic your customers actually speak, and none of them ever studied your business's own prices, room types or doctor rosters. Left ungrounded, an AI guesses hardest in exactly the calls your customers are having right now."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "confident-and-wrong-costs-real-money",
+      "text": "Confident and wrong costs real money"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is not a hypothetical risk. In 2024, a "
+        },
+        {
+          "text": "tribunal in British Columbia",
+          "href": "https://www.cbc.ca/news/canada/british-columbia/air-canada-chatbot-lawsuit-1.7116416"
+        },
+        {
+          "text": " ordered Air Canada to honour a bereavement discount its website chatbot had invented, one that did not exist in the airline's real policy. Air Canada argued the chatbot was responsible for its own words. The tribunal disagreed, and ruled the airline liable for what its AI told a customer, the same as if a staff member had said it."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A business is responsible for what its AI agent tells a customer, whether that answer came from a real document or from a guess."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The same logic applies to a hotel quoting a room rate, a dealership quoting a service price, or a clinic quoting a doctor's hours. If the AI's answer is wrong, the business owns the consequence, not the software."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "One wrong quote, worked example",
+      "headers": [
+        "Step",
+        "What happens",
+        "Cost to the business"
+      ],
+      "rows": [
+        [
+          "AI agent quotes OMR 45 for a brake job that actually costs OMR 65",
+          "Caller books the service on the strength of that price",
+          "OMR 20 shortfall if the advisor honours the quote"
+        ],
+        [
+          "The same mistake repeats across a slow week (about 15 similar calls)",
+          "Service advisors spend an afternoon re-checking every AI quote from that week",
+          "Roughly OMR 300 in absorbed shortfalls, plus lost advisor hours"
+        ],
+        [
+          "The AI is grounded in the dealership's actual price sheet",
+          "It answers only from that sheet, or says \"let me confirm and call you back\"",
+          "A one-time setup cost, not a recurring loss"
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "grounding-the-answer-in-what-is-actually-true",
+      "text": "Grounding the answer in what is actually true"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The first guardrail is grounding. That means connecting the AI agent to a "
+        },
+        {
+          "text": "knowledge base",
+          "href": "/features/knowledge-base/"
+        },
+        {
+          "text": ": a single set of documents holding your real prices, policies, room types or doctor schedules, so the AI answers only from what you actually gave it. Ask it something outside that document, and a properly grounded AI says it is not sure instead of inventing an answer. CustomerCare.OM's knowledge base works this way: you upload your own price list or policy document, and the AI is trained to work from that, not from general patterns it picked up elsewhere."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "knowing-when-to-hand-off",
+      "text": "Knowing when to hand off"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The second guardrail is "
+        },
+        {
+          "text": "escalation",
+          "href": "/features/smart-call-escalation-with-triggers/"
+        },
+        {
+          "text": ": rules that tell the AI when a question is outside its depth, so it hands the caller to a person instead of guessing. Some questions will always need a human, a medical judgment call, an upset customer, a request the knowledge base genuinely does not cover. Rules built around those triggers are what make the handoff automatic rather than accidental."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Waleed's clinic now runs both guardrails together: each branch's real schedule loaded into the knowledge base, and any question about symptoms or timing outside standard hours routed straight to the call desk. The Thursday evening mix up has not happened again."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Now when it doesn't know, it says so and passes the call to me. That's what I actually needed.",
+      "attribution": "Waleed, call desk coordinator, polyclinic group, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Ask any AI vendor two plain questions: what does the AI answer from, and what happens the moment it does not know."
+          }
+        ],
+        [
+          {
+            "text": "Test it yourself. Ask your own AI agent something true about your business that you never gave it in writing, and watch whether it admits the gap or invents an answer."
+          }
+        ],
+        [
+          {
+            "text": "Confirm escalation actually reaches a person during your working hours, not a message that queues silently until morning."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Call your own AI line and ask a question that is true about your business but was never written down anywhere the AI could have learned it: a walk-in policy, a specific room view, a doctor's day off.",
+        "If it invents a confident answer instead of saying \"let me check and call you back,\" that is the gap to close first."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does hallucination mean the AI is broken?",
+          "a": "No. It is normal behaviour for how these models work, not a defect. Grounding and escalation fix it, switching providers alone will not."
+        },
+        {
+          "q": "Does hallucination happen more with Omani Arabic callers?",
+          "a": "It can, because most AI models studied far less Omani Arabic text than English or formal Arabic, so grounding matters even more on those calls."
+        },
+        {
+          "q": "Who is responsible if the AI gives a wrong answer?",
+          "a": "The business is, the same as if a staff member had said it. The Air Canada tribunal ruling in 2024 is the clearest example on record."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "An AI agent that never says \"I do not know\" is not more capable, it is more dangerous. Grounding it in your real documents and giving it clear rules for when to hand a caller to a person turns confident guessing into an answer your customers can actually trust."
+        }
+      ]
+    }
+  ]
+}

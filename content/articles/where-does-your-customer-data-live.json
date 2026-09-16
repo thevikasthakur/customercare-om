@@ -1,0 +1,345 @@
+{
+  "id": "article-2026-09-16-where-data-lives",
+  "taskId": "2026-09-16-where-data-lives",
+  "slug": "where-does-your-customer-data-live",
+  "title": "Where Does Your Customer Data Actually Live?",
+  "seoTitle": "Where Does Your Customer Data Actually Live?",
+  "excerpt": "Your booking system might store customer data in another country right now. Under Oman's law, that is your call to explain, not your vendor's.",
+  "seoDescription": "Cloud tools can store customer data abroad without anyone deciding it should. Oman's data protection law makes data residency a legal question. Here is how to check.",
+  "series": "Your Data, Your Rights",
+  "category": "Privacy & Consumer Rights",
+  "topic": "Where Does Your Customer Data Actually Live?",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-16",
+  "modifiedDate": "2026-09-16",
+  "reviewedDate": "2026-09-16",
+  "reviewBy": "2026-12-15",
+  "status": "published",
+  "tags": [
+    "data residency",
+    "Personal Data Protection Law",
+    "cross border data transfer",
+    "MTCIT",
+    "data privacy",
+    "customer data",
+    "compliance",
+    "Oman business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"225\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#0a0b0f\"/><stop offset=\"0.55\" stop-color=\"#1a1d24\"/><stop offset=\"1\" stop-color=\"#d4ff4f\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><rect x=\"40\" y=\"112\" width=\"64\" height=\"72\" rx=\"5\" fill=\"#1a1d24\" stroke=\"#79e0c8\" stroke-width=\"2\"/><rect x=\"50\" y=\"122\" width=\"44\" height=\"9\" fill=\"#79e0c8\"/><rect x=\"50\" y=\"137\" width=\"44\" height=\"9\" fill=\"#79e0c8\" opacity=\"0.6\"/><rect x=\"50\" y=\"152\" width=\"44\" height=\"9\" fill=\"#79e0c8\" opacity=\"0.4\"/><circle cx=\"94\" cy=\"172\" r=\"3\" fill=\"#d4ff4f\"/><path d=\"M104 130 Q200 55 300 95\" stroke=\"#e8c07c\" stroke-width=\"2.5\" fill=\"none\" stroke-dasharray=\"7 7\"/><circle cx=\"308\" cy=\"88\" r=\"15\" fill=\"#f4f4f0\"/><path d=\"M293 88 L308 118 L323 88 Z\" fill=\"#f4f4f0\"/><circle cx=\"308\" cy=\"88\" r=\"6\" fill=\"#0a0b0f\"/><text x=\"308\" y=\"93\" font-family=\"Arial, sans-serif\" font-size=\"10\" fill=\"#0a0b0f\" text-anchor=\"middle\" font-weight=\"bold\">?</text><rect x=\"18\" y=\"16\" width=\"230\" height=\"42\" fill=\"#0a0b0f\" opacity=\"0.88\" rx=\"5\"/><text x=\"30\" y=\"45\" font-family=\"Arial, sans-serif\" font-size=\"28\" font-weight=\"bold\" fill=\"#d4ff4f\">OMR 500,000</text><rect x=\"18\" y=\"188\" width=\"260\" height=\"26\" fill=\"#0a0b0f\" opacity=\"0.85\" rx=\"5\"/><text x=\"28\" y=\"206\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#f4f4f0\">the fine for sending data abroad wrong</text></svg>",
+  "sources": [
+    {
+      "id": "mtcit-personal-data",
+      "label": "MTCIT: Personal Data Protection governance page",
+      "url": "https://mtcit.gov.om/sectors/governance/personal",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-executive-regulation",
+      "label": "MTCIT: Executive Regulation of the Personal Data Protection Law",
+      "url": "https://prod.mtcit.gov.om/ITAPortal/MediaCenter/NewsDetail.aspx?NID=91274",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cms-enforcement-phase",
+      "label": "CMS Law: Oman personal data protection law entering the enforcement phase",
+      "url": "https://cms.law/en/omn/legal-updates/oman-personal-data-protection-law-entering-the-enforcement-phase",
+      "kind": "analysis"
+    },
+    {
+      "id": "trowers-executive-regulations",
+      "label": "Trowers & Hamlins: The executive regulations to the Oman personal data protection law",
+      "url": "https://www.trowers.com/insights/2024/february/omans-data-protection-law---new-regulations",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Every booking your front desk logs into a cloud system, a guest's passport number, a patient's file, a customer's phone number, might already be sitting on a server in Germany, Ireland or the United States. That is a data residency question, not a technical footnote. Under Oman's data protection law, it is your business that answers for where that data went and why."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-data-residency-is-suddenly-a-legal-question",
+      "text": "Why data residency is suddenly a legal question"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ask any front office manager, call desk supervisor or clinic operations lead where their booking software, CRM or ticketing tool actually stores its data, and most pause. They know the login screen. They know the reports. Almost nobody knows which country the servers sit in."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That gap used to be harmless paperwork. Since the compliance grace period under Oman's Personal Data Protection Law ended on 5 February 2026, it is a live question. The law has applied since February 2023, and it treats a name, phone number, national ID number, health record or call recording as personal data the moment your business collects it. Where that data physically lives, and who abroad can reach it, is now something the regulator can ask about, and something your customers can ask about too."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-counts-as-a-cross-border-transfer",
+      "text": "What counts as a cross border transfer"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A cross border transfer simply means personal data leaving Oman, in any direction, for any reason. It rarely happens as one dramatic export. Most transfers happen quietly, inside tools your team already opens every day."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A booking or property management system hosted on servers in Europe or the US"
+          }
+        ],
+        [
+          {
+            "text": "A CRM or email marketing platform that stores your contact lists overseas"
+          }
+        ],
+        [
+          {
+            "text": "Backup and disaster recovery copies kept in another region"
+          }
+        ],
+        [
+          {
+            "text": "A vendor's support team abroad opening a ticket that includes a real customer record"
+          }
+        ],
+        [
+          {
+            "text": "A payment gateway routing transaction details through its own home country"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-law-actually-requires",
+      "text": "What the law actually requires"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's data protection law does not ban sending data abroad. It sets conditions. Before a business transfers personal data outside Oman, it generally needs the customer's clear consent, unless the transfer meets an international treaty obligation or the data has been anonymised so nobody can be identified from it. The business also has to check that the receiving country protects data at least as well as Oman's law does."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For health records, biometric data and other sensitive categories, the rules go further: sending that data abroad needs approval from the Cyber Defense Center first. There is no published list of pre-approved countries, and no need to ask the Ministry of Transport, Communications and Information Technology for permission in advance. The checking is your job, not the regulator's, until something goes wrong."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The cloud tool your call desk logs into every day may already be moving customer data across a border, whether anyone at your business ever agreed to it."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Closing that gap does not need a legal team. It needs a short list of questions, and a habit of asking before you sign a contract, not after a complaint lands."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-questions-to-ask-every-vendor",
+      "text": "The questions to ask every vendor"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you renew a contract, or buy a new booking, CRM or ticketing tool, put these to the vendor in writing."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Which country are our servers physically located in, and can you confirm this in writing?"
+          }
+        ],
+        [
+          {
+            "text": "If our data leaves Oman, what is the legal basis: consent, treaty obligation or anonymisation?"
+          }
+        ],
+        [
+          {
+            "text": "Have you assessed whether that country protects data at least as well as Oman's law?"
+          }
+        ],
+        [
+          {
+            "text": "For health, biometric or other sensitive data, has Cyber Defense Center approval been obtained first?"
+          }
+        ],
+        [
+          {
+            "text": "Who can access our raw customer records, in which country, and for what reason?"
+          }
+        ],
+        [
+          {
+            "text": "If we are asked to show our transfer basis next month, can you produce it within a week?"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Al Falaj Polyclinic Group's vendor check (composite example)",
+      "headers": [
+        "Question",
+        "Vendor's answer",
+        "What it means for the clinic"
+      ],
+      "rows": [
+        [
+          "Where is patient data physically stored?",
+          "A data centre in Frankfurt, Germany",
+          "This is a cross border transfer under Oman's law"
+        ],
+        [
+          "Do patients consent to that transfer?",
+          "The intake form says nothing about it",
+          "The consent requirement is not met yet"
+        ],
+        [
+          "Has the vendor assessed Germany's protection level?",
+          "No document on file",
+          "The assessment step is missing"
+        ],
+        [
+          "What is the exposure if this is ever checked?",
+          "Fines for unlawful transfer can reach OMR 500,000",
+          "This is a real number, not a technicality"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I can tell you our call volume by the hour, not which country our booking data sits in.",
+      "attribution": "Zainab, call desk coordinator, Muscat polyclinic group",
+      "persona": true
+    },
+    {
+      "type": "highlight",
+      "text": "The fix costs nothing but five straight answers in writing, and it closes the biggest gap most businesses do not know they have."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need a legal department to close this gap. You need a written answer from every vendor that touches customer data, and a habit of asking before you sign, not after the regulator calls."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start with the tools your team already uses: the booking system, the CRM, the WhatsApp business line, the email platform. For each one, get the hosting country and the legal basis in writing, and keep those answers somewhere your operations lead can find in minutes, not days."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If a vendor cannot answer where your data lives, that tells you something too: the risk sits entirely with your business, not shared with a vendor who has already done the work. Some platforms built for this market, CustomerCare.OM among them, keep call recordings and transcripts on servers inside Oman by design, which removes one cross border question altogether. If you are comparing vendors for a larger deployment, ",
+          "strong": false
+        },
+        {
+          "text": "our enterprise page",
+          "href": "/enterprise/"
+        },
+        {
+          "text": " walks through data residency and security in more detail, though the questions above apply no matter which vendor you choose."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two minute vendor check",
+      "paragraphs": [
+        "Open each system your call desk uses today: booking, CRM, WhatsApp, email, payments.",
+        "Search the vendor's site or contract for the words data residency or data location.",
+        "Email anyone unclear: which country hosts our data, and what happens if it leaves Oman?",
+        "File the reply somewhere your operations lead can open in under a minute."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does using an international CRM automatically break Oman's data protection law?",
+          "a": "No. It becomes lawful once you have a valid basis, usually consent, and the receiving country's protection matches Oman's standard."
+        },
+        {
+          "q": "Do we need approval before sending data abroad?",
+          "a": "No prior approval is required for ordinary transfers, but you must be able to show your legal basis and country assessment if asked."
+        },
+        {
+          "q": "What about health or biometric records?",
+          "a": "Sensitive categories need approval from the Cyber Defense Center before they leave Oman, on top of the usual consent and assessment steps."
+        },
+        {
+          "q": "Our current vendor already stores everything overseas and won't change. Now what?",
+          "a": "You can still comply by documenting consent and the country assessment in writing, though many businesses find it simpler to move to a vendor with hosting inside Oman."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Where your customer data lives used to be invisible. Since February 2026 it is one of the first questions a regulator, or a customer, can put to your business directly, and "
+        },
+        {
+          "text": "What Can You Ask a Business About Your Data?",
+          "href": "/blog/what-can-you-ask-for-your-data/"
+        },
+        {
+          "text": " walks through the customer's side of that same question. A short vendor questionnaire this week is far cheaper than explaining the gap later."
+        }
+      ]
+    }
+  ]
+}

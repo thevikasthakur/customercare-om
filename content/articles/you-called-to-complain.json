@@ -1,0 +1,363 @@
+{
+  "id": "article-2026-09-18-you-complained-now-what",
+  "taskId": "2026-09-18-you-complained-now-what",
+  "slug": "you-called-to-complain",
+  "title": "You Called to Complain. Here's What Should Happen Next",
+  "seoTitle": "You Called to Complain. Here's What Should Happen Next",
+  "excerpt": "A fridge died under warranty. Three calls later, nobody had given the complaint a number. The fourth call did, and that changed everything.",
+  "seoDescription": "Oman's consumer protection law promises repair, replacement or refund for a genuine fault. Here is the calm script that gets a business moving in days, not weeks.",
+  "series": "The Weekend Read",
+  "category": "Work & Life",
+  "topic": "You Called to Complain. Here Is What Should Happen Next",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-18",
+  "modifiedDate": "2026-09-18",
+  "reviewedDate": "2026-09-18",
+  "reviewBy": "2026-12-17",
+  "status": "published",
+  "tags": [
+    "consumer rights",
+    "consumer protection law",
+    "complaints handling",
+    "customer service",
+    "call desk operations",
+    "warranty claims"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0%\" stop-color=\"#0d1f16\"/><stop offset=\"50%\" stop-color=\"#1e4634\"/><stop offset=\"100%\" stop-color=\"#8fd3a8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><text x=\"20\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">GET THE</text><text x=\"20\" y=\"90\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">NUMBER</text><text x=\"20\" y=\"112\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">Ask for it on the first call</text><line x1=\"70\" y1=\"150\" x2=\"150\" y2=\"195\" stroke=\"#0d1f16\" stroke-width=\"19\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"150\" x2=\"150\" y2=\"195\" stroke=\"#d4ff4f\" stroke-width=\"13\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"150\" r=\"18\" fill=\"#0d1f16\"/><circle cx=\"70\" cy=\"150\" r=\"14\" fill=\"#d4ff4f\"/><circle cx=\"150\" cy=\"195\" r=\"18\" fill=\"#0d1f16\"/><circle cx=\"150\" cy=\"195\" r=\"14\" fill=\"#d4ff4f\"/><rect x=\"228\" y=\"138\" width=\"130\" height=\"60\" rx=\"10\" fill=\"#0d1f16\" opacity=\"0.55\"/><rect x=\"228\" y=\"138\" width=\"130\" height=\"60\" rx=\"10\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"4\"/><circle cx=\"248\" cy=\"168\" r=\"7\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"3\"/><text x=\"266\" y=\"177\" font-family=\"Arial, sans-serif\" font-size=\"24\" font-weight=\"bold\" fill=\"#d4ff4f\">REF #</text></svg>",
+  "sources": [
+    {
+      "id": "cpl-decree",
+      "label": "Consumer Protection Law, Royal Decree 66/2014 (official text)",
+      "url": "https://oman.om/docs/default-source/default-document-library/consumer-protection-law.pdf?sfvrsn=fab6f8d1_2",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cpa-portal",
+      "label": "Consumer Protection Authority: file a complaint",
+      "url": "https://cpa.gov.om/en/pages/allcomplaints.aspx",
+      "kind": "oman-official"
+    },
+    {
+      "id": "gov-om-complaint",
+      "label": "Gov.om: submit a complaint to the Consumer Protection Authority",
+      "url": "https://gov.om/en/w/submit-a-complaint-to-the-consumer-protection-authority",
+      "kind": "oman-official"
+    },
+    {
+      "id": "bsa-law",
+      "label": "BSA Law: five things about Oman's consumer law",
+      "url": "https://bsalaw.com/insight/omani-consumer-law-5-things-you-might-not-know/",
+      "kind": "analysis"
+    },
+    {
+      "id": "consumer-passport",
+      "label": "LexisNexis: Oman's Consumer Protection Authority to launch Digital Consumer Passport",
+      "url": "https://www.lexisnexis.com/blogs/ae-legal/b/insights/posts/oman-consumer-protection-authority-to-launch-digital-consumer-passport",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Asma's fridge died under warranty, and it took four phone calls to the shop in Seeb to get it fixed. Only the fourth call produced a reference number, a deadline and someone who actually owned the problem. Here is what should have happened on the first call, and the exact words that make it happen sooner."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-complaint-that-goes-nowhere",
+      "text": "The complaint that goes nowhere"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Asma, who teaches at a college in Ghala, bought the fridge for OMR 210 in February. By August the compressor had failed, seven months into a one-year warranty. She called the shop the same afternoon."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Call one lasted fourteen minutes. She explained the fault to a menu, then to an agent, then again after the line dropped. Nobody opened a file or gave her a number to quote. She was told someone would call her back. Nobody did."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Call two came five days later: eleven minutes, two transfers, and the same story told from scratch because the first call had left no written record anywhere. Call three, nine days after that, finally produced a promise that a technician would come next week, still with no reference number attached to it."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Twenty days in, the fridge was still dead. Asma had spoiled two batches of groceries and paid to rent a cooler box just to get through the week."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-law-actually-gives-you",
+      "text": "What the law actually gives you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is the part most callers never learn, because most complaints never get far enough to need it. Oman's Consumer Protection Law sets out a clear order of remedies when something you bought is genuinely faulty, not simply a case of changing your mind."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Repair, free of charge, first."
+          }
+        ],
+        [
+          {
+            "text": "Replacement, if repair fails or is not reasonable."
+          }
+        ],
+        [
+          {
+            "text": "A refund, as a last resort, if neither of the above works."
+          }
+        ],
+        [
+          {
+            "text": "Compensation for related losses in some cases, such as food spoiled by a dead fridge."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "To use these rights, keep your receipt or invoice, and be ready to show the fault was not something you caused. There is an authority behind these rights too. Oman's "
+        },
+        {
+          "text": "Consumer Protection Authority",
+          "href": "https://cpa.gov.om/en/pages/allcomplaints.aspx"
+        },
+        {
+          "text": " takes complaints by phone, app, e-portal or in person, and can act on them directly, without you needing a lawyer or a court date."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A business that cannot give your complaint a reference number cannot promise you it will be fixed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-calm-script-that-gets-results",
+      "text": "The calm script that gets results"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need to raise your voice to move a complaint along. Five short lines, said calmly, do more than an hour of frustration:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "\"Can I get a reference number for this complaint, please?\" It gives you something to quote on every call after this one."
+          }
+        ],
+        [
+          {
+            "text": "\"What is your policy's timeline for a fault like this?\" Most service desks have an internal standard. Ask them to state it."
+          }
+        ],
+        [
+          {
+            "text": "\"If a repair does not fix it, am I entitled to a replacement or a refund?\" This puts the remedy order on the record, not just in your head."
+          }
+        ],
+        [
+          {
+            "text": "\"Can you confirm that by SMS, WhatsApp or email?\" A promise you can point to later is worth more than one you only heard."
+          }
+        ],
+        [
+          {
+            "text": "\"If we cannot resolve this together, I will take it to the Consumer Protection Authority.\" Said once, as a fact, it usually gets things moving."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Say all five and most businesses fix things by call two. Say none of them, and you are relying on whoever answered the phone to remember you."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-fourth-call",
+      "text": "The fourth call"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "On her fourth call, Asma opened with the first line of the script before she even repeated the fault. The agent, a little surprised, logged a ticket on the spot: one digital record carrying her name, the fault, a promised timeline and a named owner. A technician arrived within 48 hours, the shop's own stated standard once someone had actually written it down. The compressor was replaced under warranty, at no charge."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is what four weeks looked like from the outside, with numbers any reader can redo using their own time and cost:"
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Path",
+        "Time on the phone",
+        "Days to a fix",
+        "Reference number",
+        "Extra cost to Asma"
+      ],
+      "rows": [
+        [
+          "Calls 1 to 3 (no ticket)",
+          "41 minutes",
+          "20 days, and counting",
+          "No",
+          "OMR 32 (spoiled food and a rented cooler box)"
+        ],
+        [
+          "Call 4 (with the script)",
+          "9 minutes",
+          "2 days",
+          "Yes, on the spot",
+          "OMR 0"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The difference was not a nicer agent. It was a system that turned her call into a ticket the moment it was logged, with an owner and a deadline attached, the same way a hotel front desk or a clinic call desk should log every complaint that arrives by phone, WhatsApp or email. Many service desks now run this through "
+        },
+        {
+          "text": "automated support tickets",
+          "href": "/product/automated-support-tickets/"
+        },
+        {
+          "text": " rather than trusting it to memory, and tools built for businesses that already staff a call desk, such as CustomerCare.OM, do this automatically across phone, chat and email, in Omani Arabic and English alike."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "persona": true,
+      "quote": "A complaint without a reference number is just a phone call nobody owns.",
+      "attribution": "Marwan, service desk coordinator, Seeb"
+    },
+    {
+      "type": "highlight",
+      "text": "The fastest complaints are not the loudest ones. They are the ones with a number attached."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's complaint system keeps getting easier to use on paper too. In August 2026, the Consumer Protection Authority announced a digital consumer passport on the Sahel platform, meant to give every complaint one account to live in instead of scattered calls and emails. No launch date had been announced when this article was written."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are the customer, ask for a reference number on your first call, not your third. Know the order the law gives you: repair, then replacement, then refund, plus compensation for related losses where they apply. Keep your receipt. If a business keeps stalling, the Consumer Protection Authority is a phone call away, not something you save for months of frustration later."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you run the desk that takes these calls, whether that is a hotel front office, a clinic call desk or a dealership service line, check whether every complaint your team takes becomes a ticket the moment someone raises it, with an owner and a deadline, or whether it only lives in whoever happened to answer the phone that day. That single habit is usually the difference between a two-day fix and a twenty-day one."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Before you hang up on a complaint call, whichever side of the line you are on, check you have three things: a reference number, a stated timeline, and clarity on whether the fix is a repair, a replacement or a refund.",
+        "If you cannot answer all three, ask again until you can."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What if the business refuses to give me a reference number?",
+          "a": "Ask for confirmation in writing, by WhatsApp or email, so there is a record. A flat refusal is itself worth reporting to the Consumer Protection Authority."
+        },
+        {
+          "q": "Do I need my receipt to complain?",
+          "a": "Yes, generally. Keep receipts or invoices for anything still under warranty. It is the simplest way to prove what you bought and when."
+        },
+        {
+          "q": "How long should a repair reasonably take?",
+          "a": "The law does not set one fixed number for every product, so ask the business to state its own timeline, then hold them to it."
+        },
+        {
+          "q": "What if I bought the item from outside Oman?",
+          "a": "The Consumer Protection Authority handles complaints about goods and services delivered within Oman. A purchase from abroad may fall under the seller's home rules instead."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A complaint is not a fight. It is a process with a shape: repair, then replacement, then refund, backed by an authority that exists for exactly this. Ask for the number on the first call, not the fourth, and most complaints in Oman move in days, not weeks."
+        }
+      ]
+    }
+  ]
+}

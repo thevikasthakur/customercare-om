@@ -1,0 +1,269 @@
+{
+  "id": "article-2026-09-20-measure-satisfaction-simply",
+  "taskId": "2026-09-20-measure-satisfaction-simply",
+  "slug": "average-score-hides-angry-customers",
+  "title": "Why a 4.6 Average Can Hide Furious Customers",
+  "seoTitle": "Why a 4.6 Average Can Hide Furious Customers",
+  "excerpt": "A 4.6 average looks great on a monthly report. It also hides the customers who scored you a 1 and never said why until they left for good.",
+  "seoDescription": "A one-question survey sent at the right moment shows what a high average score hides: the handful of customers about to leave quietly.",
+  "series": "Customer Service Playbook",
+  "category": "Customer Service Skills",
+  "topic": "Measuring Satisfaction Without Annoying Your Customers",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-20",
+  "modifiedDate": "2026-09-20",
+  "reviewedDate": "2026-09-20",
+  "reviewBy": "2026-12-19",
+  "status": "published",
+  "tags": [
+    "customer satisfaction",
+    "CSAT surveys",
+    "customer feedback",
+    "call center metrics",
+    "customer service skills",
+    "Customer Service Playbook"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg width=\"400\" height=\"225\" viewBox=\"0 0 400 225\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0a0b0f\"/>\n      <stop offset=\"55%\" stop-color=\"#1a1d24\"/>\n      <stop offset=\"100%\" stop-color=\"#d4ff4f\"/>\n    </linearGradient>\n    <polygon id=\"star\" points=\"0,-14 3.3,-4.3 13.3,-4.3 5.4,1.6 8.3,11.3 0,5.4 -8.3,11.3 -5.4,1.6 -13.3,-4.3 -3.3,-4.3\"/>\n  </defs>\n  <rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n  <rect x=\"18\" y=\"32\" width=\"232\" height=\"82\" rx=\"10\" fill=\"#0a0b0f\" opacity=\"0.6\"/>\n  <text x=\"34\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"40\" font-weight=\"bold\" fill=\"#f4f4f0\">4.6</text>\n  <text x=\"34\" y=\"100\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#d4ff4f\">one score is hiding in here</text>\n  <use href=\"#star\" x=\"90\" y=\"175\" fill=\"#d4ff4f\"/>\n  <use href=\"#star\" x=\"140\" y=\"175\" fill=\"#d4ff4f\"/>\n  <use href=\"#star\" x=\"190\" y=\"175\" fill=\"#d4ff4f\"/>\n  <use href=\"#star\" x=\"240\" y=\"175\" fill=\"#d4ff4f\"/>\n  <use href=\"#star\" x=\"290\" y=\"175\" fill=\"#e8c07c\"/>\n  <line x1=\"278\" y1=\"163\" x2=\"302\" y2=\"187\" stroke=\"#0a0b0f\" stroke-width=\"3\"/>\n  <rect x=\"78\" y=\"193\" width=\"232\" height=\"20\" rx=\"6\" fill=\"#0a0b0f\" opacity=\"0.55\"/>\n  <text x=\"90\" y=\"207\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#f4f4f0\">measure it, or lose them quietly</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Your customer satisfaction score says 4.6 out of 5. That sounds like a business everyone loves, until you notice the handful of customers who scored you a 1 or 2 this month and quietly took their business elsewhere. A single average number can hide the exact customers you are about to lose."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-question-beats-ten",
+      "text": "One Question Beats Ten"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Many service desks still send a long survey after every booking, repair or claim: ten or fifteen questions about staff friendliness, waiting time, cleanliness and more. Long surveys mostly get answered by two kinds of people, the delighted and the furious. Everyone in between skips it, so the results you do collect are already skewed. A single question, asked right after the interaction, gets more honest answers because it costs the customer ten seconds, not five minutes."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is sometimes called a Customer Satisfaction score, or CSAT: a quick rating from 1 to 5 of one specific interaction, not the whole relationship. Ask something concrete, such as \"How easy was it to get this sorted today?\" Add an optional comment box underneath. The number tells you what happened. The comment tells you why."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "timing-decides-the-answer",
+      "text": "Timing Decides the Answer"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "When you ask matters as much as what you ask. Send the question too early and the customer has not experienced the outcome yet. Send it a week later and they have forgotten the details, or moved on entirely. The best moment is right after the call, visit or delivery closes, while the memory and the emotion are both still fresh."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Send within the hour the issue closes, by SMS or WhatsApp, not batched into an email at the end of the day."
+          }
+        ],
+        [
+          {
+            "text": "Never ask mid-problem. A patient still waiting on test results or a guest still waiting for a room key should not see a satisfaction survey yet."
+          }
+        ],
+        [
+          {
+            "text": "Ask the same person no more than once a month. Three surveys after three visits in one week trains customers to ignore all of them."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-a-4-6-average-can-lie",
+      "text": "Why a 4.6 Average Can Lie"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "An average blends everyone into one comfortable number. Picture 240 responses at a busy call desk: most patients or guests rate the call a 5, a smaller group rates it a 4, and a handful rate it a 1. The average can still land around 4.6, which looks excellent on a monthly report. But that handful had a genuinely bad experience, and a high average gives nobody a reason to go looking for them."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "An average score is a comfortable number that lets an angry customer disappear unnoticed."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is how that plays out for Widad, who coordinates the call desk at a composite polyclinic group in Al Khuwair, for one ordinary month."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "What happened",
+        "Number"
+      ],
+      "rows": [
+        [
+          "Calls closed by the front desk in June",
+          "Booking confirmations, prescription queries, appointment changes",
+          "812 calls"
+        ],
+        [
+          "One-question survey sent by WhatsApp right after each call closed",
+          "Cost is only a few baisas per message",
+          "about OMR 5 total"
+        ],
+        [
+          "Replies received",
+          "Not everyone answers a one-line survey, and that is fine",
+          "254 replies (31%)"
+        ],
+        [
+          "Score breakdown",
+          "198 rated it 5, 40 rated it 4, 10 rated it 2, 6 rated it 1",
+          "average: 4.62 out of 5"
+        ],
+        [
+          "Follow-up calls to the 16 who scored 1 or 2, made within 24 hours",
+          "About 10 minutes of a supervisor's time each",
+          "under OMR 4 in wages"
+        ],
+        [
+          "Patients about to switch clinics who stayed after the callback",
+          "Found only because someone read the low scores, not the average",
+          "3 patients"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "One WhatsApp line after the call tells me more than a whole month of average scores ever did.",
+      "attribution": "Widad, call desk coordinator, polyclinic group in Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "reading-the-results-honestly",
+      "text": "Reading the Results Honestly"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A weekly five-minute habit beats a monthly report nobody reads closely. Sort every batch of responses by score, lowest first, before you even glance at the average. Read every comment attached to a 1 or a 2 yourself, do not delegate that to a dashboard summary. If the same word keeps appearing, waiting, rude, transfer, treat it as a pattern worth investigating, not a one off."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Count the 1s and 2s every week, not just the average once a month."
+          }
+        ],
+        [
+          {
+            "text": "Read every low-score comment yourself before deciding it is a one off."
+          }
+        ],
+        [
+          {
+            "text": "Watch for repeats: same shift, same day, same word in the comment."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pick one channel you already use, phone, WhatsApp or a booking confirmation SMS, and attach a single question to it. Send it the moment the interaction closes, and never make a customer wait on hold to answer it. Look at the bottom of the scale before the top, and call back everyone who scores low within a day, not a week. If your team already answers a high volume of calls, a platform such as CustomerCare.OM can trigger that "
+        },
+        {
+          "text": "follow-up call",
+          "href": "/product/outbound-calling-ai-agents/"
+        },
+        {
+          "text": " automatically the moment a low score lands, so the callback happens within minutes instead of waiting for someone to review a spreadsheet. This kind of listening is one of "
+        },
+        {
+          "text": "the four things customers actually judge a business on",
+          "href": "/blog/four-things-customers-judge/"
+        },
+        {
+          "text": ", and it costs far less than losing the customer quietly."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Pick one question you already have room for, and cut everything else.",
+        "Send it within an hour of the interaction closing, never mid-problem.",
+        "Sort every batch by score, lowest first, before you look at the average.",
+        "Call back every 1 or 2 within 24 hours, in person or by phone."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "What is a good response rate for a one-question survey?",
+          "a": "There is no fixed benchmark worth chasing. Track your own rate month over month, and remember that even a modest response rate is useful if you read every low score."
+        },
+        {
+          "q": "Should the survey go by SMS, WhatsApp or email?",
+          "a": "Match the channel to the interaction. WhatsApp or SMS works best right after a phone call or visit. Email suits a longer written exchange, such as a claim or an enquiry."
+        },
+        {
+          "q": "What if almost nobody answers?",
+          "a": "A quiet survey is still useful. The handful of replies you do get, especially the low scores, tell you more than silence does."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A 4.6 average feels safe, but safety is exactly what it should not make you feel. The customers worth chasing are the ones who scored you low and said nothing else. Ask one honest question at the right moment, read the bottom of the list first, and call back the unhappy few before they call somebody else instead of you."
+        }
+      ]
+    }
+  ]
+}

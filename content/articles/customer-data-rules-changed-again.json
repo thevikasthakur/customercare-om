@@ -1,0 +1,310 @@
+{
+  "id": "article-2026-09-21-pdpl-grace-over",
+  "taskId": "2026-09-21-pdpl-grace-over",
+  "slug": "customer-data-rules-changed-again",
+  "title": "Your Customer Data Rules Just Changed Again",
+  "seoTitle": "Oman's Customer Data Rules Just Changed Again",
+  "excerpt": "Seven months after enforcement began, Oman's privacy law moved again, this time reaching into your call recordings, your consent forms and your AI systems.",
+  "seoDescription": "Oman's data protection law changed again on 7 September 2026. Here is what the amendment means for businesses holding customer names, numbers and calls.",
+  "series": "Oman Service Pulse",
+  "category": "Rules & Updates",
+  "topic": "The Data Protection Grace Period Is Over. What Changes?",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-21",
+  "modifiedDate": "2026-09-21",
+  "reviewedDate": "2026-09-21",
+  "reviewBy": "2026-12-20",
+  "status": "published",
+  "tags": [
+    "personal data protection law",
+    "call recordings",
+    "customer data compliance",
+    "MTCIT",
+    "data retention",
+    "consent",
+    "Oman Service Pulse"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#062e2b\"/>\n<stop offset=\"55%\" stop-color=\"#0f4c4c\"/>\n<stop offset=\"100%\" stop-color=\"#79e0c8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#g)\"/>\n<circle cx=\"292\" cy=\"95\" r=\"85\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"6\" opacity=\"0.9\" transform=\"rotate(-12 292 95)\"/>\n<circle cx=\"292\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"2\" opacity=\"0.6\" transform=\"rotate(-12 292 95)\"/>\n<text x=\"292\" y=\"88\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#d4ff4f\" text-anchor=\"middle\" transform=\"rotate(-12 292 95)\">AMENDED</text>\n<text x=\"292\" y=\"112\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"13\" fill=\"#d4ff4f\" text-anchor=\"middle\" transform=\"rotate(-12 292 95)\">7 SEP 2026</text>\n<rect x=\"14\" y=\"138\" width=\"200\" height=\"46\" fill=\"#062e2b\" opacity=\"0.85\" rx=\"4\"/>\n<text x=\"24\" y=\"172\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#f4f4f0\">Law Changed</text>\n<rect x=\"14\" y=\"190\" width=\"260\" height=\"24\" fill=\"#062e2b\" opacity=\"0.75\" rx=\"4\"/>\n<text x=\"24\" y=\"207\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#79e0c8\">Oman's data rules, again</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-pdpl-law",
+      "label": "MTCIT: Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/personal-data-protection-law-1034",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl-regulation",
+      "label": "MTCIT: Executive Regulations of the Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/regulations-72/executive-regulations-of-the-personal-data-protection-law-1035",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cms-pdpl-amendment",
+      "label": "CMS Law: Oman Personal Data Protection Law, Key 2026 Amendments",
+      "url": "https://cms.law/en/omn/legal-updates/oman-updates-its-personal-data-protection-law",
+      "kind": "analysis"
+    },
+    {
+      "id": "decree-blog-amendment",
+      "label": "Decree: New Amendments to the Personal Data Protection Law",
+      "url": "https://blog.decree.om/2026/new-amendments-to-the-personal-data-protection-law",
+      "kind": "analysis"
+    },
+    {
+      "id": "cms-enforcement-phase",
+      "label": "CMS Law: Oman Personal Data Protection Law Entering the Enforcement Phase",
+      "url": "https://cms.law/en/omn/legal-updates/oman-personal-data-protection-law-entering-the-enforcement-phase",
+      "kind": "analysis"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "On 7 September 2026, Oman's Personal Data Protection Law changed for the first time since it became fully enforceable seven months earlier. If your business keeps customer phone numbers, ID copies or call recordings on file, this is not background reading. The amendment adds a real cost to holding data you no longer need, and gives every customer a new right to challenge a decision your systems make about them without a person involved."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "seven-months-in-then-a-rewrite",
+      "text": "Seven months in, then a rewrite"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The grace period under the data protection law ended on 5 February 2026. From that date the Ministry of Transport, Communications and Information Technology (MTCIT), the regulator for data protection, gained full power to investigate complaints, audit how businesses handle customer data and issue fines. Most service businesses treated that date as the finish line and moved on to other things."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Then, on 6 September 2026, a Royal Decree amended the law itself, and the changes took effect the next day. They touch exactly the parts that matter to a business running a call desk: what counts as valid consent, how long a recording can sit on a server, and what happens when a system, not a person, makes a decision about a customer."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-changed-on-7-september",
+      "text": "What changed on 7 September"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Five changes matter most for a customer-facing business:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Reach beyond Oman's borders. The law now covers processing of a customer's data even when that processing happens outside Oman, for example on an overseas vendor's server."
+          }
+        ],
+        [
+          {
+            "text": "A right to a human decision. If a system flags, scores or routes a customer automatically, an IVR queue or an AI triage step, the customer can now object and ask a person to review it."
+          }
+        ],
+        [
+          {
+            "text": "Delete data once the job is done. Personal data must be erased once the reason for holding it no longer applies, with narrow exceptions for an open dispute or a legal duty to keep it."
+          }
+        ],
+        [
+          {
+            "text": "Marketing consent stays explicit. A written yes is still required before sending offers or promotional messages, separate from the consent a customer gave simply to be served."
+          }
+        ],
+        [
+          {
+            "text": "Staff data got simpler. A business can now process its own employees' data, including fingerprints for time clocks, without applying for a ministry permit first."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-your-call-desk-is-exposed",
+      "text": "Why your call desk is exposed"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most of this reads like a legal update until you map it onto an actual day at the desk. A hotel front office keeps call recordings for training. A polyclinic's call desk logs a caller's number and reason for calling before the call reaches a doctor. A dealership's service line records calls to settle disputes about what was promised. None of that is illegal on its own. What is now exposed is not being able to say why you're still holding a recording six months later, and not being able to show a person reviewed a decision your system made when a customer pushed back."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Keeping a customer's call recording after the reason for it has passed is now the violation, not the recording itself."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If part of your call handling already runs on an AI system, check whether it can hand off to a person the moment someone objects. CustomerCare.OM, for one, builds this into "
+        },
+        {
+          "text": "escalation rules",
+          "href": "/features/smart-call-escalation-with-triggers/"
+        },
+        {
+          "text": " that route a caller to a person on trigger words or on request, which is roughly the shape the new right takes in a real conversation."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-fixes-this-week",
+      "text": "The three fixes this week"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Put a number on retention. Decide how long call recordings, chat logs and enquiry forms stay before deletion, ninety days is a common starting point for service calls, write it down, and set your phone or call software to enforce it automatically."
+          }
+        ],
+        [
+          {
+            "text": "Build the human hand-off. If any part of intake is automated, routing, triage or an AI system, make sure a customer can ask for a person and actually get one, and keep a short note of what was reviewed."
+          }
+        ],
+        [
+          {
+            "text": "Separate marketing consent from service consent. A customer who gave a number to book a room or an appointment did not agree to receive offers. Keep that yes as its own dated, logged tickbox."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-service-desks-numbers",
+      "text": "One service desk's numbers"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is how those three fixes might look for a twenty-line dealership service desk. Use your own call volumes to redo the sums."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Three fixes, sized for a twenty-line service desk",
+      "headers": [
+        "Fix",
+        "Time and cost to do it",
+        "Risk if skipped"
+      ],
+      "rows": [
+        [
+          "Ninety-day auto-delete on call recordings",
+          "Half a day with your phone or call platform provider, usually no extra cost",
+          "Up to OMR 2,000 in administrative fines if recordings are held with no stated reason"
+        ],
+        [
+          "A 'get me a person' path on automated routing",
+          "One afternoon configuring escalation rules",
+          "A complaint upheld against the business, plus the fine tied to the underlying breach"
+        ],
+        [
+          "Marketing consent logged apart from booking consent",
+          "One spreadsheet column or CRM field, same day",
+          "OMR 1,000 to OMR 5,000 for sending marketing without explicit consent"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "We used to keep every recording forever, just in case. Now that habit is the risk we're managing.",
+      "attribution": "Sumaiya, call-desk coordinator, polyclinic group, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you already run a call desk, an IVR line or a front office, treat this amendment as a checklist, not a crisis. You are not starting from zero: you already collect consent to serve customers and you already record calls for a real reason. The gap is usually paperwork and defaults, not intent. Fix the three items above this week. For the fuller rulebook on consent and recording built for phone systems, the "
+        },
+        {
+          "text": "Oman AI calling guide",
+          "href": "/guideline/oman/"
+        },
+        {
+          "text": " is a useful next stop."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Clinics, insurers and any business handling health or financial data carry extra duties on top of the general law, so check your sector's own guidance as well."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "key",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Can you say, in one sentence, why you're still holding a customer's call recording from six months ago? If not, it should probably be gone.",
+        "Can a customer ask your system for a person and actually reach one today, without calling three times?",
+        "Do you have a dated, logged yes for every number you send offers or reminders to, kept apart from the booking record?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does this apply to a small clinic or a single branch, not just large groups?",
+          "a": "Yes. The law applies by what data you hold and how you use it, not by company size."
+        },
+        {
+          "q": "Is there a new grace period for the September amendment?",
+          "a": "None has been published. Treat the changes as already in force, because they are."
+        },
+        {
+          "q": "What about recordings kept from before September?",
+          "a": "The erasure duty runs from when the reason for keeping data ends. Review older recordings against the same test: is there still a reason to keep this one?"
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The data protection law is no longer something you read once and file away. It changed twice within a year: once in February when enforcement began, and again on 7 September when the rules themselves moved. The businesses in the best shape are the ones that treat every update the same way, read what changed, fix what's exposed, and get back to the next call."
+        }
+      ]
+    }
+  ]
+}

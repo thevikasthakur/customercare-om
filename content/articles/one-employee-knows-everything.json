@@ -1,0 +1,265 @@
+{
+  "id": "article-2026-09-24-one-person-knows-everything",
+  "taskId": "2026-09-24-one-person-knows-everything",
+  "slug": "one-employee-knows-everything",
+  "title": "When Only One Employee Knows Everything",
+  "seoTitle": "When Only One Employee Knows Everything",
+  "excerpt": "Every staffed front desk has one person who remembers what the manual does not. Here is what her next leave day actually costs, and how to move that knowledge out of her head before she takes it.",
+  "seoDescription": "What one key employee's leave day really costs a hotel, clinic or dealership front desk, and how to move that knowledge into a system the whole team can use.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "When Only One Employee Knows Everything",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-24",
+  "modifiedDate": "2026-09-24",
+  "reviewedDate": "2026-09-24",
+  "reviewBy": "2026-12-23",
+  "status": "published",
+  "tags": [
+    "key person risk",
+    "front desk operations",
+    "knowledge management",
+    "hotel operations",
+    "polyclinic operations",
+    "staff leave planning",
+    "customer service operations"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"400\" y2=\"225\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0\" stop-color=\"#14121c\"/>\n<stop offset=\"0.55\" stop-color=\"#3a3554\"/>\n<stop offset=\"1\" stop-color=\"#a8a8f8\"/>\n</linearGradient>\n</defs>\n<rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<g stroke=\"#f4f4f0\" stroke-width=\"5\" fill=\"none\" opacity=\"0.85\">\n<rect x=\"245\" y=\"65\" width=\"90\" height=\"80\" rx=\"8\"/>\n<line x1=\"245\" y1=\"145\" x2=\"232\" y2=\"205\"/>\n<line x1=\"335\" y1=\"145\" x2=\"348\" y2=\"205\"/>\n<line x1=\"245\" y1=\"65\" x2=\"245\" y2=\"20\"/>\n<line x1=\"335\" y1=\"65\" x2=\"335\" y2=\"20\"/>\n<line x1=\"245\" y1=\"20\" x2=\"335\" y2=\"20\"/>\n</g>\n<circle cx=\"290\" cy=\"160\" r=\"11\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"3\"/>\n<line x1=\"290\" y1=\"171\" x2=\"290\" y2=\"192\" stroke=\"#d4ff4f\" stroke-width=\"3\"/>\n<rect x=\"283\" y=\"190\" width=\"14\" height=\"7\" fill=\"#d4ff4f\"/>\n<rect x=\"12\" y=\"14\" width=\"210\" height=\"26\" fill=\"#14121c\" opacity=\"0.75\" rx=\"5\"/>\n<text x=\"22\" y=\"32\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">ONE LEAVE DAY, NO NOTES</text>\n<rect x=\"12\" y=\"150\" width=\"205\" height=\"62\" fill=\"#14121c\" opacity=\"0.8\" rx=\"6\"/>\n<text x=\"22\" y=\"188\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#d4ff4f\">OMR 620</text>\n<text x=\"22\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#e8c07c\">what it cost one hotel desk</text>\n</svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Ask any front office manager in Salalah what happens when she takes her thirty days of annual leave, and watch her face change. In many Omani businesses, one person quietly holds the answers nobody else wrote down: which insurer stalls a claim, which VIP guest wants a room away from the lift, which supplier grants a few extra days on a late invoice. The day she leaves for leave, that memory leaves with her, and the phone queue gets slower and pricier until she is back."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-manager-who-is-the-manual",
+      "text": "The manager who is the manual"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every front desk, call centre or service bay runs on two kinds of knowledge. The first kind lives in the training manual: opening hours, price lists, standard scripts. The second kind lives nowhere but one employee's memory, built from years of small exceptions nobody thought worth writing down. That second kind usually keeps regulars happy and disputes rare, and it walks out the door every time that employee does. On an ordinary day, that private memory quietly covers things like:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Which corporate accounts get a standing rate, and which do not"
+          }
+        ],
+        [
+          {
+            "text": "Which insurer wants pre-authorisation before it pays a claim"
+          }
+        ],
+        [
+          {
+            "text": "Which repeat guest or patient has a known preference: a room, a doctor, a payment method"
+          }
+        ],
+        [
+          {
+            "text": "Which supplier or courier bends a deadline, and which one never does"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-leave-day-actually-costs",
+      "text": "What a leave day actually costs"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Picture Warda, a composite front office manager at a 48 room hotel in Salalah. She takes her thirty days of annual leave every October, just as the season starts to fill. Her stand in cover is capable, friendly and well trained on the manual. She is simply not Warda, so the exceptions Warda used to catch quietly turn into guest complaints, comped rooms and one delayed corporate invoice instead. Here is what one leave cycle looks like, both ways."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "One 30 day leave cycle, composite hotel example",
+      "headers": [
+        "Cost during Warda's leave",
+        "Knowledge only in her head",
+        "Knowledge written down"
+      ],
+      "rows": [
+        [
+          "Extra cover hours to sort mix ups",
+          "OMR 210",
+          "OMR 90"
+        ],
+        [
+          "Guest recovery gestures: upgrades, comped meals",
+          "OMR 260 (4 incidents)",
+          "OMR 40 (1 incident)"
+        ],
+        [
+          "Corporate account invoice dispute, delayed payment",
+          "OMR 150",
+          "OMR 0"
+        ],
+        [
+          "Warda's first week back clearing the backlog",
+          "6 unpaid extra hours",
+          "0 hours"
+        ],
+        [
+          "Total quantifiable cost, one leave cycle",
+          "about OMR 620",
+          "about OMR 130"
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The manager who remembers everything is also the one manager who can never really switch her phone off."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-writing-it-down-never-happens",
+      "text": "Why writing it down never happens"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Ask any manager why this was never written down, and the answer is almost always the same: there was never a slow afternoon to do it. Exceptions do not feel important until the day one causes a mistake, and by then the moment to log it has already passed. Most teams promise to build a manual next month, and next month arrives with a new season, a new hire or another emergency instead. What finally breaks that cycle is smaller than a full manual: one habit, and one shared place to keep it, more on that in a moment."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "moving-the-knowledge-out-of-one-head",
+      "text": "Moving the knowledge out of one head"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A leave day is really just a scheduled version of the "
+        },
+        {
+          "text": "gap that opens every evening once the desk locks up",
+          "href": "/blog/after-hours-call-gap-cost/"
+        },
+        {
+          "text": ": coverage disappears for a while, no matter how good the underlying team is. The fix for both is the same habit: capture the exception the moment it happens, in one place the whole team can search, not five different notebooks and a WhatsApp thread. Three changes make that habit stick:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Log the exception when it happens, at the end of the call or the shift, not at the end of the week."
+          }
+        ],
+        [
+          {
+            "text": "Give every recurring answer a single home the whole team can search, not personal notebooks."
+          }
+        ],
+        [
+          {
+            "text": "Test the system while the key person is still at her desk, so gaps show up before her leave does, not during it."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some hotels and clinic groups now build that shared home inside the same platform that already answers their calls. CustomerCare.OM's "
+        },
+        {
+          "text": "knowledge base",
+          "href": "/features/knowledge-base/"
+        },
+        {
+          "text": ", for example, lets a business load its price lists, insurer rules and standing guest preferences once, so the same answer reaches a caller whether Warda picks up the phone or the AI agent does."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "When our senior coordinator is on leave, my queue doubles because I am relearning what she already knew.",
+      "attribution": "Marwa, call-desk coordinator, Muscat polyclinic",
+      "persona": true
+    },
+    {
+      "type": "highlight",
+      "text": "A written answer survives leave, illness and resignation. A memorised one does not."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Start by naming the one person your business could not run smoothly without for a week. That is not a compliment, it is a risk report. Sit with that person for thirty minutes and list every exception they handle that is not in any manual: rates, refunds, preferences, workarounds. Write it down in one shared place today, not after her next leave request lands on your desk. If your call volumes already justify a knowledge base or an AI phone agent, feed it the same list, so the answer holds whether a human or a machine picks up the phone."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Ask today's stand in staff four questions, without letting them call the key person for help: what is our top corporate account's rate, which insurer pays slowest, what does our most particular repeat guest expect, and which supplier always says yes to a short extension.",
+        "If even one answer is a shrug, you have found your key person risk, and today is a good day to start writing it down."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is this really a technology problem?",
+          "a": "Only partly. It starts as a habit problem, since nobody logs the exception when it happens. Technology only helps once there is something worth searching."
+        },
+        {
+          "q": "What if the key person resists writing things down?",
+          "a": "Frame it as protecting her leave, not auditing her work. The notes are what let her actually switch her phone off in October."
+        },
+        {
+          "q": "Does a shared knowledge base replace training new staff?",
+          "a": "No, but it shortens it. New staff read the exceptions instead of learning them one mistake at a time."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Key person risk is not disloyalty and it is nobody's fault. It is simply what happens when a business grows faster than its habit of writing things down. Fix that habit before the next leave request lands, and thirty days away will cost you nothing more than her salary."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "id": "article-2026-09-26-tourist-season-languages",
+  "taskId": "2026-09-26-tourist-season-languages",
+  "slug": "cruise-season-desk-coverage-audit",
+  "title": "The Ship Has Docked. Is Your Desk Open Yet?",
+  "seoTitle": "The Ship Has Docked. Is Your Desk Open Yet?",
+  "excerpt": "A cruise ship docks at dawn speaking German. Your desk opens at nine. Here is the audit that catches the calls falling through that gap this October.",
+  "seoDescription": "Cruise ships bring German, Russian and Dutch speaking tourists to Oman before front desks open. Here is the call log audit to run this week.",
+  "series": "Season Ready",
+  "category": "Oman Seasons & Peaks",
+  "topic": "October Brings Tourists Who Do Not Speak Arabic",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-26",
+  "modifiedDate": "2026-09-26",
+  "reviewedDate": "2026-09-26",
+  "reviewBy": "2026-12-25",
+  "status": "published",
+  "tags": [
+    "cruise tourism",
+    "winter season",
+    "multilingual customer service",
+    "front desk staffing",
+    "tour desk",
+    "Port Sultan Qaboos",
+    "seasonal preparation",
+    "language coverage"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n<defs>\n<linearGradient id=\"g\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n<stop offset=\"0%\" stop-color=\"#0d1f16\"/>\n<stop offset=\"50%\" stop-color=\"#1e4634\"/>\n<stop offset=\"100%\" stop-color=\"#8fd3a8\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#g)\"/>\n<circle cx=\"335\" cy=\"55\" r=\"28\" fill=\"#e8c07c\"/>\n<path d=\"M60 178 Q90 168 130 178 T200 178 T270 178 T330 178\" stroke=\"#79e0c8\" stroke-width=\"3\" fill=\"none\"/>\n<path d=\"M60 194 Q90 184 130 194 T200 194 T270 194 T330 194\" stroke=\"#79e0c8\" stroke-width=\"2\" fill=\"none\"/>\n<path d=\"M70 190 L90 160 L260 160 L300 190 Z\" fill=\"#0d1f16\"/>\n<rect x=\"205\" y=\"118\" width=\"16\" height=\"44\" fill=\"#0d1f16\"/>\n<rect x=\"199\" y=\"110\" width=\"28\" height=\"10\" fill=\"#0d1f16\"/>\n<circle cx=\"120\" cy=\"178\" r=\"4\" fill=\"#e8c07c\"/>\n<circle cx=\"150\" cy=\"178\" r=\"4\" fill=\"#e8c07c\"/>\n<circle cx=\"180\" cy=\"178\" r=\"4\" fill=\"#e8c07c\"/>\n<circle cx=\"210\" cy=\"178\" r=\"4\" fill=\"#e8c07c\"/>\n<text x=\"20\" y=\"62\" font-family=\"Arial, sans-serif\" font-size=\"38\" font-weight=\"bold\" fill=\"#d4ff4f\">07:00</text>\n<text x=\"20\" y=\"88\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">Ship docks. Desk opens at nine.</text>\n<text x=\"20\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#0d1f16\">SEASON READY</text>\n</svg>",
+  "sources": [
+    {
+      "id": "omanobserver-cruise-season-opening",
+      "label": "Port Sultan Qaboos receives first ship of cruise season, Oman Observer",
+      "url": "https://www.omanobserver.om/article/1179341/oman/tourism/port-sultan-qaboos-receives-first-ship-of-cruise-season",
+      "kind": "media"
+    },
+    {
+      "id": "omanobserver-experience-our-winter",
+      "label": "'Experience Our Winter' is Oman's new tourism campaign, Oman Observer",
+      "url": "https://www.omanobserver.om/article/1180702/oman/tourism/experience-our-winter-is-omans-new-tourism-campaign",
+      "kind": "media"
+    },
+    {
+      "id": "cruisemapper-muscat-schedule",
+      "label": "Muscat (Port Sultan Qaboos) cruise port schedule, CruiseMapper",
+      "url": "https://www.cruisemapper.com/ports/muscat-port-4308",
+      "kind": "vendor"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A cruise ship due at Port Sultan Qaboos this month carries passengers who speak German, Russian and Dutch, and it will likely dock before your front desk opens. Businesses that already run a switchboard, a tour desk or an IVR line will feel that mismatch first. The fix is not a new script; it is a twenty minute audit of your own call log."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "a-season-that-starts-before-your-rota",
+      "text": "A season that starts before your rota does"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Cruise ships already call at Port Sultan Qaboos every winter, usually from around October through April, with November to March the busiest stretch, according to published port schedules. Last season's opening call set the pattern: Mein Schiff 4, operated by Germany's TUI, "
+        },
+        {
+          "text": "docked on 8 November",
+          "href": "https://www.omanobserver.om/article/1179341/oman/tourism/port-sultan-qaboos-receives-first-ship-of-cruise-season"
+        },
+        {
+          "text": " carrying 2,386 passengers from around the world, most of them German speaking."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Ministry of Heritage and Tourism's "
+        },
+        {
+          "text": "winter tourism push",
+          "href": "https://www.omanobserver.om/article/1180702/oman/tourism/experience-our-winter-is-omans-new-tourism-campaign"
+        },
+        {
+          "text": " is aiming even higher this time: more than 640 charter flights bringing in 110,000 tourists, up from 93,000 the year before. The fastest growing markets are not the ones most desks are trained for. The Russian market alone is up 140 percent year on year, with Switzerland, the Netherlands, Spain and the Nordic countries all posting double digit growth too."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "who-is-actually-calling",
+      "text": "Who is actually calling this month"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Put the cruise passengers and the charter tourists together, and October's caller list looks nothing like the usual Arabic and English scripts. A front desk in Muscat, a tour desk near Mutrah souq or an airport car hire counter can expect a genuine mix this season:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "German, steady all winter, driven by cruise calls like the TUI ships"
+          }
+        ],
+        [
+          {
+            "text": "Russian, up 140 percent on last year"
+          }
+        ],
+        [
+          {
+            "text": "Dutch and Swiss, up 49 to 60 percent"
+          }
+        ],
+        [
+          {
+            "text": "Spanish, up 21 percent"
+          }
+        ],
+        [
+          {
+            "text": "Nordic, Polish and Austrian, up 11 to 25 percent"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of that replaces Arabic or English. It sits on top of it, arriving in short bursts whenever a ship or a charter flight lands. It is the same mix that keeps "
+        },
+        {
+          "text": "multilingual travel desks",
+          "href": "/industries/travel-agencies-ai-customer-service/"
+        },
+        {
+          "text": " busy all season, and it lands on a switchboard that is already handling regular guests."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-hour-nobody-is-behind-the-desk",
+      "text": "The hour nobody is behind the desk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Cruise ships do not wait for office hours. Port scheduling data shows calls "
+        },
+        {
+          "text": "as early as seven in the morning",
+          "href": "https://www.cruisemapper.com/ports/muscat-port-4308"
+        },
+        {
+          "text": ", two hours before most hotel and tour desks open at nine. Passengers get a few hours of shore time and spend the first of it asking which taxi, which tour, is the fort open today."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Charter tourists open a second gap. Someone in Zurich or Warsaw books a desert camp from their sofa at nine at night, which is already past midnight in Muscat. By the time your desk opens, that enquiry has been sitting unanswered for hours, and the traveller has often already messaged someone else. Closing both gaps, the early ship and the late night booking, comes down to one audit most desks have never run."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Your busiest fifteen minutes of the entire cruise season might happen before your first shift clocks in."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "one-mornings-missed-calls",
+      "text": "One morning's missed calls, added up"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is a composite call log from a mid-size Muscat tour desk on a cruise call day. Swap in your own average booking values and see what one morning is actually worth."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Four calls before nine o'clock were missed outright: OMR 544 in likely bookings, well past the OMR 35 the desk did answer.",
+      "headers": [
+        "Time (Oman)",
+        "Caller heard speaking",
+        "What they wanted",
+        "Value (OMR)",
+        "Answered?"
+      ],
+      "rows": [
+        [
+          "06:50",
+          "German",
+          "Nizwa day trip, 4 people",
+          "96",
+          "Missed, desk opens at 9"
+        ],
+        [
+          "07:15",
+          "Russian",
+          "Airport transfer, 2 guests",
+          "18",
+          "Missed"
+        ],
+        [
+          "07:40",
+          "Dutch",
+          "Half day dhow cruise, 6",
+          "150",
+          "Missed"
+        ],
+        [
+          "09:05",
+          "English",
+          "Same day room upgrade",
+          "35",
+          "Answered"
+        ],
+        [
+          "23:20 prior night",
+          "Swiss German",
+          "New Year week enquiry",
+          "280",
+          "Missed, no after hours line"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "By nine o'clock the ship's been ashore two hours, and half our guests already found another driver.",
+      "attribution": "Ghalia, tour desk coordinator, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-audit-any-desk-can-run-this-week",
+      "text": "The audit any desk can run this week"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need a consultant to find these gaps, just your own call log and about twenty minutes. We mapped the language side of this in "
+        },
+        {
+          "text": "an earlier piece",
+          "href": "/blog/winter-season-language-coverage-audit/"
+        },
+        {
+          "text": "; this audit adds the clock."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Pull the call log or reception diary for the last two weeks."
+          }
+        ],
+        [
+          {
+            "text": "Mark the time and the language, or country if language was not noted, of every call that rang out or went to voicemail."
+          }
+        ],
+        [
+          {
+            "text": "Lay that against your actual roster: who was on shift, and until what time."
+          }
+        ],
+        [
+          {
+            "text": "Circle the one or two windows where missed calls cluster, usually early morning or late evening."
+          }
+        ],
+        [
+          {
+            "text": "Decide the fix for each window: an earlier shift, a forwarded mobile line, or after hours phone coverage."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If your audit shows missed calls clustering around ship arrivals or in the evening, do not just add more Arabic and English scripts. Cover the actual hours and the actual languages this season is bringing. A short recorded message in German and Russian giving the tour desk's mobile number beats silence, even as a stopgap."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If the gap keeps repeating night after night, that is a staffing decision, not a training one. A phone line built for Oman, such as CustomerCare.OM, can pick up in those exact hours in German, Russian or Omani Arabic and hand your morning team a note and a number instead of a missed ring. Whatever fix you choose, put a name against each of the two gaps your audit found, in writing, before the next ship docks."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Look at today's call log. What is the earliest and the latest call logged?",
+        "Compare that span with your actual staffed hours today.",
+        "Note any call that landed in a language nobody on shift could handle.",
+        "Two or more gaps like that in a week means the season has already found your blind spot."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "How long does the cruise calling season usually run at Port Sultan Qaboos?",
+          "a": "Ships have historically called from around October through April, with November to March the busiest months, based on published port schedules."
+        },
+        {
+          "q": "Which languages are growing fastest among winter visitors this year?",
+          "a": "The Ministry of Heritage and Tourism's winter campaign reports the Russian market up 140 percent year on year, with Switzerland, the Netherlands, Spain and Nordic markets also posting double digit growth, alongside steady German speaking demand from cruise calls."
+        },
+        {
+          "q": "What is the cheapest first fix if I cannot add a shift?",
+          "a": "Start with a short recorded message or a forwarded mobile number in the languages your audit flags, covering just the one or two windows where calls cluster."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "October does not wait for a staff meeting. The ships and the charter flights are already scheduled, and the languages arriving with them are printed in this year's tourism numbers. Run the call log audit this week, cover the two worst hours, and the season stops finding gaps your team did not know it had."
+        }
+      ]
+    }
+  ]
+}

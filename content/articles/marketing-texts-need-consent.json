@@ -1,0 +1,419 @@
+{
+  "id": "article-2026-09-28-tra-spam-direction",
+  "taskId": "2026-09-28-tra-spam-direction",
+  "slug": "marketing-texts-need-consent",
+  "title": "Your Marketing Texts Now Need Written Consent",
+  "seoTitle": "Your Marketing Texts Now Need Written Consent",
+  "excerpt": "Oman's telecom regulator just turned spam rules into an actual regulation, with a six month clock now running on every business that texts customers offers.",
+  "seoDescription": "TRA has issued a rule requiring explicit consent before marketing texts and calls in Oman, with a six month compliance clock. Here is what to fix now.",
+  "series": "Oman Service Pulse",
+  "category": "Rules & Updates",
+  "topic": "The End of Spam Texts? What TRA Is Working On",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-09-28",
+  "modifiedDate": "2026-09-28",
+  "reviewedDate": "2026-09-28",
+  "reviewBy": "2026-12-27",
+  "status": "published",
+  "tags": [
+    "TRA",
+    "SMS marketing",
+    "consumer consent",
+    "spam messages",
+    "data protection",
+    "Oman Service Pulse",
+    "customer communications"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg viewBox=\"0 0 400 225\" width=\"400\" height=\"225\" xmlns=\"http://www.w3.org/2000/svg\">\n<defs>\n<linearGradient id=\"bg\" x1=\"0\" y1=\"225\" x2=\"400\" y2=\"0\" gradientUnits=\"userSpaceOnUse\">\n<stop offset=\"0\" stop-color=\"#181109\"/>\n<stop offset=\"0.55\" stop-color=\"#54371a\"/>\n<stop offset=\"1\" stop-color=\"#e8c07c\"/>\n</linearGradient>\n</defs>\n<rect x=\"0\" y=\"0\" width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n<rect x=\"255\" y=\"25\" width=\"110\" height=\"175\" rx=\"16\" fill=\"#0f0b06\"/>\n<rect x=\"266\" y=\"40\" width=\"88\" height=\"145\" rx=\"8\" fill=\"#2c1e10\"/>\n<rect x=\"278\" y=\"58\" width=\"64\" height=\"34\" rx=\"6\" fill=\"#f4f4f0\"/>\n<text x=\"310\" y=\"80\" font-family=\"Arial, sans-serif\" font-size=\"18\" font-weight=\"bold\" fill=\"#181109\" text-anchor=\"middle\">20%</text>\n<circle cx=\"342\" cy=\"140\" r=\"20\" fill=\"#d4ff4f\"/>\n<path d=\"M333 140 l6 7 l14 -16\" stroke=\"#181109\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n<text x=\"310\" y=\"150\" font-family=\"Arial, sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#f4f4f0\" text-anchor=\"middle\">SEND?</text>\n<text x=\"20\" y=\"145\" font-family=\"Arial, sans-serif\" font-size=\"34\" font-weight=\"bold\" fill=\"#f4f4f0\">ASK FIRST</text>\n<text x=\"20\" y=\"170\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">TRA's new rule for offer texts</text>\n<text x=\"20\" y=\"190\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#79e0c8\">Six months to get consent on file</text>\n</svg>",
+  "sources": [
+    {
+      "id": "times-of-oman",
+      "label": "Times of Oman: new telecom regulation limits promotional messages",
+      "url": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman",
+      "kind": "media"
+    },
+    {
+      "id": "muscat-daily",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "al-roya",
+      "label": "Al Roya: new regulation for organising promotional and service calls",
+      "url": "https://alroya.om/post/392424/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D9%86%D8%A9",
+      "kind": "media"
+    },
+    {
+      "id": "shuoon",
+      "label": "Shuoon Wataniyah: TRA issues regulation on promotional and service calls",
+      "url": "https://shuoon.om/?p=215934",
+      "kind": "media"
+    },
+    {
+      "id": "tra-official",
+      "label": "TRA Oman: laws and regulations, legal framework",
+      "url": "https://www.tra.gov.om/legal-framework/laws-regulations",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "That festival discount you text your whole guest list, the service reminder blast to every car buyer from the last three years, the WhatsApp offer for a free health check: all of it now needs something it never needed before, a customer's documented yes before you press send. Oman's telecom regulator has stopped talking about a spam rule and issued one, with a six month clock already running toward the deadline."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-tra-issued",
+      "text": "What the TRA actually issued"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "In mid August 2026, the Telecommunications Regulatory Authority, the body that licenses and polices phone and messaging services in Oman, issued a regulation covering promotional calls, service messages and value added services. "
+        },
+        {
+          "text": "Times of Oman",
+          "href": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman"
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Muscat Daily",
+          "href": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/"
+        },
+        {
+          "text": " both reported it in detail, and it now sits on "
+        },
+        {
+          "text": "TRA's own legal framework page",
+          "href": "https://www.tra.gov.om/legal-framework/laws-regulations"
+        },
+        {
+          "text": " as an active regulation, not a draft."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Explicit consent, given before you send, is now required for any promotional call, text or similar message."
+          }
+        ],
+        [
+          {
+            "text": "Promotional calls and messages can only go out between 8am and 9pm."
+          }
+        ],
+        [
+          {
+            "text": "The sender name must show your real business name; promotional SMS codes must start with the letters AD, and generic or spoofed IDs are banned."
+          }
+        ],
+        [
+          {
+            "text": "Customers must get a working way to opt out, and businesses must honour that immediately."
+          }
+        ],
+        [
+          {
+            "text": "Customer phone numbers cannot be passed to another company or an international intermediary without the regulator's approval."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Businesses covered get six months from the day the regulation takes effect to bring their practices into line. "
+        },
+        {
+          "text": "Al Roya reported",
+          "href": "https://alroya.om/post/392424/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85-%D8%A7%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D9%86%D8%A9"
+        },
+        {
+          "text": " that it takes effect the day after publication in the Official Gazette, which points to roughly February 2027 for the deadline. Confirm the exact date with TRA before you build a plan around it."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "who-this-catches",
+      "text": "Who this actually catches"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The direct legal duties sit with licensed telecom operators and the SMS aggregators that carry bulk messages for businesses. In practice, any business that buys a bulk SMS package or a sender ID will be asked by its provider to show consent records before that sender ID keeps working. That reaches hotels sending seasonal offers, dealerships texting service reminders, insurers pushing renewal deals, clinics reminding patients about check up packages, and colleges promoting new intakes."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Booking confirmations, appointment reminders and one time verification codes: these are service messages, and they are not the target of the new consent rule."
+          }
+        ],
+        [
+          {
+            "text": "Discount codes, seasonal offers, new branch announcements and renewal upsells: these are promotional, and they now need a documented opt in."
+          }
+        ],
+        [
+          {
+            "text": "A reply STOP line at the bottom of a message is good manners, but it is not consent. Consent has to be given first, not withdrawn afterward."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A phone number collected for a booking confirmation is not permission to sell that same customer a holiday package."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cost-of-getting-it-wrong",
+      "text": "The cost of getting it wrong"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Fines under the new regulation are not flat. They scale with what went wrong, and "
+        },
+        {
+          "text": "reported figures",
+          "href": "https://shuoon.om/?p=215934"
+        },
+        {
+          "text": " show they double for a repeat breach inside a year."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Violation",
+        "Fine range (OMR)"
+      ],
+      "rows": [
+        [
+          "Mishandling or sharing customer data without approval",
+          "1,000 to 5,000"
+        ],
+        [
+          "Ignoring an opt out request",
+          "5,000 to 15,000"
+        ],
+        [
+          "Sending fraudulent or deliberately intrusive messages",
+          "5,000 to 10,000"
+        ],
+        [
+          "Serious repeat violations",
+          "up to 30,000"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Al Falaj Motors is a composite example: a dealership in Ghala with a customer list built up over three years of sales and service visits. Here is the kind of math any business with a marketing list can redo."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Start with the full marketing contact list: 4,000 numbers."
+          }
+        ],
+        [
+          {
+            "text": "Remove anyone with no purchase or service visit in the last three years, since that contact has gone cold anyway: down to 2,800."
+          }
+        ],
+        [
+          {
+            "text": "Keep only numbers with a recorded yes to receiving offers, a ticked box on the service invoice or the website form: 640 numbers."
+          }
+        ],
+        [
+          {
+            "text": "A bulk campaign to that clean list, at an illustrative rate of 3 baisa a message, costs about OMR 19.200."
+          }
+        ],
+        [
+          {
+            "text": "Sending the same campaign to the full unconsented list of 4,000 risks a single data mishandling fine of OMR 1,000 to 5,000, before any repeat offense doubling."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "We used to blast the whole list for every offer. Now one person owns the yes list, and only that list gets promotions.",
+      "attribution": "Asma, marketing coordinator, a dealership in Ghala",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "building-a-consent-list-that-holds",
+      "text": "Building a consent list that holds up"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix is not complicated, it is a habit change. Capture the yes the moment you collect the number, keep proof of it, and stop treating every contact in your customer database as fair game for every offer."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Add a single tick box wherever you already collect phone numbers today: at check in, on the booking form, at the sales desk."
+          }
+        ],
+        [
+          {
+            "text": "Record the date and the channel the yes came through, not just a name on a spreadsheet."
+          }
+        ],
+        [
+          {
+            "text": "Keep two lists: everyone, for service messages, and only the yes list, for promotions."
+          }
+        ],
+        [
+          {
+            "text": "Before every campaign, confirm your sender ID is still active. If a provider suspends it, missing consent records are usually why."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The same standard, ask before you use a number for anything beyond the reason it was given, is "
+        },
+        {
+          "text": "what actually counts as consent for a phone number",
+          "href": "/blog/consent-for-a-phone-number/"
+        },
+        {
+          "text": " in the first place. A call platform such as CustomerCare.OM already timestamps a caller's consent and any opt out request inside the call notes, which saves the scramble to reconstruct it later from memory."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need to wait for the exact gazette date to start. Pull your marketing list this week and sort it into consent and no consent. Anything without a clear yes moves to the no send pile until you get one."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Check with your SMS or WhatsApp broadcast provider whether your sender ID already meets the new naming rule."
+          }
+        ],
+        [
+          {
+            "text": "Set an internal rule: nobody sends a promotional blast without checking the yes list first."
+          }
+        ],
+        [
+          {
+            "text": "Fix your opt out process now, so a stop request actually stops the next message, not just the current campaign."
+          }
+        ],
+        [
+          {
+            "text": "Brief whoever manages your marketing texts on the 8am to 9pm sending window, since a well meant early morning offer is now a violation."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Can you name, for any customer on your promotions list, the date and the way they agreed to receive offers?",
+        "Does your promotional SMS sender ID already start with the letters AD?",
+        "Do your offer texts go out only between 8am and 9pm?",
+        "If a customer replies stop, does it actually stop today?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does this cover WhatsApp broadcasts too?",
+          "a": "The regulation's wording targets calls and messages carried through licensed telecom channels. Treat a bulk WhatsApp offer the same way until TRA says otherwise, since the same operators and aggregators usually carry both."
+        },
+        {
+          "q": "Our customers have been on our list for years. Do we need to ask again?",
+          "a": "Under a consent first standard, an old purchase is not the same as a yes to marketing. Reconfirm before your next promotional campaign rather than assume silence means agreement."
+        },
+        {
+          "q": "What if we only send appointment reminders, not offers?",
+          "a": "Service messages like reminders and confirmations sit outside this consent rule. The risk starts the moment a reminder quietly turns into an upsell."
+        },
+        {
+          "q": "What is the actual deadline?",
+          "a": "Six months from when the regulation took effect, which points to around February 2027. Confirm the exact date directly with TRA before you finalise your plan."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The direction has been clear for a while: fewer blasts, more permission. Now there is a date attached to it. Businesses that spend this month building a real consent list will keep sending offers without a second thought; the ones that wait will spend next spring defending their sender ID instead."
+        }
+      ]
+    }
+  ]
+}

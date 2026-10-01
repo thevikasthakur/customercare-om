@@ -1,0 +1,307 @@
+{
+  "id": "article-2026-10-01-three-branches-one-number",
+  "taskId": "2026-10-01-three-branches-one-number",
+  "slug": "three-branches-one-phone-number",
+  "title": "Three Branches, One Phone Number, Zero Chaos",
+  "seoTitle": "Three Branches, One Phone Number, Zero Chaos",
+  "excerpt": "One number, three branches, and a caller stuck on hold while staff guess where to send them: the real cost of bad call routing, and the fix that ends it.",
+  "seoDescription": "Multi-branch Omani businesses lose real money when calls land on the wrong desk. See the OMR cost of bad routing and how to fix it.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "Three Branches, One Phone Number, Zero Chaos",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-01",
+  "modifiedDate": "2026-10-01",
+  "reviewedDate": "2026-10-01",
+  "reviewBy": "2026-12-30",
+  "status": "published",
+  "tags": [
+    "multi-branch routing",
+    "call routing",
+    "IVR",
+    "hotel groups",
+    "customer service operations",
+    "phone systems",
+    "Omani Arabic",
+    "Oman business"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\">\n  <defs>\n    <radialGradient id=\"bg\" cx=\"50%\" cy=\"42%\" r=\"75%\">\n      <stop offset=\"0%\" stop-color=\"#1c1408\"/>\n      <stop offset=\"55%\" stop-color=\"#6b4d12\"/>\n      <stop offset=\"100%\" stop-color=\"#ffd166\"/>\n    </radialGradient>\n  </defs>\n  <rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/>\n  <circle cx=\"200\" cy=\"62\" r=\"40\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"1.5\" opacity=\"0.3\"/>\n  <circle cx=\"200\" cy=\"62\" r=\"30\" fill=\"#1c1408\" stroke=\"#f4f4f0\" stroke-width=\"2\"/>\n  <path d=\"M188,54 q2,-9 12,-9 q10,0 12,9 q2,7 -5,11 l-3,7 q-6,4 -11,0 l-3,-7 q-7,-4 -5,-11z\" fill=\"#f4f4f0\"/>\n  <line x1=\"200\" y1=\"92\" x2=\"110\" y2=\"150\" stroke=\"#e8c07c\" stroke-width=\"2\" opacity=\"0.6\"/>\n  <line x1=\"200\" y1=\"92\" x2=\"200\" y2=\"150\" stroke=\"#e8c07c\" stroke-width=\"2\" opacity=\"0.6\"/>\n  <line x1=\"200\" y1=\"92\" x2=\"290\" y2=\"150\" stroke=\"#d4ff4f\" stroke-width=\"3\"/>\n  <g>\n    <rect x=\"95\" y=\"150\" width=\"30\" height=\"20\" rx=\"3\" fill=\"#6b4d12\" stroke=\"#e8c07c\" stroke-width=\"1.5\"/>\n    <line x1=\"100\" y1=\"155\" x2=\"120\" y2=\"165\" stroke=\"#f4f4f0\" stroke-width=\"2\"/>\n    <line x1=\"120\" y1=\"155\" x2=\"100\" y2=\"165\" stroke=\"#f4f4f0\" stroke-width=\"2\"/>\n  </g>\n  <g>\n    <rect x=\"185\" y=\"150\" width=\"30\" height=\"20\" rx=\"3\" fill=\"#6b4d12\" stroke=\"#e8c07c\" stroke-width=\"1.5\"/>\n    <line x1=\"190\" y1=\"155\" x2=\"210\" y2=\"165\" stroke=\"#f4f4f0\" stroke-width=\"2\"/>\n    <line x1=\"210\" y1=\"155\" x2=\"190\" y2=\"165\" stroke=\"#f4f4f0\" stroke-width=\"2\"/>\n  </g>\n  <g>\n    <rect x=\"275\" y=\"150\" width=\"30\" height=\"20\" rx=\"3\" fill=\"#1c1408\" stroke=\"#d4ff4f\" stroke-width=\"2\"/>\n    <path d=\"M281,160 l6,6 l12,-12\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\n  </g>\n  <rect x=\"20\" y=\"178\" width=\"240\" height=\"44\" rx=\"6\" fill=\"#1c1408\" opacity=\"0.85\"/>\n  <text x=\"32\" y=\"205\" font-family=\"Arial, sans-serif\" font-size=\"30\" font-weight=\"bold\" fill=\"#f4f4f0\">OMR 2,890</text>\n  <text x=\"32\" y=\"219\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">lost monthly to misrouted calls</text>\n</svg>",
+  "sources": [
+    {
+      "id": "mtcit-pdpl-governance",
+      "label": "MTCIT, Personal Data Protection governance page",
+      "url": "https://mtcit.gov.om/sectors/governance/personal",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-pdpl-decree",
+      "label": "Official Gazette, Royal Decree 6/2022 promulgating the Personal Data Protection Law",
+      "url": "https://prod.mtcit.gov.om/ITAPortal//Data/English/DocLibrary/2024115132533256/PROMULGATING%20THE%20PERSONAL%20DATA%20PROTECTION%20LAW.pdf",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "A caller in Frankfurt dials the one number listed on Al Waha Hotels' website to book four nights in Salalah. The desk that answers in Muscat can't see Salalah's rooms, puts the caller on hold, and goes looking for someone who can help. By the time anyone finds the right desk, the caller has already booked somewhere else."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If your business answers one phone number for more than one branch, showroom, clinic or property, this is not just bad luck on one call. It is a routing problem, and it is quietly costing you money every single day, whether or not anyone is counting."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-call-that-bounces",
+      "text": "The call that bounces between branches"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most multi branch businesses in Oman grew this way. One phone number went on the sign, the website and the business card long before there were three branches to manage. A central desk, an operator or an IVR menu, the recorded voice that asks you to press a number for a department, still answers every call, then has to work out which branch the caller actually needs."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Callers use the name they know, the one near the airport or the Sohar showroom, not your internal branch codes."
+          }
+        ],
+        [
+          {
+            "text": "The menu lists services, not locations, so a caller has to guess which option gets them closer."
+          }
+        ],
+        [
+          {
+            "text": "The first person who answers often can't see the other branch's bookings, stock or file, so they transfer blind."
+          }
+        ],
+        [
+          {
+            "text": "Nobody tells the caller why they're waiting, so some hang up and call a competitor instead."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-one-wrong-turn-costs",
+      "text": "What one wrong turn costs you"
+    },
+    {
+      "type": "highlight",
+      "text": "A single misrouted call feels harmless until you add up a year of them."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Al Waha Hotels, a composite three property group with hotels in Muscat, Salalah and Sur, is a useful stand in for any growing Omani chain running one published number. Here is what a week of honest tracking showed its reservations team."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "What we tracked",
+        "Al Waha Hotels' number"
+      ],
+      "rows": [
+        [
+          "Calls to the main number each day asking for one specific property",
+          "90"
+        ],
+        [
+          "How many land on the wrong front desk first, tracked for a week",
+          "30 a day, about 1 in 3"
+        ],
+        [
+          "Extra minutes lost per misrouted call: hold, transfer, repeating the dates",
+          "5 minutes"
+        ],
+        [
+          "Staff time lost to misroutes across a 26 day month, at OMR 2.6 an hour fully loaded",
+          "about 65 hours, OMR 169"
+        ],
+        [
+          "Misrouted callers who give up before anyone sorts it out",
+          "about 52 a month"
+        ],
+        [
+          "Share of those who would likely have booked, about 1 in 3",
+          "about 17 bookings"
+        ],
+        [
+          "Average value of a two night stay",
+          "OMR 170"
+        ],
+        [
+          "Bookings lost to routing, not price or availability",
+          "about OMR 2,890 a month"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "None of that OMR 2,890 a month has anything to do with price, availability or how good the staff are once a guest actually reaches them. It disappears before anyone gets the chance to be good at their job."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Across a year, routing mistakes alone can cost a three property hotel group close to OMR 35,000, money spent on nothing but confusion."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "more-than-a-wrong-transfer",
+      "text": "More than a wrong transfer"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The cost is not only lost bookings. Every transfer means a caller repeats the same details, the dates, the room type, sometimes their own name, often in a different language the second time round. A desk in Sur might comfortably switch between English and Arabic; a desk in Salalah fields far more German and French once khareef visitors and cruise passengers start calling. Routing that ignores language just makes a tired guest explain themselves twice in a language that isn't theirs."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "It also raises a quieter point. Oman's Personal Data Protection Law expects a clear reason whenever a customer's details move from one place to another. If a caller's phone number, booking or complaint history is passed from the Muscat desk to the Salalah desk, that handoff should carry only what the new desk needs to help them, not a full copy of everything on file."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Every missed connection between our properties is a guest we have to win back twice.",
+      "attribution": "Muna, group reservations manager, Al Waha Hotels, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-clean-routing-looks-like",
+      "text": "What clean routing looks like"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Clean routing has three ingredients, in roughly this order. First, the caller says, in their own words, why they are calling and where. Second, that information decides the branch before a human ever has to guess. Third, whatever the last branch already knew about that caller travels with the call, so nobody starts from zero."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Rename your menu and greeting to match what callers actually say: the branch's city or landmark, not an internal code."
+          }
+        ],
+        [
+          {
+            "text": "Give the central desk a one page branch map, so transfers happen on the first try, not the third."
+          }
+        ],
+        [
+          {
+            "text": "Publish a direct line for each branch alongside the main number, for callers who already know where they are going."
+          }
+        ],
+        [
+          {
+            "text": "Let a phone agent listen to what the caller says and route the call itself, including after the switchboard closes for the night."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A few Omani hotel and clinic groups are already testing that last option. CustomerCare.OM's phone agents, for example, understand "
+        },
+        {
+          "text": "Omani Arabic",
+          "href": "/product/omani-arabic-ai-customer-care/"
+        },
+        {
+          "text": " and English in the same call, pick out the branch, city or service the caller mentions, and send the call on with notes attached, even at midnight when the switchboard is unstaffed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You don't need to rebuild your phone system this week to start fixing this. Track every transfer for seven days and write down why it happened. Match your greeting and your branch names to the words callers actually use, not your org chart. Decide, branch by branch, what information must travel with a transferred call, and check that it actually does. If calls routinely need more than one transfer, or your busiest branch goes quiet after hours, that is your signal to look at smarter routing, whether that means a reworked script or a phone agent that routes on its own."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Call your own main number right now and ask for your newest or smallest branch by its city or area name, not its internal code.",
+        "Time how long it takes to reach the right desk, and count how many times you repeat yourself.",
+        "If that took more than one transfer, your customers are living that every single day."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Do we need a separate phone number for every branch?",
+          "a": "No. One main number works fine if routing happens in the first few seconds of the call, before or while a human answers, rather than after two or three transfers."
+        },
+        {
+          "q": "What's the cheapest fix if we can't change our phone system yet?",
+          "a": "Give your central desk a one page branch map with the names, areas and landmarks callers actually use, and have them confirm the branch back to the caller before transferring."
+        },
+        {
+          "q": "Does passing a caller's details between branches need special care?",
+          "a": "Yes. The data protection law expects a clear reason for sharing customer details between branches, so send only what the new desk needs, not the whole file."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That caller in Frankfurt didn't need a bigger hotel group. They needed the first person who answered to already know where to send them. Fix the words on your menu, give your desk a map, and decide what travels with a transferred call, and most of the chaos disappears before you spend a single rial on new technology. Where it doesn't, smarter routing, automated or not, is worth the investment well before your busiest season hands you more calls than your current setup can place correctly."
+        }
+      ]
+    }
+  ]
+}

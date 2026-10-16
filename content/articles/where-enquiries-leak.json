@@ -1,0 +1,344 @@
+{
+  "id": "article-2026-10-15-where-enquiries-leak",
+  "taskId": "2026-10-15-where-enquiries-leak",
+  "slug": "where-enquiries-leak",
+  "title": "Four Places Your Enquiries Leak Before They Pay",
+  "seoTitle": "Four Places Enquiries Leak Before Anyone Books",
+  "excerpt": "Your desk took 1,000 first-time calls last month. Bookings tell you who stayed. Nobody tells you where the other half went, or what each one was worth.",
+  "seoDescription": "Enquiries that never become customers leak in four places: unanswered, unrecorded, unqualified, unfollowed. See the OMR cost and how to fix each leak.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "Enquiries That Never Become Customers, and Where They Leak",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-15",
+  "modifiedDate": "2026-10-15",
+  "reviewedDate": "2026-10-15",
+  "reviewBy": "2027-01-13",
+  "status": "published",
+  "tags": [
+    "lost enquiries",
+    "lead follow-up",
+    "call handling",
+    "operator desk",
+    "IVR",
+    "customer service operations",
+    "clinics"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#2c0a0d\"/><stop offset=\"0.5\" stop-color=\"#7a1c22\"/><stop offset=\"1\" stop-color=\"#f1a09a\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><path d=\"M212 38 L372 38 L306 118 L306 168 L278 178 L278 118 Z\" fill=\"#d4ff4f\" stroke=\"#2c0a0d\" stroke-width=\"4\" stroke-linejoin=\"round\"/><ellipse cx=\"230\" cy=\"78\" rx=\"6\" ry=\"8\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"222\" cy=\"104\" rx=\"5\" ry=\"7\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"248\" cy=\"112\" rx=\"6\" ry=\"8\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"240\" cy=\"140\" rx=\"5\" ry=\"7\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"354\" cy=\"78\" rx=\"6\" ry=\"8\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"362\" cy=\"104\" rx=\"5\" ry=\"7\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"336\" cy=\"112\" rx=\"6\" ry=\"8\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"344\" cy=\"140\" rx=\"5\" ry=\"7\" fill=\"#2c0a0d\" stroke=\"#f4f4f0\" stroke-width=\"2\"/><ellipse cx=\"292\" cy=\"200\" rx=\"6\" ry=\"8\" fill=\"#d4ff4f\" stroke=\"#2c0a0d\" stroke-width=\"3\"/><text x=\"24\" y=\"92\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"38\" fill=\"#f4f4f0\">FOUR</text><text x=\"24\" y=\"134\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"38\" fill=\"#d4ff4f\">LEAKS</text><text x=\"24\" y=\"164\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#e8c07c\">before anyone books</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Say your desk took 1,000 first-time enquiries last month. How many of those callers became paying customers? Most operations leads know the bookings figure but not the gap, and the gap is where the money goes. Enquiries that never become customers leak out in four places, and every one of them can be fixed."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-gap-nobody-measures",
+      "text": "The gap nobody measures"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Take Hilal, a composite example: the operations lead at a three-branch polyclinic group in Muscat. He has six operators, an IVR menu (the recorded \"press 1 for appointments\" system) and a marketing budget that went up in September. New patient numbers stayed flat. His board wants to know why."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The answer is not one big failure. It is four small ones that happen between the phone ringing and a patient walking in. If you have ever called a clinic, been told someone would call you back, and then heard nothing, you have already met one of them from the other side."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "leak-one-unanswered",
+      "text": "Leak one: unanswered"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some callers never reach a person. They hang up in the IVR menu, give up in the queue during the 8 am rush, or ring after the desk closes at 9 pm. Very few leave a voicemail. Most simply call the next clinic on the list, and your system records them as an abandoned call, if it records them at all."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "leak-two-unrecorded",
+      "text": "Leak two: unrecorded"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "An operator answers, gives a price, and the caller says \"Okay, I'll call back.\" No name and no number go into any system. As far as the business is concerned, that conversation never happened, and nobody can tell you what that caller wanted or why they hesitated. That second loss matters as much as the first, because "
+        },
+        {
+          "text": "a day of calls is full of lessons",
+          "href": "/blog/call-analytics-what-you-learn/"
+        },
+        {
+          "text": " that vanish when nothing gets written down."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A caller who was answered but never written down is lost twice: once as a customer, and once as a lesson."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "leak-three-unqualified",
+      "text": "Leak three: unqualified"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some enquiries do get logged, but only as \"asked about dermatology.\" Which branch suits them? Do they have insurance, and with whom? Is it urgent or next month? Without those answers, the note is a dead end. Nobody can book, quote or call back with anything useful, so the record sits there until it goes stale."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "leak-four-unfollowed",
+      "text": "Leak four: unfollowed"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is the quiet one. The caller is interested but needs to check something first: their insurer, their husband's schedule, their leave dates. The operator promises a callback. Then the shift changes, nobody owns the promise, and the patient books somewhere that called first."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Most of the patients we lost never told us no. They just never heard back from us.",
+      "attribution": "Muna, call-desk coordinator, Al Khuwair",
+      "persona": true
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you decide which leak to fix first, it helps to put a price on each one. The cheapest fix, as you will see, is rarely the one teams start with."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "counting-the-cost",
+      "text": "What enquiries that never become customers cost"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is Hilal's September as a composite worked example. Replace each percentage with your own figures from your call logs and booking system."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: 1,000 first-time enquiries at a three-branch polyclinic group",
+      "headers": [
+        "Stage",
+        "Enquiries in",
+        "Leak rate",
+        "Lost",
+        "Still alive"
+      ],
+      "rows": [
+        [
+          "Unanswered (IVR drop, queue, after hours)",
+          "1,000",
+          "15%",
+          "150",
+          "850"
+        ],
+        [
+          "Unrecorded (answered, nothing logged)",
+          "850",
+          "10%",
+          "85",
+          "765"
+        ],
+        [
+          "Unqualified (logged, but nobody can act on it)",
+          "765",
+          "15%",
+          "115",
+          "650"
+        ],
+        [
+          "Unfollowed (callback promised, never made)",
+          "650",
+          "20%",
+          "130",
+          "520"
+        ],
+        [
+          "Total",
+          "1,000",
+          "48%",
+          "480",
+          "520"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Now put money on it. Suppose only one in three of those 480 lost callers would have booked. That is 160 patients. At OMR 35 for a first consultation, that comes to OMR 5,600 a month, or OMR 67,200 a year, before you count a single repeat visit or family referral."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "plugging-each-leak",
+      "text": "How to plug each leak"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Leaks two, three and four cost almost nothing to fix. They need a habit, not a budget. Leak one is different, because it comes down to coverage: how many conversations your team can physically hold at once and for how many hours."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Unanswered: ",
+            "strong": true
+          },
+          {
+            "text": "pull your abandoned calls every hour and call them back within 30 minutes. Cut the IVR to two choices or fewer. For nights and the morning rush, add overflow cover that actually talks to people, not a voicemail box."
+          }
+        ],
+        [
+          {
+            "text": "Unrecorded: ",
+            "strong": true
+          },
+          {
+            "text": "no call ends without four fields: name, number, reason, next step. Keep it that short, or busy operators will skip it."
+          }
+        ],
+        [
+          {
+            "text": "Unqualified: ",
+            "strong": true
+          },
+          {
+            "text": "give each enquiry type three must-ask questions on a card at every desk. For a clinic: which specialty, which insurer, which branch and time."
+          }
+        ],
+        [
+          {
+            "text": "Unfollowed: ",
+            "strong": true
+          },
+          {
+            "text": "every promised callback gets an owner and a deadline, within 48 hours at most. Go through the open list at 10 am every day, the way you would review the appointment book."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For the coverage gap, many teams now let an AI agent take the calls that would otherwise drop. Picture a caller at 9:40 pm: \"Abgha appointment 'ind doctor al jild, bukra law mumkin. 'Indi insurance.\" A good agent understands that mix of Omani Arabic and English, asks which insurer and which branch, and leaves a complete note for the morning shift. In one move, that call stops being unanswered, unrecorded and unqualified."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "brand",
+      "title": "Where CustomerCare.OM fits",
+      "paragraphs": [
+        "CustomerCare.OM answers the calls your desk cannot reach, after hours or when the queue is full, and turns each one into a written note with the caller's details and next step. Your operators keep the conversations that need a human."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need new software to find your leaks. You need one honest month of numbers. Count incoming first-time calls, abandoned calls, logged enquiries, complete records and callbacks made. Line them up like the table above and the biggest gap will be obvious."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Fix the free leaks first, because they pay back in weeks. Then look at coverage. If your abandoned calls cluster after closing time or in the first hour of the day, that is a staffing pattern, and more effort from the same six people will not fix it."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "key",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Open yesterday's call log and pick ten first-time callers at random.",
+        "For each one, ask: was it answered? Is there a name and number on record? Could someone book from that record without calling again? If a callback was promised, did it happen?",
+        "Every \"no\" is a leak. Three or more out of ten means the money in the table above is close to your own."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is calling back someone who hung up intrusive?",
+          "a": "Usually not. They called you about their own need, and a quick callback about that enquiry is service. Adding their number to a promotions list is a different matter and needs their agreement."
+        },
+        {
+          "q": "Which leak should we fix first?",
+          "a": "Start with unfollowed callbacks. The caller is already interested, the fix is a daily list with owners, and it costs nothing."
+        },
+        {
+          "q": "How often should we measure this?",
+          "a": "Once a month is enough. Check more often in your busiest season, when queues and missed calls grow fastest."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most enquiries are not lost because the caller said no. They are lost because nobody answered, wrote it down, asked the right questions or called back. Find the biggest of those four gaps in your own numbers, fix it this month, and the bookings you already paid to attract will start turning up."
+        }
+      ]
+    }
+  ]
+}

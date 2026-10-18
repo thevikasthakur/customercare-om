@@ -1,0 +1,540 @@
+{
+  "id": "article-2026-10-18-service-recovery",
+  "taskId": "2026-10-18-service-recovery",
+  "slug": "service-recovery-script",
+  "title": "The Service Recovery Script That Wins Customers Back",
+  "seoTitle": "The Service Recovery Script That Wins Customers Back",
+  "excerpt": "A washer and dryer went to the wrong building in Al Hail. Two weeks later the same customer was sending friends to the shop. Here is the script that did it.",
+  "seoDescription": "Service recovery done properly: how a botched delivery in Seeb was turned around in 48 hours, with the six-line script and cost sums your team can copy.",
+  "series": "Customer Service Playbook",
+  "category": "Customer Service Skills",
+  "topic": "The Complaint That Becomes Your Most Loyal Customer",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-18",
+  "modifiedDate": "2026-10-18",
+  "reviewedDate": "2026-10-18",
+  "reviewBy": "2027-01-16",
+  "status": "published",
+  "tags": [
+    "service recovery",
+    "complaints",
+    "delivery",
+    "call desk",
+    "follow-up",
+    "customer loyalty",
+    "team training"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop offset=\"0\" stop-color=\"#0a0b0f\"/><stop offset=\"0.55\" stop-color=\"#1a1d24\"/><stop offset=\"1\" stop-color=\"#d4ff4f\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><g stroke=\"#0a0b0f\" stroke-width=\"3\" stroke-linejoin=\"round\"><polygon points=\"250,95 330,95 330,180 250,180\" fill=\"#e8c07c\"/><polygon points=\"250,95 280,68 360,68 330,95\" fill=\"#f4f4f0\"/><polygon points=\"330,95 360,68 360,153 330,180\" fill=\"#e8c07c\"/><line x1=\"290\" y1=\"95\" x2=\"290\" y2=\"180\"/><line x1=\"270\" y1=\"81\" x2=\"320\" y2=\"81\"/></g><circle cx=\"250\" cy=\"180\" r=\"27\" fill=\"#0a0b0f\" stroke=\"#d4ff4f\" stroke-width=\"4\"/><path d=\"M237 180 l9 10 l17 -20\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"24\" y=\"78\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"38\" fill=\"#d4ff4f\">48 HOURS</text><text x=\"24\" y=\"106\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\">Complaint to loyal customer</text></svg>",
+  "sources": [
+    {
+      "id": "hbr-1990",
+      "label": "Harvard Business Review: The Profitable Art of Service Recovery (Hart, Heskett and Sasser, 1990)",
+      "url": "https://hbr.org/1990/07/the-profitable-art-of-service-recovery",
+      "kind": "analysis"
+    },
+    {
+      "id": "times-cpa-2025",
+      "label": "Times of Oman: Over 1,800 e-commerce complaints handled, OMR24,500 recovered",
+      "url": "https://timesofoman.com/article/163155-over-1800-e-commerce-complaints-handled-omr24500-recovered",
+      "kind": "media"
+    },
+    {
+      "id": "cpa",
+      "label": "Consumer Protection Authority, Oman",
+      "url": "https://cpa.gov.om/en/pages/default.aspx",
+      "kind": "oman-official"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Hamad took a morning off work in Al Hail, in Seeb, to wait for a new washer and dryer, and the van took them to the wrong building. Two weeks later he had sent the shop three new customers. What happened in between is service recovery done properly: 48 hours, six lines your team can copy, and a set of sums showing why a badly handled complaint costs far more than a well handled one."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-thursday-that-went-wrong",
+      "text": "The Thursday that went wrong"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is a composite example, built from the kind of call every delivery desk takes. Hamad ordered a washer and dryer for OMR 389 from a Muscat home appliance retailer that runs its own vans and a six-person phone desk. His slot was Thursday, 9 am to 1 pm."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "By 1:30 pm nothing had arrived. He called, worked through a three-option menu, held for eleven minutes and finally reached Hilal on the desk. His first words: \"Ana akhadt ijaaza for this, wallah, and nobody came.\""
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Hilal's screen said \"delivered\". What Hilal said next would decide whether Hamad stayed a customer or became a one-star story in his family WhatsApp group."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-most-desks-say-first",
+      "text": "What most desks say first"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Under pressure, good agents reach for lines that feel safe and land badly. You have heard all of these on your own floor:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "\"The system shows it was delivered.\" ",
+            "strong": true
+          },
+          {
+            "text": "This tells the customer he is wrong."
+          }
+        ],
+        [
+          {
+            "text": "\"That's the delivery team, I'll pass it on.\" ",
+            "strong": true
+          },
+          {
+            "text": "This tells him nobody owns the problem."
+          }
+        ],
+        [
+          {
+            "text": "\"Can you call back after four?\" ",
+            "strong": true
+          },
+          {
+            "text": "This makes him do your work."
+          }
+        ],
+        [
+          {
+            "text": "\"Please calm down, sir.\" ",
+            "strong": true
+          },
+          {
+            "text": "This almost always does the opposite."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Each line protects the agent for thirty seconds and costs the business the customer. Customers also have somewhere else to take it: the "
+        },
+        {
+          "text": "Consumer Protection Authority",
+          "href": "https://cpa.gov.om/en/pages/default.aspx"
+        },
+        {
+          "text": " handled 1,851 e-commerce complaints between January and August 2025, with delayed deliveries among the causes, "
+        },
+        {
+          "text": "according to Times of Oman",
+          "href": "https://timesofoman.com/article/163155-over-1800-e-commerce-complaints-handled-omr24500-recovered"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A complaint is a customer telling you, for free, exactly what it will take to keep them."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Service researchers have argued since 1990 that mistakes in service are unavoidable, and that how you recover is where loyalty is won or lost ("
+        },
+        {
+          "text": "Hart, Heskett and Sasser in Harvard Business Review",
+          "href": "https://hbr.org/1990/07/the-profitable-art-of-service-recovery"
+        },
+        {
+          "text": "). The real question is what recovery looks like on a busy Thursday with six agents and a queue. The script comes shortly. First, the money."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-losing-a-customer-costs",
+      "text": "What losing Hamad would really cost"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Supervisors often hesitate to spend money on a single complaint. Put the two paths side by side. The figures are composite, so replace them with your own delivery costs and margins."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite figures. Redo each row with your own numbers.",
+      "headers": [
+        "Item",
+        "Recovery path (OMR)",
+        "Losing path (OMR)"
+      ],
+      "rows": [
+        [
+          "Second delivery run",
+          "12",
+          "0"
+        ],
+        [
+          "Installation waived",
+          "15",
+          "0"
+        ],
+        [
+          "Delivery fee refunded",
+          "8",
+          "0"
+        ],
+        [
+          "Supervisor time, about 45 minutes",
+          "5",
+          "0"
+        ],
+        [
+          "Margin lost on this order (18% of OMR 389)",
+          "0",
+          "70"
+        ],
+        [
+          "Collecting the returned machines",
+          "0",
+          "12"
+        ],
+        [
+          "Margin on expected repeat spend over three years (18% of OMR 600)",
+          "0",
+          "108"
+        ],
+        [
+          {
+            "text": "Total",
+            "note": "Reviews and word of mouth not counted"
+          },
+          "40",
+          "190"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you count a single review or cousin, recovery is about OMR 150 cheaper. Swap in your own repeat spend and the gap rarely closes."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-48-hours-hour-by-hour",
+      "text": "The 48 hours, hour by hour"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is what Hilal and his supervisor, Shamsa, actually did. Notice that every step was something Hamad could see or hear."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "compact": true,
+      "headers": [
+        "When",
+        "What happened",
+        "Why it worked"
+      ],
+      "rows": [
+        [
+          "Thu 1:41 pm",
+          "Hilal says \"that's our mistake\", opens a complaint ticket and flags it red",
+          "No defence, no transfer"
+        ],
+        [
+          "Thu 2:05 pm",
+          "Shamsa calls back herself, having already checked with the driver",
+          "Faster than Hamad expected"
+        ],
+        [
+          "Thu 2:20 pm",
+          "WhatsApp with the booked slot and Shamsa's direct number",
+          "A time and a name in writing"
+        ],
+        [
+          "Fri 7:30 pm",
+          "Message with the driver's name, van number and a confirmed location pin",
+          "Removes the doubt before it starts"
+        ],
+        [
+          "Sat 9:20 am",
+          "Delivered, installed, photo sent to Hamad",
+          "The fix is visible"
+        ],
+        [
+          "Sat 1:30 pm",
+          "Shamsa calls: is it working, and here is what we changed",
+          "Closes the loop"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The customer who waited all morning forgives the mistake. He never forgives being passed around.",
+      "attribution": "Shamsa, customer service supervisor, Muscat",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-service-recovery-script",
+      "text": "The service recovery script"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This is the part worth printing and taping beside every screen on your desk. Six lines across two calls, in the order they were said."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Acknowledge (Hilal): ",
+            "strong": true
+          },
+          {
+            "text": "\"You took the morning off and nobody came. I'm sorry, that's our mistake, not yours.\""
+          }
+        ],
+        [
+          {
+            "text": "Own it (Hilal): ",
+            "strong": true
+          },
+          {
+            "text": "\"I'm not passing you around. My supervisor Shamsa will call you herself within 30 minutes.\""
+          }
+        ],
+        [
+          {
+            "text": "Explain plainly (Shamsa): ",
+            "strong": true
+          },
+          {
+            "text": "\"Our driver took it to the wrong building. Your machines are safe, and they're coming to you.\""
+          }
+        ],
+        [
+          {
+            "text": "Offer a choice: ",
+            "strong": true
+          },
+          {
+            "text": "\"I can do Saturday 9 to 10 am or Sunday after 4 pm. Which suits you better?\""
+          }
+        ],
+        [
+          {
+            "text": "Make the gesture without haggling: ",
+            "strong": true
+          },
+          {
+            "text": "\"Installation is on us, and we're refunding the delivery fee.\""
+          }
+        ],
+        [
+          {
+            "text": "Promise the follow-up: ",
+            "strong": true
+          },
+          {
+            "text": "\"I'll call you Saturday after lunch to make sure everything works. Here's my direct number.\""
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Two details matter. The apology names what he actually lost (a morning of leave), not a vague \"inconvenience\". And the gesture is offered before he asks, so the call never turns into a negotiation."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-the-follow-up-gets-dropped",
+      "text": "Why the follow-up is the step that gets dropped"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Lines one to five happen on the phone. Line six happens two days later, when Shamsa is covering a sick agent and the queue is at fourteen. That is where most recovery quietly dies: the promised callback lives in someone's head, and heads are busy."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The fix earns you forgiveness, but the follow-up call is what earns you loyalty."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Shamsa's fix was simple. Before any complaint call ends, it becomes a ticket with an owner and a follow-up time, and open follow-ups are read out at the morning huddle. Some teams go further and let software "
+        },
+        {
+          "text": "keep promised callbacks",
+          "href": "/product/smart-follow-ups/"
+        },
+        {
+          "text": " on schedule. CustomerCare.OM, for example, can place that check-in call in Arabic or English when the desk is swamped, and hand anything unresolved back to a named person."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The desk also learned something from Hamad's call. The driver had a building name but no location pin. Agents now ask for a pin when they confirm every slot, which is the \"what we changed\" Shamsa told Hamad on Saturday."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "You do not need a new department. You need three habits your whole floor shares:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Acknowledge fast. ",
+            "strong": true
+          },
+          {
+            "text": "Every complaint gets a named person, and anything flagged red gets a supervisor callback within 30 minutes."
+          }
+        ],
+        [
+          {
+            "text": "Fix visibly. ",
+            "strong": true
+          },
+          {
+            "text": "Give a time, a name and a direct number. Send proof, like driver details or a photo, before the customer has to ask."
+          }
+        ],
+        [
+          {
+            "text": "Follow up. ",
+            "strong": true
+          },
+          {
+            "text": "Book the follow-up before you hang up, and tell the customer what you changed so it does not happen again."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Give your agents permission to offer a set gesture without a manager's approval, up to an amount you choose, say OMR 25. A pause to \"check with my manager\" sounds like haggling to the person waiting."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this on Sunday morning",
+      "paragraphs": [
+        "Pull five complaint calls from last week and score each one against three questions.",
+        "Did the customer hear \"that's our mistake\" within the first minute?",
+        "Were they given a specific time and a named person?",
+        "Did anyone call back after the fix, and is that call on record?",
+        "Any question that scores below three out of five is this week's training topic."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Should we always offer compensation?",
+          "a": "No. Many customers just want a fast fix and someone who owns it. Offer a gesture when they lost real time or money, like a morning of leave, and size it to that loss."
+        },
+        {
+          "q": "What if the customer has the facts wrong?",
+          "a": "Acknowledge the frustration first, then check the facts together. \"I can see why that was frustrating, let me find out what happened\" keeps the door open. Arguing first closes it."
+        },
+        {
+          "q": "How fast is fast enough?",
+          "a": "For a flagged complaint, aim for a human callback within the same working hour. If complaints come in after your desk closes, make sure they are acknowledged that evening with a time for the real callback."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A complaint is the one moment a customer tells you exactly what will keep them. Acknowledge it fast, fix it where they can see it, and call back when you said you would. Hamad's machines arrived two days late, but he stayed loyal because of the call on Saturday afternoon."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,495 @@
+{
+  "id": "article-2026-10-19-customer-rights-law",
+  "taskId": "2026-10-19-customer-rights-law",
+  "slug": "consumer-protection-law-customer-rights",
+  "title": "What the Consumer Protection Law Lets Customers Demand",
+  "seoTitle": "What the Consumer Protection Law Lets Customers Demand",
+  "excerpt": "Nine polite calls, three failed repairs, one formal complaint. The law had already spelled out what the customer was owed. Here is what that is, and the desk habit that ends these cases on the first call.",
+  "seoDescription": "The Consumer Protection Law in plain words: replacement within 15 days, repair, refund, honest adverts, and how a service desk stops complaints early.",
+  "series": "Oman Service Pulse",
+  "category": "Rules & Updates",
+  "topic": "What Omani Customers Can Demand by Law",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-19",
+  "modifiedDate": "2026-10-19",
+  "reviewedDate": "2026-10-19",
+  "reviewBy": "2027-01-17",
+  "status": "published",
+  "tags": [
+    "consumer protection",
+    "customer rights",
+    "refunds",
+    "warranty",
+    "complaints",
+    "service desk",
+    "after-sales"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"1\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#181109\"/><stop offset=\"0.55\" stop-color=\"#54371a\"/><stop offset=\"1\" stop-color=\"#e8c07c\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><path d=\"M262 26 H344 V184 L336 192 L328 184 L320 192 L312 184 L304 192 L296 184 L288 192 L280 184 L272 192 L262 184 Z\" fill=\"#f4f4f0\" stroke=\"#181109\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"274\" y=\"42\" width=\"58\" height=\"7\" rx=\"2\" fill=\"#54371a\"/><rect x=\"274\" y=\"58\" width=\"44\" height=\"5\" rx=\"2\" fill=\"#54371a\"/><rect x=\"274\" y=\"71\" width=\"52\" height=\"5\" rx=\"2\" fill=\"#54371a\"/><rect x=\"274\" y=\"84\" width=\"36\" height=\"5\" rx=\"2\" fill=\"#54371a\"/><rect x=\"274\" y=\"104\" width=\"58\" height=\"2\" fill=\"#181109\"/><text x=\"274\" y=\"128\" font-family=\"Arial, sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#181109\">OMR 280</text><circle cx=\"338\" cy=\"178\" r=\"27\" fill=\"#181109\" stroke=\"#d4ff4f\" stroke-width=\"4\"/><path d=\"M325 178 L335 188 L352 169\" fill=\"none\" stroke=\"#d4ff4f\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"18\" y=\"122\" width=\"218\" height=\"84\" rx=\"10\" fill=\"#181109\" fill-opacity=\"0.92\"/><text x=\"32\" y=\"166\" font-family=\"Arial, sans-serif\" font-size=\"38\" font-weight=\"bold\" fill=\"#d4ff4f\">15 DAYS</text><text x=\"32\" y=\"192\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">to ask for a replacement</text></svg>",
+  "sources": [
+    {
+      "id": "cpa-exec-reg",
+      "label": "Consumer Protection Authority: Executive Regulation of the Consumer Protection Law (Decision 77/2017, English translation)",
+      "url": "https://cpa.gov.om/Documents/Laws/Executive_Regulation_PACP_Law.pdf",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cp-law",
+      "label": "Royal Decree 66/2014 promulgating the Consumer Protection Law",
+      "url": "https://oman.om/docs/default-source/default-document-library/consumer-protection-law.pdf?sfvrsn=fab6f8d1_2",
+      "kind": "oman-official"
+    },
+    {
+      "id": "cpa-portal",
+      "label": "Consumer Protection Authority e-portal: complaints, app and news",
+      "url": "https://cpa.gov.om/en/pages/default.aspx",
+      "kind": "oman-official"
+    },
+    {
+      "id": "govom-complaint",
+      "label": "Gov.om: Submit a complaint to the Consumer Protection Authority",
+      "url": "https://gov.om/en/w/submit-a-complaint-to-the-consumer-protection-authority",
+      "kind": "oman-official"
+    },
+    {
+      "id": "tko-barka",
+      "label": "Times of Oman: Over OMR 2,000 fines imposed for consumer rights violations in South Al Batinah (10 June 2026)",
+      "url": "https://timesofoman.com/article/172833-over-omr-2000-fines-imposed-for-consumer-rights-violations-in-south-al-batinah",
+      "kind": "media"
+    },
+    {
+      "id": "free-complaints",
+      "label": "The Arabian Stories: Consumer Protection Authority warns of online fraud, says filing complaints is free (20 August 2026)",
+      "url": "https://www.thearabianstories.com/2026/08/20/oman-consumer-protection-authority-warns-of-online-fraud-says-filing-complaints-is-free/",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Muna's new air conditioner cost OMR 280 and stopped cooling within a week. By the time she filed with the Consumer Protection Authority she had called the shop's service line nine times, and every agent had been polite. The Consumer Protection Law already set out what she was owed. Nobody on the phone knew it."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "polite-desk-lost-customer",
+      "text": "A polite desk that still lost the customer"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Muna and the shop are a composite example, modelled on the kind of case that ends up in consumer courts here. The shop is a multi-branch appliance retailer in Sohar. Its call desk has six people and is run by Khalfan, the after-sales manager. Muna bought the unit in late August. It failed on day six, and she called."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Every call ended the same way: the technician will contact you. The technician came three times. That made three repairs and nine calls, and nobody offered her a replacement or a date. On the ninth call she said she would go to consumer protection. The agent said that was her right, and logged nothing."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The change that stopped calls like Muna's at Khalfan's desk comes later. First, here is what the law says she could insist on."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-customers-can-demand",
+      "text": "What the Consumer Protection Law lets customers demand"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The law sets out the rights. Its "
+        },
+        {
+          "text": "Executive Regulation",
+          "href": "https://cpa.gov.om/Documents/Laws/Executive_Regulation_PACP_Law.pdf"
+        },
+        {
+          "text": ", issued in 2017, turns them into rules a service desk can follow. The regulation has a warranty list of goods (check whether your products are on it). If an item on that list is defective, below standard or unfit for its purpose, the customer can ask for any of these at no extra cost:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A replacement, if they ask within 15 days of receiving the item."
+          }
+        ],
+        [
+          {
+            "text": "A return and refund, or a free repair, during the warranty period."
+          }
+        ],
+        [
+          {
+            "text": "A substitute item that does the same job while theirs is being repaired."
+          }
+        ],
+        [
+          {
+            "text": "After three failed repairs, a replacement or a refund (minus depreciation). The customer chooses which."
+          }
+        ],
+        [
+          {
+            "text": "Compensation for damage and loss, agreed with the business or set by the authority or a court."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "There are two conditions. The customer must show proof of purchase, and the fault must not come from misuse. Proof is rarely a problem, because the business has to issue an invoice whether the customer asks or not. It must be in Arabic (other languages can sit alongside) and show the business name, commercial registration number, date, price, tax and warranty terms."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Repairs must happen without delay and without unreasonable refusal. For goods and services on the regulation's warranty lists, the warranty lasts at least three months, or longer if a contract or another law says so."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Most consumer complaints do not start at the counter; they start on the fourth phone call, when nobody owns the problem."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "truthful-advertising",
+      "text": "Promises your adverts and price tags must keep"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Truthful advertising is the other half of the law. A business may not mislead customers about what a product or service is, where it comes from, what it contains or what it does. It may not advertise in a way that misleads on quality, charge more than its stated price, or leave goods and services unpriced."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Discounts have their own rules. A promotion or price cut needs prior approval, coordinated with the authority. Sale prices must show the price before and after, plus the reduction rate."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some familiar small print has no legal effect. The regulation lists conditions that are invalid, including:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "A blanket line saying sold items cannot be refunded, returned or exchanged."
+          }
+        ],
+        [
+          {
+            "text": "A return window shorter than the legal one."
+          }
+        ],
+        [
+          {
+            "text": "A rule that a car may only be serviced at the dealership and nowhere else."
+          }
+        ],
+        [
+          {
+            "text": "A warranty that covers the part but not the labour."
+          }
+        ],
+        [
+          {
+            "text": "Refusing any refund when a customer decides not to use a service. The business may keep no more than 3 percent of the service cost."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That last point matters for hotels, clinics and colleges with cancellation terms. If your booking terms say something different, ask your legal adviser to check them against the regulation this month."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-complaints-work",
+      "text": "How a complaint actually works"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For the customer, the path is simple. Raise the problem with the business first, ideally in writing, and keep the invoice, warranty card, photos and messages. If that fails, file with the "
+        },
+        {
+          "text": "Consumer Protection Authority",
+          "href": "https://cpa.gov.om/en/pages/default.aspx"
+        },
+        {
+          "text": " through its website, its app, the Tajawob complaints platform or a branch office. Citizens, residents and visitors can all file, as long as the purchase was made in Oman."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Filing is free. In August 2026 the authority warned that anyone asking for a fee to lodge a complaint is probably a fraudster. If a dispute needs a technical opinion, the authority can appoint an expert. The customer pays that fee first and gets it back if a final court ruling goes their way."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Cases do reach court. In June 2026 the Barka Court of First Instance "
+        },
+        {
+          "text": "issued five rulings",
+          "href": "https://timesofoman.com/article/172833-over-omr-2000-fines-imposed-for-consumer-rights-violations-in-south-al-batinah"
+        },
+        {
+          "text": " against automotive, appliance and furniture businesses. They had failed to issue invoices, or to repair, replace or refund faulty goods under warranty. Fines came to OMR 2,495 in total, plus court costs and expert fees. The customers' compensation claims went to the civil court."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "repeat-call-cost",
+      "text": "What the repeat calls were costing"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Khalfan had never put a price on Muna's nine calls. When he did, the risk of a complaint turned out to be only part of the cost. Here are the sums for his desk (composite figures). Put your own numbers in the last column."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Line",
+        "Khalfan's desk",
+        "Your desk"
+      ],
+      "rows": [
+        [
+          "Monthly desk cost (6 operators, salary and overheads)",
+          "OMR 3,600",
+          "Fill in"
+        ],
+        [
+          "Calls handled per month",
+          "6,000",
+          "Fill in"
+        ],
+        [
+          "Cost per handled call",
+          "OMR 0.60",
+          "Desk cost divided by calls"
+        ],
+        [
+          "Defect and warranty cases per month",
+          "120",
+          "Fill in"
+        ],
+        [
+          "Calls when nobody owns the case (4 per case)",
+          "480 calls, OMR 288",
+          "Cases x calls x cost"
+        ],
+        [
+          "Calls with one owner and a dated promise (1.5 per case)",
+          "180 calls, OMR 108",
+          "Cases x calls x cost"
+        ],
+        [
+          "Monthly saving in operator time",
+          "OMR 180, 300 calls freed",
+          "Difference"
+        ]
+      ],
+      "caption": "Composite example. A year of savings at this rate is OMR 2,160, before any fine is avoided."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The bigger cost never shows up on the sheet. A customer like Muna tells the story in every family group she belongs to, and those people buy appliances too."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-khalfan-closed-the-loop",
+      "text": "How Khalfan closed the loop"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The fix was not a friendlier script. Every defect call became a record with an owner and a clock."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Every defect or warranty call becomes a ticket on the first call. It holds the purchase date, the invoice number and the remedy the customer wants."
+          }
+        ],
+        [
+          {
+            "text": "The ticket shows how much of the 15-day replacement window is left. An agent on day six offers a replacement instead of booking another visit."
+          }
+        ],
+        [
+          {
+            "text": "The ticket counts repair attempts. After the third failed repair, the case moves to replacement or refund and the customer chooses."
+          }
+        ],
+        [
+          {
+            "text": "Every promise has a name and a date: Hilal from after-sales will call you by Thursday at 4."
+          }
+        ],
+        [
+          {
+            "text": "If a caller mentions consumer protection or says \"bashtaki\" (I will complain), the call goes straight to a supervisor who can approve a replacement there and then."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Automation does most of this work. Khalfan's desk switched to a system that "
+        },
+        {
+          "text": "opens a ticket from every call and message",
+          "href": "/product/automated-support-tickets/"
+        },
+        {
+          "text": ", keeps the repair count and flags trigger words. The rule no longer depends on which agent picks up."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "The law gives them fifteen days. A good desk gives them an answer on the first call.",
+      "attribution": "Khalfan, after-sales manager, Sohar",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you run the desk: your team is where the law gets applied first, long before any inspector arrives. Teach every operator the four remedies and the 15-day window. Make sure they can see the invoice and the repair count during the call. Let one supervisor approve a replacement without calling a meeting."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are the customer: keep the invoice and ask for the remedy by name, for example \"I am within 15 days, I would like a replacement.\" Write down who promised what, and by when. If no answer comes, file with the authority. It costs nothing."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Pull your last five defect or warranty calls. Does each one have a named owner and a promised date?",
+        "Count the repair attempts on each case. Has any reached three without a replacement or refund being offered?",
+        "Look at your invoice template. Is it in Arabic, with your commercial registration number and the warranty terms?",
+        "Search your receipts, website and booking terms for 'no refund' lines or return windows shorter than the law allows.",
+        "Ask one operator what they say when a caller mentions consumer protection. If they cannot answer, that is your training gap."
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "brand",
+      "title": "Where CustomerCare.OM fits",
+      "paragraphs": [
+        "For desks that already staff phone lines, CustomerCare.OM handles calls in Omani Arabic and English and turns each one into a ticket. The operations lead can see how many defect cases are open, how old each one is and how many repairs it has had."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Does the 15-day replacement apply to everything I buy?",
+          "a": "No. It covers faulty goods on the warranty list attached to the regulation, and it is about defects, not a change of mind. Check the list or ask the authority if you are unsure."
+        },
+        {
+          "q": "Can a business refuse because I lost the receipt?",
+          "a": "The customer has to show proof of purchase. The business, though, must issue an invoice with every sale, so keep a photo of it the day you buy."
+        },
+        {
+          "q": "Does filing a complaint cost money?",
+          "a": "No. The authority says filing is free. Anyone asking you to pay to lodge a complaint is likely trying to scam you."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The Consumer Protection Law holds few surprises: an honest invoice, honest adverts, and faulty goods fixed, swapped or refunded without a fight. Most businesses that end up before the authority did not set out to break it. They just let a defect call ring a ninth time without anyone taking ownership."
+        }
+      ]
+    }
+  ]
+}

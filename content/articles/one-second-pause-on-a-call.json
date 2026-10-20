@@ -1,0 +1,445 @@
+{
+  "id": "article-2026-10-20-latency-on-calls",
+  "taskId": "2026-10-20-latency-on-calls",
+  "slug": "one-second-pause-on-a-call",
+  "title": "Why a One-Second Pause Feels Like Forever on a Call",
+  "seoTitle": "Why a One-Second Pause Feels Like Forever on a Call",
+  "excerpt": "People answer each other in about a fifth of a second. Most automated phone lines take far longer, and callers hear that silence as doubt. Here is why, and how to close the gap.",
+  "seoDescription": "A one-second pause on a call makes callers doubt you. Learn how people time conversation, what delay does to trust, and how good AI voice agents close the gap.",
+  "series": "AI, Explained Simply",
+  "category": "AI & Technology",
+  "topic": "Why a One-Second Pause Feels Like Forever on a Call",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-20",
+  "modifiedDate": "2026-10-20",
+  "reviewedDate": "2026-10-20",
+  "reviewBy": "2027-01-18",
+  "status": "published",
+  "tags": [
+    "conversational AI",
+    "latency",
+    "turn-taking",
+    "voice agents",
+    "Omani Arabic",
+    "call handling",
+    "IVR",
+    "AI explained"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#0d1f16\"/><stop offset=\"0.55\" stop-color=\"#1e4634\"/><stop offset=\"1\" stop-color=\"#8fd3a8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><text x=\"24\" y=\"50\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"36\" fill=\"#d4ff4f\">ONE SECOND</text><text x=\"24\" y=\"76\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\">of silence on a call</text><rect x=\"16\" y=\"98\" width=\"368\" height=\"98\" rx=\"14\" fill=\"#0d1f16\"/><g fill=\"#d4ff4f\"><rect x=\"32\" y=\"137\" width=\"6\" height=\"20\" rx=\"3\"/><rect x=\"44\" y=\"125\" width=\"6\" height=\"44\" rx=\"3\"/><rect x=\"56\" y=\"132\" width=\"6\" height=\"30\" rx=\"3\"/><rect x=\"68\" y=\"116\" width=\"6\" height=\"62\" rx=\"3\"/><rect x=\"80\" y=\"128\" width=\"6\" height=\"38\" rx=\"3\"/><rect x=\"92\" y=\"112\" width=\"6\" height=\"70\" rx=\"3\"/><rect x=\"104\" y=\"134\" width=\"6\" height=\"26\" rx=\"3\"/><rect x=\"116\" y=\"122\" width=\"6\" height=\"50\" rx=\"3\"/><rect x=\"128\" y=\"138\" width=\"6\" height=\"18\" rx=\"3\"/></g><g fill=\"#79e0c8\"><rect x=\"262\" y=\"136\" width=\"6\" height=\"22\" rx=\"3\"/><rect x=\"274\" y=\"123\" width=\"6\" height=\"48\" rx=\"3\"/><rect x=\"286\" y=\"130\" width=\"6\" height=\"34\" rx=\"3\"/><rect x=\"298\" y=\"114\" width=\"6\" height=\"66\" rx=\"3\"/><rect x=\"310\" y=\"133\" width=\"6\" height=\"28\" rx=\"3\"/><rect x=\"322\" y=\"120\" width=\"6\" height=\"54\" rx=\"3\"/><rect x=\"334\" y=\"127\" width=\"6\" height=\"40\" rx=\"3\"/><rect x=\"346\" y=\"117\" width=\"6\" height=\"60\" rx=\"3\"/><rect x=\"358\" y=\"137\" width=\"6\" height=\"20\" rx=\"3\"/></g><line x1=\"146\" y1=\"147\" x2=\"254\" y2=\"147\" stroke=\"#e8c07c\" stroke-width=\"3\" stroke-dasharray=\"6 5\"/><text x=\"200\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#e8c07c\">alo? alo?</text></svg>",
+  "sources": [
+    {
+      "id": "stivers-2009",
+      "label": "Stivers et al., Universals and cultural variation in turn-taking in conversation, PNAS (2009)",
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0903616106",
+      "kind": "analysis"
+    },
+    {
+      "id": "levinson-torreira-2015",
+      "label": "Levinson and Torreira, Timing in turn-taking and its implications for processing models of language, Frontiers in Psychology (2015)",
+      "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00731/full",
+      "kind": "analysis"
+    },
+    {
+      "id": "roberts-2006",
+      "label": "Roberts, Francis and Morgan, The interaction of inter-turn silence with prosodic cues in listener perceptions of trouble, Speech Communication (2006), EMCA Wiki record",
+      "url": "https://emcawiki.net/Roberts2006",
+      "kind": "analysis"
+    },
+    {
+      "id": "twilio-latency",
+      "label": "Twilio, A Guide to Core Latency in AI Voice Agents (Cascaded Edition)",
+      "url": "https://www.twilio.com/en-us/blog/developers/best-practices/guide-core-latency-ai-voice-agents",
+      "kind": "vendor"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Ask someone a simple question face to face and the answer usually starts within about a fifth of a second. Leave a one-second pause on a phone call and callers start saying \"alo?\", repeating themselves, or deciding the other side is unsure or not listening. If you are putting an AI agent or a new IVR (interactive voice response, the automated menu that answers calls) on your phone line, that second of silence is where callers decide whether to trust you, and it is harder to remove than most people think."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-200-millisecond-clock",
+      "text": "Conversation runs on a 200 millisecond clock"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Linguists have measured this closely. A "
+        },
+        {
+          "text": "study of yes or no answers across ten languages",
+          "href": "https://www.pnas.org/doi/10.1073/pnas.0903616106"
+        },
+        {
+          "text": " found average gaps ranging from 7 milliseconds in Japanese to 468 milliseconds in Danish. A millisecond is a thousandth of a second. Across larger collections of recorded talk, the most common gap between speakers is about 200 milliseconds, roughly one blink."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is the strange part. "
+        },
+        {
+          "text": "Research on speech planning",
+          "href": "https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00731/full"
+        },
+        {
+          "text": " shows the brain needs about 600 milliseconds just to prepare a single word. So people are not waiting for you to finish before they start thinking. They predict where your sentence will end and get their reply ready while you are still talking. That is how an experienced operator already has the answer by the time a caller reaches the end of \"Is the doctor in on Tuesday?\""
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-silence-says",
+      "text": "Why silence sounds like bad news"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "When quick replies are normal, a slow one carries a message. In "
+        },
+        {
+          "text": "one listening experiment",
+          "href": "https://emcawiki.net/Roberts2006"
+        },
+        {
+          "text": ", people heard the same answer after a gap of 0, 600 or 1,200 milliseconds. The longer the silence, the less willing and less agreeable the speaker sounded, even though the words never changed. Studies of real phone calls show the same pattern: gaps of 700 milliseconds or more tend to come before a refusal or a problem."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Callers bring that instinct to every business line. A pause after \"Do you have a room for Thursday?\" sounds like no. A pause after \"Is my claim approved?\" sounds like trouble. On the phone there is no face to read, so the silence is the only signal the caller gets."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "On a phone call, silence is never empty: callers fill it with doubt, and the doubt lands on your business."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-machines-pause",
+      "text": "Why a fast machine is genuinely hard to build"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A human operator listens and thinks at the same time. Most AI voice systems work like a relay race, with each runner waiting for the baton. Twilio, a large cloud telephony company, published median targets for each leg in its "
+        },
+        {
+          "text": "guide to voice agent latency",
+          "href": "https://www.twilio.com/en-us/blog/developers/best-practices/guide-core-latency-ai-voice-agents"
+        },
+        {
+          "text": " (latency simply means delay). Here is the relay in plain words."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Step",
+        "What happens",
+        "Published figure"
+      ],
+      "rows": [
+        [
+          "Hearing the caller finish",
+          "The system decides the caller has stopped, not just paused",
+          "Common fixed wait: about 500 ms"
+        ],
+        [
+          "Speech to text",
+          "The caller's words become written text",
+          "350 ms target"
+        ],
+        [
+          "Thinking",
+          "The language model (the part that understands and writes the reply) produces its first words",
+          "375 ms target"
+        ],
+        [
+          "Text to speech",
+          "The reply becomes a voice again",
+          "100 ms target"
+        ],
+        [
+          "Whole trip, mouth to ear",
+          "Everything above, plus the phone network both ways",
+          "1,115 ms target, 1,400 ms upper limit"
+        ]
+      ],
+      "caption": "Stage targets are Twilio's published medians from November 2025. In a well-built system the steps overlap, so they do not simply add up."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Look at the bottom row. Even a well-tuned system that hits its targets takes about one second, roughly five times the human norm. Anything extra makes it longer: a server in another country, a slow check of the booking system, or a long reply that has to be fully written before any of it is spoken. How the best systems close this gap comes later. First, the hardest step."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "when-is-the-caller-finished",
+      "text": "When is the caller actually finished?"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Deciding when someone has finished talking is where Omani Arabic matters most. A machine that waits for a fixed half second of silence will cut in on a caller who pauses to think. It will also sit silent after a caller who has clearly finished. People here pause in places a generic model does not expect."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Thinking words: \"Baghait maw'id, ya'ni... yom al-ithnain\" (I wanted an appointment, I mean... Monday). The \"ya'ni\" means wait, not done."
+          }
+        ],
+        [
+          {
+            "text": "Greetings first: a caller who opens with \"Salam alaikum, shhalkum?\" expects the greeting returned before any business. Jumping straight into a menu feels rude."
+          }
+        ],
+        [
+          {
+            "text": "Language switches: \"Mumkin I move the booking to Thursday?\" A jump from Arabic to English can sound like a restart and confuse the system. More on that in "
+          },
+          {
+            "text": "why customers mix Arabic and English mid-sentence",
+            "href": "/blog/mixing-arabic-and-english-mid-sentence/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "One-word answers: \"heeh\" or \"okay\" is a complete reply. The system should answer straight away, not wait for more."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A composite example: Shamsa coordinates the call desk at a Muscat polyclinic group that trialled an AI agent on its booking line over the summer. The agent got the words right. The timing was wrong."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "When the line goes quiet for two seconds, our callers say alo, alo, and ask the whole question again.",
+      "attribution": "Shamsa, call desk coordinator, Muscat (composite)",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-pause-costs",
+      "text": "What the pause costs a busy line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Dead air is more than awkward. It makes every call longer, and some callers hang up. Here are Shamsa's composite sums, which you can redo with your own figures."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Calls a day on the booking line: 450."
+          }
+        ],
+        [
+          {
+            "text": "Times the agent speaks in an average call: 10."
+          }
+        ],
+        [
+          {
+            "text": "Extra delay per reply, slow system against a tuned one: 1.5 seconds (2.5 seconds against 1 second)."
+          }
+        ],
+        [
+          {
+            "text": "Extra silence per call: 10 × 1.5 = 15 seconds. Per day: 450 × 15 = 6,750 seconds, nearly two hours of callers listening to nothing."
+          }
+        ],
+        [
+          {
+            "text": "Callers who give up during the silence, assumed at 2 percent: 9 lost bookings a day."
+          }
+        ],
+        [
+          {
+            "text": "At an average consultation of OMR 18: OMR 162 a day, or about OMR 4,860 across a 30-day month."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The 2 percent is an illustration, not a measured rate. To get your own, look in your call log for calls that end within a few seconds of the system going quiet."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-fast-systems-close-the-gap",
+      "text": "How good systems close the gap"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Shamsa's team did not fix the line by buying a faster computer. They asked their vendor how the system handles each of the points below, and kept retuning until the \"alo?\" stopped showing up in recordings."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Streaming: the system writes down the caller's words while they are still speaking, and starts saying the first words of its reply while the rest is still being written. The steps overlap instead of queueing."
+          }
+        ],
+        [
+          {
+            "text": "Smart end-of-turn detection: instead of a fixed timer, it uses the words and tone of voice to judge whether \"ya'ni\" means wait or the sentence is complete. This only works if it learned from how people here really talk, as explained in "
+          },
+          {
+            "text": "how a machine understands Omani Arabic",
+            "href": "/blog/how-machine-understands-omani-arabic/"
+          },
+          {
+            "text": "."
+          }
+        ],
+        [
+          {
+            "text": "An honest acknowledgement: when a lookup takes time, it says \"Let me check Thursday for you\" within a second, the way a good operator does. The caller knows the silence is work, not refusal."
+          }
+        ],
+        [
+          {
+            "text": "Barge-in: the caller can interrupt, and the agent stops and listens."
+          }
+        ],
+        [
+          {
+            "text": "Short replies: one or two sentences, then the caller's turn."
+          }
+        ],
+        [
+          {
+            "text": "Nearby servers: every trip to a distant data centre adds delay. CustomerCare.OM, for example, keeps call handling and customer data inside Oman, which also keeps the round trip short."
+          }
+        ],
+        [
+          {
+            "text": "A quick handover: if the agent cannot answer, it passes the call to a person instead of holding the line in silence."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The fix is not a faster computer, it is a system that listens the way your best operator does: ready before the caller finishes, and never silent without a reason."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Before you approve any voice system, judge it on timing as well as accuracy. A demo where a sales engineer reads out tidy questions in English tells you little. Test it with your own callers' real speech, with pauses, greetings and switches between languages, during high season when the line is busiest."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Your human desk counts too. The silence while an operator searches for a file sends the same signal. Teach your team to say what they are doing (\"I'm opening your booking now\") so the caller never hears unexplained quiet."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Call your own line from a mobile and ask a simple question. Count from the end of your sentence to the first sound back. Twilio's upper limit is 1.4 seconds, and callers notice anything well beyond it.",
+        "Pause mid-sentence with a \"ya'ni\" and see whether the system cuts in. Then interrupt it mid-reply and check that it stops.",
+        "Ask something that needs a lookup, such as \"Is Thursday free?\", and listen for an acknowledgement before any silence.",
+        "Play back five recorded calls and count how often callers say \"alo?\" or start their question again."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is a faster reply always better?",
+          "a": "No. Answering before the caller has finished is worse than a short pause. Aim for human timing: quick, but only once the caller is done."
+        },
+        {
+          "q": "Should the agent fake an \"umm\" to fill silence?",
+          "a": "A short, real acknowledgement like \"let me check that\" helps when a lookup takes time. Made-up hesitation sounds are a gimmick. Callers want progress, not noise."
+        },
+        {
+          "q": "Does this matter for a menu-style IVR too?",
+          "a": "Yes. Long gaps between menu prompts, and the wait after a caller presses a key, send the same signal of doubt."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "People expect a reply in about a fifth of a second and hear anything much slower as hesitation. Getting a machine close to that is real engineering: streaming, smart turn detection, nearby servers and short replies. Time your own line this week, because callers already are."
+        }
+      ]
+    }
+  ]
+}

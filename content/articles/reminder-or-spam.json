@@ -1,0 +1,500 @@
+{
+  "id": "article-2026-10-21-reminder-or-spam",
+  "taskId": "2026-10-21-reminder-or-spam",
+  "slug": "reminder-or-spam",
+  "title": "When Does an Appointment Reminder Become Spam?",
+  "seoTitle": "When Does an Appointment Reminder Become Spam?",
+  "excerpt": "Your reminder text is welcome. Add one National Day offer line and it becomes marketing that needs a written yes. Here is where the line sits, and the OMR 21 fix.",
+  "seoDescription": "An appointment reminder needs no marketing consent, but add one offer and it does. Where the line sits under Oman's data law and TRA's new SMS rules.",
+  "series": "Your Data, Your Rights",
+  "category": "Privacy & Consumer Rights",
+  "topic": "The Line Between a Reminder and Spam",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-21",
+  "modifiedDate": "2026-10-21",
+  "reviewedDate": "2026-10-21",
+  "reviewBy": "2027-01-19",
+  "status": "published",
+  "tags": [
+    "consent",
+    "SMS marketing",
+    "appointment reminders",
+    "data protection",
+    "TRA",
+    "service messages",
+    "privacy"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#0d1f16\"/><stop offset=\"0.55\" stop-color=\"#1e4634\"/><stop offset=\"1\" stop-color=\"#8fd3a8\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><text x=\"24\" y=\"48\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#d4ff4f\">Reminder or spam?</text><text x=\"24\" y=\"72\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#f4f4f0\">One offer line changes the rules</text><rect x=\"36\" y=\"94\" width=\"250\" height=\"100\" rx=\"18\" fill=\"#f4f4f0\"/><path d=\"M66 192 L56 214 L94 192 Z\" fill=\"#f4f4f0\"/><circle cx=\"70\" cy=\"124\" r=\"14\" fill=\"#1e4634\"/><path d=\"M63 124 L68 129 L78 118\" stroke=\"#d4ff4f\" stroke-width=\"4\" fill=\"none\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"92\" y=\"130\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"16\" fill=\"#0d1f16\">Your visit: Sun 10:30</text><rect x=\"58\" y=\"148\" width=\"190\" height=\"9\" rx=\"4\" fill=\"#1e4634\"/><rect x=\"58\" y=\"166\" width=\"130\" height=\"9\" rx=\"4\" fill=\"#1e4634\"/><circle cx=\"322\" cy=\"150\" r=\"40\" fill=\"#e8c07c\" stroke=\"#0d1f16\" stroke-width=\"4\"/><text x=\"322\" y=\"162\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"34\" fill=\"#0d1f16\">AD</text></svg>",
+  "sources": [
+    {
+      "id": "tra-home",
+      "label": "Telecommunications Regulatory Authority: Regulation on promotional and service calls, messages and value-added services",
+      "url": "https://tra.gov.om",
+      "kind": "oman-official"
+    },
+    {
+      "id": "mtcit-rd68",
+      "label": "MTCIT: Royal Decree 68/2026 amending some provisions of the Personal Data Protection Law",
+      "url": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/royal-decree-68-2026-amending-some-provisions-of-the-personal-data-protection-law-1481",
+      "kind": "oman-official"
+    },
+    {
+      "id": "decree-pdpl",
+      "label": "Decree.om: Personal Data Protection Law (consolidated text, Articles 10 bis, 22 and 26)",
+      "url": "https://decree.om/2022/l20220006/",
+      "kind": "analysis"
+    },
+    {
+      "id": "clydeco-exec-regs",
+      "label": "Clyde & Co: Oman issues Executive Regulations to the Personal Data Protection Law",
+      "url": "https://www.clydeco.com/en/insights/2024/02/oman-issues-executive-regulations-to-pdpl",
+      "kind": "analysis"
+    },
+    {
+      "id": "muscatdaily-tra",
+      "label": "Muscat Daily: TRA sets time limits, tougher safeguards for marketing calls, SMS (16 August 2026)",
+      "url": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/",
+      "kind": "media"
+    },
+    {
+      "id": "timesofoman-tra",
+      "label": "Times of Oman: New telecommunications regulation protects consumer data and limits promotional messages",
+      "url": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Customers are glad to get your appointment reminder. Add one line about a National Day offer and, under Oman's data protection law, the same text becomes marketing that needs the customer's explicit consent. The telecom regulator's new rules for promotional messages are now in their six-month rollout, so it is worth an hour of your team's time this month to know exactly where that line sits."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "two-messages-that-look-alike",
+      "text": "Two messages that look almost the same"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is a composite example. Shamsa coordinates patient services for a polyclinic group with three branches in Muscat. Her team sends about 6,000 appointment reminders a month by SMS, and the call desk phones patients who have not confirmed. In mid-October the marketing team asks her to add one line to every reminder: 20% off teeth whitening for National Day."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The patient sees one text. The law sees two very different things. The first half is a service message, which exists because the patient booked something. The second half is marketing, and marketing has its own rulebook. Whether the whole text can legally go to everyone depends on something Shamsa's team has never tracked: which patients actually said yes to offers."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-law-says",
+      "text": "What the data protection law says about marketing"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Oman's Personal Data Protection Law says a business must get a customer's explicit consent before sending them "
+        },
+        {
+          "text": "advertising or marketing material of a commercial nature",
+          "href": "https://decree.om/2022/l20220006/"
+        },
+        {
+          "text": ". Explicit consent is a clear, active yes that the business can prove later. The executive regulation goes further: "
+        },
+        {
+          "text": "marketing consent must be in writing",
+          "href": "https://www.clydeco.com/en/insights/2024/02/oman-issues-executive-regulations-to-pdpl"
+        },
+        {
+          "text": ", customers must be told what they are agreeing to, and they need a way to unsubscribe."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "amendments that took effect on 7 September 2026",
+          "href": "https://mtcit.gov.om/library-3/legislations-policies-8/laws-75/royal-decree-68-2026-amending-some-provisions-of-the-personal-data-protection-law-1481"
+        },
+        {
+          "text": " kept the marketing rule. They also listed cases where explicit consent is not needed, including processing needed to carry out a contract the customer is a party to. A booked appointment, a confirmed hotel stay or a car booked in for service reasonably fits that idea, although the law gives no examples. Breaking the marketing consent rule carries a fine of OMR 1,000 to OMR 5,000."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A reminder is about something the customer already asked for, but the moment you add an offer you are selling, and selling needs a yes on record."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-tra-changed",
+      "text": "What TRA changed in August"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "On 16 August 2026 the Telecommunications Regulatory Authority (TRA), which regulates phone networks and SMS, "
+        },
+        {
+          "text": "issued a regulation on promotional calls, service messages and value-added services",
+          "href": "https://www.muscatdaily.com/2026/08/16/tra-sets-time-limits-tougher-safeguards-for-marketing-calls-sms/"
+        },
+        {
+          "text": ". It is no longer a consultation draft. Press reports say businesses and operators have six months to comply. Here is what was "
+        },
+        {
+          "text": "reported",
+          "href": "https://timesofoman.com/article/175719-new-telecommunications-regulation-protects-consumer-data-and-limits-promotional-messages-in-oman"
+        },
+        {
+          "text": ":"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Promotional calls and messages only between 8am and 9pm Oman time."
+          }
+        ],
+        [
+          {
+            "text": "Promotional SMS sender names must show your commercial or legal name and start with \"AD\"."
+          }
+        ],
+        [
+          {
+            "text": "Caller ID on promotional, service and automated calls must show your company name."
+          }
+        ],
+        [
+          {
+            "text": "Numbers registered to individuals cannot be used for promotional or service calls. That includes a front desk agent ringing patients from a personal mobile."
+          }
+        ],
+        [
+          {
+            "text": "Operators must let customers block promotional messages from all senders or from chosen ones, and report messages that keep arriving."
+          }
+        ],
+        [
+          {
+            "text": "Fines of up to OMR 30,000 for some breaches, doubled for a repeat within a year."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The AD prefix puts a label on your marketing on every customer's phone. If reminders and offers leave from one sender name, you face a bad choice: label everything AD and risk customers blocking your reminders along with your ads, or skip the label and break the rule. The fix for that, and for Shamsa's National Day request, comes below."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "where-the-line-sits",
+      "text": "Where the line sits"
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Message",
+        "Service or marketing?",
+        "Explicit consent needed?"
+      ],
+      "rows": [
+        [
+          "Appointment reminder: date, time, branch",
+          "Service",
+          "No, it serves a booking"
+        ],
+        [
+          "Hotel booking confirmation or check-in details",
+          "Service",
+          "No"
+        ],
+        [
+          "Your car is ready for collection",
+          "Service",
+          "No"
+        ],
+        [
+          "Insurer's renewal due date notice",
+          "Usually service",
+          "Not if it only states the renewal facts"
+        ],
+        [
+          "Reminder plus 20% off whitening",
+          "Marketing",
+          "Yes, in writing"
+        ],
+        [
+          "We miss you, book your next service",
+          "Marketing",
+          "Yes, in writing"
+        ],
+        [
+          "National Day offer to everyone on file",
+          "Marketing",
+          "Yes, in writing"
+        ]
+      ],
+      "caption": "A working guide, not legal advice. When a message sits in between, treat it as marketing."
+    },
+    {
+      "type": "quote",
+      "quote": "Patients thank us for the reminder. They complain about the offer stapled to the bottom of it.",
+      "attribution": "Shamsa, patient services coordinator, Muscat (composite)",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "split-the-message",
+      "text": "The worked example: split the message"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Say 2,100 of Shamsa's patients have given written consent to receive offers. Here is the combined message compared with two separate ones. The SMS rate is an assumption, so use your own provider's price."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Line",
+        "One combined message",
+        "Two separate messages"
+      ],
+      "rows": [
+        [
+          "Reminders sent",
+          "6,000",
+          "6,000"
+        ],
+        [
+          "Offers sent",
+          "Inside all 6,000 reminders",
+          "2,100, consented patients only"
+        ],
+        [
+          "SMS cost at an assumed OMR 0.010 each",
+          "OMR 60",
+          "OMR 81"
+        ],
+        [
+          "Patients getting marketing without consent",
+          "3,900",
+          "0"
+        ],
+        [
+          "Exposure under the marketing consent rule",
+          "Fine of OMR 1,000 to 5,000",
+          "None from this rule"
+        ]
+      ],
+      "compact": true
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Splitting costs Shamsa OMR 21 more a month. Redo the sums with your monthly bookings, your consented list and your provider's rate. The extra cost is almost always far smaller than one fine, and your reminders keep reaching customers who block ads."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "stay-on-the-right-side",
+      "text": "How to stay on the right side"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "strong": true,
+            "text": "Keep service templates clean. "
+          },
+          {
+            "text": "Reminders, confirmations and status updates never carry an offer. Write that into your template rules."
+          }
+        ],
+        [
+          {
+            "strong": true,
+            "text": "Use two sender names. "
+          },
+          {
+            "text": "One for service messages, and one starting with AD for promotions, set up with your SMS provider."
+          }
+        ],
+        [
+          {
+            "strong": true,
+            "text": "Keep a consent register. "
+          },
+          {
+            "text": "For each customer, record whether they agreed to offers, when, how and on which channel. If you cannot show it, count it as a no."
+          }
+        ],
+        [
+          {
+            "strong": true,
+            "text": "Ask where the conversation already happens. "
+          },
+          {
+            "text": "Your call desk speaks to hundreds of people a day. Ask on the booking call, then send a short confirmation the customer replies to, so the yes ends up in writing."
+          }
+        ],
+        [
+          {
+            "strong": true,
+            "text": "Make stop mean stop. "
+          },
+          {
+            "text": "Unsubscribing should take one reply, and the number should come off the offer list the same day."
+          }
+        ],
+        [
+          {
+            "strong": true,
+            "text": "Retire personal mobiles. "
+          },
+          {
+            "text": "Reminder and follow-up calls go out from a business line that shows your company name."
+          }
+        ],
+        [
+          {
+            "strong": true,
+            "text": "Schedule campaigns inside 8am to 9pm. "
+          },
+          {
+            "text": "Large sends take time to deliver, so finish well before the cut-off."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Step four is where automation earns its place. A rushed operator forgets the consent question on a busy morning. An AI agent on the phone line asks it on every call, logs the answer against the customer record and sends the confirmation text. If you use CustomerCare.OM for call handling, those records stay inside Oman. Our "
+        },
+        {
+          "text": "Oman AI calling guide",
+          "href": "/guideline/oman/"
+        },
+        {
+          "text": " covers the consent and recording rules for calls."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Shamsa's team did exactly this. Plain reminders now go out from the clinic's own sender name. The whitening offer went separately, from the AD sender, to the 2,100 patients who had said yes. The booking call now ends with one extra question."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you run the service desk, look at every template you send this week, before the National Day campaign drafts are signed off. Pull service messages and offers apart, and send offers only to people whose written yes you can find. If you have not built that list yet, start with our piece on "
+        },
+        {
+          "text": "why marketing texts now need written consent",
+          "href": "/blog/marketing-texts-need-consent/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are the customer, the reminder about your Thursday appointment is supposed to keep coming. Offers are different. You can refuse them, reply stop, and once operators roll out the new blocking tools, block a sender's ads without losing their reminders. If offers keep coming after you said stop, report it to your mobile operator. Complaints under the data protection law go to the Ministry of Transport, Communications and Information Technology."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your ten-minute message audit",
+      "paragraphs": [
+        "Open your last five SMS templates. Does any reminder or confirmation mention a discount, an offer or a new product?",
+        "Check your sender names. Do promotions go out under a name starting with AD?",
+        "Pick ten customers who received an offer last month. Can you show when and how each one said yes?",
+        "Ask your desk team which phones they use to call customers back.",
+        "Check the time stamp on your last campaign. Did every message go out before 9pm?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is a WhatsApp reminder treated differently from an SMS?",
+          "a": "The marketing consent rule in the data protection law covers marketing on any channel. The AD sender rule concerns calls and SMS through licensed operators. A promotion on WhatsApp still needs consent."
+        },
+        {
+          "q": "Can we ask for marketing consent inside a reminder text?",
+          "a": "It is safer to ask on the booking call or at check-in, where the customer is already talking to you. Some regulators abroad treat a text asking for consent as marketing in its own right."
+        },
+        {
+          "q": "Our offer only goes to existing customers. Do we still need consent?",
+          "a": "Yes. Being a customer is not the same as agreeing to offers. Send the offer to those with written consent and keep everyone else on service messages."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A reminder serves something the customer already booked. An offer needs a written yes you can show. Keep the two in separate messages from separate sender names, ask for consent where your team already talks to customers, and the National Day campaign becomes a small task instead of a risk."
+        }
+      ]
+    }
+  ]
+}

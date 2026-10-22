@@ -1,0 +1,466 @@
+{
+  "id": "article-2026-10-22-cost-per-handled-call",
+  "taskId": "2026-10-22-cost-per-handled-call",
+  "slug": "cost-per-handled-call",
+  "title": "What One Handled Call Really Costs You",
+  "seoTitle": "What One Handled Call Really Costs Your Service Desk",
+  "excerpt": "Six operators, 8,000 calls a month, and more than half of paid hours spent waiting for the phone. Here is what one answered call really costs, and what changes when routine calls are automated.",
+  "seoDescription": "Work out the cost per handled call for a staffed operator desk in OMR, then compare it honestly with automated handling, setup effort included.",
+  "series": "Business Owner Playbook",
+  "category": "Running Customer Service",
+  "topic": "What One Handled Call Really Costs You",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-22",
+  "modifiedDate": "2026-10-22",
+  "reviewedDate": "2026-10-22",
+  "reviewBy": "2027-01-20",
+  "status": "published",
+  "tags": [
+    "cost per call",
+    "operator desk",
+    "call handling",
+    "staffing costs",
+    "automation",
+    "IVR",
+    "polyclinics",
+    "operations"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"1\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#181109\"/><stop offset=\"0.55\" stop-color=\"#54371a\"/><stop offset=\"1\" stop-color=\"#e8c07c\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><circle cx=\"305\" cy=\"88\" r=\"66\" fill=\"#181109\" stroke=\"#d4ff4f\" stroke-width=\"4\"/><path d=\"M278 54 L292 50 L300 72 L290 80 Q296 102 314 114 L322 106 L342 116 L338 130 Q330 138 316 134 Q282 122 270 82 Q266 62 278 54 Z\" fill=\"#d4ff4f\"/><path d=\"M316 62 Q334 66 338 84\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M320 46 Q350 52 354 84\" fill=\"none\" stroke=\"#79e0c8\" stroke-width=\"4\" stroke-linecap=\"round\"/><rect x=\"14\" y=\"132\" width=\"230\" height=\"80\" rx=\"10\" fill=\"#181109\" fill-opacity=\"0.9\"/><text x=\"26\" y=\"176\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"38\" fill=\"#d4ff4f\">644 baisa</text><text x=\"28\" y=\"200\" font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#f4f4f0\">per handled call</text></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Ask most operations leads what their call desk costs and they give you a salary figure. Ask what one handled call costs and the room goes quiet. That second number, the cost per handled call, tells you whether your desk is efficient, whether automation is worth the trouble, and how much you lose every time a trained operator resigns."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-number-missing-from-most-budgets",
+      "text": "The number missing from most service budgets"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Salaries are easy to see. They show up every month in the payroll run. The rest of the desk is hidden in other budgets: floor space under facilities, headsets under IT, the agency fee for a new hire under HR, and the three weeks a new operator spends learning the booking system under nobody at all."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Put all of it in one place, divide by the calls your team actually answered, and you get one honest figure. Here is that sum for a composite desk built from typical numbers, so you can swap in your own."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "cost-per-handled-call-staffed-desk",
+      "text": "What one handled call costs on a staffed desk"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Meet Shamsa, call desk coordinator at a busy polyclinic in Al Khuwair. She is a composite, but her desk will look familiar: six operators, one supervisor, one main number, and an IVR (interactive voice response, the recorded \"press one for appointments\" menu) in front of it. Her team answers about 8,000 calls a month across 26 working days."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: a staffed polyclinic call desk, one month. All figures are illustrative assumptions.",
+      "headers": [
+        "Cost line",
+        "Assumption",
+        "OMR per month"
+      ],
+      "rows": [
+        [
+          "Operator salaries",
+          "6 operators at OMR 450",
+          "2,700"
+        ],
+        [
+          "Supervisor",
+          "1 at OMR 800",
+          "800"
+        ],
+        [
+          "Contributions, allowances, leave cover",
+          "About 20% on top of pay",
+          "700"
+        ],
+        [
+          "Space, desks, headsets, phone lines",
+          "Share of rent and utilities",
+          "600"
+        ],
+        [
+          "Hiring and training replacements",
+          "2 leavers a year at about OMR 900 each, plus refreshers",
+          "200"
+        ],
+        [
+          "Software seats and call recording",
+          "Booking system and phone system",
+          "150"
+        ],
+        [
+          "Total desk cost",
+          "Sum of the lines above",
+          "5,150"
+        ],
+        [
+          "Calls actually answered",
+          "8,000 a month",
+          "5,150 ÷ 8,000"
+        ],
+        [
+          "Cost per handled call",
+          "Total cost ÷ calls answered",
+          "About 0.644 (644 baisa)"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "That is about 644 baisa for every answered call. Calls that rang out and never reached anyone are not in the 8,000, so they make each answered call more expensive still. Unanswered calls have their own price, worked through in "
+        },
+        {
+          "text": "What a Missed Call Really Costs Your Operator Desk",
+          "href": "/blog/missed-call-cost-operator-desk/"
+        },
+        {
+          "text": "."
+        }
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "We staff for the eight o'clock rush, then pay four people to watch silent phones after lunch.",
+      "attribution": "Shamsa, call desk coordinator, Al Khuwair (composite)",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "where-the-money-goes",
+      "text": "Where the money actually goes"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The table hides the biggest line of all: time spent waiting. Six operators on eight-hour shifts give Shamsa 1,248 paid hours a month. At about four minutes a call, notes included, her 8,000 calls fill roughly 533 of those hours. That leaves about 57 percent of paid time with no caller on the line."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some of that is breaks and admin, which are real work. Most of it comes from a fixed team sized for a peak. Three things drive it:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "The morning rush. ",
+            "strong": true
+          },
+          {
+            "text": "In Shamsa's log, about 40 percent of the day's calls arrive between 8 and 11 in the morning, so she staffs for that and pays for quiet afternoons."
+          }
+        ],
+        [
+          {
+            "text": "Turnover. ",
+            "strong": true
+          },
+          {
+            "text": "Each leaver costs her about OMR 900 in hiring, training and the weeks a newcomer works at half speed."
+          }
+        ],
+        [
+          {
+            "text": "Repeat questions. ",
+            "strong": true
+          },
+          {
+            "text": "The same handful of questions, asked hundreds of times a week, by people who just want a time or a location."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "You pay operators by the hour, not by the call, so every quiet hour gets added to the price of the next call you answer."
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Can automation take some of that weight without simply moving the cost somewhere else? It can, but the honest answer comes with a setup bill most brochures leave out. First, Shamsa needed to know what her callers actually ask."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-a-week-of-calls-showed",
+      "text": "What Shamsa found in one week of calls"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For one ordinary week she tagged every call by topic. Five topics covered about 55 percent of them: booking or moving an appointment, opening times, directions, whether a lab result was ready, and which insurance cards the clinic accepts. None of these needed a trained operator. All of them needed a correct answer, quickly, often in Omani Arabic: \"Bagheet aghayyir maw'idi, fi waqt ba'd al-asr?\""
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The other 45 percent were the calls her team exists for: worried parents, billing disputes, referrals and complaints. Those run closer to six minutes, and they deserve every one of them."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "same-maths-automated-handling",
+      "text": "The same maths for automated handling"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is Shamsa's desk a year after moving those five routine topics to an automated voice agent: software that answers the call in natural speech and hands anything else to a person with a note of what was said. Two operators who left during the year were not replaced, and a third moved to follow-up calls for missed appointments. The automation prices below are placeholders, so put real quotes into the same lines."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: the same desk after one year with routine calls automated. Automation prices are placeholder assumptions.",
+      "headers": [
+        "Cost line",
+        "Assumption",
+        "OMR per month"
+      ],
+      "rows": [
+        [
+          "Operator salaries",
+          "3 operators at OMR 450",
+          "1,350"
+        ],
+        [
+          "Supervisor",
+          "1 at OMR 800",
+          "800"
+        ],
+        [
+          "Contributions, allowances, leave cover",
+          "About 20% on top of pay",
+          "430"
+        ],
+        [
+          "Space, desks, headsets, phone lines",
+          "Smaller footprint",
+          "400"
+        ],
+        [
+          "Hiring, training, software seats",
+          "Fewer seats, fewer leavers",
+          "240"
+        ],
+        [
+          "Automated call minutes",
+          "4,400 calls × 3 min × OMR 0.05",
+          "660"
+        ],
+        [
+          "Platform fee",
+          "Placeholder",
+          "250"
+        ],
+        [
+          "Setup, spread over year one",
+          "About OMR 1,600 one-off ÷ 12",
+          "133"
+        ],
+        [
+          "Total desk cost",
+          "Sum of the lines above",
+          "4,263"
+        ],
+        [
+          "Cost per handled call, blended",
+          "4,263 ÷ 8,000",
+          "About 533 baisa"
+        ],
+        [
+          "Automated calls only",
+          "1,043 ÷ 4,400",
+          "About 237 baisa"
+        ],
+        [
+          "Human calls only",
+          "3,220 ÷ 3,600",
+          "About 894 baisa"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Look closely at the split. Each human call now costs more than before, because the team only takes the harder, longer calls. That is not a failure. It is the point. The monthly saving is about OMR 887, roughly OMR 10,600 a year, and the setup line drops away in year two."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Automation does not make every call cheaper: it lets your team spend its paid hours on the calls that genuinely need a person."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "setup-effort-nobody-quotes",
+      "text": "The setup effort nobody quotes"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The OMR 1,600 in the table is only the cash. The real cost is your supervisor's time, and it is easy to underestimate:"
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Writing the answers once, correctly: opening hours per branch, doctors' days, accepted insurers."
+          }
+        ],
+        [
+          {
+            "text": "Connecting the booking system so appointments are actually made, not just promised."
+          }
+        ],
+        [
+          {
+            "text": "Setting handover rules: which topics or words go straight to a person."
+          }
+        ],
+        [
+          {
+            "text": "Testing with real recorded calls before go-live, including callers who mix Arabic and English."
+          }
+        ],
+        [
+          {
+            "text": "Reviewing conversations for about an hour a week and fixing any wrong answers."
+          }
+        ],
+        [
+          {
+            "text": "Asking where recordings and transcripts are stored, since they fall under Oman's Personal Data Protection Law."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Expect two or three months where you pay for the full team and the new line at the same time. Plan for that overlap so it does not catch you by surprise."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "brand",
+      "title": "Where CustomerCare.OM fits",
+      "paragraphs": [
+        "CustomerCare.OM is one example of the automated line in the second table: it answers routine calls as a conversation instead of an IVR menu, understands callers who speak Omani Arabic, and passes everything else to your team with notes attached. Whichever platform you price, get the per-minute rate, the setup work and the handover rules in writing."
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Work out your own cost per handled call before anyone sells you anything. Then compare it with the per-call price of any automated option, with setup spread over a year. If the gap is small, automation is mostly about covering nights and peaks. If it is wide, waiting hours are probably your biggest hidden cost."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Do not cut staff on day one. Let natural turnover do the work, and move your best people toward the calls that keep customers: complaints, follow-ups and the anxious first-time caller."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your ten-minute sum",
+      "paragraphs": [
+        "1. Add up last month's full desk cost: pay, contributions, space, phones, software and any hiring fees.",
+        "2. Take answered calls, not rings, from your phone system report, and divide the cost by that number.",
+        "3. Compare paid operator hours with total talk time. The gap is what waiting costs you.",
+        "4. Tag 100 calls by topic and count how many a well-written answer could close without a person."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Should transferred calls count twice?",
+          "a": "No. Count each call once, where it ends. Counting transfers twice makes the desk look busier and cheaper per call than it really is."
+        },
+        {
+          "q": "Does automating routine calls mean letting people go?",
+          "a": "Not necessarily. Many desks simply stop replacing leavers, or move operators to follow-ups and complaints, where their time brings money back."
+        },
+        {
+          "q": "How soon does the saving show?",
+          "a": "In the composite example it arrives after the overlap months, once the team settles at its new size. Your timing depends on turnover and how quickly setup is finished."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A staffed desk is not expensive because people are overpaid. It is expensive because a fixed team waits through quiet hours to survive the rush. Measure what one handled call costs, give the routine ones to a line that never waits, and spend your team's hours on the calls that need them."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "id": "article-2026-10-23-clinic-sunday-morning",
+  "taskId": "2026-10-23-clinic-sunday-morning",
+  "slug": "easy-questions-clinic-call-desk",
+  "title": "Why Easy Questions Wear Out a Clinic Call Desk",
+  "seoTitle": "Why Easy Questions Wear Out a Clinic Call Desk",
+  "excerpt": "Rahma can answer \"is the doctor in today?\" in her sleep. The trouble is saying it for the twentieth time while a worried mother waits on line two.",
+  "seoDescription": "A composite Sunday morning at a Sohar polyclinic shows how easy repeat questions bury a clinic call desk, and the simple tally sheet that changed it.",
+  "series": "The Weekend Read",
+  "category": "Work & Life",
+  "topic": "Sunday Morning at the Polyclinic's Call Desk",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-23",
+  "modifiedDate": "2026-10-23",
+  "reviewedDate": "2026-10-23",
+  "reviewBy": "2027-01-21",
+  "status": "published",
+  "tags": [
+    "clinic call desk",
+    "polyclinic",
+    "repeat questions",
+    "front office",
+    "work life",
+    "IVR",
+    "Sohar",
+    "call handling"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 225\" width=\"400\" height=\"225\"><defs><radialGradient id=\"bg\" cx=\"50%\" cy=\"50%\" r=\"75%\"><stop offset=\"0\" stop-color=\"#1c1408\"/><stop offset=\"0.55\" stop-color=\"#6b4d12\"/><stop offset=\"1\" stop-color=\"#ffd166\"/></radialGradient><g id=\"t\" stroke=\"#1c1408\" stroke-width=\"3\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M0 0V20M6 0V20M12 0V20M18 0V20M-3 17L21 3\"/></g></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><rect x=\"16\" y=\"60\" width=\"226\" height=\"108\" rx=\"12\" fill=\"#1c1408\" fill-opacity=\"0.94\"/><text x=\"30\" y=\"102\" font-family=\"Arial, sans-serif\" font-size=\"38\" font-weight=\"bold\" fill=\"#d4ff4f\">154</text><text x=\"30\" y=\"133\" font-family=\"Arial, sans-serif\" font-size=\"26\" font-weight=\"bold\" fill=\"#f4f4f0\">MINUTES</text><text x=\"30\" y=\"155\" font-family=\"Arial, sans-serif\" font-size=\"13\" fill=\"#e8c07c\">on questions with one answer</text><rect x=\"262\" y=\"32\" width=\"112\" height=\"172\" rx=\"10\" fill=\"#1c1408\" stroke=\"#e8c07c\" stroke-width=\"3\"/><rect x=\"274\" y=\"50\" width=\"88\" height=\"144\" rx=\"4\" fill=\"#f4f4f0\"/><rect x=\"294\" y=\"24\" width=\"48\" height=\"18\" rx=\"5\" fill=\"#e8c07c\"/><use href=\"#t\" transform=\"translate(286,64)\"/><use href=\"#t\" transform=\"translate(326,64)\"/><use href=\"#t\" transform=\"translate(286,96)\"/><use href=\"#t\" transform=\"translate(326,96)\"/><use href=\"#t\" transform=\"translate(286,128)\"/><use href=\"#t\" transform=\"translate(326,128)\"/><use href=\"#t\" transform=\"translate(286,160)\"/><path d=\"M326 160V180M332 160V180\" stroke=\"#1c1408\" stroke-width=\"3\" stroke-linecap=\"round\"/></svg>",
+  "sources": [],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "At 7:58 on a Sunday morning, before the first doctor has even parked, all four of Rahma's phone lines are lit. By ten she will have spoken to more than a hundred people, and her managers will still wonder why the clinic call desk always feels behind when nobody on it is slow. The answer costs the clinic money and costs patients time, and it is hiding in the easiest questions of the day."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "seven-fifty-eight-on-a-sunday",
+      "text": "Seven fifty-eight on a Sunday"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Rahma is a composite, built from the kind of call desk you find at any multi-doctor polyclinic in Sohar or Muscat. She works the phones and the WhatsApp line. A colleague handles the counter, and two more coordinators join later in the day."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Line one is a man asking if the orthopaedic doctor is in today. Line two is on hold. Line three is a hotel calling on behalf of a German guest with a swollen ankle. Line four rings out while Rahma writes a file number on the back of her hand."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The WhatsApp phone propped against her monitor buzzes eleven times before 8:15. At the counter, an elderly man waits with a plastic bag full of medicine boxes. She waves him to a chair and, between calls, asks his grandson to read the names out to her."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-kindnesses-nobody-counts",
+      "text": "The kindnesses nobody counts"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Some of what Rahma does never appears in any report. She knows which regular wants Arabic spoken slowly. She calls back the young mother whose call dropped, before the mother has to try again. She reminds a caller booked for a fasting blood test not to eat breakfast tomorrow."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "These moments are why patients trust the clinic. They are also the first thing to disappear when the queue gets long, because there is simply no time. Rahma has her own theory about why the queue gets long, scribbled in pencil, and it comes later."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "The hardest call of the morning is always waiting behind twenty easy ones."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-questions-that-fill-the-morning",
+      "text": "The questions that fill the morning"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most calls sound something like this: \"Salam alaikum, the doctor mawjood il-yoom? Ashti maw'id ba'd il-dhuhr. And my insurance, you take it or not?\" Half Arabic, half English, completely reasonable. Each call takes two minutes, and Rahma has said the same answer twenty times since eight."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Is my doctor in today, and until what time?"
+          }
+        ],
+        [
+          {
+            "text": "Do you accept my insurance card?"
+          }
+        ],
+        [
+          {
+            "text": "Where exactly are you, and is there parking?"
+          }
+        ],
+        [
+          {
+            "text": "Are my lab results ready yet?"
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The clinic does have a phone menu: press one for appointments, two for the laboratory, three for insurance. Most callers press zero, or nothing at all, and land with Rahma anyway, now slightly more annoyed."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-tally-sheet",
+      "text": "The tally sheet"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "One Sunday in October, Rahma tried something small. She taped a sheet of paper next to her keyboard with six columns and made a tick for every call and message between eight and ten. Her colleague at the counter did the same. These are composite numbers, laid out so you can redo them with your own."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Type of contact, Sunday 8 to 10",
+        "Contacts",
+        "Minutes each",
+        "Total minutes"
+      ],
+      "rows": [
+        [
+          "Is my doctor in today?",
+          "20",
+          "2",
+          "40"
+        ],
+        [
+          "Do you take my insurance?",
+          "16",
+          "3",
+          "48"
+        ],
+        [
+          "Location, parking, hours",
+          "12",
+          "2",
+          "24"
+        ],
+        [
+          "Are my results ready?",
+          "14",
+          "3",
+          "42"
+        ],
+        [
+          "Book or move an appointment",
+          "30",
+          "3",
+          "90"
+        ],
+        [
+          "Needs a person: worry, complaint, bill",
+          "16",
+          "5",
+          "80"
+        ],
+        [
+          "Total",
+          "108",
+          "3 on average",
+          "324"
+        ]
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Desk capacity: two people for 120 minutes gives 240 minutes."
+          }
+        ],
+        [
+          {
+            "text": "Demand: 324 minutes. The desk is 84 minutes short, and that gap becomes hold music and rings with no answer."
+          }
+        ],
+        [
+          {
+            "text": "Easy questions (the first four rows): 154 minutes, about 48% of all the work."
+          }
+        ],
+        [
+          {
+            "text": "Money: if the whole desk costs OMR 1,950 a month (three coordinators at OMR 650 each) and the same mix holds all week, roughly OMR 936 a month pays for answers that never change."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "I can answer 'is the doctor in' in my sleep. I just can't answer it while a mother is crying on line two.",
+      "attribution": "Rahma, call desk coordinator, Sohar (composite)",
+      "persona": true
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-tally-changed",
+      "text": "What the tally changed"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Rahma took the sheet to Saeed, the clinic's operations manager. Her point was simple: the desk is not slow, it is spending half its morning repeating itself. Here is what they changed."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "They wrote the fixed answers down once: a doctor rota updated by 7:30 every morning, the current insurance list, directions with a map pin and a parking note, and a clear rule on results (whether they are ready and how to collect them, never the results themselves)."
+          }
+        ],
+        [
+          {
+            "text": "They replaced the press-one menu with a conversation. An AI phone agent, theirs runs on CustomerCare.OM, now answers the four easy questions on calls and WhatsApp in Omani Arabic or English and books routine slots into the schedule."
+          }
+        ],
+        [
+          {
+            "text": "Anything about symptoms, complaints or bills goes straight to Rahma, with a short note so the caller never has to repeat themselves."
+          }
+        ],
+        [
+          {
+            "text": "Saeed reads the week's question mix on a "
+          },
+          {
+            "text": "reporting dashboard",
+            "href": "/product/dashboard-reporting/"
+          },
+          {
+            "text": ". When insurance questions jumped one week, he found the website still listed an insurer's old network."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Rahma still takes the frightened parent, the confused dosage question and the regular who wants a familiar voice. The fasting reminder and the callback to the dropped mother came back too, because she finally has the minutes for them."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you run a call desk, a switchboard or a front office, stop asking how fast your team answers and start asking what they are answering. If half the minutes go to questions with one fixed answer, more staff will not fix it. Writing the answers down, and letting something other than your best people say them, will."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "If you are the caller, you can help too. Easy questions get quicker answers outside the two loudest hours, usually after 10:30. Keep your file number and insurance card in your hand before you dial, and if the line is busy, the clinic's WhatsApp often has the doctor rota ready."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Try this on Sunday",
+      "paragraphs": [
+        "Tape a sheet next to your busiest phone with six columns: the four questions you hear most, bookings, and anything that truly needs a person.",
+        "Tick every call and message for your loudest two hours. Note roughly how long each type takes.",
+        "Multiply, add up, and circle the share that went to questions with one fixed answer. That number is your starting point."
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Will a clinic's AI agent read me my test results?",
+          "a": "It should not. A well set up clinic lets it confirm only whether results are ready and how to collect them, and passes any medical question to staff."
+        },
+        {
+          "q": "Can I still reach a person?",
+          "a": "Yes. Asking for a person, or raising a worry, a complaint or a bill, should send you straight to the desk with your details already noted."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "A clinic call desk feels behind because good people spend their mornings repeating the easy answers, not because they are slow. Count the easy questions for two hours, give those answers a home of their own, and the people on the desk get their time back for the calls that need a human voice."
+        }
+      ]
+    }
+  ]
+}

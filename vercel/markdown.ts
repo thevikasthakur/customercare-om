@@ -1,5 +1,6 @@
 /**
- * Markdown content negotiation for AI agents.
+ * Markdown content negotiation for AI agents (Vercel Routing Middleware,
+ * wired up by the `proxy` entry in vercel.json).
  *
  * There is exactly one public URL per page. Ask for it as HTML and you get
  * HTML; ask for it as Markdown and you get Markdown:
@@ -7,16 +8,24 @@
  *   curl -H "Accept: text/markdown" https://customercare.om/product/smart-follow-ups/
  *
  * `scripts/ai-readability.mjs` exports a Markdown twin beside every page, but
- * those files are an implementation detail: they are the payload this function
- * serves on an internal rewrite, and any request that asks for one directly is
- * redirected to the canonical page. One piece of content, one address.
+ * those files are an implementation detail: they are the payload this proxy
+ * fetches and serves under the page's own URL, and any request that asks for
+ * one directly is redirected to the canonical page. One piece of content, one
+ * address.
  *
  * Browsers send `text/html` and are unaffected. Both variants carry
  * `Vary: Accept` so caches never serve one where the other was asked for.
  */
-import type { Config, Context } from "@netlify/edge-functions";
+import { next } from "@vercel/functions";
 
 const MARKDOWN = "text/markdown; charset=utf-8";
+
+/**
+ * Set on the proxy's own fetch of a twin so that request reaches the file
+ * instead of being redirected back to the page. Anyone can send it; all it
+ * exposes is the same Markdown a negotiated request already gets.
+ */
+const TWIN_FETCH = "x-markdown-twin-fetch";
 
 /**
  * True only when the client asked for Markdown at least as strongly as HTML.
@@ -63,28 +72,25 @@ function pageFor(pathname: string): string {
   return stem === "/index" ? "/" : `${stem}/`;
 }
 
-function withVary(response: Response, contentType?: string): Response {
-  const out = new Response(response.body, response);
-  if (contentType) out.headers.set("content-type", contentType);
+/** Fetches a twin from this deployment; null when the page has none. */
+async function fetchTwin(request: Request, twin: URL): Promise<Response | null> {
+  const headers = new Headers({ [TWIN_FETCH]: "1" });
+  // Preview deployments sit behind Vercel Authentication; pass the caller's
+  // credentials through so the sub-request is allowed wherever they are.
+  for (const name of ["cookie", "authorization", "x-vercel-protection-bypass"]) {
+    const value = request.headers.get(name);
+    if (value) headers.set(name, value);
+  }
 
-  const existing = out.headers.get("vary");
-  const parts = existing ? existing.split(",").map((s) => s.trim()) : [];
-  if (!parts.some((p) => p.toLowerCase() === "accept")) parts.push("Accept");
-  out.headers.set("vary", parts.join(", "));
-
-  return out;
+  const response = await fetch(twin, { method: request.method, headers, redirect: "manual" });
+  return response.ok ? response : null;
 }
 
-export default async function handler(request: Request, context: Context) {
-  if (request.method !== "GET" && request.method !== "HEAD") return context.next();
+export default async function markdown(request: Request): Promise<Response> {
+  if (request.method !== "GET" && request.method !== "HEAD") return next();
+  if (request.headers.has(TWIN_FETCH)) return next();
 
   const url = new URL(request.url);
-
-  // Discovery files are Markdown despite the .txt extension the spec mandates.
-  if (url.pathname === "/llms.txt" || url.pathname === "/llms-full.txt") {
-    const response = await context.next();
-    return response.ok ? withVary(response, MARKDOWN) : response;
-  }
 
   // A twin is not a public address. Anyone arriving at one gets sent to the
   // page it belongs to, so the content has a single canonical URL.
@@ -92,21 +98,24 @@ export default async function handler(request: Request, context: Context) {
     return Response.redirect(new URL(pageFor(url.pathname), url.origin), 301);
   }
 
+  const twin = twinFor(url.pathname);
+  // Assets and discovery files (`/llms.txt` etc.) get their headers from
+  // vercel.json.
+  if (!twin) return next();
+
   if (prefersMarkdown(request.headers.get("accept") ?? "")) {
-    const twin = twinFor(url.pathname);
-    if (twin) {
-      const rewritten = await context.rewrite(new URL(twin, url.origin));
-      // Pages without a twin (error and utility routes) fall through to HTML.
-      if (rewritten.ok) return withVary(rewritten, MARKDOWN);
+    const found = await fetchTwin(request, new URL(twin, url.origin));
+    // Pages without a twin (error and utility routes) fall through to HTML.
+    if (found) {
+      const headers = new Headers(found.headers);
+      // fetch() already decoded the body, so the upstream framing is stale.
+      headers.delete("content-encoding");
+      headers.delete("content-length");
+      headers.set("content-type", MARKDOWN);
+      headers.set("vary", "Accept");
+      return new Response(found.body, { status: 200, headers });
     }
   }
 
-  const response = await context.next();
-  const type = response.headers.get("content-type") ?? "";
-  return type.includes("text/html") ? withVary(response) : response;
+  return next({ headers: { vary: "Accept" } });
 }
-
-export const config: Config = {
-  path: "/*",
-  excludedPath: ["/_next/*", "/media/*"],
-};

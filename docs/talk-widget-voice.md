@@ -18,7 +18,7 @@ pipecat `SmallWebRTCTransport` + Gemini Live.
 `NEXT_PUBLIC_VOX_AGENT_ID`, and `NEXT_PUBLIC_VOX_EMBED_TOKEN` (see
 [.env.example](../.env.example)) the mic keeps its original behaviour and
 routes to `/book-a-demo/`. The site is a static export, so the values are baked
-in at build time — set them in Netlify env settings and redeploy.
+in at build time — set them in the Vercel project's environment variables and redeploy.
 
 ## Enabling it (once backend env/credentials are available)
 
@@ -32,7 +32,7 @@ in at build time — set them in Netlify env settings and redeploy.
    default expiry 30 days; **not revocable before expiry**, so keep the origin
    list tight. Diarise the renewal — when the token expires the mic degrades to
    an error state, and a rebuild with a fresh token is required.
-3. **Set the Netlify env vars** (`NEXT_PUBLIC_VOX_API_BASE`,
+3. **Set the Vercel env vars** (`NEXT_PUBLIC_VOX_API_BASE`,
    `NEXT_PUBLIC_VOX_AGENT_ID`, `NEXT_PUBLIC_VOX_EMBED_TOKEN`) and trigger a
    deploy.
 

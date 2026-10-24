@@ -3,11 +3,9 @@ node_modules
 out
 .env
 .env.*
-# Local Netlify folder
+# Local Vercel folder
+.vercel
 .netlify
-
-# Deno lockfile written by the Netlify edge runtime during local dev
-deno.lock
 
 # Article generator run-state, logs and rejected drafts (local only)
 scripts/.article-generation-state.json

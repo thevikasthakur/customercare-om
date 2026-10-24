@@ -15,6 +15,7 @@
     "articles:dry-run": "node scripts/generate-daily-article.mjs --dry-run"
   },
   "dependencies": {
+    "@vercel/functions": "^3.10.3",
     "clsx": "^2.1.1",
     "lucide-react": "^1.23.0",
     "next": "16.2.9",
@@ -31,5 +32,8 @@
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }

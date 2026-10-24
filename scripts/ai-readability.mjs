@@ -5,8 +5,8 @@
  *   1. writes a Markdown twin at the same path plus `.md`
  *   2. injects <link rel="canonical">
  *
- * The twins are not public addresses. They are the payload the Netlify edge
- * function serves on an internal rewrite when a client sends
+ * The twins are not public addresses. They are the payload the Vercel proxy
+ * (vercel/markdown.ts) serves under the page's URL when a client sends
  * `Accept: text/markdown`; a direct request for one is redirected to the page
  * it belongs to, so each page keeps a single URL.
  * then writes /llms.txt (curated index) and /llms-full.txt (whole site as one file).

@@ -967,7 +967,7 @@ function findNearDuplicate(entries, candidate) {
 /**
  * Sister links must point at real sister pages or articles. Checked in the
  * generator (both repos exist on this machine), not the validator (which
- * also runs on Netlify, where the sibling checkout does not).
+ * also runs on Vercel, where the sibling checkout does not).
  */
 function validateSisterLinks(article) {
   const errors = [];

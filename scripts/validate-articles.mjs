@@ -3,7 +3,7 @@
  *
  * One rulebook, three callers: the daily generator validates before it writes,
  * `npm run articles:validate` gates the commit, and `prebuild` gates the
- * Netlify deploy. Keeping every caller on the same module is what makes the
+ * Vercel deploy. Keeping every caller on the same module is what makes the
  * rules actually hold; duplicated checks drift.
  *
  * Articles are block-based JSON (never model-authored HTML), so React escapes

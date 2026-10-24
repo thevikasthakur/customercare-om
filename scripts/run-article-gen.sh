@@ -90,12 +90,12 @@ if [ -n "$(git status --porcelain -- "$ARTICLES_PATH")" ]; then
     log "ERROR: validation failed. Not committing. Inspect $ARTICLES_PATH manually."
     exit 1
   fi
-  git config user.name "thevikasthakur"
-  git config user.email "vikasthakur910@gmail.com"
+  git config user.name "inzintllc"
+  git config user.email "inzintllc@gmail.com"
   git add -- "$ARTICLES_PATH"
   git commit -m "content: daily article for $(date +%Y-%m-%d)"
   if git push origin main; then
-    log "Pushed. Netlify will rebuild and deploy."
+    log "Pushed. Vercel will rebuild and deploy."
   else
     log "WARNING: push failed; the commit stays local and the next run will retry the push."
   fi

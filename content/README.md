@@ -27,10 +27,10 @@ launchd (~/Library/LaunchAgents/com.customercare.article-generator.plist)
                   -> near-duplicate and slug guards
                   -> atomic write to content/articles/<slug>.json
                   -> whole-library re-validation, rollback if it regressed
-  -> git push to main -> Netlify builds -> the article is live
+  -> git push to main -> Vercel builds -> the article is live
 ```
 
-At build time (`npm run build` on Netlify):
+At build time (`npm run build` on Vercel):
 
 - `prebuild` runs `scripts/validate-articles.mjs`, so an invalid store fails
   the deploy instead of shipping.

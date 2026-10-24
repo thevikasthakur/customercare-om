@@ -1,0 +1,495 @@
+{
+  "id": "article-2026-10-24-national-day-ready",
+  "taskId": "2026-10-24-national-day-ready",
+  "slug": "national-day-holiday-call-desk-playbook",
+  "title": "The National Day Holiday Starts 25 November. Do Callers Know?",
+  "seoTitle": "National Day Holiday 2026: Your Call Desk Playbook",
+  "excerpt": "Three calendar websites, three different dates. Your callers will ring to check, right when offer and sticker bookings peak. Here is the November plan, day by day.",
+  "seoDescription": "The National Day holiday falls on 25 and 26 November 2026. A countdown checklist for call desks facing promo enquiries, sticker bookings and four days off.",
+  "series": "Season Ready",
+  "category": "Oman Seasons & Peaks",
+  "topic": "Getting Your Business National Day Ready",
+  "author": "CustomerCare.OM Editorial Team",
+  "publishDate": "2026-10-24",
+  "modifiedDate": "2026-10-24",
+  "reviewedDate": "2026-10-24",
+  "reviewBy": "2027-01-22",
+  "status": "published",
+  "tags": [
+    "National Day",
+    "holiday planning",
+    "call desk",
+    "peak season",
+    "IVR",
+    "staffing",
+    "scheduled messages",
+    "Season Ready"
+  ],
+  "ogImage": "/media/blog-og.png",
+  "thumbnail": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"225\" viewBox=\"0 0 400 225\"><defs><linearGradient id=\"bg\" x1=\"0\" y1=\"1\" x2=\"1\" y2=\"0\"><stop offset=\"0\" stop-color=\"#181109\"/><stop offset=\"0.55\" stop-color=\"#54371a\"/><stop offset=\"1\" stop-color=\"#e8c07c\"/></linearGradient></defs><rect width=\"400\" height=\"225\" fill=\"url(#bg)\"/><rect x=\"282\" y=\"34\" width=\"96\" height=\"124\" rx=\"10\" fill=\"#181109\" stroke=\"#d4ff4f\" stroke-width=\"3\"/><rect x=\"283.5\" y=\"35.5\" width=\"93\" height=\"30\" rx=\"8\" fill=\"#d4ff4f\"/><circle cx=\"306\" cy=\"34\" r=\"5\" fill=\"#f4f4f0\"/><circle cx=\"354\" cy=\"34\" r=\"5\" fill=\"#f4f4f0\"/><text x=\"330\" y=\"57\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"16\" fill=\"#181109\">NOV</text><text x=\"330\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"50\" fill=\"#f4f4f0\">25</text><text x=\"330\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"16\" fill=\"#79e0c8\">and 26</text><text x=\"24\" y=\"150\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"32\" fill=\"#f4f4f0\">Four days off</text><text x=\"24\" y=\"182\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" font-size=\"15\" fill=\"#e8c07c\">Is your call desk ready?</text></svg>",
+  "sources": [
+    {
+      "id": "tom-national-day-break-2026",
+      "label": "Times of Oman: Oman announces 4-day National Day break in November (22 October 2026)",
+      "url": "https://timesofoman.com/article/178278-oman-announces-4-day-national-day-break-in-november",
+      "kind": "media"
+    },
+    {
+      "id": "tom-holiday-calendar-2026",
+      "label": "Times of Oman: Oman declares holiday calendar for 2026 (28 December 2025)",
+      "url": "https://timesofoman.com/article/166620-oman-declares-holiday-calendar-for-2026",
+      "kind": "media"
+    },
+    {
+      "id": "ona-advance-holiday-policy",
+      "label": "Oman News Agency: Council of Ministers approves policy for annual advance announcement of national and religious holidays",
+      "url": "https://omannews.gov.om/topics/en/79/show/126213/ona",
+      "kind": "oman-official"
+    },
+    {
+      "id": "observer-advance-calendar",
+      "label": "Oman Observer: Oman's advance calendar gives you more time to plan holidays (22 September 2026)",
+      "url": "https://www.omanobserver.om/article/1196614/oman/omans-advance-calendar-gives-you-more-time-to-plan-holidays",
+      "kind": "media"
+    },
+    {
+      "id": "tom-rop-stickers-2025",
+      "label": "Times of Oman: ROP issues guidelines for pasting stickers on vehicles for National Day (5 November 2025)",
+      "url": "https://timesofoman.com/article/164695-rop-issues-guidelines-for-pasting-stickers-on-vehicles-for-national-day",
+      "kind": "media"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "lead",
+      "text": "Search for the National Day holiday and you can still find three answers: 18 November, 20 and 21 November, and the right one, Wednesday 25 and Thursday 26 November. With the weekend, that is a four-day break running to Saturday 28 November, with work resuming on Sunday 29. Every customer who found a wrong date will phone your desk to check, in the same fortnight your offers and decorated-car bookings peak."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "why-the-date-confusion-lands-on-your-phones",
+      "text": "Why the National Day holiday confusion lands on your phones"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The celebrated dates are still 20 and 21 November, which this year fall on a Friday and Saturday. The days off were set separately. The Ministry of Labour listed 25 and 26 November in "
+        },
+        {
+          "text": "its 2026 holiday calendar last December",
+          "href": "https://timesofoman.com/article/166620-oman-declares-holiday-calendar-for-2026"
+        },
+        {
+          "text": ", and "
+        },
+        {
+          "text": "repeated the dates on 22 October",
+          "href": "https://timesofoman.com/article/178278-oman-announces-4-day-national-day-break-in-november"
+        },
+        {
+          "text": ". Plenty of international calendar sites have not caught up."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "So customers mix the two up. Some think you are closed on the 20th. Some book a service for the 25th and turn up to a locked door. Most simply call to ask, and with a team of six operators those calls add up fast."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "Your callers will believe whichever calendar they found first, so your first message to them has to carry the right date."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "three-waves-not-one",
+      "text": "Three waves, not one"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "November does not reach a service desk as one spike. Take Hamood, a composite example: he runs the call desk for a dealership service centre with branches in Ghala and Sohar. His November comes in three waves."
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "items": [
+        [
+          {
+            "text": "Wave one, early November to 19 November: ",
+            "strong": true
+          },
+          {
+            "text": "decorations and offers. Last year the Royal Oman Police allowed approved car stickers "
+          },
+          {
+            "text": "from 5 to 30 November",
+            "href": "https://timesofoman.com/article/164695-rop-issues-guidelines-for-pasting-stickers-on-vehicles-for-national-day"
+          },
+          {
+            "text": ", rear window only, with nothing on the hood. Fleet clients want delivery vans and pool cars done in batches. Families want the family car ready before the 20th. People who saw an offer call to ask what it actually covers."
+          }
+        ],
+        [
+          {
+            "text": "Wave two, 22 to 24 November: ",
+            "strong": true
+          },
+          {
+            "text": "the rush before the break. That leaves three working days before four days off: service checks before a drive to Jebel Akhdar or Salalah, plus every appointment people put off until the last minute."
+          }
+        ],
+        [
+          {
+            "text": "Wave three, from 29 November: ",
+            "strong": true
+          },
+          {
+            "text": "the backlog. Everything that came in while you were closed, plus the customers who assumed you were open."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "For hotels and tour operators, wave two lands on top of high season. Residents planning four days away compete for the same rooms and desert camps as visitors from Europe, and both groups phone at once."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-the-spike-costs",
+      "text": "What the spike costs a fixed-size team"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Here is Hamood's arithmetic for a single peak day. It is a composite, so swap in figures from your own call log. What finally kept his desk afloat comes after the numbers."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "caption": "Composite example: one peak day at a two-branch service desk. Replace each figure with your own.",
+      "headers": [
+        "Line",
+        "Hamood's figure"
+      ],
+      "rows": [
+        [
+          "Calls on a normal weekday",
+          "260"
+        ],
+        [
+          "Calls on a peak day, 15 to 24 November",
+          "420"
+        ],
+        [
+          "Operators on shift",
+          "6"
+        ],
+        [
+          "Calls one operator handles per shift (about 5 minutes each, with notes)",
+          "55"
+        ],
+        [
+          "Desk capacity (6 x 55)",
+          "330"
+        ],
+        [
+          "Calls left unanswered (420 minus 330)",
+          "90"
+        ],
+        [
+          "Share of those that were bookings (1 in 3)",
+          "30"
+        ],
+        [
+          "Average service booking value",
+          "OMR 45"
+        ],
+        [
+          "Revenue at risk on one peak day (30 x 45)",
+          "OMR 1,350"
+        ],
+        [
+          "Across six peak days",
+          "OMR 8,100"
+        ]
+      ]
+    },
+    {
+      "type": "quote",
+      "quote": "Every November the same question eats my mornings: are you open on the holiday? Nobody books until they know.",
+      "attribution": "Hamood, service desk manager, Ghala",
+      "persona": true
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Look at which calls overflow. It is not the warranty disputes. It is the same handful of questions asked hundreds of times: are you open, what does the offer include, is there a sticker slot on Thursday, can I collect on the 24th."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-messages-to-schedule-now",
+      "text": "The messages to schedule now"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Most of those calls can be prevented by a message that arrives before the customer thinks to ask. Write these this week, while the desk is calm, and schedule them. We covered "
+        },
+        {
+          "text": "how to word the hours notice itself",
+          "href": "/blog/announcing-holiday-hours-national-day/"
+        },
+        {
+          "text": " in an earlier piece."
+        }
+      ]
+    },
+    {
+      "type": "table",
+      "headers": [
+        "Message",
+        "Who gets it",
+        "When to send"
+      ],
+      "rows": [
+        [
+          "Holiday hours: closed 25 to 28 November, open again Sunday 29",
+          "Customers with an open booking or job; website, map listing and voicemail",
+          "8 November, repeated 23 November"
+        ],
+        [
+          "Offer terms in plain words: what is included, which branches, end date",
+          "Staff first, then customers who agreed to receive offers",
+          "The day the offer starts"
+        ],
+        [
+          "Sticker booking confirmation with the rules and collection time",
+          "Each decoration or fleet booking",
+          "At booking, plus the day before"
+        ],
+        [
+          "Reminder for appointments before the break",
+          "Bookings on 22 to 24 November",
+          "24 hours before"
+        ],
+        [
+          "Back-at-work rebooking note",
+          "Everyone who called while you were closed",
+          "29 November, first thing"
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Keep promotions for people who agreed to receive them. A reminder about a booking the customer made is a different kind of message, and customers welcome it."
+        }
+      ]
+    },
+    {
+      "type": "highlight",
+      "text": "A holiday notice sent on 8 November prevents calls; the same notice sent on 24 November only explains your voicemail."
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "countdown-from-two-weeks-out",
+      "text": "Your countdown from two weeks out"
+    },
+    {
+      "type": "list",
+      "ordered": true,
+      "items": [
+        [
+          {
+            "text": "Wednesday 11 November: ",
+            "strong": true
+          },
+          {
+            "text": "lock the holiday roster. If any desk stays open on 25 and 26 November, the ministry's statement says staff who work are compensated under existing rules. Agree who works and tell them now."
+          }
+        ],
+        [
+          {
+            "text": "Thursday 12 November: ",
+            "strong": true
+          },
+          {
+            "text": "brief the team on every offer on one page, including the answers to the questions that start with \"does it include\"."
+          }
+        ],
+        [
+          {
+            "text": "Sunday 15 November: ",
+            "strong": true
+          },
+          {
+            "text": "update the recorded phone menu (the interactive voice response, or IVR) and the voicemail. Give actual dates, not just \"the National Day holiday\"."
+          }
+        ],
+        [
+          {
+            "text": "Wednesday 18 November: ",
+            "strong": true
+          },
+          {
+            "text": "check this year's police sticker rules and update your booking confirmations to match."
+          }
+        ],
+        [
+          {
+            "text": "Thursday 19 November: ",
+            "strong": true
+          },
+          {
+            "text": "confirm every fleet batch and the last sticker slots before the celebration weekend."
+          }
+        ],
+        [
+          {
+            "text": "Sunday 22 to Tuesday 24 November: ",
+            "strong": true
+          },
+          {
+            "text": "extend desk hours or add overflow cover, and send the pre-break reminders."
+          }
+        ],
+        [
+          {
+            "text": "Tuesday 24 November, closing time: ",
+            "strong": true
+          },
+          {
+            "text": "switch on the holiday greeting and after-hours handling, then ring your own number to test it."
+          }
+        ],
+        [
+          {
+            "text": "Sunday 29 November: ",
+            "strong": true
+          },
+          {
+            "text": "call back everyone from the holiday before new calls pile up."
+          }
+        ]
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "how-hamood-kept-the-desk-afloat",
+      "text": "How Hamood kept the desk afloat"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "His fix had two parts. The scheduled messages stopped many \"are you open\" calls before they happened. Then, for the peak fortnight, he stopped the repeat questions from reaching a human at all. An AI voice agent took the first part of every call: it gave the hours, explained the offer, found a free sticker slot and booked it. Anything about a warranty or a complaint went straight to an operator, with notes already written."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "One caller on the 23rd opened with: \"Salam, bas abga ataakad, you're open on the 25th wala la?\" The agent replied in the same mix of Arabic and English, gave the closed dates and offered 4pm on the 24th. Hamood's six operators spent their day on jobs that needed judgement."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "The agent kept answering from 25 to 28 November and took bookings for the 29th, so on Sunday his team started with a list of bookings rather than a pile of voicemails. Overflow and after-hours cover like this is what CustomerCare.OM was built for, including callers who speak Omani Arabic."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "what-this-means-for-you",
+      "text": "What this means for you"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Pull last November's call log this week and find your busiest day. Count the calls you dropped and estimate how many were bookings. That number tells you how much cover to buy."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "Then decide by 11 November who answers on 25 and 26 November: a staffed desk, an automated agent, or a clear message with a callback promise. Any of the three is better than a phone that just rings. Write your messages now, give real dates in every one, and test the holiday greeting before you lock up on the 24th."
+        }
+      ]
+    },
+    {
+      "type": "callout",
+      "tone": "tip",
+      "title": "Your two-minute check",
+      "paragraphs": [
+        "Does your voicemail give 25 to 28 November as dates, not just \"the holiday\"?",
+        "Can every operator explain your National Day offer in one sentence?",
+        "Do you know how many calls you missed on your busiest day last November?",
+        "Who answers your main number at 10am on Thursday 26 November?",
+        "Do your map listing and website show the holiday hours?"
+      ]
+    },
+    {
+      "type": "faq",
+      "items": [
+        {
+          "q": "Is the National Day holiday on 20 November or 25 November?",
+          "a": "The celebrated dates are 20 and 21 November. For 2026 the days off are Wednesday 25 and Thursday 26 November, which makes a four-day break with the weekend."
+        },
+        {
+          "q": "Could the dates still change?",
+          "a": "The Ministry of Labour repeated these dates on 22 October 2026. Any change would come as an official announcement, so keep an eye on the Oman News Agency."
+        },
+        {
+          "q": "When can customers put National Day stickers on cars this year?",
+          "a": "This year's police rules had not been published when this article was written. Last year stickers were allowed from 5 to 30 November, on the rear window only."
+        }
+      ]
+    },
+    {
+      "type": "heading",
+      "level": 2,
+      "id": "the-bottom-line",
+      "text": "The bottom line"
+    },
+    {
+      "type": "paragraph",
+      "segments": [
+        {
+          "text": "This November brings three waves of calls and four days with the office empty, and on top of that your customers are working from the wrong date. Send the right dates early, brief your team on every offer, and make sure someone or something answers the phone from 25 to 28 November. The businesses that do will start Sunday 29 November with a list of bookings."
+        }
+      ]
+    }
+  ]
+}
